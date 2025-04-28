@@ -1,3 +1,8 @@
+---
+title: .NET suite for Apache Maven™
+_description: Main page of .NET suite for Apache Maven™
+---
+
 # Naven: .NET suite for [Apache Maven™](https://maven.apache.org)
 
 Naven is a comprehensive suite of libraries and tools to use [Apache Maven™](https://maven.apache.org) and .NET side-by-side.
@@ -30,7 +35,7 @@ Looking for the help of experts? MASES Group can help you design, build, deploy,
 
 This project aims to create a set of libraries and tools to direct access, from .NET, all the features available in the [Apache Maven™](https://maven.apache.org).
 
-See [Naven usage](src/documentation/articles/usage.md) for a comprehensive example.
+See [Naven usage](articles/usage.md) for a comprehensive example.
 
 ### Community and Contribution
 
@@ -42,7 +47,7 @@ Do you want to help us?
 - open [issues](https://github.com/masesgroup/Naven/issues) to request features or report bugs :bug:
 - improves the project with Pull Requests
 
-This project adheres to the Contributor [Covenant code of conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to coc_reporting@masesgroup.com.
+This project adheres to the Contributor [Covenant code of conduct](https://github.com/masesgroup/Naven/blob/master/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to coc_reporting@masesgroup.com.
 
 ## Summary
 
