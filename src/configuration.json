@@ -1,0 +1,40 @@
+{
+  "RelativeDestinationCSharpClassPath": "net\\Naven\\Generated",
+  "RelativeDestinationJavaListenerPath": "jvm\\naven\\src\\main\\java",
+  "JavaListenerBasePackage": "org.mases.naven.generated",
+  "PreferMethodWithSignature": true,
+  "OnlyPropertiesForGetterSetter": true,
+  "DisableInterfaceMethodGeneration": true,
+  "CreateInterfaceInheritance": true,
+  "JarList": [
+    "plexus-classworlds-2.8.0.jar",
+    "maven-embedder-3.9.9"
+  ],
+  "OriginJavadocJARVersionAndUrls": [
+    {
+      "Version": 8,
+      "Url": "https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/"
+    },
+    {
+      "Version": 8,
+      "Url": "https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/"
+    }
+  ],
+  "NamespacesToAvoid": [
+    "org.apache.commons.logging"
+  ],
+  "ClassesToBeListener": [
+  ],
+  "ClassesToAvoid": [
+  ],
+  "ClassesManuallyDeveloped": [
+  ],
+  "NamespacesInConflict": [
+    "java.lang.module",
+    "java.awt.color",
+    "java.awt.desktop",
+    "java.awt.image",
+    "java.awt.event",
+    "java.awt.font"
+  ]
+}

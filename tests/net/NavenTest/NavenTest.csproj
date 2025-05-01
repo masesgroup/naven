@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\Common\Common.props" />
+	<PropertyGroup>
+		<AssemblyName>NavenTest</AssemblyName>
+		<OutputType>Exe</OutputType>
+		<RootNamespace>MASES.NavenTest</RootNamespace>
+		<Title>NavenTest - a test tool for Naven</Title>
+		<Description>NavenTest - a test tool for Naven</Description>
+	</PropertyGroup>
+	<ItemGroup>
+		<Compile Include="..\Common\Initializer.cs" Link="Initializer.cs" />
+	</ItemGroup>
+</Project>

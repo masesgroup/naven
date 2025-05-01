@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\Common\Common.props" />
+	<PropertyGroup>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<AssemblyName>MASES.NavenPS</AssemblyName>
+		<RootNamespace>MASES.NavenPS</RootNamespace>
+		<Title>NavenPS - Naven (.NET suite for Apache Maven™) PowerShell command line interface</Title>
+		<Description>NavenPS - Naven (.NET suite for Apache Maven™) PowerShell command line interface</Description>
+		<Product>NavenPS</Product>
+		<OutputPath>..\..\..\MASES.NavenPS\</OutputPath>
+		<TargetFrameworks>net462;net8.0</TargetFrameworks>
+		<RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
+		<RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(TargetFramework)' == 'net8.0'">
+		<OutputType>Exe</OutputType>
+	</PropertyGroup>
+
+	<Target Name="CopyCustomContent" AfterTargets="AfterBuild">
+		<Copy SourceFiles="@(naven_jars)" DestinationFolder="$(OutDir)\jars" />
+		<Copy SourceFiles="@(naven_config)" DestinationFolder="$(OutDir)\config" />
+	</Target>
+	<Target Name="CopyCustomContentOnPublish" AfterTargets="Publish">
+		<Copy SourceFiles="@(naven_jars)" DestinationFolder="$(OutDir)\jars" />
+		<Copy SourceFiles="@(naven_config)" DestinationFolder="$(OutDir)\config" />
+	</Target>
+	<ItemGroup>
+		<Compile Include="..\NavenCLI\NavenCLICore.cs" Link="NavenCLICore.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Naven\Naven.csproj" />
+		<PackageReference Include="MASES.JNetPSCore" Version="2.5.12" />
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="PowerShellStandard.Library" Version="5.1.1">
+			<PrivateAssets>All</PrivateAssets>
+		</PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="MASES.NavenPSFramework.psd1" Condition="'$(TargetFramework)' == 'net462'">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="MASES.NavenPSCore.psd1" Condition="'$(TargetFramework)' == 'net8.0'">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+</Project>

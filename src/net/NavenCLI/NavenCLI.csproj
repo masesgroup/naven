@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\Common\Common.props" />
+	<PropertyGroup>
+		<OutputPath>..\..\..\binCLI\</OutputPath>
+		<PackageType>DotnetTool</PackageType>
+		<OutputType>Exe</OutputType>
+		<AssemblyName>MASES.NavenCLI</AssemblyName>
+		<RootNamespace>MASES.NavenCLI</RootNamespace>
+		<Title>Naven command line interface - .NET suite for Apache Maven™</Title>
+		<Description>Command line interface of .NET suite for Apache Maven™. Naven is a comprehensive suite of libraries and tools to use Apache Maven™ and .NET side-by-side.</Description>
+		<Product>NavenCLI</Product>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<PackageTags>naven cli pdf maven dotnet clr netcore net8 gateway</PackageTags>
+		<PackageId>MASES.NavenCLI</PackageId>
+		<PackageReadmeFile>usageCLI.md</PackageReadmeFile>
+		<RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
+		<RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
+	</PropertyGroup>
+
+	<Target Name="CopyCustomContent" AfterTargets="AfterBuild">
+		<Copy SourceFiles="@(naven_jars)" DestinationFolder="$(OutDir)\jars" />
+		<Copy SourceFiles="@(naven_config)" DestinationFolder="$(OutDir)\config" />
+	</Target>
+	<Target Name="CopyCustomContentOnPublish" AfterTargets="Publish">
+		<Copy SourceFiles="@(naven_jars)" DestinationFolder="$(OutDir)\jars" />
+		<Copy SourceFiles="@(naven_config)" DestinationFolder="$(OutDir)\config" />
+	</Target>
+	
+	<ItemGroup>
+		<None Include="..\..\documentation\articles\usageCLI.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="4.12.0" />
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Naven\Naven.csproj">
+			<IncludeAssets>All</IncludeAssets>
+			<PrivateAssets>None</PrivateAssets>
+		</ProjectReference>
+	</ItemGroup>
+	<ItemGroup>
+		<None Update="DotnetToolSettings.xml">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+</Project>

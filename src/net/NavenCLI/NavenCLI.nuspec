@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>MASES.NavenCLI</id>
+    <version>3.0.3</version>
+    <title>Naven command line interface - .NET suite for Apache Maven™</title>
+    <authors>MASES s.r.l.</authors>
+    <owners>MASES s.r.l.</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectUrl>https://github.com/masesgroup/Naven/</projectUrl>
+    <repository type="git" url="https://github.com/masesgroup/Naven/" />
+    <description>Command line interface of .NET suite for Apache Maven™. Naven is a comprehensive suite of libraries and tools to use Apache Maven™ and .NET side-by-side.</description>
+    <releaseNotes>https://github.com/masesgroup/Naven/releases</releaseNotes>
+    <copyright>Copyright ©  MASES s.r.l. 2025</copyright>
+    <license type="file">LICENSE</license>
+    <icon>JCOB128x128.png</icon>
+    <tags>naven cli pdf maven dotnet clr netcore net8 gateway</tags>
+    <packageTypes>
+    <packageType name="DotnetTool" />
+    </packageTypes>
+    <readme>usageCLI.md</readme>
+  </metadata>
+	<files>
+		<file src="..\..\..\LICENSE" target="LICENSE" />
+		<file src="..\Common\JCOB128x128.png" target="" />
+		<file src="..\..\documentation\articles\usageCLI.md" target="" />
+		<file src="..\..\..\binCLI\net8.0\" target="tools\net8.0\any\" />
+	</files>
+</package>
