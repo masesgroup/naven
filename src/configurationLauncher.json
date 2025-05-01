@@ -7,12 +7,12 @@
   "DisableInterfaceMethodGeneration": true,
   "CreateInterfaceInheritance": true,
   "JarList": [
-    "maven-embedder-3.9.9"
+    "plexus-classworlds-2.8.0.jar"
   ],
   "OriginJavadocJARVersionAndUrls": [
     {
       "Version": 8,
-      "Url": "https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/"
+      "Url": "https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/"
     }
   ],
   "NamespacesToAvoid": [
