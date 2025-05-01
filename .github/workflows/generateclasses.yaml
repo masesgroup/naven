@@ -28,6 +28,9 @@ on:
         default: false
         type: boolean
 
+env:
+  MAVEN_RELEASE: 3.9.9
+
 # This workflow contains one job called "build_documentation"
 jobs:
   build_classes:
@@ -42,8 +45,6 @@ jobs:
       DOTNET_EnableCrashReport: 1
       JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_5_21 }}
       JNet_Version: 2.5.12
-      Apache Maven_Version: 3.0.4
-      FONTCACHE_FOLDER: ${{ github.workspace }}\fontcache
       
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -63,6 +64,44 @@ jobs:
         with:
           repository: masesgroup/JNet
           path: JNet
+
+      - uses: actions/cache/restore@v4
+        id: cache
+        with:
+          lookup-only: true
+          enableCrossOsArchive: true
+          path: ./jars/
+          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
+
+      - name: Download apache-maven-${{ env.MAVEN_RELEASE }}-bin
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          C:\msys64\usr\bin\wget.exe https://dlcdn.apache.org/maven/maven-3/${{ env.MAVEN_RELEASE }}/binaries/apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip
+
+      - name: Expand apache-maven-${{ env.MAVEN_RELEASE }}-bin
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          Expand-Archive -LiteralPath '.\apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip' -DestinationPath .\ -Force
+    
+      - name: Rename apache-maven-${{ env.MAVEN_RELEASE }}-bin
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          Rename-Item -path ".\apache-maven-${{ env.MAVEN_RELEASE }}" -NewName "jars"
+
+      - name: Upload artifacts
+        if: steps.cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          enableCrossOsArchive: true
+          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
+          path: ./jars/
+
+      - uses: actions/cache/restore@v4
+        if: steps.cache.outputs.cache-hit == 'true'
+        with:
+          enableCrossOsArchive: true
+          path: ./jars/
+          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
 
       - name: Pre compile
         run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src\net\Naven\Naven.csproj
@@ -141,31 +180,13 @@ jobs:
         if: ${{ inputs.UseLastRepositoryBuild == false && inputs.UseLatestJNetReflectorSource == false }}
         run: dotnet tool update --version ${{ env.JNet_Version }} -g MASES.JNetReflector
 
-      - uses: actions/cache/restore@v4
-        id: cache
-        with:
-          lookup-only: true
-          enableCrossOsArchive: true
-          path: ./fontcache/
-          key: PdfBox_FontCache_${{ env.Apache Maven_Version }}
-
-      - uses: actions/cache/restore@v4
-        if: steps.cache.outputs.cache-hit == 'true'
-        with:
-          enableCrossOsArchive: true
-          path: ./fontcache/
-          key: PdfBox_FontCache_${{ env.Apache Maven_Version }}
-
-      - name: Create font cache folder
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: mkdir ${{ github.workspace }}\fontcache
-
       - name: Build classes with unpublished JNetReflector
         if: ${{ inputs.UseLatestJNetReflectorSource == true }}
         shell: cmd
         run: |
           cd JNet\binReflector\net8.0
-          MASES.JNetReflector.exe -TraceLevel 1 -TraceTo %GITHUB_WORKSPACE%\JNetReflector.txt -OriginRootPath %GITHUB_WORKSPACE%\jars -DestinationRootPath %GITHUB_WORKSPACE%\src\ -ConfigurationFile %GITHUB_WORKSPACE%\src\configuration.json
+          MASES.JNetReflector.exe -TraceLevel 1 -TraceTo %GITHUB_WORKSPACE%\JNetReflector.txt -OriginRootPath %GITHUB_WORKSPACE%\jars\boot -DestinationRootPath %GITHUB_WORKSPACE%\src\ -ConfigurationFile %GITHUB_WORKSPACE%\src\configuration.json
+          MASES.JNetReflector.exe -TraceLevel 1 -TraceTo %GITHUB_WORKSPACE%\JNetReflector.txt -OriginRootPath %GITHUB_WORKSPACE%\jars\lib -DestinationRootPath %GITHUB_WORKSPACE%\src\ -ConfigurationFile %GITHUB_WORKSPACE%\src\configuration.json
 
       - name: Disable CET for dotnet process
         if: ${{ inputs.UseLatestJNetReflectorSource == false }}
@@ -176,15 +197,9 @@ jobs:
       - name: Build classes with latest published version of JNetReflector
         if: ${{ inputs.UseLatestJNetReflectorSource == false }}
         shell: cmd
-        run: jnetreflector -TraceLevel 1 -TraceTo %GITHUB_WORKSPACE%\JNetReflector.txt -OriginRootPath %GITHUB_WORKSPACE%\jars -DestinationRootPath %GITHUB_WORKSPACE%\src\ -ConfigurationFile %GITHUB_WORKSPACE%\src\configuration.json
-
-      - name: Upload artifacts
-        if: steps.cache.outputs.cache-hit != 'true'
-        uses: actions/cache/save@v4
-        with:
-          enableCrossOsArchive: true
-          key: PdfBox_FontCache_${{ env.Apache Maven_Version }}
-          path: ./fontcache/
+        run: |
+         jnetreflector -TraceLevel 1 -TraceTo %GITHUB_WORKSPACE%\JNetReflector.txt -OriginRootPath %GITHUB_WORKSPACE%\jars\boot -DestinationRootPath %GITHUB_WORKSPACE%\src\ -ConfigurationFile %GITHUB_WORKSPACE%\src\configuration.json
+         jnetreflector -TraceLevel 1 -TraceTo %GITHUB_WORKSPACE%\JNetReflector.txt -OriginRootPath %GITHUB_WORKSPACE%\jars\lib -DestinationRootPath %GITHUB_WORKSPACE%\src\ -ConfigurationFile %GITHUB_WORKSPACE%\src\configuration.json
 
       - uses: actions/upload-artifact@v4
         with:

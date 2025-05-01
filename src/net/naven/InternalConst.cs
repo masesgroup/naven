@@ -47,11 +47,19 @@ namespace MASES.Naven
         /// <summary>
         /// Default path location of Jars files
         /// </summary>
-        public static readonly string DefaultJarsPath = Path.Combine(AssemblyLocation, "jars");
+        public static readonly string DefaultMavenHomePath = Path.Combine(AssemblyLocation, "jars");
+        /// <summary>
+        /// Default path location of Jars files
+        /// </summary>
+        public static readonly string DefaultPlexusPath = Path.Combine(DefaultMavenHomePath, "boot");
+        /// <summary>
+        /// Default path location of Jars files
+        /// </summary>
+        public static readonly string DefaultLibPath = Path.Combine(DefaultMavenHomePath, "lib");
         /// <summary>
         /// Default root path, i.e. consider installation within bin folder
         /// </summary>
-        public static readonly string DefaultRootPath = DefaultJarsPath + Path.DirectorySeparatorChar;
+        public static readonly string DefaultRootPath = DefaultMavenHomePath + Path.DirectorySeparatorChar;
         /// <summary>
         /// Default log4j configuration file, i.e. considering a relative location to <see cref="DefaultConfigurationPath"/>
         /// </summary>

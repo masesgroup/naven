@@ -10,6 +10,9 @@ on:
       - published
 #      - edited
 
+env:
+  MAVEN_RELEASE: 3.9.9
+
 jobs:
   # This workflow contains a single job called "build_release"
   build_release:
@@ -28,6 +31,44 @@ jobs:
         with:
           fetch-depth: '1'
           submodules: 'true'
+
+      - uses: actions/cache/restore@v4
+        id: cache
+        with:
+          lookup-only: true
+          enableCrossOsArchive: true
+          path: ./jars/
+          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
+
+      - name: Download apache-maven-${{ env.MAVEN_RELEASE }}-bin
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          C:\msys64\usr\bin\wget.exe https://dlcdn.apache.org/maven/maven-3/${{ env.MAVEN_RELEASE }}/binaries/apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip
+
+      - name: Expand apache-maven-${{ env.MAVEN_RELEASE }}-bin
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          Expand-Archive -LiteralPath '.\apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip' -DestinationPath .\ -Force
+    
+      - name: Rename apache-maven-${{ env.MAVEN_RELEASE }}-bin
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          Rename-Item -path ".\apache-maven-${{ env.MAVEN_RELEASE }}" -NewName "jars"
+
+      - name: Upload artifacts
+        if: steps.cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          enableCrossOsArchive: true
+          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
+          path: ./jars/
+
+      - uses: actions/cache/restore@v4
+        if: steps.cache.outputs.cache-hit == 'true'
+        with:
+          enableCrossOsArchive: true
+          path: ./jars/
+          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
 
       - name: Pre compile
         run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src\net\Naven\Naven.csproj

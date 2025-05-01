@@ -17,18 +17,13 @@
 		<RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
 	</PropertyGroup>
 
-	<ItemGroup Condition="True">
-		<navencli_jars Include="$(ProjectDir)\..\..\..\jars\*.*" />
-		<navencli_config Include="$(ProjectDir)\..\..\config\*.*" />
-	</ItemGroup>
-
 	<Target Name="CopyCustomContent" AfterTargets="AfterBuild">
-		<Copy SourceFiles="@(navencli_jars)" DestinationFolder="$(OutDir)\jars" />
-		<Copy SourceFiles="@(navencli_config)" DestinationFolder="$(OutDir)\config" />
+		<Copy SourceFiles="@(naven_jars)" DestinationFolder="$(OutDir)\jars" />
+		<Copy SourceFiles="@(naven_config)" DestinationFolder="$(OutDir)\config" />
 	</Target>
 	<Target Name="CopyCustomContentOnPublish" AfterTargets="Publish">
-		<Copy SourceFiles="@(navencli_jars)" DestinationFolder="$(OutDir)\jars" />
-		<Copy SourceFiles="@(navencli_config)" DestinationFolder="$(OutDir)\config" />
+		<Copy SourceFiles="@(naven_jars)" DestinationFolder="$(OutDir)\jars" />
+		<Copy SourceFiles="@(naven_config)" DestinationFolder="$(OutDir)\config" />
 	</Target>
 	
 	<ItemGroup>

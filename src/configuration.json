@@ -7,35 +7,27 @@
   "DisableInterfaceMethodGeneration": true,
   "CreateInterfaceInheritance": true,
   "JarList": [
-    "maven-3.0.4.jar",
-    "maven-io-3.0.4.jar",
-    "fontbox-3.0.4.jar"
+    "plexus-classworlds-2.8.0.jar",
+    "maven-embedder-3.9.9"
   ],
   "OriginJavadocJARVersionAndUrls": [
     {
       "Version": 8,
-      "Url": "https://www.javadoc.io/doc/org.apache.maven/maven/3.0.4/"
+      "Url": "https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/"
     },
     {
       "Version": 8,
-      "Url": "https://www.javadoc.io/doc/org.apache.maven/maven-io/3.0.4/"
-    },
-    {
-      "Version": 8,
-      "Url": "https://www.javadoc.io/doc/org.apache.maven/fontbox/3.0.4/"
+      "Url": "https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/"
     }
   ],
   "NamespacesToAvoid": [
     "org.apache.commons.logging"
   ],
   "ClassesToBeListener": [
-    "org.apache.maven.pdmodel.common.function.type4.Parser$SyntaxHandler"
   ],
   "ClassesToAvoid": [
-    "org.apache.maven.pdmodel.common.function.type4.Parser$AbstractSyntaxHandler"
   ],
   "ClassesManuallyDeveloped": [
-    "org.apache.maven.text.TextPositionComparator"
   ],
   "NamespacesInConflict": [
     "java.lang.module",

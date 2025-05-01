@@ -234,17 +234,11 @@ namespace MASES.Naven
                     { "log4j.configuration", string.IsNullOrEmpty(CommonLoggingPath) ? CommonLoggingOpts : $"file:{CommonLoggingPath}"},
                     { "naven.logs.dir", LogDir},
                     { "java.awt.headless", "true" },
+                    { "classworlds.conf", Path.Combine(Const.DefaultMavenHomePath, "bin", "m2.conf") },
+                    { "maven.home", Const.DefaultMavenHomePath },
+                    { "library.jansi.path", Path.Combine(Const.DefaultMavenHomePath, "lib", "jansi-native") },
+
                 };
-
-                if (!string.IsNullOrWhiteSpace(FontCachePath))
-                {
-                    options.Add("maven.fontcache", FontCachePath);
-                }
-
-                if (UsePureJavaCMYKConversion)
-                {
-                    options.Add("org.apache.maven.rendering.UsePureJavaCMYKConversion", "true");
-                }
 
                 return options;
             }
@@ -274,7 +268,8 @@ namespace MASES.Naven
                 // 4. add naven jar at this version first...
                 lst.Add(navenFile);
                 // 5. ...then add everything else
-                lst.Add(Path.Combine(Const.DefaultJarsPath, "*.jar"));
+                lst.Add(Path.Combine(Const.DefaultPlexusPath, "*.jar"));
+                lst.Add(Path.Combine(Const.DefaultLibPath, "*.jar"));
                 return lst;
             }
         }
