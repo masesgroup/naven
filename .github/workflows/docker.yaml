@@ -10,6 +10,9 @@ on:
       - published
   workflow_dispatch:
 
+env:
+  MAVEN_RELEASE: 3.9.9
+
 jobs:
   build_container_naven:
     runs-on: ubuntu-latest
@@ -26,6 +29,43 @@ jobs:
         with:
           fetch-depth: '1'
           submodules: 'true'
+
+      - uses: actions/cache/restore@v4
+        id: cache
+        with:
+          lookup-only: true
+          enableCrossOsArchive: true
+          path: ./jars/
+          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
+
+      - name: Download apache-maven-${{ env.MAVEN_RELEASE }}-bin
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: wget https://dlcdn.apache.org/maven/maven-3/${{ env.MAVEN_RELEASE }}/binaries/apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip
+
+      - name: Expand apache-maven-${{ env.MAVEN_RELEASE }}-bin
+        if: steps.cache.outputs.cache-hit != 'true'
+        shell: pwsh
+        run: Expand-Archive -LiteralPath '.\apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip' -DestinationPath .\ -Force
+    
+      - name: Rename apache-maven-${{ env.MAVEN_RELEASE }}-bin
+        if: steps.cache.outputs.cache-hit != 'true'
+        shell: pwsh
+        run: Rename-Item -path ".\apache-maven-${{ env.MAVEN_RELEASE }}" -NewName "jars"
+
+      - name: Upload artifacts
+        if: steps.cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          enableCrossOsArchive: true
+          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
+          path: ./jars/
+
+      - uses: actions/cache/restore@v4
+        if: steps.cache.outputs.cache-hit == 'true'
+        with:
+          enableCrossOsArchive: true
+          path: ./jars/
+          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
 
       - uses: actions/setup-dotnet@v4
         with:

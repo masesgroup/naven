@@ -42,18 +42,15 @@ jobs:
 
       - name: Download apache-maven-${{ env.MAVEN_RELEASE }}-bin
         if: steps.cache.outputs.cache-hit != 'true'
-        run: |
-          C:\msys64\usr\bin\wget.exe https://dlcdn.apache.org/maven/maven-3/${{ env.MAVEN_RELEASE }}/binaries/apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip
+        run: C:\msys64\usr\bin\wget.exe https://dlcdn.apache.org/maven/maven-3/${{ env.MAVEN_RELEASE }}/binaries/apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip
 
       - name: Expand apache-maven-${{ env.MAVEN_RELEASE }}-bin
         if: steps.cache.outputs.cache-hit != 'true'
-        run: |
-          Expand-Archive -LiteralPath '.\apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip' -DestinationPath .\ -Force
+        run: Expand-Archive -LiteralPath '.\apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip' -DestinationPath .\ -Force
     
       - name: Rename apache-maven-${{ env.MAVEN_RELEASE }}-bin
         if: steps.cache.outputs.cache-hit != 'true'
-        run: |
-          Rename-Item -path ".\apache-maven-${{ env.MAVEN_RELEASE }}" -NewName "jars"
+        run: Rename-Item -path ".\apache-maven-${{ env.MAVEN_RELEASE }}" -NewName "jars"
 
       - name: Upload artifacts
         if: steps.cache.outputs.cache-hit != 'true'
