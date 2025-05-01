@@ -17,63 +17,42 @@
 */
 
 using Java.Io;
-using Org.Apache.Pdfbox;
-using Org.Apache.Pdfbox.Pdfwriter.Compress;
-using Org.Apache.Pdfbox.Pdmodel;
 using System;
 using System.Management.Automation;
 
 namespace MASES.NavenPS.Cmdlet
 {
-    [Cmdlet(VerbsData.Save, "PDF")]
-    [OutputType(typeof(PDDocument))]
-    public class SavePdfCmdletCommand : NavenPSCmdlet
+    [Cmdlet(VerbsLifecycle.Start, "Launcher")]
+    public class OpenPdfCmdletCommand : NavenPSCmdlet
     {
         [Parameter(
             Mandatory = true,
             Position = 0,
             ValueFromPipeline = true,
             ValueFromPipelineByPropertyName = true,
-            HelpMessage = "The object containing the PDF")]
-        public PDDocument PdfDocument { get; set; }
-
-        [Parameter(
-            Mandatory = true,
-            Position = 1,
-            ValueFromPipeline = true,
-            ValueFromPipelineByPropertyName = true,
-            HelpMessage = "The file name of the PDF to write")]
-        public String OutputFile { get; set; }
-
-        [Parameter(
-            Mandatory = false,
-            Position = 2,
-            ValueFromPipeline = true,
-            ValueFromPipelineByPropertyName = true,
-            HelpMessage = "The compression to apply")]
-        public CompressParameters CompressParameter { get; set; }
+            HelpMessage = "The arguments to use with launcher")]
+        public string Arguments { get; set; }
 
         // This method gets called once for each cmdlet in the pipeline when the pipeline starts executing
         protected override void BeginProcessing()
         {
-            WriteVerbose("Begin SavePdfCmdletCommand!");
+            WriteVerbose("Begin OpenPdfCmdletCommand!");
         }
 
         // This method will be called for each input received from the pipeline to this cmdlet; if no input is received, this method is not called
         protected override void ProcessCommand()
         {
-            if (CompressParameter == null) 
-            {
-                CompressParameter = CompressParameters.DEFAULT_COMPRESSION;
-            }
-
-            PdfDocument.Save(OutputFile, CompressParameter);
+            /*
+            File pdfFile = new File(PdfFile);
+            var document = Loader.LoadPDF(pdfFile);
+            WriteObject(document);
+            */
         }
 
         // This method will be called once at the end of pipeline execution; if no input is received, this method is not called
         protected override void EndProcessing()
         {
-            WriteVerbose("End SavePdfCmdletCommand!");
+            WriteVerbose("End OpenPdfCmdletCommand!");
         }
     }
 }

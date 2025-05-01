@@ -31,9 +31,5 @@ namespace MASES.NavenPS
         public static void SetCommonLoggingPath(string commonLoggingath) { JNetPSHelper<TClass>.Set(typeof(NavenCore<>), nameof(NavenPSCore.ApplicationCommonLoggingPath), commonLoggingath); }
 
         public static void SetLogPath(string logPath) { JNetPSHelper<TClass>.Set(typeof(NavenCore<>), nameof(NavenPSCore.ApplicationLogPath), logPath); }
-
-        public static void SetFontCachePath(string fontCachePath) { JNetPSHelper<TClass>.Set(typeof(NavenCore<>), nameof(NavenPSCore.ApplicationFontCachePath), fontCachePath); }
-
-        public static void SetUsePureJavaCMYKConversion(bool usePureJavaCMYKConversion) { JNetPSHelper<TClass>.Set(typeof(NavenCore<>), nameof(NavenPSCore.ApplicationUsePureJavaCMYKConversion), usePureJavaCMYKConversion); }
     }
 }

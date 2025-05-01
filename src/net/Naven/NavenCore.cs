@@ -58,16 +58,6 @@ namespace MASES.Naven
                         Default = Const.DefaultLogPath,
                         Help = "The path where log will be stored.",
                     },
-                    new ArgumentMetadata<string>()
-                    {
-                        Name = CLIParam.FontCachePath,
-                        Help = "The path where font cache will be stored.",
-                    },
-                    new ArgumentMetadata<object>()
-                    {
-                        Name = CLIParam.UsePureJavaCMYKConversion,
-                        Help = "Add on command line to enable pure Java CMYK conversion.",
-                    },
                 });
                 return lst;
             }
@@ -110,8 +100,6 @@ namespace MASES.Naven
                 }
             }
             _logPath = ParsedArgs.Get<string>(CLIParam.LogPath);
-            _fontCachePath = ParsedArgs.Get<string>(CLIParam.FontCachePath);
-            _usePureJavaCMYKConversion = ParsedArgs.Exist(CLIParam.UsePureJavaCMYKConversion);
             return result;
         }
         /// <summary>
@@ -157,16 +145,6 @@ namespace MASES.Naven
         public static string ApplicationLogPath { get; set; }
 
         /// <summary>
-        /// Sets the global value of font cache path
-        /// </summary>
-        public static string ApplicationFontCachePath { get; set; }
-
-        /// <summary>
-        /// <see langword="true"/> to enable pure Java CMYK conversion
-        /// </summary>
-        public static bool? ApplicationUsePureJavaCMYKConversion { get; set; }
-
-        /// <summary>
         /// value can be overridden in subclasses
         /// </summary>
         protected string _classToRun;
@@ -186,18 +164,6 @@ namespace MASES.Naven
         /// The log folder
         /// </summary>
         public virtual string LogDir { get { return ApplicationLogPath ?? _logPath; } }
-
-        string _fontCachePath;
-        /// <summary>
-        /// The log folder
-        /// </summary>
-        public virtual string FontCachePath { get { return ApplicationFontCachePath ?? _fontCachePath; } }
-
-        bool _usePureJavaCMYKConversion;
-        /// <summary>
-        /// <see langword="true"/> to enable pure Java CMYK conversion
-        /// </summary>
-        public virtual bool UsePureJavaCMYKConversion { get { return !ApplicationUsePureJavaCMYKConversion.HasValue ? _usePureJavaCMYKConversion : ApplicationUsePureJavaCMYKConversion.Value; } }
 
         /// <summary>
         /// The log4j configuration

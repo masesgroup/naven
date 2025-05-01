@@ -39,26 +39,10 @@ namespace MASES.NavenPS.Cmdlet
             HelpMessage = "The path where log will be stored.")]
         public string LogPath { get; set; }
 
-        /// <inheritdoc cref="NavenCore{T}.ApplicationFontCachePath" />
-        [Parameter(
-            ValueFromPipeline = true,
-            ValueFromPipelineByPropertyName = true,
-            HelpMessage = "The path where font cache will be stored.")]
-        public string FontCachePath { get; set; }
-
-        /// <inheritdoc cref="NavenCore{T}.ApplicationFontCachePath" />
-        [Parameter(
-            ValueFromPipeline = true,
-            ValueFromPipelineByPropertyName = true,
-            HelpMessage = "Add on command line to enable pure Java CMYK conversion.")]
-        public bool? UsePureJavaCMYKConversion { get; set; }
-
         protected override void OnBeforeCreateGlobalInstance()
         {
             NavenPSHelper<NavenPSCore>.SetCommonLoggingPath(CommonLoggingPath);
             NavenPSHelper<NavenPSCore>.SetLogPath(LogPath);
-            NavenPSHelper<NavenPSCore>.SetFontCachePath(FontCachePath);
-            NavenPSHelper<NavenPSCore>.SetUsePureJavaCMYKConversion(UsePureJavaCMYKConversion.HasValue ? UsePureJavaCMYKConversion.Value : false);
         }
     }
 }

@@ -24,8 +24,8 @@ using System.Reflection;
 
 namespace MASES.NavenPS.Cmdlet
 {
-    public class Apache MavenClassToRunCmdletCommandBase<TCmdlet> : StartNavenPSCmdletCommandBase<TCmdlet>
-        where TCmdlet : Apache MavenClassToRunCmdletCommandBase<TCmdlet>
+    public class MavenClassToRunCmdletCommandBase<TCmdlet> : StartNavenPSCmdletCommandBase<TCmdlet>
+        where TCmdlet : MavenClassToRunCmdletCommandBase<TCmdlet>
     {
         [Parameter(
             ValueFromPipeline = true,
