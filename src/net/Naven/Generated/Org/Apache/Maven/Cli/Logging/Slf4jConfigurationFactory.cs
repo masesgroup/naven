@@ -92,15 +92,6 @@ namespace Org.Apache.Maven.Cli.Logging
         #endregion
 
         #region Static methods
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jConfigurationFactory.html#getConfiguration-org.slf4j.ILoggerFactory-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.ILoggerFactory"/></param>
-        /// <returns><see cref="Org.Apache.Maven.Cli.Logging.Slf4jConfiguration"/></returns>
-        public static Org.Apache.Maven.Cli.Logging.Slf4jConfiguration GetConfiguration(Org.Slf4j.ILoggerFactory arg0)
-        {
-            return SExecuteWithSignature<Org.Apache.Maven.Cli.Logging.Slf4jConfiguration>(LocalBridgeClazz, "getConfiguration", "(Lorg/slf4j/ILoggerFactory;)Lorg/apache/maven/cli/logging/Slf4jConfiguration;", arg0);
-        }
 
         #endregion
 

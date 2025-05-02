@@ -74,14 +74,6 @@ namespace Org.Apache.Maven.Cli
     public partial class MavenCli
     {
         #region Constructors
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/MavenCli.html#org.apache.maven.cli.MavenCli(org.codehaus.plexus.classworlds.ClassWorld)"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Codehaus.Plexus.Classworlds.ClassWorld"/></param>
-        public MavenCli(Org.Codehaus.Plexus.Classworlds.ClassWorld arg0)
-            : base(arg0)
-        {
-        }
 
         #endregion
 
@@ -136,26 +128,6 @@ namespace Org.Apache.Maven.Cli
         #endregion
 
         #region Static methods
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/MavenCli.html#doMain-java.lang.String[]-org.codehaus.plexus.classworlds.ClassWorld-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg1"><see cref="Org.Codehaus.Plexus.Classworlds.ClassWorld"/></param>
-        /// <returns><see cref="int"/></returns>
-        public static int DoMain(Java.Lang.String[] arg0, Org.Codehaus.Plexus.Classworlds.ClassWorld arg1)
-        {
-            return SExecute<int>(LocalBridgeClazz, "doMain", arg0, arg1);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/MavenCli.html#main-java.lang.String[]-org.codehaus.plexus.classworlds.ClassWorld-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg1"><see cref="Org.Codehaus.Plexus.Classworlds.ClassWorld"/></param>
-        /// <returns><see cref="int"/></returns>
-        public static int Main(Java.Lang.String[] arg0, Org.Codehaus.Plexus.Classworlds.ClassWorld arg1)
-        {
-            return SExecute<int>(LocalBridgeClazz, "main", arg0, arg1);
-        }
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/MavenCli.html#main-java.lang.String[]-"/>
         /// </summary>

@@ -29,7 +29,7 @@ namespace Org.Apache.Maven.Cli.Logging
     /// <summary>
     /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jLoggerManager.html"/>
     /// </summary>
-    public partial class Slf4jLoggerManager : Org.Codehaus.Plexus.Logging.LoggerManager
+    public partial class Slf4jLoggerManager : MASES.JCOBridge.C2JBridge.JVMBridgeBase<Slf4jLoggerManager>
     {
         const string _bridgeClassName = "org.apache.maven.cli.logging.Slf4jLoggerManager";
         /// <summary>
@@ -103,25 +103,6 @@ namespace Org.Apache.Maven.Cli.Logging
         public int Threshold
         {
             get { return IExecuteWithSignature<int>("getThreshold", "()I"); } set { IExecuteWithSignature("setThreshold", "(I)V", value); }
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jLoggerManager.html#getLoggerForComponent-java.lang.String-java.lang.String-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        /// <returns><see cref="Org.Codehaus.Plexus.Logging.Logger"/></returns>
-        public Org.Codehaus.Plexus.Logging.Logger GetLoggerForComponent(Java.Lang.String arg0, Java.Lang.String arg1)
-        {
-            return IExecuteWithSignature<Org.Codehaus.Plexus.Logging.Logger>("getLoggerForComponent", "(Ljava/lang/String;Ljava/lang/String;)Lorg/codehaus/plexus/logging/Logger;", arg0, arg1);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jLoggerManager.html#getLoggerForComponent-java.lang.String-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Java.Lang.String"/></param>
-        /// <returns><see cref="Org.Codehaus.Plexus.Logging.Logger"/></returns>
-        public Org.Codehaus.Plexus.Logging.Logger GetLoggerForComponent(Java.Lang.String arg0)
-        {
-            return IExecuteWithSignature<Org.Codehaus.Plexus.Logging.Logger>("getLoggerForComponent", "(Ljava/lang/String;)Lorg/codehaus/plexus/logging/Logger;", arg0);
         }
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jLoggerManager.html#returnComponentLogger-java.lang.String-java.lang.String-"/>

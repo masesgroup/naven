@@ -29,7 +29,7 @@ namespace Org.Apache.Maven.Cli.Event
     /// <summary>
     /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/event/DefaultEventSpyContext.html"/>
     /// </summary>
-    public partial class DefaultEventSpyContext : Org.Apache.Maven.Eventspy.EventSpy.Context
+    public partial class DefaultEventSpyContext : MASES.JCOBridge.C2JBridge.JVMBridgeBase<DefaultEventSpyContext>
     {
         const string _bridgeClassName = "org.apache.maven.cli.event.DefaultEventSpyContext";
         /// <summary>

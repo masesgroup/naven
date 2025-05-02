@@ -29,7 +29,7 @@ namespace Org.Apache.Maven.Cli.Event
     /// <summary>
     /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/event/ExecutionEventLogger.html"/>
     /// </summary>
-    public partial class ExecutionEventLogger : Org.Apache.Maven.Execution.AbstractExecutionListener
+    public partial class ExecutionEventLogger : MASES.JCOBridge.C2JBridge.JVMBridgeBase<ExecutionEventLogger>
     {
         const string _bridgeClassName = "org.apache.maven.cli.event.ExecutionEventLogger";
         /// <summary>
@@ -74,14 +74,6 @@ namespace Org.Apache.Maven.Cli.Event
     public partial class ExecutionEventLogger
     {
         #region Constructors
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/event/ExecutionEventLogger.html#org.apache.maven.cli.event.ExecutionEventLogger(org.slf4j.Logger)"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Logger"/></param>
-        public ExecutionEventLogger(Org.Slf4j.Logger arg0)
-            : base(arg0)
-        {
-        }
 
         #endregion
 

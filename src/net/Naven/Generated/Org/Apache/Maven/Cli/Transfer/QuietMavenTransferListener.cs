@@ -29,7 +29,7 @@ namespace Org.Apache.Maven.Cli.Transfer
     /// <summary>
     /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/transfer/QuietMavenTransferListener.html"/>
     /// </summary>
-    public partial class QuietMavenTransferListener : Org.Eclipse.Aether.Transfer.AbstractTransferListener
+    public partial class QuietMavenTransferListener : MASES.JCOBridge.C2JBridge.JVMBridgeBase<QuietMavenTransferListener>
     {
         const string _bridgeClassName = "org.apache.maven.cli.transfer.QuietMavenTransferListener";
         /// <summary>

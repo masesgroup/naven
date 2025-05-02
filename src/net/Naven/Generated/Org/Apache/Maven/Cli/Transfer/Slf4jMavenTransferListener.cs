@@ -29,7 +29,7 @@ namespace Org.Apache.Maven.Cli.Transfer
     /// <summary>
     /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/transfer/Slf4jMavenTransferListener.html"/>
     /// </summary>
-    public partial class Slf4jMavenTransferListener : Org.Eclipse.Aether.Transfer.AbstractTransferListener
+    public partial class Slf4jMavenTransferListener : MASES.JCOBridge.C2JBridge.JVMBridgeBase<Slf4jMavenTransferListener>
     {
         const string _bridgeClassName = "org.apache.maven.cli.transfer.Slf4jMavenTransferListener";
         /// <summary>
@@ -74,14 +74,6 @@ namespace Org.Apache.Maven.Cli.Transfer
     public partial class Slf4jMavenTransferListener
     {
         #region Constructors
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/transfer/Slf4jMavenTransferListener.html#org.apache.maven.cli.transfer.Slf4jMavenTransferListener(org.slf4j.Logger)"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Logger"/></param>
-        public Slf4jMavenTransferListener(Org.Slf4j.Logger arg0)
-            : base(arg0)
-        {
-        }
 
         #endregion
 

@@ -98,13 +98,6 @@ namespace Org.Apache.Maven.Cli
             get { return IExecuteWithSignatureArray<Java.Lang.String>("getArgs", "()[Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CliRequest.html#getClassWorld--"/> 
-        /// </summary>
-        public Org.Codehaus.Plexus.Classworlds.ClassWorld ClassWorld
-        {
-            get { return IExecute<Org.Codehaus.Plexus.Classworlds.ClassWorld>("getClassWorld"); }
-        }
-        /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CliRequest.html#getCommandLine--"/> 
         /// </summary>
         public Org.Apache.Commons.Cli.CommandLine CommandLine
@@ -117,13 +110,6 @@ namespace Org.Apache.Maven.Cli
         public Java.Io.File MultiModuleProjectDirectory
         {
             get { return IExecuteWithSignature<Java.Io.File>("getMultiModuleProjectDirectory", "()Ljava/io/File;"); }
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CliRequest.html#getRequest--"/> 
-        /// </summary>
-        public Org.Apache.Maven.Execution.MavenExecutionRequest Request
-        {
-            get { return IExecuteWithSignature<Org.Apache.Maven.Execution.MavenExecutionRequest>("getRequest", "()Lorg/apache/maven/execution/MavenExecutionRequest;"); }
         }
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CliRequest.html#getSystemProperties--"/> 
