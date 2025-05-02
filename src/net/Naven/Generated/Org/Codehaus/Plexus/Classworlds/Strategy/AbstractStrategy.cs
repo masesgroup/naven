@@ -77,7 +77,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Strategy
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/AbstractStrategy.html#org.codehaus.plexus.classworlds.strategy.AbstractStrategy(org.codehaus.plexus.classworlds.realm.ClassRealm)"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/AbstractStrategy.html#%3Cinit%3E(org.codehaus.plexus.classworlds.realm.ClassRealm)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm"/></param>
         public AbstractStrategy(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm arg0)
@@ -101,7 +101,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Strategy
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/AbstractStrategy.html#getRealm--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/AbstractStrategy.html#getRealm()"/> 
         /// </summary>
         public Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm Realm
         {

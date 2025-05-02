@@ -91,14 +91,14 @@ namespace Org.Apache.Maven.Cli.Logging
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/BaseSlf4jConfiguration.html#activate--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/BaseSlf4jConfiguration.html#activate()"/>
         /// </summary>
         public void Activate()
         {
             IExecuteWithSignature("activate", "()V");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/BaseSlf4jConfiguration.html#setRootLoggerLevel-org.apache.maven.cli.logging.Slf4jConfiguration.Level-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/BaseSlf4jConfiguration.html#setRootLoggerLevel(org.apache.maven.cli.logging.Slf4jConfiguration.Level)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level"/></param>
         public void SetRootLoggerLevel(Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level arg0)

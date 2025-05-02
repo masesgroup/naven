@@ -91,35 +91,35 @@ namespace Org.Apache.Maven.Cli.Internal.Extension.Model
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtension.html#getArtifactId--"/> <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtension.html#setArtifactId-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtension.html#getArtifactId()"/> <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtension.html#setArtifactId(java.lang.String)"/>
         /// </summary>
         public Java.Lang.String ArtifactId
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getArtifactId", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setArtifactId", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtension.html#getClassLoadingStrategy--"/> <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtension.html#setClassLoadingStrategy-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtension.html#getClassLoadingStrategy()"/> <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtension.html#setClassLoadingStrategy(java.lang.String)"/>
         /// </summary>
         public Java.Lang.String ClassLoadingStrategy
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getClassLoadingStrategy", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setClassLoadingStrategy", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtension.html#getGroupId--"/> <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtension.html#setGroupId-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtension.html#getGroupId()"/> <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtension.html#setGroupId(java.lang.String)"/>
         /// </summary>
         public Java.Lang.String GroupId
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getGroupId", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setGroupId", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtension.html#getId--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtension.html#getId()"/> 
         /// </summary>
         public Java.Lang.String Id
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getId", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtension.html#getVersion--"/> <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtension.html#setVersion-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtension.html#getVersion()"/> <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtension.html#setVersion(java.lang.String)"/>
         /// </summary>
         public Java.Lang.String Version
         {

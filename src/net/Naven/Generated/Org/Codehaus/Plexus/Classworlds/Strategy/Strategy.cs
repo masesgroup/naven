@@ -111,14 +111,14 @@ namespace Org.Codehaus.Plexus.Classworlds.Strategy
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/Strategy.html#getRealm--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/Strategy.html#getRealm()"/> 
         /// </summary>
         public Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm Realm
         {
             get { return IExecute<Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm>("getRealm"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/Strategy.html#loadClass-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/Strategy.html#loadClass(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Lang.Class"/></returns>
@@ -128,7 +128,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Strategy
             return IExecuteWithSignature<Java.Lang.Class>("loadClass", "(Ljava/lang/String;)Ljava/lang/Class;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/Strategy.html#getResource-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/Strategy.html#getResource(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Net.URL"/></returns>
@@ -137,7 +137,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Strategy
             return IExecuteWithSignature<Java.Net.URL>("getResource", "(Ljava/lang/String;)Ljava/net/URL;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/Strategy.html#getResources-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/Strategy.html#getResources(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Util.Enumeration"/></returns>

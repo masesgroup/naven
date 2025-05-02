@@ -75,7 +75,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Strategy
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/SelfFirstStrategy.html#org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy(org.codehaus.plexus.classworlds.realm.ClassRealm)"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/SelfFirstStrategy.html#%3Cinit%3E(org.codehaus.plexus.classworlds.realm.ClassRealm)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm"/></param>
         public SelfFirstStrategy(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm arg0)

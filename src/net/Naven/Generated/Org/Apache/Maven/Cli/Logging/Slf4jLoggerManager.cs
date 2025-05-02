@@ -91,21 +91,21 @@ namespace Org.Apache.Maven.Cli.Logging
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jLoggerManager.html#getActiveLoggerCount--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jLoggerManager.html#getActiveLoggerCount()"/> 
         /// </summary>
         public int ActiveLoggerCount
         {
             get { return IExecuteWithSignature<int>("getActiveLoggerCount", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jLoggerManager.html#getThreshold--"/> <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jLoggerManager.html#setThreshold-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jLoggerManager.html#getThreshold()"/> <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jLoggerManager.html#setThreshold(int)"/>
         /// </summary>
         public int Threshold
         {
             get { return IExecuteWithSignature<int>("getThreshold", "()I"); } set { IExecuteWithSignature("setThreshold", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jLoggerManager.html#returnComponentLogger-java.lang.String-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jLoggerManager.html#returnComponentLogger(java.lang.String,java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -114,7 +114,7 @@ namespace Org.Apache.Maven.Cli.Logging
             IExecuteWithSignature("returnComponentLogger", "(Ljava/lang/String;Ljava/lang/String;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jLoggerManager.html#returnComponentLogger-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jLoggerManager.html#returnComponentLogger(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         public void ReturnComponentLogger(Java.Lang.String arg0)
@@ -122,7 +122,7 @@ namespace Org.Apache.Maven.Cli.Logging
             IExecuteWithSignature("returnComponentLogger", "(Ljava/lang/String;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jLoggerManager.html#setThresholds-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jLoggerManager.html#setThresholds(int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         public void SetThresholds(int arg0)

@@ -87,7 +87,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Strategy
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/StrategyFactory.html#getStrategy-org.codehaus.plexus.classworlds.realm.ClassRealm-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/StrategyFactory.html#getStrategy(org.codehaus.plexus.classworlds.realm.ClassRealm,java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -97,7 +97,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Strategy
             return SExecute<Org.Codehaus.Plexus.Classworlds.Strategy.Strategy>(LocalBridgeClazz, "getStrategy", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/StrategyFactory.html#getStrategy-org.codehaus.plexus.classworlds.realm.ClassRealm-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/StrategyFactory.html#getStrategy(org.codehaus.plexus.classworlds.realm.ClassRealm)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm"/></param>
         /// <returns><see cref="Org.Codehaus.Plexus.Classworlds.Strategy.Strategy"/></returns>

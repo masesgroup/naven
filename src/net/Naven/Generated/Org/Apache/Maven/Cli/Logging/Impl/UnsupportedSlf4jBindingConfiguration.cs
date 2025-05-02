@@ -75,7 +75,7 @@ namespace Org.Apache.Maven.Cli.Logging.Impl
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/impl/UnsupportedSlf4jBindingConfiguration.html#org.apache.maven.cli.logging.impl.UnsupportedSlf4jBindingConfiguration(java.lang.String,java.util.Map)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/impl/UnsupportedSlf4jBindingConfiguration.html#%3Cinit%3E(java.lang.String,java.util.Map)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Util.Map"/></param>

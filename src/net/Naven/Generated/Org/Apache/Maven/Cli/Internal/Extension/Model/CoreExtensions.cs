@@ -91,21 +91,21 @@ namespace Org.Apache.Maven.Cli.Internal.Extension.Model
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtensions.html#getExtensions--"/> <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtensions.html#setExtensions-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtensions.html#getExtensions()"/> <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtensions.html#setExtensions(java.util.List)"/>
         /// </summary>
         public Java.Util.List<Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension> Extensions
         {
             get { return IExecuteWithSignature<Java.Util.List<Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension>>("getExtensions", "()Ljava/util/List;"); } set { IExecuteWithSignature("setExtensions", "(Ljava/util/List;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtensions.html#getModelEncoding--"/> <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtensions.html#setModelEncoding-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtensions.html#getModelEncoding()"/> <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtensions.html#setModelEncoding(java.lang.String)"/>
         /// </summary>
         public Java.Lang.String ModelEncoding
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getModelEncoding", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setModelEncoding", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtensions.html#addExtension-org.apache.maven.cli.internal.extension.model.CoreExtension-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtensions.html#addExtension(org.apache.maven.cli.internal.extension.model.CoreExtension)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension"/></param>
         public void AddExtension(Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension arg0)
@@ -113,7 +113,7 @@ namespace Org.Apache.Maven.Cli.Internal.Extension.Model
             IExecuteWithSignature("addExtension", "(Lorg/apache/maven/cli/internal/extension/model/CoreExtension;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtensions.html#removeExtension-org.apache.maven.cli.internal.extension.model.CoreExtension-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtensions.html#removeExtension(org.apache.maven.cli.internal.extension.model.CoreExtension)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension"/></param>
         public void RemoveExtension(Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension arg0)

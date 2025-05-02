@@ -87,7 +87,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Launcher
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#mainWithExitCode-java.lang.String[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#mainWithExitCode(java.lang.String[])"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="int"/></returns>
@@ -97,7 +97,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Launcher
             return SExecuteWithSignature<int>(LocalBridgeClazz, "mainWithExitCode", "([Ljava/lang/String;)I", new object[] { arg0 });
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#main-java.lang.String[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#main(java.lang.String[])"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         public static void Main(Java.Lang.String[] arg0)
@@ -109,56 +109,56 @@ namespace Org.Codehaus.Plexus.Classworlds.Launcher
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#getExitCode--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#getExitCode()"/> 
         /// </summary>
         public int ExitCode
         {
             get { return IExecuteWithSignature<int>("getExitCode", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#getMainClass--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#getMainClass()"/> 
         /// </summary>
         public Java.Lang.Class MainClass
         {
             get { return IExecute<Java.Lang.Class>("getMainClass"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#getMainClassName--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#getMainClassName()"/> 
         /// </summary>
         public Java.Lang.String MainClassName
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getMainClassName", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#getMainRealm--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#getMainRealm()"/> 
         /// </summary>
         public Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm MainRealm
         {
             get { return IExecute<Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm>("getMainRealm"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#getMainRealmName--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#getMainRealmName()"/> 
         /// </summary>
         public Java.Lang.String MainRealmName
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getMainRealmName", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#getSystemClassLoader--"/> <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#setSystemClassLoader-java.lang.ClassLoader-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#getSystemClassLoader()"/> <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#setSystemClassLoader(java.lang.ClassLoader)"/>
         /// </summary>
         public Java.Lang.ClassLoader SystemClassLoader
         {
             get { return IExecuteWithSignature<Java.Lang.ClassLoader>("getSystemClassLoader", "()Ljava/lang/ClassLoader;"); } set { IExecuteWithSignature("setSystemClassLoader", "(Ljava/lang/ClassLoader;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#getWorld--"/> <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#setWorld-org.codehaus.plexus.classworlds.ClassWorld-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#getWorld()"/> <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#setWorld(org.codehaus.plexus.classworlds.ClassWorld)"/>
         /// </summary>
         public Org.Codehaus.Plexus.Classworlds.ClassWorld World
         {
             get { return IExecute<Org.Codehaus.Plexus.Classworlds.ClassWorld>("getWorld"); } set { IExecute("setWorld", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#configure-java.io.InputStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#configure(java.io.InputStream)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.InputStream"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -170,7 +170,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Launcher
             IExecute("configure", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#launch-java.lang.String[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#launch(java.lang.String[])"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <exception cref="Java.Lang.ClassNotFoundException"/>
@@ -183,7 +183,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Launcher
             IExecute("launch", new object[] { arg0 });
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#setAppMain-java.lang.String-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html#setAppMain(java.lang.String,java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>

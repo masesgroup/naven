@@ -111,7 +111,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Launcher
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationHandler.html#addImportFrom-java.lang.String-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationHandler.html#addImportFrom(java.lang.String,java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -121,7 +121,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Launcher
             IExecute("addImportFrom", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationHandler.html#addLoadFile-java.io.File-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationHandler.html#addLoadFile(java.io.File)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.File"/></param>
         public void AddLoadFile(Java.Io.File arg0)
@@ -129,7 +129,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Launcher
             IExecuteWithSignature("addLoadFile", "(Ljava/io/File;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationHandler.html#addLoadURL-java.net.URL-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationHandler.html#addLoadURL(java.net.URL)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Net.URL"/></param>
         public void AddLoadURL(Java.Net.URL arg0)
@@ -137,7 +137,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Launcher
             IExecuteWithSignature("addLoadURL", "(Ljava/net/URL;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationHandler.html#addRealm-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationHandler.html#addRealm(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <exception cref="Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException"/>
@@ -146,7 +146,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Launcher
             IExecute("addRealm", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationHandler.html#setAppMain-java.lang.String-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationHandler.html#setAppMain(java.lang.String,java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>

@@ -156,14 +156,14 @@ namespace Org.Apache.Maven.Cli.Logging
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jConfiguration.html#activate--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jConfiguration.html#activate()"/>
         /// </summary>
         public void Activate()
         {
             IExecuteWithSignature("activate", "()V");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jConfiguration.html#setRootLoggerLevel-org.apache.maven.cli.logging.Slf4jConfiguration.Level-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jConfiguration.html#setRootLoggerLevel(org.apache.maven.cli.logging.Slf4jConfiguration.Level)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level"/></param>
         public void SetRootLoggerLevel(Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level arg0)
@@ -209,7 +209,7 @@ namespace Org.Apache.Maven.Cli.Logging
 
             #region Static methods
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jConfiguration.Level.html#valueOf-java.lang.String-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jConfiguration.Level.html#valueOf(java.lang.String)"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.String"/></param>
             /// <returns><see cref="Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level"/></returns>
@@ -218,7 +218,7 @@ namespace Org.Apache.Maven.Cli.Logging
                 return SExecuteWithSignature<Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level>(LocalBridgeClazz, "valueOf", "(Ljava/lang/String;)Lorg/apache/maven/cli/logging/Slf4jConfiguration$Level;", arg0);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jConfiguration.Level.html#values--"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jConfiguration.Level.html#values()"/>
             /// </summary>
             /// <returns><see cref="Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level"/></returns>
             public static Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level[] Values()

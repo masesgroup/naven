@@ -75,7 +75,7 @@ namespace Org.Apache.Maven.Cli.Transfer
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/transfer/BatchModeMavenTransferListener.html#org.apache.maven.cli.transfer.BatchModeMavenTransferListener(java.io.PrintStream)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/transfer/BatchModeMavenTransferListener.html#%3Cinit%3E(java.io.PrintStream)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.PrintStream"/></param>
         public BatchModeMavenTransferListener(Java.Io.PrintStream arg0)

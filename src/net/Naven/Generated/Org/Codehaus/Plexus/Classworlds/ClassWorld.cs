@@ -75,7 +75,7 @@ namespace Org.Codehaus.Plexus.Classworlds
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorld.html#org.codehaus.plexus.classworlds.ClassWorld(java.lang.String,java.lang.ClassLoader)"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorld.html#%3Cinit%3E(java.lang.String,java.lang.ClassLoader)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.ClassLoader"/></param>
@@ -100,14 +100,14 @@ namespace Org.Codehaus.Plexus.Classworlds
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorld.html#getRealms--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorld.html#getRealms()"/> 
         /// </summary>
         public Java.Util.Collection<Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm> Realms
         {
             get { return IExecute<Java.Util.Collection<Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm>>("getRealms"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorld.html#newRealm-java.lang.String-java.lang.ClassLoader-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorld.html#newRealm(java.lang.String,java.lang.ClassLoader)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.ClassLoader"/></param>
@@ -118,7 +118,7 @@ namespace Org.Codehaus.Plexus.Classworlds
             return IExecute<Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm>("newRealm", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorld.html#newRealm-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorld.html#newRealm(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm"/></returns>
@@ -128,7 +128,7 @@ namespace Org.Codehaus.Plexus.Classworlds
             return IExecute<Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm>("newRealm", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorld.html#getClassRealm-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorld.html#getClassRealm(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm"/></returns>
@@ -137,7 +137,7 @@ namespace Org.Codehaus.Plexus.Classworlds
             return IExecute<Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm>("getClassRealm", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorld.html#getRealm-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorld.html#getRealm(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm"/></returns>
@@ -147,7 +147,7 @@ namespace Org.Codehaus.Plexus.Classworlds
             return IExecute<Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm>("getRealm", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorld.html#newRealm-java.lang.String-java.lang.ClassLoader-java.util.function.Predicate-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorld.html#newRealm(java.lang.String,java.lang.ClassLoader,java.util.function.Predicate)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.ClassLoader"/></param>
@@ -159,7 +159,7 @@ namespace Org.Codehaus.Plexus.Classworlds
             return IExecute<Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm>("newRealm", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorld.html#addListener-org.codehaus.plexus.classworlds.ClassWorldListener-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorld.html#addListener(org.codehaus.plexus.classworlds.ClassWorldListener)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Codehaus.Plexus.Classworlds.ClassWorldListener"/></param>
         public void AddListener(Org.Codehaus.Plexus.Classworlds.ClassWorldListener arg0)
@@ -167,7 +167,7 @@ namespace Org.Codehaus.Plexus.Classworlds
             IExecute("addListener", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorld.html#close--"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorld.html#close()"/>
         /// </summary>
         /// <exception cref="Java.Io.IOException"/>
         public void Close()
@@ -175,7 +175,7 @@ namespace Org.Codehaus.Plexus.Classworlds
             IExecuteWithSignature("close", "()V");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorld.html#disposeRealm-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorld.html#disposeRealm(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <exception cref="Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException"/>
@@ -184,7 +184,7 @@ namespace Org.Codehaus.Plexus.Classworlds
             IExecute("disposeRealm", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorld.html#removeListener-org.codehaus.plexus.classworlds.ClassWorldListener-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorld.html#removeListener(org.codehaus.plexus.classworlds.ClassWorldListener)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Codehaus.Plexus.Classworlds.ClassWorldListener"/></param>
         public void RemoveListener(Org.Codehaus.Plexus.Classworlds.ClassWorldListener arg0)

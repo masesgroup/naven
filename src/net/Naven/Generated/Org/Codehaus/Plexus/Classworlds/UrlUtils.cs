@@ -87,7 +87,7 @@ namespace Org.Codehaus.Plexus.Classworlds
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/UrlUtils.html#normalizeUrlPath-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/UrlUtils.html#normalizeUrlPath(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Lang.String"/></returns>
@@ -96,7 +96,7 @@ namespace Org.Codehaus.Plexus.Classworlds
             return SExecuteWithSignature<Java.Lang.String>(LocalBridgeClazz, "normalizeUrlPath", "(Ljava/lang/String;)Ljava/lang/String;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/UrlUtils.html#getURLs-java.net.URLClassLoader-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/UrlUtils.html#getURLs(java.net.URLClassLoader)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Net.URLClassLoader"/></param>
         /// <returns><see cref="Java.Util.Set"/></returns>

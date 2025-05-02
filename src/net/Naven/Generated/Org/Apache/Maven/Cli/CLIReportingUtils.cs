@@ -99,7 +99,7 @@ namespace Org.Apache.Maven.Cli
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CLIReportingUtils.html#formatDuration-long-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CLIReportingUtils.html#formatDuration(long)"/>
         /// </summary>
         /// <param name="arg0"><see cref="long"/></param>
         /// <returns><see cref="Java.Lang.String"/></returns>
@@ -108,7 +108,7 @@ namespace Org.Apache.Maven.Cli
             return SExecuteWithSignature<Java.Lang.String>(LocalBridgeClazz, "formatDuration", "(J)Ljava/lang/String;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CLIReportingUtils.html#formatTimestamp-long-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CLIReportingUtils.html#formatTimestamp(long)"/>
         /// </summary>
         /// <param name="arg0"><see cref="long"/></param>
         /// <returns><see cref="Java.Lang.String"/></returns>
@@ -117,7 +117,7 @@ namespace Org.Apache.Maven.Cli
             return SExecuteWithSignature<Java.Lang.String>(LocalBridgeClazz, "formatTimestamp", "(J)Ljava/lang/String;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CLIReportingUtils.html#showVersion--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CLIReportingUtils.html#showVersion()"/>
         /// </summary>
         /// <returns><see cref="Java.Lang.String"/></returns>
         public static Java.Lang.String ShowVersion()
@@ -125,7 +125,7 @@ namespace Org.Apache.Maven.Cli
             return SExecuteWithSignature<Java.Lang.String>(LocalBridgeClazz, "showVersion", "()Ljava/lang/String;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CLIReportingUtils.html#showVersionMinimal--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CLIReportingUtils.html#showVersionMinimal()"/>
         /// </summary>
         /// <returns><see cref="Java.Lang.String"/></returns>
         public static Java.Lang.String ShowVersionMinimal()
