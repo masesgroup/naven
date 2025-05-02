@@ -98,13 +98,6 @@ namespace Org.Apache.Maven.Cli
             get { return IExecuteWithSignatureArray<Java.Lang.String>("getArgs", "()[Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CliRequest.html#getCommandLine--"/> 
-        /// </summary>
-        public Org.Apache.Commons.Cli.CommandLine CommandLine
-        {
-            get { return IExecuteWithSignature<Org.Apache.Commons.Cli.CommandLine>("getCommandLine", "()Lorg/apache/commons/cli/CommandLine;"); }
-        }
-        /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CliRequest.html#getMultiModuleProjectDirectory--"/> 
         /// </summary>
         public Java.Io.File MultiModuleProjectDirectory
