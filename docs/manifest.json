@@ -1,0 +1,1382 @@
+{
+  "source_base_path": "D:/a/naven/naven/src/documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.Naven.Const.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.Naven.Const.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.Naven.Const",
+      "Summary": "<p sourcefile=\"api/MASES.Naven.Const.yml\" sourcestartlinenumber=\"1\">Default constants</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.Naven.NavenCore-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.Naven.NavenCore-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.Naven.NavenCore<T>",
+      "Summary": "<p sourcefile=\"api/MASES.Naven.NavenCore-1.yml\" sourcestartlinenumber=\"1\">Public entry point of <xref href=\"MASES.Naven.NavenCore%601\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.Naven.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.Naven.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.Naven",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NavenCLI.NavenCLICore-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NavenCLI.NavenCLICore-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.NavenCLI.NavenCLICore<T>",
+      "Summary": "<p sourcefile=\"api/MASES.NavenCLI.NavenCLICore-1.yml\" sourcestartlinenumber=\"1\">Overridable implementation of <xref href=\"MASES.Naven.NavenCore%601\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NavenCLI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NavenCLI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.NavenCLI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase<TCmdlet>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NavenPS.Cmdlet.NavenPSCmdlet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NavenPS.Cmdlet.NavenPSCmdlet.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.NavenPS.Cmdlet.NavenPSCmdlet",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase<TCmdlet>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NavenPS.Cmdlet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NavenPS.Cmdlet.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.NavenPS.Cmdlet",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NavenPS.NavenPSCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NavenPS.NavenPSCore.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.NavenPS.NavenPSCore",
+      "Summary": "<p sourcefile=\"api/MASES.NavenPS.NavenPSCore.yml\" sourcestartlinenumber=\"1\">Concrete implementation of NavenCore&lt;T&gt;</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NavenPS.NavenPSHelper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NavenPS.NavenPSHelper-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.NavenPS.NavenPSHelper<TClass>",
+      "Summary": "<p sourcefile=\"api/MASES.NavenPS.NavenPSHelper-1.yml\" sourcestartlinenumber=\"1\">Public Helper class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NavenPS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NavenPS.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.NavenPS",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.CLIManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.CLIManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.CLIManager",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.CLIManager.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CLIManager.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CLIManager.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.CLIReportingUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.CLIReportingUtils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.CLIReportingUtils",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.CLIReportingUtils.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CLIReportingUtils.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CLIReportingUtils.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.CleanArgument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.CleanArgument.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.CleanArgument",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.CleanArgument.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CleanArgument.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CleanArgument.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.CliRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.CliRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.CliRequest",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.CliRequest.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CliRequest.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CliRequest.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/configuration/ConfigurationProcessor.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/configuration/ConfigurationProcessor.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Configuration.IConfigurationProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Configuration.IConfigurationProcessor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Configuration.IConfigurationProcessor",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Configuration.IConfigurationProcessor.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/configuration/ConfigurationProcessor.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/configuration/ConfigurationProcessor.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/configuration/SettingsXmlConfigurationProcessor.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/configuration/SettingsXmlConfigurationProcessor.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Configuration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Configuration",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Event.DefaultEventSpyContext",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/event/DefaultEventSpyContext.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/event/DefaultEventSpyContext.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Event.ExecutionEventLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Event.ExecutionEventLogger.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Event.ExecutionEventLogger",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Event.ExecutionEventLogger.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/event/ExecutionEventLogger.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/event/ExecutionEventLogger.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Event.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Event",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/BootstrapCoreExtensionManager.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/BootstrapCoreExtensionManager.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtension.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtension.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtensions.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/CoreExtensions.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Reader.ContentTransformer.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Reader.ContentTransformer.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Reader.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Reader.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Writer.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Writer.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Internal.Extension.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Internal.Extension.Model.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Internal.Extension.Model",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Internal.ExtensionResolutionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Internal.ExtensionResolutionException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Internal.ExtensionResolutionException",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Internal.ExtensionResolutionException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/ExtensionResolutionException.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/ExtensionResolutionException.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Internal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Internal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Internal",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/BaseSlf4jConfiguration.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/BaseSlf4jConfiguration.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Logging.ISlf4jConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Logging.ISlf4jConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Logging.ISlf4jConfiguration",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Logging.ISlf4jConfiguration.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jConfiguration.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jConfiguration.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/impl/Log4j2Configuration.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/impl/Log4j2Configuration.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/impl/LogbackConfiguration.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/impl/LogbackConfiguration.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/impl/Slf4jSimpleConfiguration.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/impl/Slf4jSimpleConfiguration.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/impl/UnsupportedSlf4jBindingConfiguration.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/impl/UnsupportedSlf4jBindingConfiguration.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Logging.Impl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Logging.Impl.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Logging.Impl",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jConfiguration.Level.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jConfiguration.Level.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Logging.Slf4jConfiguration",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jConfiguration.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jConfiguration.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jConfigurationFactory.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jConfigurationFactory.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Logging.Slf4jLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Logging.Slf4jLogger.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Logging.Slf4jLogger",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Logging.Slf4jLogger.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jLogger.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jLogger.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jLoggerManager.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jLoggerManager.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Logging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Logging.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Logging",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.MavenCli.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.MavenCli.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.MavenCli",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.MavenCli.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/MavenCli.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/MavenCli.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.ResolveFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.ResolveFile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.ResolveFile",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.ResolveFile.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/ResolveFile.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/ResolveFile.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/transfer/AbstractMavenTransferListener.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/transfer/AbstractMavenTransferListener.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/transfer/BatchModeMavenTransferListener.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/transfer/BatchModeMavenTransferListener.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/transfer/ConsoleMavenTransferListener.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/transfer/ConsoleMavenTransferListener.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/transfer/QuietMavenTransferListener.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/transfer/QuietMavenTransferListener.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Transfer.SimplexTransferListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Transfer.SimplexTransferListener.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Transfer.SimplexTransferListener",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Transfer.SimplexTransferListener.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/transfer/SimplexTransferListener.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/transfer/SimplexTransferListener.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener",
+      "Summary": "<p sourcefile=\"api/Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/transfer/Slf4jMavenTransferListener.html\">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/transfer/Slf4jMavenTransferListener.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.Transfer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.Transfer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli.Transfer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Maven.Cli.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Maven.Cli.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Apache.Maven.Cli",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.ClassWorld.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.ClassWorld.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds.ClassWorld",
+      "Summary": "<p sourcefile=\"api/Org.Codehaus.Plexus.Classworlds.ClassWorld.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorld.html\">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorld.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.ClassWorldException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.ClassWorldException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds.ClassWorldException",
+      "Summary": "<p sourcefile=\"api/Org.Codehaus.Plexus.Classworlds.ClassWorldException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorldException.html\">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorldException.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.ClassWorldListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.ClassWorldListener.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds.ClassWorldListener",
+      "Summary": "<p sourcefile=\"api/Org.Codehaus.Plexus.Classworlds.ClassWorldListener.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorldListener.html\">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorldListener.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect",
+      "Summary": "<p sourcefile=\"api/Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.yml\" sourcestartlinenumber=\"1\">Direct override of <xref href=\"Org.Codehaus.Plexus.Classworlds.ClassWorldListener\" data-throw-if-not-resolved=\"false\"></xref> or its generic type if there is one</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.IClassWorldListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.IClassWorldListener.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds.IClassWorldListener",
+      "Summary": "<p sourcefile=\"api/Org.Codehaus.Plexus.Classworlds.IClassWorldListener.yml\" sourcestartlinenumber=\"1\">.NET interface for org.mases.naven.generated.org.codehaus.plexus.classworlds.ClassWorldListener implementing <a href=\"https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorldListener.html\">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorldListener.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException",
+      "Summary": "<p sourcefile=\"api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationException.html\">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationException.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler",
+      "Summary": "<p sourcefile=\"api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationHandler.html\">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationHandler.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser",
+      "Summary": "<p sourcefile=\"api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationParser.html\">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationParser.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds.Launcher.Configurator",
+      "Summary": "<p sourcefile=\"api/Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Configurator.html\">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Configurator.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.Launcher.IConfigurationHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.Launcher.IConfigurationHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds.Launcher.IConfigurationHandler",
+      "Summary": "<p sourcefile=\"api/Org.Codehaus.Plexus.Classworlds.Launcher.IConfigurationHandler.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationHandler.html\">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationHandler.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds.Launcher.Launcher",
+      "Summary": "<p sourcefile=\"api/Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html\">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Launcher.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.Launcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.Launcher.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds.Launcher",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm",
+      "Summary": "<p sourcefile=\"api/Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html\">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException",
+      "Summary": "<p sourcefile=\"api/Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/DuplicateRealmException.html\">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/DuplicateRealmException.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm",
+      "Summary": "<p sourcefile=\"api/Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/FilteredClassRealm.html\">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/FilteredClassRealm.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException",
+      "Summary": "<p sourcefile=\"api/Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/NoSuchRealmException.html\">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/NoSuchRealmException.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.Realm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.Realm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds.Realm",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy",
+      "Summary": "<p sourcefile=\"api/Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/AbstractStrategy.html\">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/AbstractStrategy.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.Strategy.IStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.Strategy.IStrategy.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds.Strategy.IStrategy",
+      "Summary": "<p sourcefile=\"api/Org.Codehaus.Plexus.Classworlds.Strategy.IStrategy.yml\" sourcestartlinenumber=\"1\">.NET interface skeleton to be manually developed following <a href=\"https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/Strategy.html\">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/Strategy.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy",
+      "Summary": "<p sourcefile=\"api/Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/OsgiBundleStrategy.html\">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/OsgiBundleStrategy.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy",
+      "Summary": "<p sourcefile=\"api/Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/ParentFirstStrategy.html\">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/ParentFirstStrategy.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy",
+      "Summary": "<p sourcefile=\"api/Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/SelfFirstStrategy.html\">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/SelfFirstStrategy.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.Strategy.Strategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.Strategy.Strategy.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds.Strategy.Strategy",
+      "Summary": "<p sourcefile=\"api/Org.Codehaus.Plexus.Classworlds.Strategy.Strategy.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/Strategy.html\">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/Strategy.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory",
+      "Summary": "<p sourcefile=\"api/Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/StrategyFactory.html\">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/strategy/StrategyFactory.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.Strategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.Strategy.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds.Strategy",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.UrlUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.UrlUtils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds.UrlUtils",
+      "Summary": "<p sourcefile=\"api/Org.Codehaus.Plexus.Classworlds.UrlUtils.yml\" sourcestartlinenumber=\"1\"><a href=\"https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/UrlUtils.html\">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/UrlUtils.html</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Codehaus.Plexus.Classworlds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Codehaus.Plexus.Classworlds.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Org.Codehaus.Plexus.Classworlds",
+      "Summary": null
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/commandlineswitch.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/commandlineswitch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/currentstate.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/currentstate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/docker.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/docker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/roadmap.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/roadmap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/usage.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/usage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/usageCLI.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/usageCLI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/usagePS.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/usagePS.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
