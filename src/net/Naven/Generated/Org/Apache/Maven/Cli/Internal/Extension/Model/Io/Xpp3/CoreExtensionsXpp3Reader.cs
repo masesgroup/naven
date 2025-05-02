@@ -204,18 +204,6 @@ namespace Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3
         {
             return IExecuteWithSignature<Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions>("read", "(Ljava/io/Reader;)Lorg/apache/maven/cli/internal/extension/model/CoreExtensions;", arg0);
         }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Reader.html#read-org.codehaus.plexus.util.xml.pull.XmlPullParser-boolean-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Codehaus.Plexus.Util.Xml.Pull.XmlPullParser"/></param>
-        /// <param name="arg1"><see cref="bool"/></param>
-        /// <returns><see cref="Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions"/></returns>
-        /// <exception cref="Java.Io.IOException"/>
-        /// <exception cref="Org.Codehaus.Plexus.Util.Xml.Pull.XmlPullParserException"/>
-        public Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions Read(Org.Codehaus.Plexus.Util.Xml.Pull.XmlPullParser arg0, bool arg1)
-        {
-            return IExecuteWithSignature<Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions>("read", "(Lorg/codehaus/plexus/util/xml/pull/XmlPullParser;Z)Lorg/apache/maven/cli/internal/extension/model/CoreExtensions;", arg0, arg1);
-        }
 
         #endregion
 

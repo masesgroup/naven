@@ -29,7 +29,7 @@ namespace Org.Apache.Maven.Cli.Logging
     /// <summary>
     /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html"/>
     /// </summary>
-    public partial class Slf4jStdoutLogger : Org.Slf4j.Logger
+    public partial class Slf4jStdoutLogger : MASES.JCOBridge.C2JBridge.JVMBridgeBase<Slf4jStdoutLogger>
     {
         const string _bridgeClassName = "org.apache.maven.cli.logging.Slf4jStdoutLogger";
         /// <summary>
@@ -106,30 +106,12 @@ namespace Org.Apache.Maven.Cli.Logging
             return IExecuteWithSignature<bool>("isDebugEnabled", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#isDebugEnabled-org.slf4j.Marker-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <returns><see cref="bool"/></returns>
-        public bool IsDebugEnabled(Org.Slf4j.Marker arg0)
-        {
-            return IExecuteWithSignature<bool>("isDebugEnabled", "(Lorg/slf4j/Marker;)Z", arg0);
-        }
-        /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#isErrorEnabled--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsErrorEnabled()
         {
             return IExecuteWithSignature<bool>("isErrorEnabled", "()Z");
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#isErrorEnabled-org.slf4j.Marker-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <returns><see cref="bool"/></returns>
-        public bool IsErrorEnabled(Org.Slf4j.Marker arg0)
-        {
-            return IExecuteWithSignature<bool>("isErrorEnabled", "(Lorg/slf4j/Marker;)Z", arg0);
         }
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#isInfoEnabled--"/>
@@ -140,15 +122,6 @@ namespace Org.Apache.Maven.Cli.Logging
             return IExecuteWithSignature<bool>("isInfoEnabled", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#isInfoEnabled-org.slf4j.Marker-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <returns><see cref="bool"/></returns>
-        public bool IsInfoEnabled(Org.Slf4j.Marker arg0)
-        {
-            return IExecuteWithSignature<bool>("isInfoEnabled", "(Lorg/slf4j/Marker;)Z", arg0);
-        }
-        /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#isTraceEnabled--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
@@ -157,30 +130,12 @@ namespace Org.Apache.Maven.Cli.Logging
             return IExecuteWithSignature<bool>("isTraceEnabled", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#isTraceEnabled-org.slf4j.Marker-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <returns><see cref="bool"/></returns>
-        public bool IsTraceEnabled(Org.Slf4j.Marker arg0)
-        {
-            return IExecuteWithSignature<bool>("isTraceEnabled", "(Lorg/slf4j/Marker;)Z", arg0);
-        }
-        /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#isWarnEnabled--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsWarnEnabled()
         {
             return IExecuteWithSignature<bool>("isWarnEnabled", "()Z");
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#isWarnEnabled-org.slf4j.Marker-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <returns><see cref="bool"/></returns>
-        public bool IsWarnEnabled(Org.Slf4j.Marker arg0)
-        {
-            return IExecuteWithSignature<bool>("isWarnEnabled", "(Lorg/slf4j/Marker;)Z", arg0);
         }
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#debug-java.lang.String-java.lang.Object-java.lang.Object-"/>
@@ -228,56 +183,6 @@ namespace Org.Apache.Maven.Cli.Logging
             IExecuteWithSignature("debug", "(Ljava/lang/String;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#debug-org.slf4j.Marker-java.lang.String-java.lang.Object-java.lang.Object-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg2"><see cref="object"/></param>
-        /// <param name="arg3"><see cref="object"/></param>
-        public void Debug(Org.Slf4j.Marker arg0, Java.Lang.String arg1, object arg2, object arg3)
-        {
-            IExecuteWithSignature("debug", "(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V", arg0, arg1, arg2, arg3);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#debug-org.slf4j.Marker-java.lang.String-java.lang.Object...-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg2"><see cref="object"/></param>
-        public void Debug(Org.Slf4j.Marker arg0, Java.Lang.String arg1, params object[] arg2)
-        {
-            if (arg2.Length == 0) IExecuteWithSignature("debug", "(Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V", arg0, arg1); else IExecuteWithSignature("debug", "(Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V", arg0, arg1, arg2);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#debug-org.slf4j.Marker-java.lang.String-java.lang.Object-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg2"><see cref="object"/></param>
-        public void Debug(Org.Slf4j.Marker arg0, Java.Lang.String arg1, object arg2)
-        {
-            IExecuteWithSignature("debug", "(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;)V", arg0, arg1, arg2);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#debug-org.slf4j.Marker-java.lang.String-java.lang.Throwable-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg2"><see cref="Java.Lang.Throwable"/></param>
-        public void Debug(Org.Slf4j.Marker arg0, Java.Lang.String arg1, MASES.JCOBridge.C2JBridge.JVMBridgeException arg2)
-        {
-            IExecuteWithSignature("debug", "(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Throwable;)V", arg0, arg1, arg2);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#debug-org.slf4j.Marker-java.lang.String-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        public void Debug(Org.Slf4j.Marker arg0, Java.Lang.String arg1)
-        {
-            IExecuteWithSignature("debug", "(Lorg/slf4j/Marker;Ljava/lang/String;)V", arg0, arg1);
-        }
-        /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#error-java.lang.String-java.lang.Object-java.lang.Object-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
@@ -321,56 +226,6 @@ namespace Org.Apache.Maven.Cli.Logging
         public void Error(Java.Lang.String arg0)
         {
             IExecuteWithSignature("error", "(Ljava/lang/String;)V", arg0);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#error-org.slf4j.Marker-java.lang.String-java.lang.Object-java.lang.Object-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg2"><see cref="object"/></param>
-        /// <param name="arg3"><see cref="object"/></param>
-        public void Error(Org.Slf4j.Marker arg0, Java.Lang.String arg1, object arg2, object arg3)
-        {
-            IExecuteWithSignature("error", "(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V", arg0, arg1, arg2, arg3);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#error-org.slf4j.Marker-java.lang.String-java.lang.Object...-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg2"><see cref="object"/></param>
-        public void Error(Org.Slf4j.Marker arg0, Java.Lang.String arg1, params object[] arg2)
-        {
-            if (arg2.Length == 0) IExecuteWithSignature("error", "(Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V", arg0, arg1); else IExecuteWithSignature("error", "(Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V", arg0, arg1, arg2);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#error-org.slf4j.Marker-java.lang.String-java.lang.Object-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg2"><see cref="object"/></param>
-        public void Error(Org.Slf4j.Marker arg0, Java.Lang.String arg1, object arg2)
-        {
-            IExecuteWithSignature("error", "(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;)V", arg0, arg1, arg2);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#error-org.slf4j.Marker-java.lang.String-java.lang.Throwable-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg2"><see cref="Java.Lang.Throwable"/></param>
-        public void Error(Org.Slf4j.Marker arg0, Java.Lang.String arg1, MASES.JCOBridge.C2JBridge.JVMBridgeException arg2)
-        {
-            IExecuteWithSignature("error", "(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Throwable;)V", arg0, arg1, arg2);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#error-org.slf4j.Marker-java.lang.String-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        public void Error(Org.Slf4j.Marker arg0, Java.Lang.String arg1)
-        {
-            IExecuteWithSignature("error", "(Lorg/slf4j/Marker;Ljava/lang/String;)V", arg0, arg1);
         }
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#info-java.lang.String-java.lang.Object-java.lang.Object-"/>
@@ -418,56 +273,6 @@ namespace Org.Apache.Maven.Cli.Logging
             IExecuteWithSignature("info", "(Ljava/lang/String;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#info-org.slf4j.Marker-java.lang.String-java.lang.Object-java.lang.Object-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg2"><see cref="object"/></param>
-        /// <param name="arg3"><see cref="object"/></param>
-        public void Info(Org.Slf4j.Marker arg0, Java.Lang.String arg1, object arg2, object arg3)
-        {
-            IExecuteWithSignature("info", "(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V", arg0, arg1, arg2, arg3);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#info-org.slf4j.Marker-java.lang.String-java.lang.Object...-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg2"><see cref="object"/></param>
-        public void Info(Org.Slf4j.Marker arg0, Java.Lang.String arg1, params object[] arg2)
-        {
-            if (arg2.Length == 0) IExecuteWithSignature("info", "(Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V", arg0, arg1); else IExecuteWithSignature("info", "(Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V", arg0, arg1, arg2);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#info-org.slf4j.Marker-java.lang.String-java.lang.Object-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg2"><see cref="object"/></param>
-        public void Info(Org.Slf4j.Marker arg0, Java.Lang.String arg1, object arg2)
-        {
-            IExecuteWithSignature("info", "(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;)V", arg0, arg1, arg2);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#info-org.slf4j.Marker-java.lang.String-java.lang.Throwable-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg2"><see cref="Java.Lang.Throwable"/></param>
-        public void Info(Org.Slf4j.Marker arg0, Java.Lang.String arg1, MASES.JCOBridge.C2JBridge.JVMBridgeException arg2)
-        {
-            IExecuteWithSignature("info", "(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Throwable;)V", arg0, arg1, arg2);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#info-org.slf4j.Marker-java.lang.String-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        public void Info(Org.Slf4j.Marker arg0, Java.Lang.String arg1)
-        {
-            IExecuteWithSignature("info", "(Lorg/slf4j/Marker;Ljava/lang/String;)V", arg0, arg1);
-        }
-        /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#trace-java.lang.String-java.lang.Object-java.lang.Object-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
@@ -513,56 +318,6 @@ namespace Org.Apache.Maven.Cli.Logging
             IExecuteWithSignature("trace", "(Ljava/lang/String;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#trace-org.slf4j.Marker-java.lang.String-java.lang.Object-java.lang.Object-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg2"><see cref="object"/></param>
-        /// <param name="arg3"><see cref="object"/></param>
-        public void Trace(Org.Slf4j.Marker arg0, Java.Lang.String arg1, object arg2, object arg3)
-        {
-            IExecuteWithSignature("trace", "(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V", arg0, arg1, arg2, arg3);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#trace-org.slf4j.Marker-java.lang.String-java.lang.Object...-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg2"><see cref="object"/></param>
-        public void Trace(Org.Slf4j.Marker arg0, Java.Lang.String arg1, params object[] arg2)
-        {
-            if (arg2.Length == 0) IExecuteWithSignature("trace", "(Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V", arg0, arg1); else IExecuteWithSignature("trace", "(Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V", arg0, arg1, arg2);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#trace-org.slf4j.Marker-java.lang.String-java.lang.Object-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg2"><see cref="object"/></param>
-        public void Trace(Org.Slf4j.Marker arg0, Java.Lang.String arg1, object arg2)
-        {
-            IExecuteWithSignature("trace", "(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;)V", arg0, arg1, arg2);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#trace-org.slf4j.Marker-java.lang.String-java.lang.Throwable-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg2"><see cref="Java.Lang.Throwable"/></param>
-        public void Trace(Org.Slf4j.Marker arg0, Java.Lang.String arg1, MASES.JCOBridge.C2JBridge.JVMBridgeException arg2)
-        {
-            IExecuteWithSignature("trace", "(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Throwable;)V", arg0, arg1, arg2);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#trace-org.slf4j.Marker-java.lang.String-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        public void Trace(Org.Slf4j.Marker arg0, Java.Lang.String arg1)
-        {
-            IExecuteWithSignature("trace", "(Lorg/slf4j/Marker;Ljava/lang/String;)V", arg0, arg1);
-        }
-        /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#warn-java.lang.String-java.lang.Object-java.lang.Object-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
@@ -606,56 +361,6 @@ namespace Org.Apache.Maven.Cli.Logging
         public void Warn(Java.Lang.String arg0)
         {
             IExecuteWithSignature("warn", "(Ljava/lang/String;)V", arg0);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#warn-org.slf4j.Marker-java.lang.String-java.lang.Object-java.lang.Object-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg2"><see cref="object"/></param>
-        /// <param name="arg3"><see cref="object"/></param>
-        public void Warn(Org.Slf4j.Marker arg0, Java.Lang.String arg1, object arg2, object arg3)
-        {
-            IExecuteWithSignature("warn", "(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V", arg0, arg1, arg2, arg3);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#warn-org.slf4j.Marker-java.lang.String-java.lang.Object...-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg2"><see cref="object"/></param>
-        public void Warn(Org.Slf4j.Marker arg0, Java.Lang.String arg1, params object[] arg2)
-        {
-            if (arg2.Length == 0) IExecuteWithSignature("warn", "(Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V", arg0, arg1); else IExecuteWithSignature("warn", "(Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V", arg0, arg1, arg2);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#warn-org.slf4j.Marker-java.lang.String-java.lang.Object-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg2"><see cref="object"/></param>
-        public void Warn(Org.Slf4j.Marker arg0, Java.Lang.String arg1, object arg2)
-        {
-            IExecuteWithSignature("warn", "(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;)V", arg0, arg1, arg2);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#warn-org.slf4j.Marker-java.lang.String-java.lang.Throwable-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg2"><see cref="Java.Lang.Throwable"/></param>
-        public void Warn(Org.Slf4j.Marker arg0, Java.Lang.String arg1, MASES.JCOBridge.C2JBridge.JVMBridgeException arg2)
-        {
-            IExecuteWithSignature("warn", "(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Throwable;)V", arg0, arg1, arg2);
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#warn-org.slf4j.Marker-java.lang.String-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Marker"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        public void Warn(Org.Slf4j.Marker arg0, Java.Lang.String arg1)
-        {
-            IExecuteWithSignature("warn", "(Lorg/slf4j/Marker;Ljava/lang/String;)V", arg0, arg1);
         }
 
         #endregion

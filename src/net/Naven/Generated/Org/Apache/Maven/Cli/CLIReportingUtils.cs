@@ -132,17 +132,6 @@ namespace Org.Apache.Maven.Cli
         {
             return SExecuteWithSignature<Java.Lang.String>(LocalBridgeClazz, "showVersionMinimal", "()Ljava/lang/String;");
         }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CLIReportingUtils.html#showError-org.slf4j.Logger-java.lang.String-java.lang.Throwable-boolean-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Logger"/></param>
-        /// <param name="arg1"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg2"><see cref="Java.Lang.Throwable"/></param>
-        /// <param name="arg3"><see cref="bool"/></param>
-        public static void ShowError(Org.Slf4j.Logger arg0, Java.Lang.String arg1, MASES.JCOBridge.C2JBridge.JVMBridgeException arg2, bool arg3)
-        {
-            SExecuteWithSignature(LocalBridgeClazz, "showError", "(Lorg/slf4j/Logger;Ljava/lang/String;Ljava/lang/Throwable;Z)V", arg0, arg1, arg2, arg3);
-        }
 
         #endregion
 

@@ -29,7 +29,7 @@ namespace Org.Apache.Maven.Cli.Transfer
     /// <summary>
     /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/transfer/SimplexTransferListener.html"/>
     /// </summary>
-    public partial class SimplexTransferListener : Org.Eclipse.Aether.Transfer.AbstractTransferListener
+    public partial class SimplexTransferListener : MASES.JCOBridge.C2JBridge.JVMBridgeBase<SimplexTransferListener>
     {
         const string _bridgeClassName = "org.apache.maven.cli.transfer.SimplexTransferListener";
         /// <summary>
@@ -74,25 +74,6 @@ namespace Org.Apache.Maven.Cli.Transfer
     public partial class SimplexTransferListener
     {
         #region Constructors
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/transfer/SimplexTransferListener.html#org.apache.maven.cli.transfer.SimplexTransferListener(org.eclipse.aether.transfer.TransferListener,int,int,boolean)"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Eclipse.Aether.Transfer.TransferListener"/></param>
-        /// <param name="arg1"><see cref="int"/></param>
-        /// <param name="arg2"><see cref="int"/></param>
-        /// <param name="arg3"><see cref="bool"/></param>
-        public SimplexTransferListener(Org.Eclipse.Aether.Transfer.TransferListener arg0, int arg1, int arg2, bool arg3)
-            : base(arg0, arg1, arg2, arg3)
-        {
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/transfer/SimplexTransferListener.html#org.apache.maven.cli.transfer.SimplexTransferListener(org.eclipse.aether.transfer.TransferListener)"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Eclipse.Aether.Transfer.TransferListener"/></param>
-        public SimplexTransferListener(Org.Eclipse.Aether.Transfer.TransferListener arg0)
-            : base(arg0)
-        {
-        }
 
         #endregion
 
@@ -109,13 +90,6 @@ namespace Org.Apache.Maven.Cli.Transfer
         #endregion
 
         #region Instance methods
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/transfer/SimplexTransferListener.html#getDelegate--"/> 
-        /// </summary>
-        public Org.Eclipse.Aether.Transfer.TransferListener Delegate
-        {
-            get { return IExecuteWithSignature<Org.Eclipse.Aether.Transfer.TransferListener>("getDelegate", "()Lorg/eclipse/aether/transfer/TransferListener;"); }
-        }
 
         #endregion
 

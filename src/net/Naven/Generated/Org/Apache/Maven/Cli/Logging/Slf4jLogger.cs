@@ -29,7 +29,7 @@ namespace Org.Apache.Maven.Cli.Logging
     /// <summary>
     /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jLogger.html"/>
     /// </summary>
-    public partial class Slf4jLogger : Org.Codehaus.Plexus.Logging.Logger
+    public partial class Slf4jLogger : MASES.JCOBridge.C2JBridge.JVMBridgeBase<Slf4jLogger>
     {
         const string _bridgeClassName = "org.apache.maven.cli.logging.Slf4jLogger";
         /// <summary>
@@ -74,14 +74,6 @@ namespace Org.Apache.Maven.Cli.Logging
     public partial class Slf4jLogger
     {
         #region Constructors
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jLogger.html#org.apache.maven.cli.logging.Slf4jLogger(org.slf4j.Logger)"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Slf4j.Logger"/></param>
-        public Slf4jLogger(Org.Slf4j.Logger arg0)
-            : base(arg0)
-        {
-        }
 
         #endregion
 
@@ -151,15 +143,6 @@ namespace Org.Apache.Maven.Cli.Logging
         public bool IsWarnEnabled()
         {
             return IExecuteWithSignature<bool>("isWarnEnabled", "()Z");
-        }
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jLogger.html#getChildLogger-java.lang.String-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Java.Lang.String"/></param>
-        /// <returns><see cref="Org.Codehaus.Plexus.Logging.Logger"/></returns>
-        public Org.Codehaus.Plexus.Logging.Logger GetChildLogger(Java.Lang.String arg0)
-        {
-            return IExecuteWithSignature<Org.Codehaus.Plexus.Logging.Logger>("getChildLogger", "(Ljava/lang/String;)Lorg/codehaus/plexus/logging/Logger;", arg0);
         }
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jLogger.html#debug-java.lang.String-java.lang.Throwable-"/>

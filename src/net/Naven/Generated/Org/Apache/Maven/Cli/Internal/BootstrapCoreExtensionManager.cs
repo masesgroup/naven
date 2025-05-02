@@ -74,18 +74,6 @@ namespace Org.Apache.Maven.Cli.Internal
     public partial class BootstrapCoreExtensionManager
     {
         #region Constructors
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/BootstrapCoreExtensionManager.html#org.apache.maven.cli.internal.BootstrapCoreExtensionManager(org.codehaus.plexus.logging.Logger,org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver,org.apache.maven.internal.aether.DefaultRepositorySystemSessionFactory,org.apache.maven.extension.internal.CoreExports,org.codehaus.plexus.PlexusContainer)"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Codehaus.Plexus.Logging.Logger"/></param>
-        /// <param name="arg1"><see cref="Org.Apache.Maven.Plugin.Internal.DefaultPluginDependenciesResolver"/></param>
-        /// <param name="arg2"><see cref="Org.Apache.Maven.Internal.Aether.DefaultRepositorySystemSessionFactory"/></param>
-        /// <param name="arg3"><see cref="Org.Apache.Maven.Extension.Internal.CoreExports"/></param>
-        /// <param name="arg4"><see cref="Org.Codehaus.Plexus.PlexusContainer"/></param>
-        public BootstrapCoreExtensionManager(Org.Codehaus.Plexus.Logging.Logger arg0, Org.Apache.Maven.Plugin.Internal.DefaultPluginDependenciesResolver arg1, Org.Apache.Maven.Internal.Aether.DefaultRepositorySystemSessionFactory arg2, Org.Apache.Maven.Extension.Internal.CoreExports arg3, Org.Codehaus.Plexus.PlexusContainer arg4)
-            : base(arg0, arg1, arg2, arg3, arg4)
-        {
-        }
 
         #endregion
 
@@ -120,18 +108,6 @@ namespace Org.Apache.Maven.Cli.Internal
         #endregion
 
         #region Instance methods
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/BootstrapCoreExtensionManager.html#loadCoreExtensions-org.apache.maven.execution.MavenExecutionRequest-java.util.Set-java.util.List-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Apache.Maven.Execution.MavenExecutionRequest"/></param>
-        /// <param name="arg1"><see cref="Java.Util.Set"/></param>
-        /// <param name="arg2"><see cref="Java.Util.List"/></param>
-        /// <returns><see cref="Java.Util.List"/></returns>
-        /// <exception cref="Java.Lang.Exception"/>
-        public Java.Util.List<Org.Apache.Maven.Extension.Internal.CoreExtensionEntry> LoadCoreExtensions(Org.Apache.Maven.Execution.MavenExecutionRequest arg0, Java.Util.Set<Java.Lang.String> arg1, Java.Util.List<Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension> arg2)
-        {
-            return IExecuteWithSignature<Java.Util.List<Org.Apache.Maven.Extension.Internal.CoreExtensionEntry>>("loadCoreExtensions", "(Lorg/apache/maven/execution/MavenExecutionRequest;Ljava/util/Set;Ljava/util/List;)Ljava/util/List;", arg0, arg1, arg2);
-        }
 
         #endregion
 
