@@ -8,7 +8,7 @@
 
 RootModule = 'MASES.NavenPS.psm1'
 
-ModuleVersion = '3.0.3'
+ModuleVersion = '3.9.0'
 
 CompatiblePSEditions = 'Desktop', 'Core'
 
@@ -54,9 +54,7 @@ FunctionsToExport = @()
 
 CmdletsToExport = @(
     'Start-NavenPS',
-    'New-PDFObject',
-    'Open-PDF',
-    'Save-PDF'
+    'Start-Launcher'
 )
 
 VariablesToExport = '*'
@@ -73,7 +71,7 @@ PrivateData = @{
 
     PSData = @{
 
-        Tags = @('NavenPS', 'Naven', 'PSEdition_Core', 'PSEdition_Desktop', 'Windows', 'Linux', 'JVM', 'Java', 'Apache Maven', 'PDF', 'bridge', 'gateway')
+        Tags = @('NavenPS', 'Naven', 'PSEdition_Core', 'PSEdition_Desktop', 'Windows', 'Linux', 'JVM', 'Java', 'Apache Maven', 'Maven', 'bridge', 'gateway')
 
         LicenseUri = 'https://github.com/masesgroup/Naven/blob/master/LICENSE'
 

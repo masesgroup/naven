@@ -10,7 +10,7 @@
 ModuleToProcess = 'MASES.NavenPS.dll'
 
 # Version number of this module.
-ModuleVersion = '3.0.3'
+ModuleVersion = '3.9.0'
 
 # ID used to uniquely identify this module
 GUID = 'C2DD13E4-D287-4458-99A8-05F253337DC0'
@@ -72,9 +72,7 @@ FunctionsToExport = @()
 # Cmdlets to export from this module
 CmdletsToExport = @(
     'Start-NavenPS',
-    'New-PDFObject',
-    'Open-PDF',
-    'Save-PDF'
+    'Start-Launcher'
 )
 
 # Variables to export from this module
@@ -94,7 +92,7 @@ PrivateData = @{
 
     PSData = @{
 
-        Tags = @('NavenPS', 'Naven', 'PSEdition_Core', 'PSEdition_Desktop', 'Windows', 'Linux', 'JVM', 'Java', 'Apache Maven', 'PDF', 'bridge', 'gateway')
+        Tags = @('NavenPS', 'Naven', 'PSEdition_Core', 'PSEdition_Desktop', 'Windows', 'Linux', 'JVM', 'Java', 'Apache Maven', 'Maven', 'bridge', 'gateway')
 
         LicenseUri = 'https://github.com/masesgroup/Naven/blob/master/LICENSE'
 
