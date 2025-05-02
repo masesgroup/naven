@@ -17,6 +17,7 @@
   ],
   "NamespacesToAvoid": [
     "org.apache.commons.logging",
+    "org.apache.commons.cli",
     "org.apache.maven.eventspy",
     "org.apache.maven.execution",
     "org.apache.maven.extension",
