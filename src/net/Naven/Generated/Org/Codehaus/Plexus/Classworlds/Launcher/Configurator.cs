@@ -75,7 +75,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Launcher
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Configurator.html#org.codehaus.plexus.classworlds.launcher.Configurator(org.codehaus.plexus.classworlds.ClassWorld)"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Configurator.html#%3Cinit%3E(org.codehaus.plexus.classworlds.ClassWorld)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Codehaus.Plexus.Classworlds.ClassWorld"/></param>
         public Configurator(Org.Codehaus.Plexus.Classworlds.ClassWorld arg0)
@@ -83,7 +83,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Launcher
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Configurator.html#org.codehaus.plexus.classworlds.launcher.Configurator(org.codehaus.plexus.classworlds.launcher.Launcher)"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Configurator.html#%3Cinit%3E(org.codehaus.plexus.classworlds.launcher.Launcher)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Codehaus.Plexus.Classworlds.Launcher.Launcher"/></param>
         public Configurator(Org.Codehaus.Plexus.Classworlds.Launcher.Launcher arg0)
@@ -107,7 +107,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Launcher
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Configurator.html#addImportFrom-java.lang.String-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Configurator.html#addImportFrom(java.lang.String,java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -117,7 +117,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Launcher
             IExecute("addImportFrom", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Configurator.html#addLoadFile-java.io.File-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Configurator.html#addLoadFile(java.io.File)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.File"/></param>
         public void AddLoadFile(Java.Io.File arg0)
@@ -125,7 +125,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Launcher
             IExecuteWithSignature("addLoadFile", "(Ljava/io/File;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Configurator.html#addLoadURL-java.net.URL-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Configurator.html#addLoadURL(java.net.URL)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Net.URL"/></param>
         public void AddLoadURL(Java.Net.URL arg0)
@@ -133,7 +133,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Launcher
             IExecuteWithSignature("addLoadURL", "(Ljava/net/URL;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Configurator.html#addRealm-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Configurator.html#addRealm(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <exception cref="Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException"/>
@@ -142,14 +142,14 @@ namespace Org.Codehaus.Plexus.Classworlds.Launcher
             IExecute("addRealm", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Configurator.html#associateRealms--"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Configurator.html#associateRealms()"/>
         /// </summary>
         public void AssociateRealms()
         {
             IExecuteWithSignature("associateRealms", "()V");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Configurator.html#configure-java.io.InputStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Configurator.html#configure(java.io.InputStream)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.InputStream"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -161,7 +161,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Launcher
             IExecute("configure", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Configurator.html#setAppMain-java.lang.String-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Configurator.html#setAppMain(java.lang.String,java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -170,7 +170,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Launcher
             IExecuteWithSignature("setAppMain", "(Ljava/lang/String;Ljava/lang/String;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Configurator.html#setClassWorld-org.codehaus.plexus.classworlds.ClassWorld-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/Configurator.html#setClassWorld(org.codehaus.plexus.classworlds.ClassWorld)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Codehaus.Plexus.Classworlds.ClassWorld"/></param>
         public void SetClassWorld(Org.Codehaus.Plexus.Classworlds.ClassWorld arg0)

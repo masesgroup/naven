@@ -75,7 +75,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Realm
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#org.codehaus.plexus.classworlds.realm.ClassRealm(org.codehaus.plexus.classworlds.ClassWorld,java.lang.String,java.lang.ClassLoader)"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#%3Cinit%3E(org.codehaus.plexus.classworlds.ClassWorld,java.lang.String,java.lang.ClassLoader)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Codehaus.Plexus.Classworlds.ClassWorld"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -101,49 +101,49 @@ namespace Org.Codehaus.Plexus.Classworlds.Realm
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getId--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getId()"/> 
         /// </summary>
         public Java.Lang.String Id
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getId", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getImportRealms--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getImportRealms()"/> 
         /// </summary>
         public Java.Util.Collection<Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm> ImportRealms
         {
             get { return IExecute<Java.Util.Collection<Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm>>("getImportRealms"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getParentClassLoader--"/> <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#setParentClassLoader-java.lang.ClassLoader-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getParentClassLoader()"/> <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#setParentClassLoader(java.lang.ClassLoader)"/>
         /// </summary>
         public Java.Lang.ClassLoader ParentClassLoader
         {
             get { return IExecuteWithSignature<Java.Lang.ClassLoader>("getParentClassLoader", "()Ljava/lang/ClassLoader;"); } set { IExecuteWithSignature("setParentClassLoader", "(Ljava/lang/ClassLoader;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getParentRealm--"/> <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#setParentRealm-org.codehaus.plexus.classworlds.realm.ClassRealm-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getParentRealm()"/> <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#setParentRealm(org.codehaus.plexus.classworlds.realm.ClassRealm)"/>
         /// </summary>
         public Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm ParentRealm
         {
             get { return IExecute<Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm>("getParentRealm"); } set { IExecute("setParentRealm", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getStrategy--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getStrategy()"/> 
         /// </summary>
         public Org.Codehaus.Plexus.Classworlds.Strategy.Strategy Strategy
         {
             get { return IExecute<Org.Codehaus.Plexus.Classworlds.Strategy.Strategy>("getStrategy"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getWorld--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getWorld()"/> 
         /// </summary>
         public Org.Codehaus.Plexus.Classworlds.ClassWorld World
         {
             get { return IExecute<Org.Codehaus.Plexus.Classworlds.ClassWorld>("getWorld"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadClassFromImport-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadClassFromImport(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Lang.Class"/></returns>
@@ -152,7 +152,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Realm
             return IExecuteWithSignature<Java.Lang.Class>("loadClassFromImport", "(Ljava/lang/String;)Ljava/lang/Class;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadClassFromParent-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadClassFromParent(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Lang.Class"/></returns>
@@ -161,7 +161,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Realm
             return IExecuteWithSignature<Java.Lang.Class>("loadClassFromParent", "(Ljava/lang/String;)Ljava/lang/Class;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadClassFromSelf-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadClassFromSelf(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Lang.Class"/></returns>
@@ -170,7 +170,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Realm
             return IExecuteWithSignature<Java.Lang.Class>("loadClassFromSelf", "(Ljava/lang/String;)Ljava/lang/Class;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getImportClassLoader-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getImportClassLoader(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Lang.ClassLoader"/></returns>
@@ -179,7 +179,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Realm
             return IExecuteWithSignature<Java.Lang.ClassLoader>("getImportClassLoader", "(Ljava/lang/String;)Ljava/lang/ClassLoader;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourceFromImport-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourceFromImport(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Net.URL"/></returns>
@@ -188,7 +188,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Realm
             return IExecuteWithSignature<Java.Net.URL>("loadResourceFromImport", "(Ljava/lang/String;)Ljava/net/URL;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourceFromParent-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourceFromParent(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Net.URL"/></returns>
@@ -197,7 +197,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Realm
             return IExecuteWithSignature<Java.Net.URL>("loadResourceFromParent", "(Ljava/lang/String;)Ljava/net/URL;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourceFromSelf-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourceFromSelf(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Net.URL"/></returns>
@@ -206,7 +206,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Realm
             return IExecuteWithSignature<Java.Net.URL>("loadResourceFromSelf", "(Ljava/lang/String;)Ljava/net/URL;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourcesFromImport-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourcesFromImport(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Util.Enumeration"/></returns>
@@ -215,7 +215,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Realm
             return IExecuteWithSignature<Java.Util.Enumeration<Java.Net.URL>>("loadResourcesFromImport", "(Ljava/lang/String;)Ljava/util/Enumeration;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourcesFromParent-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourcesFromParent(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Util.Enumeration"/></returns>
@@ -224,7 +224,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Realm
             return IExecuteWithSignature<Java.Util.Enumeration<Java.Net.URL>>("loadResourcesFromParent", "(Ljava/lang/String;)Ljava/util/Enumeration;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourcesFromSelf-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourcesFromSelf(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Util.Enumeration"/></returns>
@@ -233,7 +233,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Realm
             return IExecuteWithSignature<Java.Util.Enumeration<Java.Net.URL>>("loadResourcesFromSelf", "(Ljava/lang/String;)Ljava/util/Enumeration;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#createChildRealm-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#createChildRealm(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm"/></returns>
@@ -243,7 +243,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Realm
             return IExecute<Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm>("createChildRealm", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#addURL-java.net.URL-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#addURL(java.net.URL)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Net.URL"/></param>
         public void AddURL(Java.Net.URL arg0)
@@ -251,14 +251,14 @@ namespace Org.Codehaus.Plexus.Classworlds.Realm
             IExecuteWithSignature("addURL", "(Ljava/net/URL;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#display--"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#display()"/>
         /// </summary>
         public void Display()
         {
             IExecuteWithSignature("display", "()V");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#display-java.io.PrintStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#display(java.io.PrintStream)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.PrintStream"/></param>
         public void Display(Java.Io.PrintStream arg0)
@@ -266,7 +266,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Realm
             IExecuteWithSignature("display", "(Ljava/io/PrintStream;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#importFrom-java.lang.ClassLoader-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#importFrom(java.lang.ClassLoader,java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.ClassLoader"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -275,7 +275,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Realm
             IExecuteWithSignature("importFrom", "(Ljava/lang/ClassLoader;Ljava/lang/String;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#importFrom-java.lang.String-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#importFrom(java.lang.String,java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -285,7 +285,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Realm
             IExecute("importFrom", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#importFromParent-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#importFromParent(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         public void ImportFromParent(Java.Lang.String arg0)

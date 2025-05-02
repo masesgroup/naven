@@ -75,7 +75,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Launcher
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationParser.html#org.codehaus.plexus.classworlds.launcher.ConfigurationParser(org.codehaus.plexus.classworlds.launcher.ConfigurationHandler,java.util.Properties)"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationParser.html#%3Cinit%3E(org.codehaus.plexus.classworlds.launcher.ConfigurationHandler,java.util.Properties)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler"/></param>
         /// <param name="arg1"><see cref="Java.Util.Properties"/></param>
@@ -130,7 +130,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Launcher
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationParser.html#parse-java.io.InputStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationParser.html#parse(java.io.InputStream)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.InputStream"/></param>
         /// <exception cref="Java.Io.IOException"/>

@@ -15,7 +15,7 @@
 		<RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(GITHUB_SIMPLIFIED_GENERATION)' == 'true'">
-		<DefineConstants>$(DefineConstants);NETPDF_SIMPLIFIED_GENERATION</DefineConstants>
+		<DefineConstants>$(DefineConstants);NAVEN_SIMPLIFIED_GENERATION</DefineConstants>
 	</PropertyGroup>
 	<Target Name="CopyCustomContent" AfterTargets="AfterBuild" Condition="'$(GITHUB_ACTIONS)' != 'true' Or '$(GITHUB_TEST_PREPARATION)' == 'true'">
 		<Copy SourceFiles="@(naven_jars)" DestinationFolder="$(OutDir)\jars" />

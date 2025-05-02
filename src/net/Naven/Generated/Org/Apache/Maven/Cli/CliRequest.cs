@@ -91,42 +91,42 @@ namespace Org.Apache.Maven.Cli
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CliRequest.html#getArgs--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CliRequest.html#getArgs()"/> 
         /// </summary>
         public Java.Lang.String[] Args
         {
             get { return IExecuteWithSignatureArray<Java.Lang.String>("getArgs", "()[Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CliRequest.html#getMultiModuleProjectDirectory--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CliRequest.html#getMultiModuleProjectDirectory()"/> 
         /// </summary>
         public Java.Io.File MultiModuleProjectDirectory
         {
             get { return IExecuteWithSignature<Java.Io.File>("getMultiModuleProjectDirectory", "()Ljava/io/File;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CliRequest.html#getSystemProperties--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CliRequest.html#getSystemProperties()"/> 
         /// </summary>
         public Java.Util.Properties SystemProperties
         {
             get { return IExecuteWithSignature<Java.Util.Properties>("getSystemProperties", "()Ljava/util/Properties;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CliRequest.html#getUserProperties--"/> <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CliRequest.html#setUserProperties-java.util.Properties-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CliRequest.html#getUserProperties()"/> <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CliRequest.html#setUserProperties(java.util.Properties)"/>
         /// </summary>
         public Java.Util.Properties UserProperties
         {
             get { return IExecuteWithSignature<Java.Util.Properties>("getUserProperties", "()Ljava/util/Properties;"); } set { IExecuteWithSignature("setUserProperties", "(Ljava/util/Properties;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CliRequest.html#getWorkingDirectory--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CliRequest.html#getWorkingDirectory()"/> 
         /// </summary>
         public Java.Lang.String WorkingDirectory
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getWorkingDirectory", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CliRequest.html#isDebug--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CliRequest.html#isDebug()"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsDebug()
@@ -134,7 +134,7 @@ namespace Org.Apache.Maven.Cli
             return IExecuteWithSignature<bool>("isDebug", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CliRequest.html#isQuiet--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CliRequest.html#isQuiet()"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsQuiet()
@@ -142,7 +142,7 @@ namespace Org.Apache.Maven.Cli
             return IExecuteWithSignature<bool>("isQuiet", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CliRequest.html#isShowErrors--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CliRequest.html#isShowErrors()"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsShowErrors()

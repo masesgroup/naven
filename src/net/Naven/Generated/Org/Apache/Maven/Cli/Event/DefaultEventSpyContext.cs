@@ -91,7 +91,7 @@ namespace Org.Apache.Maven.Cli.Event
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/event/DefaultEventSpyContext.html#getData--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/event/DefaultEventSpyContext.html#getData()"/> 
         /// </summary>
         public Java.Util.Map<Java.Lang.String, object> Data
         {

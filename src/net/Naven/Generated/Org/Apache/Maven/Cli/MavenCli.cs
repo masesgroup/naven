@@ -129,7 +129,7 @@ namespace Org.Apache.Maven.Cli
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/MavenCli.html#main-java.lang.String[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/MavenCli.html#main(java.lang.String[])"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         public static void Main(Java.Lang.String[] arg0)
@@ -141,7 +141,7 @@ namespace Org.Apache.Maven.Cli
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/MavenCli.html#doMain-java.lang.String[]-java.lang.String-java.io.PrintStream-java.io.PrintStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/MavenCli.html#doMain(java.lang.String[],java.lang.String,java.io.PrintStream,java.io.PrintStream)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -153,7 +153,7 @@ namespace Org.Apache.Maven.Cli
             return IExecuteWithSignature<int>("doMain", "([Ljava/lang/String;Ljava/lang/String;Ljava/io/PrintStream;Ljava/io/PrintStream;)I", arg0, arg1, arg2, arg3);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/MavenCli.html#doMain-org.apache.maven.cli.CliRequest-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/MavenCli.html#doMain(org.apache.maven.cli.CliRequest)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Maven.Cli.CliRequest"/></param>
         /// <returns><see cref="int"/></returns>

@@ -75,7 +75,7 @@ namespace Org.Apache.Maven.Cli.Transfer
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/transfer/ConsoleMavenTransferListener.html#org.apache.maven.cli.transfer.ConsoleMavenTransferListener(java.io.PrintStream,boolean)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/transfer/ConsoleMavenTransferListener.html#%3Cinit%3E(java.io.PrintStream,boolean)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.PrintStream"/></param>
         /// <param name="arg1"><see cref="bool"/></param>

@@ -301,7 +301,7 @@ namespace Org.Apache.Maven.Cli
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CLIManager.html#displayHelp-java.io.PrintStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CLIManager.html#displayHelp(java.io.PrintStream)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.PrintStream"/></param>
         public void DisplayHelp(Java.Io.PrintStream arg0)

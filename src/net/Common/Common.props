@@ -22,12 +22,12 @@
 		<!--see https://learn.microsoft.com/en-us/dotnet/core/compatibility/interop/9.0/cet-support-->
 		<CETCompat>false</CETCompat>
 	</PropertyGroup>
-	<PropertyGroup Condition="'$(NETPDF_DOCKER_BUILD_ACTIONS)' != 'true'">
+	<PropertyGroup Condition="'$(NAVEN_DOCKER_BUILD_ACTIONS)' != 'true'">
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<TargetFrameworks>net462;net8.0;net9.0</TargetFrameworks>
 	</PropertyGroup>
-	<PropertyGroup Condition="'$(NETPDF_DOCKER_BUILD_ACTIONS)' == 'true'">
-		<DefineConstants>$(DefineConstants);NETPDF_DOCKER_BUILD_ACTIONS</DefineConstants>
+	<PropertyGroup Condition="'$(NAVEN_DOCKER_BUILD_ACTIONS)' == 'true'">
+		<DefineConstants>$(DefineConstants);NAVEN_DOCKER_BUILD_ACTIONS</DefineConstants>
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 		<TargetFramework>net8.0</TargetFramework>
 	</PropertyGroup>
@@ -35,7 +35,7 @@
 		<naven_jars Include="$(ProjectDir)\..\..\..\jars\**\*.*"/>
 		<naven_config Include="$(ProjectDir)\..\..\config\**\*.*" />
 	</ItemGroup>
-	<ItemGroup Condition="'$(NETPDF_DOCKER_BUILD_ACTIONS)' != 'true'">
+	<ItemGroup Condition="'$(NAVEN_DOCKER_BUILD_ACTIONS)' != 'true'">
 		<None Include="..\..\..\LICENSE" Pack="true" PackagePath="" />
 	</ItemGroup>
 	<ItemGroup>

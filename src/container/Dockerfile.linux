@@ -4,7 +4,7 @@ WORKDIR /app
 
 # Copy everything
 COPY ./src/net ./
-ENV NETPDF_DOCKER_BUILD_ACTIONS=true
+ENV NAVEN_DOCKER_BUILD_ACTIONS=true
 # Restore as distinct layers
 RUN dotnet restore NavenDocker.sln -a $TARGETARCH
 # Build and publish a release

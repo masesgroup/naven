@@ -141,7 +141,7 @@ namespace Org.Codehaus.Plexus.Classworlds
         }
 
         /// <summary>
-        /// Handler for <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorldListener.html#realmCreated-org.codehaus.plexus.classworlds.realm.ClassRealm-"/>
+        /// Handler for <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorldListener.html#realmCreated(org.codehaus.plexus.classworlds.realm.ClassRealm)"/>
         /// </summary>
         /// <remarks>If <see cref="OnRealmCreated"/> has a value it takes precedence over corresponding class method</remarks>
         public global::System.Action<Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm> OnRealmCreated { get; set; } = null;
@@ -156,7 +156,7 @@ namespace Org.Codehaus.Plexus.Classworlds
         }
 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorldListener.html#realmCreated-org.codehaus.plexus.classworlds.realm.ClassRealm-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorldListener.html#realmCreated(org.codehaus.plexus.classworlds.realm.ClassRealm)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm"/></param>
         public virtual void RealmCreated(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm arg0)
@@ -165,7 +165,7 @@ namespace Org.Codehaus.Plexus.Classworlds
         }
 
         /// <summary>
-        /// Handler for <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorldListener.html#realmDisposed-org.codehaus.plexus.classworlds.realm.ClassRealm-"/>
+        /// Handler for <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorldListener.html#realmDisposed(org.codehaus.plexus.classworlds.realm.ClassRealm)"/>
         /// </summary>
         /// <remarks>If <see cref="OnRealmDisposed"/> has a value it takes precedence over corresponding class method</remarks>
         public global::System.Action<Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm> OnRealmDisposed { get; set; } = null;
@@ -180,7 +180,7 @@ namespace Org.Codehaus.Plexus.Classworlds
         }
 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorldListener.html#realmDisposed-org.codehaus.plexus.classworlds.realm.ClassRealm-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorldListener.html#realmDisposed(org.codehaus.plexus.classworlds.realm.ClassRealm)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm"/></param>
         public virtual void RealmDisposed(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm arg0)
@@ -219,7 +219,7 @@ namespace Org.Codehaus.Plexus.Classworlds
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorldListener.html#realmCreated-org.codehaus.plexus.classworlds.realm.ClassRealm-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorldListener.html#realmCreated(org.codehaus.plexus.classworlds.realm.ClassRealm)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm"/></param>
         public override void RealmCreated(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm arg0)
@@ -227,7 +227,7 @@ namespace Org.Codehaus.Plexus.Classworlds
             IExecute("realmCreated", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorldListener.html#realmDisposed-org.codehaus.plexus.classworlds.realm.ClassRealm-"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/ClassWorldListener.html#realmDisposed(org.codehaus.plexus.classworlds.realm.ClassRealm)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm"/></param>
         public override void RealmDisposed(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm arg0)

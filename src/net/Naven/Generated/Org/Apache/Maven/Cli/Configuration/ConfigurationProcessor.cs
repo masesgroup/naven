@@ -111,7 +111,7 @@ namespace Org.Apache.Maven.Cli.Configuration
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/configuration/ConfigurationProcessor.html#process-org.apache.maven.cli.CliRequest-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/configuration/ConfigurationProcessor.html#process(org.apache.maven.cli.CliRequest)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Maven.Cli.CliRequest"/></param>
         /// <exception cref="Java.Lang.Exception"/>

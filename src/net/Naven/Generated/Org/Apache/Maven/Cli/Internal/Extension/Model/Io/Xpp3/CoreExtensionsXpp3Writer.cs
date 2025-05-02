@@ -91,7 +91,7 @@ namespace Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Writer.html#setFileComment-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Writer.html#setFileComment(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         public void SetFileComment(Java.Lang.String arg0)
@@ -99,7 +99,7 @@ namespace Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3
             IExecuteWithSignature("setFileComment", "(Ljava/lang/String;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Writer.html#write-java.io.OutputStream-org.apache.maven.cli.internal.extension.model.CoreExtensions-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Writer.html#write(java.io.OutputStream,org.apache.maven.cli.internal.extension.model.CoreExtensions)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.OutputStream"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions"/></param>
@@ -109,7 +109,7 @@ namespace Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3
             IExecuteWithSignature("write", "(Ljava/io/OutputStream;Lorg/apache/maven/cli/internal/extension/model/CoreExtensions;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Writer.html#write-java.io.Writer-org.apache.maven.cli.internal.extension.model.CoreExtensions-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Writer.html#write(java.io.Writer,org.apache.maven.cli.internal.extension.model.CoreExtensions)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.Writer"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions"/></param>

@@ -122,7 +122,7 @@ namespace Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Reader.html#org.apache.maven.cli.internal.extension.model.io.xpp3.CoreExtensionsXpp3Reader(org.apache.maven.cli.internal.extension.model.io.xpp3.CoreExtensionsXpp3Reader.ContentTransformer)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Reader.html#%3Cinit%3E(org.apache.maven.cli.internal.extension.model.io.xpp3.CoreExtensionsXpp3Reader.ContentTransformer)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer"/></param>
         public CoreExtensionsXpp3Reader(Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer arg0)
@@ -152,14 +152,14 @@ namespace Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Reader.html#getAddDefaultEntities--"/> <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Reader.html#setAddDefaultEntities-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Reader.html#getAddDefaultEntities()"/> <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Reader.html#setAddDefaultEntities(boolean)"/>
         /// </summary>
         public bool AddDefaultEntities
         {
             get { return IExecuteWithSignature<bool>("getAddDefaultEntities", "()Z"); } set { IExecuteWithSignature("setAddDefaultEntities", "(Z)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Reader.html#read-java.io.InputStream-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Reader.html#read(java.io.InputStream,boolean)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.InputStream"/></param>
         /// <param name="arg1"><see cref="bool"/></param>
@@ -171,7 +171,7 @@ namespace Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3
             return IExecuteWithSignature<Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions>("read", "(Ljava/io/InputStream;Z)Lorg/apache/maven/cli/internal/extension/model/CoreExtensions;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Reader.html#read-java.io.InputStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Reader.html#read(java.io.InputStream)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.InputStream"/></param>
         /// <returns><see cref="Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions"/></returns>
@@ -182,7 +182,7 @@ namespace Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3
             return IExecuteWithSignature<Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions>("read", "(Ljava/io/InputStream;)Lorg/apache/maven/cli/internal/extension/model/CoreExtensions;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Reader.html#read-java.io.Reader-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Reader.html#read(java.io.Reader,boolean)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.Reader"/></param>
         /// <param name="arg1"><see cref="bool"/></param>
@@ -194,7 +194,7 @@ namespace Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3
             return IExecuteWithSignature<Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions>("read", "(Ljava/io/Reader;Z)Lorg/apache/maven/cli/internal/extension/model/CoreExtensions;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Reader.html#read-java.io.Reader-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Reader.html#read(java.io.Reader)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.Reader"/></param>
         /// <returns><see cref="Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions"/></returns>
@@ -229,7 +229,7 @@ namespace Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3
 
             #region Instance methods
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Reader.ContentTransformer.html#transform-java.lang.String-java.lang.String-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/internal/extension/model/io/xpp3/CoreExtensionsXpp3Reader.ContentTransformer.html#transform(java.lang.String,java.lang.String)"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.String"/></param>
             /// <param name="arg1"><see cref="Java.Lang.String"/></param>

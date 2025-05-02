@@ -75,7 +75,7 @@ namespace Org.Codehaus.Plexus.Classworlds.Realm
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/FilteredClassRealm.html#org.codehaus.plexus.classworlds.realm.FilteredClassRealm(java.util.function.Predicate,org.codehaus.plexus.classworlds.ClassWorld,java.lang.String,java.lang.ClassLoader)"/>
+        /// <see href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/FilteredClassRealm.html#%3Cinit%3E(java.util.function.Predicate,org.codehaus.plexus.classworlds.ClassWorld,java.lang.String,java.lang.ClassLoader)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Util.Function.Predicate"/></param>
         /// <param name="arg1"><see cref="Org.Codehaus.Plexus.Classworlds.ClassWorld"/></param>

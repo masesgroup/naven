@@ -91,14 +91,14 @@ namespace Org.Apache.Maven.Cli.Logging
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#getName--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#getName()"/> 
         /// </summary>
         public Java.Lang.String Name
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getName", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#isDebugEnabled--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#isDebugEnabled()"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsDebugEnabled()
@@ -106,7 +106,7 @@ namespace Org.Apache.Maven.Cli.Logging
             return IExecuteWithSignature<bool>("isDebugEnabled", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#isErrorEnabled--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#isErrorEnabled()"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsErrorEnabled()
@@ -114,7 +114,7 @@ namespace Org.Apache.Maven.Cli.Logging
             return IExecuteWithSignature<bool>("isErrorEnabled", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#isInfoEnabled--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#isInfoEnabled()"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsInfoEnabled()
@@ -122,7 +122,7 @@ namespace Org.Apache.Maven.Cli.Logging
             return IExecuteWithSignature<bool>("isInfoEnabled", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#isTraceEnabled--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#isTraceEnabled()"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsTraceEnabled()
@@ -130,7 +130,7 @@ namespace Org.Apache.Maven.Cli.Logging
             return IExecuteWithSignature<bool>("isTraceEnabled", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#isWarnEnabled--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#isWarnEnabled()"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsWarnEnabled()
@@ -138,7 +138,7 @@ namespace Org.Apache.Maven.Cli.Logging
             return IExecuteWithSignature<bool>("isWarnEnabled", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#debug-java.lang.String-java.lang.Object-java.lang.Object-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#debug(java.lang.String,java.lang.Object,java.lang.Object)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="object"/></param>
@@ -148,7 +148,7 @@ namespace Org.Apache.Maven.Cli.Logging
             IExecuteWithSignature("debug", "(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#debug-java.lang.String-java.lang.Object...-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#debug(java.lang.String,java.lang.Object...)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="object"/></param>
@@ -157,7 +157,7 @@ namespace Org.Apache.Maven.Cli.Logging
             if (arg1.Length == 0) IExecuteWithSignature("debug", "(Ljava/lang/String;[Ljava/lang/Object;)V", arg0); else IExecuteWithSignature("debug", "(Ljava/lang/String;[Ljava/lang/Object;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#debug-java.lang.String-java.lang.Object-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#debug(java.lang.String,java.lang.Object)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="object"/></param>
@@ -166,7 +166,7 @@ namespace Org.Apache.Maven.Cli.Logging
             IExecuteWithSignature("debug", "(Ljava/lang/String;Ljava/lang/Object;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#debug-java.lang.String-java.lang.Throwable-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#debug(java.lang.String,java.lang.Throwable)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.Throwable"/></param>
@@ -175,7 +175,7 @@ namespace Org.Apache.Maven.Cli.Logging
             IExecuteWithSignature("debug", "(Ljava/lang/String;Ljava/lang/Throwable;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#debug-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#debug(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         public void Debug(Java.Lang.String arg0)
@@ -183,7 +183,7 @@ namespace Org.Apache.Maven.Cli.Logging
             IExecuteWithSignature("debug", "(Ljava/lang/String;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#error-java.lang.String-java.lang.Object-java.lang.Object-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#error(java.lang.String,java.lang.Object,java.lang.Object)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="object"/></param>
@@ -193,7 +193,7 @@ namespace Org.Apache.Maven.Cli.Logging
             IExecuteWithSignature("error", "(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#error-java.lang.String-java.lang.Object...-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#error(java.lang.String,java.lang.Object...)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="object"/></param>
@@ -202,7 +202,7 @@ namespace Org.Apache.Maven.Cli.Logging
             if (arg1.Length == 0) IExecuteWithSignature("error", "(Ljava/lang/String;[Ljava/lang/Object;)V", arg0); else IExecuteWithSignature("error", "(Ljava/lang/String;[Ljava/lang/Object;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#error-java.lang.String-java.lang.Object-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#error(java.lang.String,java.lang.Object)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="object"/></param>
@@ -211,7 +211,7 @@ namespace Org.Apache.Maven.Cli.Logging
             IExecuteWithSignature("error", "(Ljava/lang/String;Ljava/lang/Object;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#error-java.lang.String-java.lang.Throwable-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#error(java.lang.String,java.lang.Throwable)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.Throwable"/></param>
@@ -220,7 +220,7 @@ namespace Org.Apache.Maven.Cli.Logging
             IExecuteWithSignature("error", "(Ljava/lang/String;Ljava/lang/Throwable;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#error-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#error(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         public void Error(Java.Lang.String arg0)
@@ -228,7 +228,7 @@ namespace Org.Apache.Maven.Cli.Logging
             IExecuteWithSignature("error", "(Ljava/lang/String;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#info-java.lang.String-java.lang.Object-java.lang.Object-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#info(java.lang.String,java.lang.Object,java.lang.Object)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="object"/></param>
@@ -238,7 +238,7 @@ namespace Org.Apache.Maven.Cli.Logging
             IExecuteWithSignature("info", "(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#info-java.lang.String-java.lang.Object...-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#info(java.lang.String,java.lang.Object...)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="object"/></param>
@@ -247,7 +247,7 @@ namespace Org.Apache.Maven.Cli.Logging
             if (arg1.Length == 0) IExecuteWithSignature("info", "(Ljava/lang/String;[Ljava/lang/Object;)V", arg0); else IExecuteWithSignature("info", "(Ljava/lang/String;[Ljava/lang/Object;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#info-java.lang.String-java.lang.Object-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#info(java.lang.String,java.lang.Object)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="object"/></param>
@@ -256,7 +256,7 @@ namespace Org.Apache.Maven.Cli.Logging
             IExecuteWithSignature("info", "(Ljava/lang/String;Ljava/lang/Object;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#info-java.lang.String-java.lang.Throwable-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#info(java.lang.String,java.lang.Throwable)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.Throwable"/></param>
@@ -265,7 +265,7 @@ namespace Org.Apache.Maven.Cli.Logging
             IExecuteWithSignature("info", "(Ljava/lang/String;Ljava/lang/Throwable;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#info-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#info(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         public void Info(Java.Lang.String arg0)
@@ -273,7 +273,7 @@ namespace Org.Apache.Maven.Cli.Logging
             IExecuteWithSignature("info", "(Ljava/lang/String;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#trace-java.lang.String-java.lang.Object-java.lang.Object-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#trace(java.lang.String,java.lang.Object,java.lang.Object)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="object"/></param>
@@ -283,7 +283,7 @@ namespace Org.Apache.Maven.Cli.Logging
             IExecuteWithSignature("trace", "(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#trace-java.lang.String-java.lang.Object...-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#trace(java.lang.String,java.lang.Object...)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="object"/></param>
@@ -292,7 +292,7 @@ namespace Org.Apache.Maven.Cli.Logging
             if (arg1.Length == 0) IExecuteWithSignature("trace", "(Ljava/lang/String;[Ljava/lang/Object;)V", arg0); else IExecuteWithSignature("trace", "(Ljava/lang/String;[Ljava/lang/Object;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#trace-java.lang.String-java.lang.Object-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#trace(java.lang.String,java.lang.Object)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="object"/></param>
@@ -301,7 +301,7 @@ namespace Org.Apache.Maven.Cli.Logging
             IExecuteWithSignature("trace", "(Ljava/lang/String;Ljava/lang/Object;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#trace-java.lang.String-java.lang.Throwable-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#trace(java.lang.String,java.lang.Throwable)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.Throwable"/></param>
@@ -310,7 +310,7 @@ namespace Org.Apache.Maven.Cli.Logging
             IExecuteWithSignature("trace", "(Ljava/lang/String;Ljava/lang/Throwable;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#trace-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#trace(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         public void Trace(Java.Lang.String arg0)
@@ -318,7 +318,7 @@ namespace Org.Apache.Maven.Cli.Logging
             IExecuteWithSignature("trace", "(Ljava/lang/String;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#warn-java.lang.String-java.lang.Object-java.lang.Object-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#warn(java.lang.String,java.lang.Object,java.lang.Object)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="object"/></param>
@@ -328,7 +328,7 @@ namespace Org.Apache.Maven.Cli.Logging
             IExecuteWithSignature("warn", "(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#warn-java.lang.String-java.lang.Object...-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#warn(java.lang.String,java.lang.Object...)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="object"/></param>
@@ -337,7 +337,7 @@ namespace Org.Apache.Maven.Cli.Logging
             if (arg1.Length == 0) IExecuteWithSignature("warn", "(Ljava/lang/String;[Ljava/lang/Object;)V", arg0); else IExecuteWithSignature("warn", "(Ljava/lang/String;[Ljava/lang/Object;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#warn-java.lang.String-java.lang.Object-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#warn(java.lang.String,java.lang.Object)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="object"/></param>
@@ -346,7 +346,7 @@ namespace Org.Apache.Maven.Cli.Logging
             IExecuteWithSignature("warn", "(Ljava/lang/String;Ljava/lang/Object;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#warn-java.lang.String-java.lang.Throwable-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#warn(java.lang.String,java.lang.Throwable)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.Throwable"/></param>
@@ -355,7 +355,7 @@ namespace Org.Apache.Maven.Cli.Logging
             IExecuteWithSignature("warn", "(Ljava/lang/String;Ljava/lang/Throwable;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#warn-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/logging/Slf4jStdoutLogger.html#warn(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         public void Warn(Java.Lang.String arg0)
