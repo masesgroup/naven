@@ -17,13 +17,18 @@
 */
 
 using Java.Io;
+using MASES.JCOBridge.C2JBridge;
+using MASES.JNet.Specific.Extensions;
+using MASES.JNetPSCore;
+using Org.Codehaus.Plexus.Classworlds.Launcher;
 using System;
 using System.Management.Automation;
+using System.Reflection;
 
 namespace MASES.NavenPS.Cmdlet
 {
     [Cmdlet(VerbsLifecycle.Start, "Launcher")]
-    public class OpenPdfCmdletCommand : NavenPSCmdlet
+    public class StartLauncherCmdletCommand : NavenPSCmdlet
     {
         [Parameter(
             Mandatory = true,
@@ -36,23 +41,26 @@ namespace MASES.NavenPS.Cmdlet
         // This method gets called once for each cmdlet in the pipeline when the pipeline starts executing
         protected override void BeginProcessing()
         {
-            WriteVerbose("Begin OpenPdfCmdletCommand!");
+            WriteVerbose("Begin StartLauncherCmdletCommand!");
         }
 
         // This method will be called for each input received from the pipeline to this cmdlet; if no input is received, this method is not called
         protected override void ProcessCommand()
         {
-            /*
-            File pdfFile = new File(PdfFile);
-            var document = Loader.LoadPDF(pdfFile);
-            WriteObject(document);
-            */
+            string[] arguments = Array.Empty<string>();
+            if (Arguments != null)
+            {
+                arguments = Arguments.Split(' ');
+            }
+
+            var result = Launcher.MainWithExitCode(arguments.ToJVMArray<Java.Lang.String, string>());
+            WriteObject(result);
         }
 
         // This method will be called once at the end of pipeline execution; if no input is received, this method is not called
         protected override void EndProcessing()
         {
-            WriteVerbose("End OpenPdfCmdletCommand!");
+            WriteVerbose("End StartLauncherCmdletCommand!");
         }
     }
 }
