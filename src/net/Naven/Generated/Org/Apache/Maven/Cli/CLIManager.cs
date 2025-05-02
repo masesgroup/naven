@@ -301,16 +301,6 @@ namespace Org.Apache.Maven.Cli
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CLIManager.html#parse-java.lang.String[]-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Java.Lang.String"/></param>
-        /// <returns><see cref="Org.Apache.Commons.Cli.CommandLine"/></returns>
-        /// <exception cref="Org.Apache.Commons.Cli.ParseException"/>
-        public Org.Apache.Commons.Cli.CommandLine Parse(Java.Lang.String[] arg0)
-        {
-            return IExecuteWithSignature<Org.Apache.Commons.Cli.CommandLine>("parse", "([Ljava/lang/String;)Lorg/apache/commons/cli/CommandLine;", new object[] { arg0 });
-        }
-        /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/org/apache/maven/cli/CLIManager.html#displayHelp-java.io.PrintStream-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.PrintStream"/></param>
