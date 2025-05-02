@@ -11,12 +11,19 @@
   ],
   "OriginJavadocJARVersionAndUrls": [
     {
-      "Version": 8,
+      "Version": 11,
       "Url": "https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.9/"
     }
   ],
   "NamespacesToAvoid": [
-    "org.apache.commons.logging"
+    "org.apache.commons.logging",
+    "org.apache.commons.cli",
+    "org.apache.maven.eventspy",
+    "org.apache.maven.execution",
+    "org.apache.maven.extension",
+    "org.codehaus",
+    "org.eclipse",
+    "org.slf4j"
   ],
   "ClassesToBeListener": [
   ],
