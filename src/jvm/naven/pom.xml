@@ -46,7 +46,7 @@
 		<navenversion>3.0.3.0</navenversion>
 		<jcobridgepath>../../../bin/net8.0/JCOBridge.jar</jcobridgepath>
 		<jnetpath>../../../bin/net8.0/jars/jnet-${jnetVersion}.jar</jnetpath>
-		<classworldspath>../../../bin/net8.0/jars/boot/plexus-classworlds-${classworldsVersion}.jar</classworldspath>
+		<classworldspath>../../../jars/boot/plexus-classworlds-${classworldsVersion}.jar</classworldspath>
 	</properties>
 	<distributionManagement>
 		<snapshotRepository>
