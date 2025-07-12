@@ -11,7 +11,7 @@ on:
 #      - edited
 
 env:
-  MAVEN_RELEASE: 3.9.9
+  MAVEN_RELEASE: 3.9.10
 
 jobs:
   # This workflow contains a single job called "build_release"
