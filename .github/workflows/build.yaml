@@ -220,7 +220,9 @@ jobs:
         uses: actions/cache/save@v4
         with:
           enableCrossOsArchive: true
-          path: ./bin/,./binCLI/
+          path: |
+              ./bin/
+              ./binCLI/
           key: Naven_${{ github.run_number }}_${{ github.run_attempt }}_bin_${{ github.sha }}
           
       - uses: actions/upload-artifact@v4
