@@ -454,7 +454,7 @@ jobs:
       - if: ${{ matrix.os == 'windows-latest' && matrix.framework == 'net462' }}
         continue-on-error: true
         run: |
-          .\bin\${{ matrix.framework }}\MASES.NavenCLI.exe -f ..\..\src\jvm\naven\pom.xml package
+          .\binCLI\${{ matrix.framework }}\MASES.NavenCLI.exe -f ..\..\src\jvm\naven\pom.xml package
           
       - if: ${{ matrix.os == 'windows-latest' && matrix.framework == 'net9.0' }}
         run: (Get-EventLog -LogName Application -Newest 5).Message
@@ -570,14 +570,14 @@ jobs:
         shell: pwsh
         run: |
           Install-Module MASES.NavenPS -Repository Local_Nuget_Feed
-          ${{ github.workspace }}/tests/script/NavenPSTest.ps1
+          ${{ github.workspace }}/tests/scripts/NavenPSTest.ps1
 
       - if: ${{ matrix.os == 'windows-latest' }}
         continue-on-error: true
         shell: pwsh
         run: |
           Install-Module MASES.NaventPS -Repository Local_Nuget_Feed
-          ${{ github.workspace }}\tests\script\NavenPSTest.ps1
+          ${{ github.workspace }}\tests\scripts\NavenPSTest.ps1
 
       - if: ${{ matrix.os == 'windows-latest' }}
         continue-on-error: true
