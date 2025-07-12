@@ -18,7 +18,7 @@
 
 using System.Management.Automation;
 
-namespace MASES.NavenPS.Cmdlet
+namespace MASES.Naven.PowerShell.Cmdlet
 {
     [Cmdlet(VerbsLifecycle.Start, "NavenPS")]
     public class StartNavenPSCmdletCommand : StartNavenPSCmdletCommandBase<StartNavenPSCmdletCommand>

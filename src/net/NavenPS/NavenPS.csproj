@@ -3,7 +3,7 @@
 	<PropertyGroup>
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 		<AssemblyName>MASES.NavenPS</AssemblyName>
-		<RootNamespace>MASES.NavenPS</RootNamespace>
+		<RootNamespace>MASES.Naven.PowerShell</RootNamespace>
 		<Title>NavenPS - Naven (.NET suite for Apache Maven™) PowerShell command line interface</Title>
 		<Description>NavenPS - Naven (.NET suite for Apache Maven™) PowerShell command line interface</Description>
 		<Product>NavenPS</Product>
@@ -18,12 +18,12 @@
 	</PropertyGroup>
 
 	<Target Name="CopyCustomContent" AfterTargets="AfterBuild">
-		<Copy SourceFiles="@(naven_jars)" DestinationFolder="$(OutDir)\jars" />
-		<Copy SourceFiles="@(naven_config)" DestinationFolder="$(OutDir)\config" />
+		<Copy SourceFiles="@(naven_jars)" DestinationFolder="$(OutDir)\jars\%(RecursiveDir)" />
+		<Copy SourceFiles="@(naven_config)" DestinationFolder="$(OutDir)\config\%(RecursiveDir)" />
 	</Target>
 	<Target Name="CopyCustomContentOnPublish" AfterTargets="Publish">
-		<Copy SourceFiles="@(naven_jars)" DestinationFolder="$(OutDir)\jars" />
-		<Copy SourceFiles="@(naven_config)" DestinationFolder="$(OutDir)\config" />
+		<Copy SourceFiles="@(naven_jars)" DestinationFolder="$(OutDir)\jars\%(RecursiveDir)" />
+		<Copy SourceFiles="@(naven_config)" DestinationFolder="$(OutDir)\config\%(RecursiveDir)" />
 	</Target>
 	<ItemGroup>
 		<Compile Include="..\NavenCLI\NavenCLICore.cs" Link="NavenCLICore.cs" />
@@ -31,7 +31,7 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\Naven\Naven.csproj" />
-		<PackageReference Include="MASES.JNetPSCore" Version="2.5.12" />
+		<PackageReference Include="MASES.JNetPSCore" Version="2.5.13" />
 		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

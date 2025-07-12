@@ -43,11 +43,6 @@ namespace MASES.Naven
                 {
                     new ArgumentMetadata<string>()
                     {
-                        Name = CLIParam.ClassToRun,
-                        Help = "The class to be instantiated from CLI.",
-                    },
-                    new ArgumentMetadata<string>()
-                    {
                         Name = CLIParam.CommonLoggingConfiguration,
                         Default = DefaultCommonLoggingConfiguration(),
                         Help = "The file containing the configuration of common logging.",
@@ -85,7 +80,6 @@ namespace MASES.Naven
         {
             var result = base.ProcessCommandLine();
 
-            _classToRun = ParsedArgs.Get<string>(CLIParam.ClassToRun);
             _commonLoggingPath = ParsedArgs.Get<string>(CLIParam.CommonLoggingConfiguration);
             if (!Path.IsPathRooted(_commonLoggingPath)) // it is not a full path
             {
@@ -102,37 +96,11 @@ namespace MASES.Naven
             _logPath = ParsedArgs.Get<string>(CLIParam.LogPath);
             return result;
         }
-        /// <summary>
-        /// Prepare <see cref="MainClassToRun"/> property
-        /// </summary>
-        /// <param name="className">The class to search</param>
-        /// <exception cref="ArgumentException">If <paramref name="className"/> does not have a corresponding implemented <see cref="Type"/></exception>
-        protected virtual void PrepareMainClassToRun(string className)
-        {
-            if (string.IsNullOrWhiteSpace(className)) return;
-            var invariantLowClassName = className.ToLowerInvariant();
-            Type type = null;
-            foreach (var item in typeof(NavenCore<>).Assembly.ExportedTypes)
-            {
-                if (item.Name.ToLowerInvariant() == invariantLowClassName
-                    || item.FullName.ToLowerInvariant() == invariantLowClassName)
-                {
-                    type = item;
-                    break;
-                }
-            }
-            MainClassToRun = type ?? throw new ArgumentException($"Requested class {className} is not a valid class name.");
-        }
 
         /// <summary>
-        /// Sets the <see cref="Type"/> to be invoked at startup
+        /// Sets the global value for maven.multiModuleProjectDirectory
         /// </summary>
-        public static Type MainClassToRun { get; protected set; }
-
-        /// <summary>
-        /// Sets the global value of class to run
-        /// </summary>
-        public static string ApplicationClassToRun { get; set; }
+        public static string ApplicationMultiModuleProjectDirectory { get; set; } = null;
 
         /// <summary>
         /// Sets the global value of log4j path
@@ -143,15 +111,6 @@ namespace MASES.Naven
         /// Sets the global value of log path
         /// </summary>
         public static string ApplicationLogPath { get; set; }
-
-        /// <summary>
-        /// value can be overridden in subclasses
-        /// </summary>
-        protected string _classToRun;
-        /// <summary>
-        /// The class to run in CLI version
-        /// </summary>
-        public virtual string ClassToRun { get { return ApplicationClassToRun ?? _classToRun; } }
 
         string _commonLoggingPath;
         /// <summary>
@@ -195,6 +154,23 @@ namespace MASES.Naven
             {
                 if (!Directory.Exists(LogDir)) Directory.CreateDirectory(LogDir);
 
+                if (ApplicationMultiModuleProjectDirectory == null)
+                {
+                    ApplicationMultiModuleProjectDirectory = Environment.CurrentDirectory;
+                    for (int i = 0; i < FilteredArgs.Length; i++)
+                    {
+                        if (FilteredArgs[i] == "-f" || FilteredArgs[i] == "--file")
+                        {
+                            if (i < FilteredArgs.Length)
+                            {
+                                var pomFile = FilteredArgs[i + 1];
+                                ApplicationMultiModuleProjectDirectory = Path.GetDirectoryName(pomFile);
+                                break;
+                            }
+                        }
+                    }
+                }
+
                 IDictionary<string, string> options = new Dictionary<string, string>(base.Options)
                 {
                     { "log4j.configuration", string.IsNullOrEmpty(CommonLoggingPath) ? CommonLoggingOpts : $"file:{CommonLoggingPath}"},
@@ -203,7 +179,7 @@ namespace MASES.Naven
                     { "classworlds.conf", Path.Combine(Const.DefaultMavenHomePath, "bin", "m2.conf") },
                     { "maven.home", Const.DefaultMavenHomePath },
                     { "library.jansi.path", Path.Combine(Const.DefaultMavenHomePath, "lib", "jansi-native") },
-
+                    { "maven.multiModuleProjectDirectory", ApplicationMultiModuleProjectDirectory },
                 };
 
                 return options;

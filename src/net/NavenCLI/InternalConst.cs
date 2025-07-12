@@ -16,7 +16,7 @@
 *  Refer to LICENSE for more information.
 */
 
-namespace MASES.NavenCLI
+namespace MASES.Naven.CLI
 {
     class InternalConst
     {

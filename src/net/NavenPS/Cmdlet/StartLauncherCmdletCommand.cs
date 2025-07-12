@@ -18,21 +18,41 @@
 
 using Java.Io;
 using MASES.JCOBridge.C2JBridge;
+using MASES.JNet.PowerShell;
+using MASES.JNet.PowerShell.Cmdlet;
 using MASES.JNet.Specific.Extensions;
-using MASES.JNetPSCore;
 using Org.Codehaus.Plexus.Classworlds.Launcher;
 using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Management.Automation;
 using System.Reflection;
 
-namespace MASES.NavenPS.Cmdlet
+namespace MASES.Naven.PowerShell.Cmdlet
 {
     [Cmdlet(VerbsLifecycle.Start, "Launcher")]
-    public class StartLauncherCmdletCommand : NavenPSCmdlet
+    [JNetPSExternalize]
+    public class StartLauncherCmdletCommand : StartNavenPSCmdletCommandBase<StartNavenPSCmdletCommand>
     {
         [Parameter(
-            Mandatory = true,
+            Mandatory = false,
             Position = 0,
+            ValueFromPipeline = true,
+            ValueFromPipelineByPropertyName = true,
+            HelpMessage = "The optional argument for POM file")]
+        public string File { get; set; }
+
+        [Parameter(
+            Mandatory = true,
+            Position = 1,
+            ValueFromPipeline = true,
+            ValueFromPipelineByPropertyName = true,
+            HelpMessage = "The stage argument for Maven execution")]
+        public string Stage { get; set; }
+
+        [Parameter(
+            Mandatory = false,
+            Position = 2,
             ValueFromPipeline = true,
             ValueFromPipelineByPropertyName = true,
             HelpMessage = "The arguments to use with launcher")]
@@ -44,8 +64,7 @@ namespace MASES.NavenPS.Cmdlet
             WriteVerbose("Begin StartLauncherCmdletCommand!");
         }
 
-        // This method will be called for each input received from the pipeline to this cmdlet; if no input is received, this method is not called
-        protected override void ProcessCommand()
+        string[] argsFromArguments()
         {
             string[] arguments = Array.Empty<string>();
             if (Arguments != null)
@@ -53,7 +72,37 @@ namespace MASES.NavenPS.Cmdlet
                 arguments = Arguments.Split(' ');
             }
 
-            var result = Launcher.MainWithExitCode(arguments.ToJVMArray<Java.Lang.String, string>());
+            return arguments;
+        }
+
+        protected override void OnBeforeCreateGlobalInstance()
+        {
+            base.OnBeforeCreateGlobalInstance();
+            var multiModuleProjectDirectory = Environment.CurrentDirectory;
+            if (!string.IsNullOrWhiteSpace(File))
+            {
+                multiModuleProjectDirectory = Path.GetDirectoryName(File);
+            }
+            NavenPSHelper<NavenPSCore>.SetMultiModuleProjectDirectory(multiModuleProjectDirectory);
+        }
+
+        // This method will be called for each input received from the pipeline to this cmdlet; if no input is received, this method is not called
+        protected override void ProcessCommand()
+        {
+            base.ProcessCommand();
+            string[] arguments = argsFromArguments();
+            List<string> args = new List<string>(arguments);
+            if (!string.IsNullOrWhiteSpace(File))
+            {
+                args.Add("-f");
+                args.Add(File);
+            }
+            if (!string.IsNullOrWhiteSpace(Stage))
+            {
+                args.Add(Stage);
+            }
+
+            var result = Launcher.MainWithExitCode(args.ToArray().ToJVMArray<Java.Lang.String, string>());
             WriteObject(result);
         }
 
