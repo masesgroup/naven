@@ -448,20 +448,23 @@ jobs:
           distribution: 'graalvm' # See 'Supported distributions' for available options
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-      - if: ${{ matrix.os == 'ubuntu-latest' || matrix.os == 'macos-latest' || matrix.os == 'macos-13' }} # for windows see https://github.com/masesgroup/JNet/issues/573#issuecomment-2550033900
-        continue-on-error: true
-        run: |
-          dotnet ${{ github.workspace }}/binCLI/${{ matrix.framework }}/MASES.NavenCLI.dll -f ${{ github.workspace }}/src/jvm/naven/pom.xml package
+      - if: ${{ matrix.os != 'windows-latest' }} # for windows see https://github.com/masesgroup/JNet/issues/573#issuecomment-2550033900
+        run: dotnet nuget add source ${{ github.workspace }}/bin -n MyLocalRepo
 
-      - if: ${{ matrix.os == 'windows-latest' && matrix.framework != 'net462' }} # for windows see https://github.com/masesgroup/JNet/issues/573#issuecomment-2550033900
-        continue-on-error: true
-        run: |
-          dotnet ${{ github.workspace }}/binCLI/${{ matrix.framework }}/MASES.NavenCLI.dll -f ${{ github.workspace }}\src\jvm\naven\pom.xml package
+      - if: ${{ matrix.os == 'windows-latest' }} # for windows see https://github.com/masesgroup/JNet/issues/573#issuecomment-2550033900
+        run: dotnet nuget add source ${{ github.workspace }}\bin -n MyLocalRepo
 
-      - if: ${{ matrix.os == 'windows-latest' && matrix.framework == 'net462' }}
+      - run: dotnet tool update -g MASES.NavenCLI 
+
+      - if: ${{ matrix.os != 'windows-latest' }} # for windows see https://github.com/masesgroup/JNet/issues/573#issuecomment-2550033900
         continue-on-error: true
         run: |
-          ${{ github.workspace }}\binCLI\${{ matrix.framework }}\MASES.NavenCLI.exe -f ${{ github.workspace }}\src\jvm\naven\pom.xml package
+          naven -f ${{ github.workspace }}/src/jvm/naven/pom.xml package
+
+      - if: ${{ matrix.os == 'windows-latest' }} # for windows see https://github.com/masesgroup/JNet/issues/573#issuecomment-2550033900
+        continue-on-error: true
+        run: |
+          naven -f ${{ github.workspace }}\src\jvm\naven\pom.xml package
           
       - if: ${{ matrix.os == 'windows-latest' && matrix.framework == 'net9.0' }}
         run: (Get-EventLog -LogName Application -Newest 5).Message
