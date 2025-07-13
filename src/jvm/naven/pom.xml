@@ -44,9 +44,9 @@
 		<jnetVersion>2.5.12.0</jnetVersion>
 		<classworldsVersion>2.8.0</classworldsVersion>
 		<navenversion>3.9.0.0</navenversion>
-		<jcobridgepath>../../../bin/net8.0/JCOBridge.jar</jcobridgepath>
-		<jnetpath>../../../bin/net8.0/jars/jnet-${jnetVersion}.jar</jnetpath>
-		<classworldspath>../../../jars/boot/plexus-classworlds-${classworldsVersion}.jar</classworldspath>
+		<jcobridgepath>${basedir}/../../../bin/net8.0/JCOBridge.jar</jcobridgepath>
+		<jnetpath>${basedir}/../../../bin/net8.0/jars/jnet-${jnetVersion}.jar</jnetpath>
+		<classworldspath>${basedir}/../../../jars/boot/plexus-classworlds-${classworldsVersion}.jar</classworldspath>
 	</properties>
 	<distributionManagement>
 		<snapshotRepository>
@@ -138,7 +138,7 @@
 				<configuration>
 					<compilerArgs>
 						<arg>-cp</arg>
-						<arg>${originalClassPath}${path.separator}${basedir}/${jcobridgepath}${path.separator}${basedir}/${jnetpath}${path.separator}${basedir}/${classworldspath}</arg>
+						<arg>${originalClassPath}${path.separator${jcobridgepath}${path.separator}${jnetpath}${path.separator}${classworldspath}</arg>
 					</compilerArgs>
 					<source>11</source>
 					<target>11</target>

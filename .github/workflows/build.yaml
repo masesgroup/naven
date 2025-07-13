@@ -223,6 +223,7 @@ jobs:
           path: |
               ./bin/
               ./binCLI/
+              ./jars/
           key: Naven_${{ github.run_number }}_${{ github.run_attempt }}_bin_${{ github.sha }}
           
       - uses: actions/upload-artifact@v4
@@ -411,6 +412,7 @@ jobs:
           path: |
               ./bin/
               ./binCLI/
+              ./jars/
           key: Naven_${{ github.run_number }}_${{ github.run_attempt }}_bin_${{ github.sha }}
 
       - uses: actions/setup-dotnet@v4
@@ -550,6 +552,7 @@ jobs:
           path: |
               ./bin/
               ./binCLI/
+              ./jars/
           key: Naven_${{ github.run_number }}_${{ github.run_attempt }}_bin_${{ github.sha }}
  
       - name: Set up JDK distribution

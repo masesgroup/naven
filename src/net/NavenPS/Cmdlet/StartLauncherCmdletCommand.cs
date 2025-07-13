@@ -66,12 +66,7 @@ namespace MASES.Naven.PowerShell.Cmdlet
 
         string[] argsFromArguments()
         {
-            string[] arguments = Array.Empty<string>();
-            if (Arguments != null)
-            {
-                arguments = Arguments.Split(' ');
-            }
-
+            string[] arguments = Arguments == null ? Array.Empty<string>() : Arguments.Split(' ');
             return arguments;
         }
 
