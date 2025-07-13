@@ -446,11 +446,16 @@ jobs:
           distribution: 'graalvm' # See 'Supported distributions' for available options
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-      - if: ${{ matrix.os == 'ubuntu-latest' || matrix.os == 'macos-latest' || matrix.os == 'macos-13' || (matrix.os == 'windows-latest' && matrix.framework != 'net462') }} # for windows see https://github.com/masesgroup/JNet/issues/573#issuecomment-2550033900
+      - if: ${{ matrix.os == 'ubuntu-latest' || matrix.os == 'macos-latest' || matrix.os == 'macos-13' }} # for windows see https://github.com/masesgroup/JNet/issues/573#issuecomment-2550033900
+        continue-on-error: true
+        run: |
+          dotnet ${{ github.workspace }}/binCLI/${{ matrix.framework }}/MASES.NavenCLI.dll -f ${{ github.workspace }}/src/jvm/naven/pom.xml package
+
+      - if: ${{ matrix.os == 'windows-latest' && matrix.framework != 'net462' }} # for windows see https://github.com/masesgroup/JNet/issues/573#issuecomment-2550033900
         continue-on-error: true
         run: |
           dotnet ${{ github.workspace }}/binCLI/${{ matrix.framework }}/MASES.NavenCLI.dll -f ${{ github.workspace }}\src\jvm\naven\pom.xml package
-          
+
       - if: ${{ matrix.os == 'windows-latest' && matrix.framework == 'net462' }}
         continue-on-error: true
         run: |
@@ -570,21 +575,21 @@ jobs:
         shell: pwsh
         run: |
           Install-Module MASES.NavenPS -Repository Local_Nuget_Feed
-          ${{ github.workspace }}/tests/scripts/NavenPSTest.ps1 ${{ github.workspace }}\src\jvm\naven\pom.xml package
+          ${{ github.workspace }}/tests/scripts/NavenPSTest.ps1 ${{ github.workspace }}/src/jvm/naven/pom.xml package
 
       - if: ${{ matrix.os == 'windows-latest' }}
         continue-on-error: true
         shell: pwsh
         run: |
-          Install-Module MASES.NaventPS -Repository Local_Nuget_Feed
+          Install-Module MASES.NavenPS -Repository Local_Nuget_Feed
           ${{ github.workspace }}\tests\scripts\NavenPSTest.ps1 ${{ github.workspace }}\src\jvm\naven\pom.xml package
 
       - if: ${{ matrix.os == 'windows-latest' }}
         continue-on-error: true
         shell: powershell
         run: |
-          Install-Module MASES.NaventPS -Repository Local_Nuget_Feed
-          ${{ github.workspace }}\tests\script\NavenPSTest.ps1
+          Install-Module MASES.NavenPS -Repository Local_Nuget_Feed
+          ${{ github.workspace }}\tests\script\NavenPSTest.ps1 ${{ github.workspace }}\src\jvm\naven\pom.xml package
           
       - if: ${{ matrix.os == 'windows-latest' }}
         run: (Get-EventLog -LogName Application -Newest 5).Message
