@@ -46,6 +46,7 @@
 		<navenversion>3.9.0.0</navenversion>
 		<jcobridgepath>${basedir}/../../../bin/net8.0/JCOBridge.jar</jcobridgepath>
 		<jnetpath>${basedir}/../../../bin/net8.0/jars/jnet-${jnetVersion}.jar</jnetpath>
+		<jarsDestination>${basedir}/../../../jars/</jarsDestination>
 		<classworldspath>${basedir}/../../../jars/boot/plexus-classworlds-${classworldsVersion}.jar</classworldspath>
 	</properties>
 	<distributionManagement>
@@ -84,7 +85,7 @@
 							<goal>copy-dependencies</goal>
 						</goals>
 						<configuration>
-							<outputDirectory>${basedir}/../../../jars/</outputDirectory>
+							<outputDirectory>${jarsDestination}</outputDirectory>
 							<overWriteReleases>false</overWriteReleases>
 							<overWriteSnapshots>false</overWriteSnapshots>
 							<overWriteIfNewer>true</overWriteIfNewer>
@@ -105,7 +106,7 @@
 									<type>${project.packaging}</type>
 								</artifactItem>
 							</artifactItems>
-							<outputDirectory>${basedir}/../../../jars/</outputDirectory>
+							<outputDirectory>${jarsDestination}</outputDirectory>
 							<overWriteIfNewer>true</overWriteIfNewer>
 						</configuration>
 					</execution>

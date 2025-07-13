@@ -9,5 +9,5 @@ try
 catch {
     Write-Host "An error occurred:"
     Write-Host $_.ScriptStackTrace
-    Write-Host $_.ToString()
+    Write-Host $_.Exception.ToString()
 }
