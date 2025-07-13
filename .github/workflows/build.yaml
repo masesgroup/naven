@@ -592,7 +592,7 @@ jobs:
         shell: powershell
         run: |
           Install-Module MASES.NavenPS -Repository Local_Nuget_Feed
-          ${{ github.workspace }}\tests\script\NavenPSTest.ps1 ${{ github.workspace }}\src\jvm\naven\pom.xml package
+          ${{ github.workspace }}\tests\scripts\NavenPSTest.ps1 ${{ github.workspace }}\src\jvm\naven\pom.xml package
           
       - if: ${{ matrix.os == 'windows-latest' }}
         run: (Get-EventLog -LogName Application -Newest 5).Message
