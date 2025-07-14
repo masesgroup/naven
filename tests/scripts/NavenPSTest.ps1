@@ -1,20 +1,25 @@
-$file=[System::String]::Empty
-$stage=[System::String]::Empty
-$arguments=[System::String]::Empty
+$file=[System.String]::Empty
+$stage=[System.String]::Empty
+$arguments=[System.String]::Empty
 
-for ([Int32](i=0); i < $args.Length - 1; i++)
+$last=$args.Length - 1
+
+for ($i=0; $i -lt $last; $i++)
 {
-    if ($args[i] == "-f" || $args[i] == "--file")
+    if (($args[$i] -eq "-f") -or ($args[$i] -eq "--file"))
     {
-        $file = $args[++i];
+        $file = $args[++$i]
     }
     else
     {
-        $arguments += $args[i] + " ";
+        $arguments += $args[$i] + " "
     }
 }
 
-$stage=$args[$args.Length - 1];
+$stage=$args[$last]
+
+Write-Host $file
+Write-Host $stage
 
 $PSVersionTable.PSVersion
 try
