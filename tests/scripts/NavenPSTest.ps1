@@ -1,6 +1,7 @@
 $file=[System.String]::Empty
 $stage=[System.String]::Empty
 $arguments=[System.String]::Empty
+$verbose=$false
 
 $last=$args.Length - 1
 
@@ -10,6 +11,10 @@ for ($i=0; $i -lt $last; $i++)
     {
         $file = $args[++$i]
     }
+    elseif ($args[$i] -eq "-Verbose")
+    {
+        $verbose=$true
+    }
     else
     {
         $arguments += $args[$i] + " "
@@ -18,16 +23,22 @@ for ($i=0; $i -lt $last; $i++)
 
 $stage=$args[$last]
 
-Write-Host $file
-Write-Host $stage
+if ($verbose)
+{
+    $PSVersionTable.PSVersion
+    Write-Host "File:" $file
+    Write-Host "Stage:" $stage
+}
 
-$PSVersionTable.PSVersion
 try
 {
    Start-Launcher -File $file -Stage $stage -Arguments $arguments
 }
 catch {
-    Write-Host "An error occurred:"
-    Write-Host $_.ScriptStackTrace
-    Write-Host $_.Exception.ToString()
+    if ($verbose)
+    {
+        Write-Host "An error occurred:"
+        Write-Host $_.ScriptStackTrace
+        Write-Host $_.Exception.ToString()
+    }
 }

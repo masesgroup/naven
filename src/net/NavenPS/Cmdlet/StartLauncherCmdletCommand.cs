@@ -25,6 +25,7 @@ using Org.Codehaus.Plexus.Classworlds.Launcher;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Management.Automation;
 using System.Reflection;
 
@@ -64,10 +65,10 @@ namespace MASES.Naven.PowerShell.Cmdlet
             WriteVerbose("Begin StartLauncherCmdletCommand!");
         }
 
-        string[] argsFromArguments()
+        IEnumerable<string> argsFromArguments()
         {
             string[] arguments = string.IsNullOrWhiteSpace(Arguments) ? Array.Empty<string>() : Arguments.Split(' ');
-            return arguments;
+            return arguments.Where((arg) => !string.IsNullOrWhiteSpace(arg)).Select((arg) => arg.Trim());
         }
 
         protected override void OnBeforeCreateGlobalInstance()
@@ -85,7 +86,7 @@ namespace MASES.Naven.PowerShell.Cmdlet
         protected override void ProcessCommand()
         {
             base.ProcessCommand();
-            string[] arguments = argsFromArguments();
+            var arguments = argsFromArguments();
             List<string> args = new List<string>(arguments);
             if (!string.IsNullOrWhiteSpace(File))
             {
