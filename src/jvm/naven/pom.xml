@@ -113,9 +113,9 @@
 				</executions>
 			</plugin>
 			<plugin>
-				<groupId>org.codehaus.gmaven</groupId>
-				<artifactId>gmaven-plugin</artifactId>
-				<version>1.5</version>
+				<groupId>org.codehaus.gmavenplus</groupId>
+				<artifactId>gmavenplus-plugin</artifactId>
+				<version>4.2.0</version>
 				<executions>
 					<execution>
 						<phase>generate-resources</phase>
@@ -123,6 +123,17 @@
 							<goal>execute</goal>
 						</goals>
 						<configuration>
+							<scripts>
+								<script>
+									<![CDATA[
+@Grapes([
+  @Grab(group='org.apache.commons', module='commons-lang3', version='3.3.2')
+])
+def file = new File(project.properties.classpathfile)
+project.properties.originalClassPath = file.getText()
+]]>
+								</script>
+							</scripts>
 							<source>
 								def file = new File(project.properties.classpathfile)
 								project.properties.originalClassPath = file.getText()
