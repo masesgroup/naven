@@ -216,5 +216,11 @@ project.properties.originalClassPath = file.getText()
 		</plugins>
 	</build>
 	<dependencies>
+		<dependency>
+			<scope>compile</scope>
+			<groupId>org.apache.groovy</groupId>
+			<artifactId>groovy</artifactId>
+			<version>4.0.26</version>
+		</dependency>
 	</dependencies>
 </project>
