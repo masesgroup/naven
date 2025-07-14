@@ -450,7 +450,7 @@ jobs:
       - if: ${{ matrix.os != 'windows-latest' }} # for windows see https://github.com/masesgroup/JNet/issues/573#issuecomment-2550033900
         continue-on-error: true
         run: |
-          naven -f ${{ github.workspace }}/src/jvm/naven/pom.xml package
+          naven --no-transfer-progress -f ${{ github.workspace }}/src/jvm/naven/pom.xml package
 
       - name: Disable CET for dotnet process
         if: ${{ matrix.os == 'windows-latest' }}
@@ -461,7 +461,7 @@ jobs:
       - if: ${{ matrix.os == 'windows-latest' }} # for windows see https://github.com/masesgroup/JNet/issues/573#issuecomment-2550033900
         continue-on-error: true
         run: |
-          naven -f ${{ github.workspace }}\src\jvm\naven\pom.xml package
+          naven --no-transfer-progress -f ${{ github.workspace }}\src\jvm\naven\pom.xml package
           
       - if: ${{ matrix.os == 'windows-latest' }}
         run: (Get-EventLog -LogName Application -Newest 5).Message
@@ -577,21 +577,21 @@ jobs:
         shell: pwsh
         run: |
           Install-Module MASES.NavenPS -Repository Local_Nuget_Feed
-          ${{ github.workspace }}/tests/scripts/NavenPSTest.ps1 ${{ github.workspace }}/src/jvm/naven/pom.xml package
+          ${{ github.workspace }}/tests/scripts/NavenPSTest.ps1 -f ${{ github.workspace }}/src/jvm/naven/pom.xml --no-transfer-progress package
 
       - if: ${{ matrix.os == 'windows-latest' }}
         continue-on-error: true
         shell: pwsh
         run: |
           Install-Module MASES.NavenPS -Repository Local_Nuget_Feed
-          ${{ github.workspace }}\tests\scripts\NavenPSTest.ps1 ${{ github.workspace }}\src\jvm\naven\pom.xml package
+          ${{ github.workspace }}\tests\scripts\NavenPSTest.ps1 -f ${{ github.workspace }}\src\jvm\naven\pom.xml --no-transfer-progress package
 
       - if: ${{ matrix.os == 'windows-latest' }}
         continue-on-error: true
         shell: powershell
         run: |
           Install-Module MASES.NavenPS -Repository Local_Nuget_Feed
-          ${{ github.workspace }}\tests\scripts\NavenPSTest.ps1 ${{ github.workspace }}\src\jvm\naven\pom.xml package
+          ${{ github.workspace }}\tests\scripts\NavenPSTest.ps1 -f ${{ github.workspace }}\src\jvm\naven\pom.xml --no-transfer-progress package
           
       - if: ${{ matrix.os == 'windows-latest' }}
         run: (Get-EventLog -LogName Application -Newest 5).Message
