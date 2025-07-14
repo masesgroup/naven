@@ -222,7 +222,6 @@ jobs:
           enableCrossOsArchive: true
           path: |
               ./bin/
-              ./binCLI/
               ./jars/
           key: Naven_${{ github.run_number }}_${{ github.run_attempt }}_bin_${{ github.sha }}
           
@@ -366,16 +365,9 @@ jobs:
       fail-fast: false
       matrix:
         os: [ 'ubuntu-latest', 'windows-latest', 'macos-latest' ] # , 'macos-13' ] disable due to https://github.com/masesgroup/JNet/issues/518#issuecomment-2547271924
-        framework: [ 'net462', 'net8.0', 'net9.0' ]
         jdk_vendor: [ 'temurin', 'zulu', 'microsoft', 'corretto', 'oracle', 'graalvm' ]
         jdk_version: [ '11', '17', '21' ] # only LTS versions
         exclude:
-          - os: ubuntu-latest
-            framework: net462
-          - os: macos-latest
-            framework: net462
-          - os: macos-13
-            framework: net462
           - jdk_vendor: oracle
             jdk_version: 11
           - jdk_vendor: graalvm
@@ -411,7 +403,6 @@ jobs:
           enableCrossOsArchive: true
           path: |
               ./bin/
-              ./binCLI/
               ./jars/
           key: Naven_${{ github.run_number }}_${{ github.run_attempt }}_bin_${{ github.sha }}
 
@@ -461,19 +452,25 @@ jobs:
         run: |
           naven -f ${{ github.workspace }}/src/jvm/naven/pom.xml package
 
+      - name: Disable CET for dotnet process
+        if: ${{ matrix.os == 'windows-latest' }}
+        run: |
+          reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\naven.exe" /v MitigationOptions /t REG_BINARY /d "0000000000000000000000000000002000" /f
+          Get-ProcessMitigation -Name "naven.exe"
+
       - if: ${{ matrix.os == 'windows-latest' }} # for windows see https://github.com/masesgroup/JNet/issues/573#issuecomment-2550033900
         continue-on-error: true
         run: |
           naven -f ${{ github.workspace }}\src\jvm\naven\pom.xml package
           
-      - if: ${{ matrix.os == 'windows-latest' && matrix.framework == 'net9.0' }}
+      - if: ${{ matrix.os == 'windows-latest' }}
         run: (Get-EventLog -LogName Application -Newest 5).Message
 
       - uses: actions/upload-artifact@v4
         if: ${{ matrix.os == 'windows-latest' }}
         with:
           if-no-files-found: ignore
-          name: Crash_tests_${{ matrix.os }}_${{ matrix.framework }}_${{ matrix.jdk_vendor }}_${{ matrix.jdk_version }}
+          name: Crash_tests_${{ matrix.os }}_${{ matrix.jdk_vendor }}_${{ matrix.jdk_version }}
           path: .\CrashDumpsDir\*
           retention-days: 7
 
@@ -481,14 +478,14 @@ jobs:
         if: ${{ matrix.os != 'windows-latest' }}
         with:
           if-no-files-found: ignore
-          name: Crash_tests_${{ matrix.os }}_${{ matrix.framework }}_${{ matrix.jdk_vendor }}_${{ matrix.jdk_version }}
+          name: Crash_tests_${{ matrix.os }}_${{ matrix.jdk_vendor }}_${{ matrix.jdk_version }}
           path: ${{ github.workspace }}/coredump.*
           retention-days: 7
 
       - uses: actions/upload-artifact@v4
         with:
           if-no-files-found: ignore
-          name: Crash_tests_hs_err__${{ matrix.os }}_${{ matrix.framework }}_${{ matrix.jdk_vendor }}_${{ matrix.jdk_version }}
+          name: Crash_tests_hs_err__${{ matrix.os }}_${{ matrix.jdk_vendor }}_${{ matrix.jdk_version }}
           path: ${{ github.workspace }}/**/hs_err_*
           retention-days: 7
 
@@ -554,7 +551,6 @@ jobs:
           enableCrossOsArchive: true
           path: |
               ./bin/
-              ./binCLI/
               ./jars/
           key: Naven_${{ github.run_number }}_${{ github.run_attempt }}_bin_${{ github.sha }}
  
@@ -604,7 +600,7 @@ jobs:
         if: ${{ matrix.os == 'windows-latest' }}
         with:
           if-no-files-found: ignore
-          name: Crash_powershell_${{ matrix.os }}_${{ matrix.framework }}_${{ matrix.jdk_vendor }}_${{ matrix.jdk_version }}
+          name: Crash_powershell_${{ matrix.os }}_${{ matrix.jdk_vendor }}_${{ matrix.jdk_version }}
           path: .\CrashDumpsDir\*
           retention-days: 7
 
@@ -612,7 +608,7 @@ jobs:
         if: ${{ matrix.os != 'windows-latest' }}
         with:
           if-no-files-found: ignore
-          name: Crash_powershell_${{ matrix.os }}_${{ matrix.framework }}_${{ matrix.jdk_vendor }}_${{ matrix.jdk_version }}
+          name: Crash_powershell_${{ matrix.os }}_${{ matrix.jdk_vendor }}_${{ matrix.jdk_version }}
           path: ${{ github.workspace }}/coredump.*
           retention-days: 7
 
