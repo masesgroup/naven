@@ -406,6 +406,9 @@ jobs:
               ./jars/
           key: Naven_${{ github.run_number }}_${{ github.run_attempt }}_bin_${{ github.sha }}
 
+      - run: Get-ChildItem -Recurse -Path ${{ github.workspace }}\bin,${{ github.workspace }}\jars
+        shell: pwsh
+
       - uses: actions/setup-dotnet@v4
         if: ${{ matrix.os == 'ubuntu-latest' || matrix.os == 'macos-latest' || matrix.os == 'macos-13' }}
         with:
@@ -553,6 +556,9 @@ jobs:
               ./bin/
               ./jars/
           key: Naven_${{ github.run_number }}_${{ github.run_attempt }}_bin_${{ github.sha }}
+
+      - run: Get-ChildItem -Recurse -Path ${{ github.workspace }}\bin,${{ github.workspace }}\jars
+        shell: pwsh
  
       - name: Set up JDK distribution
         if: ${{ matrix.jdk_vendor != 'graalvm' }}
