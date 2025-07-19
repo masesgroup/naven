@@ -23,7 +23,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  MAVEN_RELEASE: 3.9.10
+  MAVEN_RELEASE: 3.9.11
 
 # This workflow contains two jobs called "check_changes", "build_windows"
 jobs:

@@ -29,7 +29,7 @@ on:
         type: boolean
 
 env:
-  MAVEN_RELEASE: 3.9.10
+  MAVEN_RELEASE: 3.9.11
 
 # This workflow contains one job called "build_documentation"
 jobs:

@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 
 env:
-  MAVEN_RELEASE: 3.9.10
+  MAVEN_RELEASE: 3.9.11
 
 jobs:
   build_container_naven:
