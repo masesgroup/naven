@@ -16,13 +16,13 @@
 *  Refer to LICENSE for more information.
 */
 
-using MASES.NavenCLI;
+using MASES.Naven.CLI;
 using System;
 
-namespace MASES.NavenPS
+namespace MASES.Naven.PowerShell
 {
     /// <summary>
-    /// Concrete implementation of <see cref="NavenCore{T}"/>
+    /// Concrete implementation of <see cref="NavenCLICore{T}"/>
     /// </summary>
     public class NavenPSCore : NavenCLICore<NavenPSCore>
     {

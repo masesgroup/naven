@@ -16,17 +16,17 @@
 *  Refer to LICENSE for more information.
 */
 
-using MASES.JNetPSCore;
+using MASES.JNet.PowerShell;
 using MASES.Naven;
 
-namespace MASES.NavenPS
+namespace MASES.Naven.PowerShell
 {
     /// <summary>
     /// Public Helper class
     /// </summary>
     public static class NavenPSHelper<TClass> where TClass : NavenCore<TClass>
     {
-        public static void SetClassToRun(string classToRun) { JNetPSHelper<TClass>.Set(typeof(NavenCore<>), nameof(NavenPSCore.ApplicationClassToRun), classToRun); }
+        public static void SetMultiModuleProjectDirectory(string multiModuleProjectDirectory) { JNetPSHelper<TClass>.Set(typeof(NavenCore<>), nameof(NavenPSCore.ApplicationMultiModuleProjectDirectory), multiModuleProjectDirectory); }
 
         public static void SetCommonLoggingPath(string commonLoggingath) { JNetPSHelper<TClass>.Set(typeof(NavenCore<>), nameof(NavenPSCore.ApplicationCommonLoggingPath), commonLoggingath); }
 

@@ -17,12 +17,13 @@
 */
 
 using MASES.JCOBridge.C2JBridge;
-using MASES.JNetPSCore;
+using MASES.JNet.PowerShell;
+using MASES.JNet.Specific.CLI;
 using System;
 using System.Management.Automation;
 using System.Reflection;
 
-namespace MASES.NavenPS.Cmdlet
+namespace MASES.Naven.PowerShell.Cmdlet
 {
     public class MavenClassToRunCmdletCommandBase<TCmdlet> : StartNavenPSCmdletCommandBase<TCmdlet>
         where TCmdlet : MavenClassToRunCmdletCommandBase<TCmdlet>
@@ -37,7 +38,7 @@ namespace MASES.NavenPS.Cmdlet
         {
             base.OnBeforeCreateGlobalInstance();
             var nounName = JNetPSHelper.NounName<TCmdlet>();
-            NavenPSHelper<NavenPSCore>.SetClassToRun(nounName);
+            JNetPSHelper<NavenPSCore>.SetClassToRun(nounName);
         }
 
         protected override void OnAfterCreateGlobalInstance()
@@ -50,7 +51,7 @@ namespace MASES.NavenPS.Cmdlet
 
             try
             {
-                JNetPSHelper<NavenPSCore>.Launch(NavenPSCore.MainClassToRun, arguments);
+                JNetPSHelper<NavenPSCore>.Launch(JNetCLICoreHelper.MainClassToRun, arguments);
             }
             catch (TargetInvocationException tie)
             {

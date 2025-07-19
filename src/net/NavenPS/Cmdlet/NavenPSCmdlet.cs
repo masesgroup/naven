@@ -16,9 +16,9 @@
 *  Refer to LICENSE for more information.
 */
 
-using MASES.JNetPSCore.Cmdlet;
+using MASES.JNet.PowerShell.Cmdlet;
 
-namespace MASES.NavenPS.Cmdlet
+namespace MASES.Naven.PowerShell.Cmdlet
 {
     public abstract class NavenPSCmdlet : JNetPSCmdlet<NavenPSCore>
     {

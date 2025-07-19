@@ -41,12 +41,14 @@
 		<maven.compiler.target>11</maven.compiler.target>
 		<classpathfile>${basedir}/classpathfile.classpath</classpathfile>
 		<mavenSkipMain>false</mavenSkipMain> <!-- set mavenSkipMain to true to avoid source compilation: use directive in command-line -->
-		<jnetVersion>2.5.12.0</jnetVersion>
-		<classworldsVersion>2.8.0</classworldsVersion>
+		<jnetVersion>2.5.13.0</jnetVersion>
+		<classworldsVersion>2.9.0</classworldsVersion>
 		<navenversion>3.9.0.0</navenversion>
-		<jcobridgepath>../../../bin/net8.0/JCOBridge.jar</jcobridgepath>
-		<jnetpath>../../../bin/net8.0/jars/jnet-${jnetVersion}.jar</jnetpath>
-		<classworldspath>../../../jars/boot/plexus-classworlds-${classworldsVersion}.jar</classworldspath>
+		<rootDir>${basedir}/../../../</rootDir>
+		<jcobridgepath>${rootDir}/bin/net8.0/JCOBridge.jar</jcobridgepath>
+		<jnetpath>${rootDir}/bin/net8.0/jars/jnet-${jnetVersion}.jar</jnetpath>
+		<jarsDestination>${rootDir}/jars/</jarsDestination>
+		<classworldspath>${rootDir}/jars/boot/plexus-classworlds-${classworldsVersion}.jar</classworldspath>
 	</properties>
 	<distributionManagement>
 		<snapshotRepository>
@@ -84,7 +86,7 @@
 							<goal>copy-dependencies</goal>
 						</goals>
 						<configuration>
-							<outputDirectory>${basedir}/../../../jars/</outputDirectory>
+							<outputDirectory>${jarsDestination}</outputDirectory>
 							<overWriteReleases>false</overWriteReleases>
 							<overWriteSnapshots>false</overWriteSnapshots>
 							<overWriteIfNewer>true</overWriteIfNewer>
@@ -105,16 +107,16 @@
 									<type>${project.packaging}</type>
 								</artifactItem>
 							</artifactItems>
-							<outputDirectory>${basedir}/../../../jars/</outputDirectory>
+							<outputDirectory>${jarsDestination}</outputDirectory>
 							<overWriteIfNewer>true</overWriteIfNewer>
 						</configuration>
 					</execution>
 				</executions>
 			</plugin>
 			<plugin>
-				<groupId>org.codehaus.gmaven</groupId>
-				<artifactId>gmaven-plugin</artifactId>
-				<version>1.5</version>
+				<groupId>org.codehaus.gmavenplus</groupId>
+				<artifactId>gmavenplus-plugin</artifactId>
+				<version>4.2.0</version>
 				<executions>
 					<execution>
 						<phase>generate-resources</phase>
@@ -122,6 +124,17 @@
 							<goal>execute</goal>
 						</goals>
 						<configuration>
+							<scripts>
+								<script>
+									<![CDATA[
+@Grapes([
+  @Grab(group='org.apache.commons', module='commons-lang3', version='3.3.2')
+])
+def file = new File(project.properties.classpathfile)
+project.properties.originalClassPath = file.getText()
+]]>
+								</script>
+							</scripts>
 							<source>
 								def file = new File(project.properties.classpathfile)
 								project.properties.originalClassPath = file.getText()
@@ -138,7 +151,7 @@
 				<configuration>
 					<compilerArgs>
 						<arg>-cp</arg>
-						<arg>${originalClassPath}${path.separator}${basedir}/${jcobridgepath}${path.separator}${basedir}/${jnetpath}${path.separator}${basedir}/${classworldspath}</arg>
+						<arg>${originalClassPath}${path.separator}${jcobridgepath}${path.separator}${jnetpath}${path.separator}${classworldspath}</arg>
 					</compilerArgs>
 					<source>11</source>
 					<target>11</target>
@@ -204,5 +217,11 @@
 		</plugins>
 	</build>
 	<dependencies>
+		<dependency>
+			<scope>compile</scope>
+			<groupId>org.apache.groovy</groupId>
+			<artifactId>groovy</artifactId>
+			<version>4.0.26</version>
+		</dependency>
 	</dependencies>
 </project>
