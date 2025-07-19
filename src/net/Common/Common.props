@@ -32,7 +32,7 @@
 		<TargetFramework>net8.0</TargetFramework>
 	</PropertyGroup>
 	<ItemGroup Condition="True">
-		<naven_jars Include="$(ProjectDir)\..\..\..\jars\**\*.*"/>
+		<naven_jars Include="$(ProjectDir)\..\..\..\jars\**\*.*" />
 		<naven_config Include="$(ProjectDir)\..\..\config\**\*.*" />
 	</ItemGroup>
 	<ItemGroup Condition="'$(NAVEN_DOCKER_BUILD_ACTIONS)' != 'true'">
