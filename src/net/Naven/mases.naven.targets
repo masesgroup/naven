@@ -5,12 +5,12 @@
 	</ItemGroup>
 
 	<Target Name="Naven_CopyFilesNative" BeforeTargets="Build">
-		<Copy SourceFiles="@(naven_jars)" DestinationFolder="$(TargetDir)\jars" />
-		<Copy SourceFiles="@(naven_config)" DestinationFolder="$(TargetDir)\config" />
+		<Copy SourceFiles="@(naven_jars)" DestinationFolder="$(TargetDir)\jars\%(RecursiveDir)" />
+		<Copy SourceFiles="@(naven_config)" DestinationFolder="$(TargetDir)\config\%(RecursiveDir)" />
 	</Target>
 
 	<Target Name="Naven_CopyFilesNativePublish" BeforeTargets="Publish">
-		<Copy SourceFiles="@(naven_jars)" DestinationFolder="$(PublishDir)\jars" />
-		<Copy SourceFiles="@(naven_config)" DestinationFolder="$(PublishDir)\config" />
+		<Copy SourceFiles="@(naven_jars)" DestinationFolder="$(PublishDir)\jars\%(RecursiveDir)" />
+		<Copy SourceFiles="@(naven_config)" DestinationFolder="$(PublishDir)\config\%(RecursiveDir)" />
 	</Target>
 </Project>
