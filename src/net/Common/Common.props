@@ -32,7 +32,6 @@
 		<TargetFramework>net8.0</TargetFramework>
 	</PropertyGroup>
 	<ItemGroup Condition="True">
-		<navencore_jars Include="$(ProjectDir)\..\..\..\jars\**\naven-*.jar"/>
 		<naven_jars Include="$(ProjectDir)\..\..\..\jars\**\*.*"/>
 		<naven_config Include="$(ProjectDir)\..\..\config\**\*.*" />
 	</ItemGroup>

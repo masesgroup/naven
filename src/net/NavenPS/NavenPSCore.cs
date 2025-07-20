@@ -29,19 +29,8 @@ namespace MASES.Naven.PowerShell
     /// </summary>
     public class NavenPSCore : NavenCLICore<NavenPSCore>
     {
-        static Assembly assembly = typeof(NavenPSCore).Assembly;
 #if NET6_0_OR_GREATER
         public static void Main(string[] args) { } // used in conjunction with project of executable type to produce artifacts with all needed assemblies
 #endif
-        protected override IList<string> PathToParse
-        {
-            get
-            {
-                var lst = base.PathToParse;
-                lst.Add(Path.Combine(assembly.Location, "..", JARsSubFolder, Const.PlexusFolderName, "*.jar"));
-                lst.Add(Path.Combine(assembly.Location, "..", JARsSubFolder, Const.LibFolderName, "*.jar"));
-                return lst;
-            }
-        }
     }
 }
