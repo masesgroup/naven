@@ -48,13 +48,21 @@ namespace MASES.Naven
         /// </summary>
         public static readonly string DefaultMavenHomePath = Path.Combine(AssemblyLocation, "jars");
         /// <summary>
-        /// Default path location of Jars files
+        /// Default path name of Plexus Jars files
         /// </summary>
-        public static readonly string DefaultPlexusPath = Path.Combine(DefaultMavenHomePath, "boot");
+        public const string PlexusFolderName = "boot";
         /// <summary>
         /// Default path location of Jars files
         /// </summary>
-        public static readonly string DefaultLibPath = Path.Combine(DefaultMavenHomePath, "lib");
+        public static readonly string DefaultPlexusPath = Path.Combine(DefaultMavenHomePath, PlexusFolderName);
+        /// <summary>
+        /// Default path name of Lib Jars files
+        /// </summary>
+        public const string LibFolderName = "lib";
+        /// <summary>
+        /// Default path location of Jars files
+        /// </summary>
+        public static readonly string DefaultLibPath = Path.Combine(DefaultMavenHomePath, LibFolderName);
         /// <summary>
         /// Default root path, i.e. consider installation within bin folder
         /// </summary>
