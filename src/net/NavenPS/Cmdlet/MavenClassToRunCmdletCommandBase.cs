@@ -38,7 +38,7 @@ namespace MASES.Naven.PowerShell.Cmdlet
         {
             base.OnBeforeCreateGlobalInstance();
             var nounName = JNetPSHelper.NounName<TCmdlet>();
-            JNetPSHelper<NavenPSCore>.SetClassToRun(nounName);
+            JNetCLICoreHelper.ApplicationClassToRun = nounName;
         }
 
         protected override void OnAfterCreateGlobalInstance()
