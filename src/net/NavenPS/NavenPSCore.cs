@@ -38,6 +38,7 @@ namespace MASES.Naven.PowerShell
             get
             {
                 var lst = base.PathToParse;
+                lst.Add(Path.Combine(assembly.Location, "..", JARsSubFolder, "*.jar"));
                 lst.Add(Path.Combine(assembly.Location, "..", JARsSubFolder, Const.PlexusFolderName, "*.jar"));
                 lst.Add(Path.Combine(assembly.Location, "..", JARsSubFolder, Const.LibFolderName, "*.jar"));
                 return lst;
