@@ -9,7 +9,7 @@
 		<Product>NavenPS</Product>
 		<OutputPath>..\..\..\MASES.NavenPS\</OutputPath>
 		<TargetFrameworks>net462;net8.0</TargetFrameworks>
-		<RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
+		<RunAnalyzersDuringLiveAnalysis>True</RunAnalyzersDuringLiveAnalysis>
 		<RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
 	</PropertyGroup>
 
