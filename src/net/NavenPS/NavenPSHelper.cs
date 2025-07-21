@@ -17,7 +17,6 @@
 */
 
 using MASES.JNet.PowerShell;
-using MASES.Naven;
 
 namespace MASES.Naven.PowerShell
 {

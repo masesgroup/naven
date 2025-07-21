@@ -16,8 +16,6 @@
 *  Refer to LICENSE for more information.
 */
 
-using Java.Io;
-using MASES.JCOBridge.C2JBridge;
 using MASES.JNet.PowerShell;
 using MASES.JNet.PowerShell.Cmdlet;
 using MASES.JNet.Specific.Extensions;
@@ -25,9 +23,7 @@ using Org.Codehaus.Plexus.Classworlds.Launcher;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Management.Automation;
-using System.Reflection;
 
 namespace MASES.Naven.PowerShell.Cmdlet
 {
@@ -65,12 +61,6 @@ namespace MASES.Naven.PowerShell.Cmdlet
             WriteVerbose("Begin StartLauncherCmdletCommand!");
         }
 
-        IEnumerable<string> argsFromArguments()
-        {
-            string[] arguments = string.IsNullOrWhiteSpace(Arguments) ? Array.Empty<string>() : Arguments.Split(' ');
-            return arguments.Where((arg) => !string.IsNullOrWhiteSpace(arg)).Select((arg) => arg.Trim());
-        }
-
         protected override void OnBeforeCreateGlobalInstance()
         {
             base.OnBeforeCreateGlobalInstance();
@@ -86,7 +76,7 @@ namespace MASES.Naven.PowerShell.Cmdlet
         protected override void ProcessCommand()
         {
             base.ProcessCommand();
-            var arguments = argsFromArguments();
+            var arguments = JNetPSHelper.ExtractArguments(Arguments);
             List<string> args = new List<string>(arguments);
             if (!string.IsNullOrWhiteSpace(File))
             {

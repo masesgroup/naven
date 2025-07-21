@@ -17,7 +17,6 @@
 */
 
 using MASES.Naven.CLI;
-using System;
 
 namespace MASES.Naven.PowerShell
 {
