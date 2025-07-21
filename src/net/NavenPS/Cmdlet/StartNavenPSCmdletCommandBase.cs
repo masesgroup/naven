@@ -17,7 +17,6 @@
 */
 
 using MASES.JNet.PowerShell.Cmdlet;
-using MASES.Naven;
 using System.Management.Automation;
 
 namespace MASES.Naven.PowerShell.Cmdlet

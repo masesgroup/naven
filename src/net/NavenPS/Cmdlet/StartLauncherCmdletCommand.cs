@@ -16,8 +16,6 @@
 *  Refer to LICENSE for more information.
 */
 
-using Java.Io;
-using MASES.JCOBridge.C2JBridge;
 using MASES.JNet.PowerShell;
 using MASES.JNet.PowerShell.Cmdlet;
 using MASES.JNet.Specific.Extensions;
@@ -25,9 +23,7 @@ using Org.Codehaus.Plexus.Classworlds.Launcher;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Management.Automation;
-using System.Reflection;
 
 namespace MASES.Naven.PowerShell.Cmdlet
 {

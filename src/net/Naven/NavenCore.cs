@@ -21,8 +21,6 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using MASES.JNet;
-using MASES.JCOBridge.C2JBridge;
-using System.Linq;
 
 namespace MASES.Naven
 {
