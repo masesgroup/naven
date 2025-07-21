@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-      <title>Class MavenClassToRunCmdletCommandBase&lt;TCmdlet&gt; | MASES Group - Naven </title>
+      <title>Class StartLauncherCmdletCommand | MASES Group - Naven </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class MavenClassToRunCmdletCommandBase&lt;TCmdlet&gt; | MASES Group - Naven ">
+      <meta name="title" content="Class StartLauncherCmdletCommand | MASES Group - Naven ">
       <meta name="description" content="This is a descriptive page of Naven, the .NET suite for Apache Maven™">
       
       <link rel="icon" href="../images/favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/masesgroup/naven/new/master/apiSpec/new?filename=MASES_NavenPS_Cmdlet_MavenClassToRunCmdletCommandBase_1.md&amp;value=---%0Auid%3A%20MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/masesgroup/naven/new/master/apiSpec/new?filename=MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand.md&amp;value=---%0Auid%3A%20MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,16 +84,16 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase`1">
+        <article data-uid="MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand">
 
 
 
-  <h1 id="MASES_NavenPS_Cmdlet_MavenClassToRunCmdletCommandBase_1" data-uid="MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase`1" class="text-break">
-Class MavenClassToRunCmdletCommandBase&lt;TCmdlet&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/NavenPS/Cmdlet/MavenClassToRunCmdletCommandBase.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <h1 id="MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand" data-uid="MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand" class="text-break">
+Class StartLauncherCmdletCommand  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/NavenPS/Cmdlet/StartLauncherCmdletCommand.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="MASES.html">MASES</a>.<a class="xref" href="MASES.NavenPS.html">NavenPS</a>.<a class="xref" href="MASES.NavenPS.Cmdlet.html">Cmdlet</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="MASES.html">MASES</a>.<a class="xref" href="MASES.Naven.html">Naven</a>.<a class="xref" href="MASES.Naven.PowerShell.html">PowerShell</a>.<a class="xref" href="MASES.Naven.PowerShell.Cmdlet.html">Cmdlet</a></dd></dl>
   <dl><dt>Assembly</dt><dd>MASES.NavenPS.dll</dd></dl>
   </div>
 
@@ -101,16 +101,13 @@ Class MavenClassToRunCmdletCommandBase&lt;TCmdlet&gt;  <a class="header-action l
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MavenClassToRunCmdletCommandBase&lt;TCmdlet&gt; : StartNavenPSCmdletCommandBase&lt;TCmdlet&gt; where TCmdlet : MavenClassToRunCmdletCommandBase&lt;TCmdlet&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">[Cmdlet(&quot;Start&quot;, &quot;Launcher&quot;)]
+[JNetPSExternalize]
+public class StartLauncherCmdletCommand : StartNavenPSCmdletCommandBase&lt;StartNavenPSCmdletCommand&gt;</code></pre>
   </div>
 
 
 
-  <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>TCmdlet</code></dt>
-    <dd></dd>
-  </dl>
 
   <dl class="typelist inheritance">
     <dt>Inheritance</dt>
@@ -119,10 +116,10 @@ Class MavenClassToRunCmdletCommandBase&lt;TCmdlet&gt;  <a class="header-action l
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.management.automation.internal.internalcommand">InternalCommand</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.management.automation.cmdlet">Cmdlet</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.management.automation.pscmdlet">PSCmdlet</a></div>
-      <div><a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.JNetPSExternalizableCmdlet-1.html">JNetPSExternalizableCmdlet</a>&lt;TCmdlet&gt;</div>
-      <div><a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html">StartJNetPSCmdletCommandBase</a>&lt;TCmdlet, <a class="xref" href="MASES.NavenPS.NavenPSCore.html">NavenPSCore</a>&gt;</div>
-      <div><a class="xref" href="MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase-1.html">StartNavenPSCmdletCommandBase</a>&lt;TCmdlet&gt;</div>
-      <div><span class="xref">MavenClassToRunCmdletCommandBase&lt;TCmdlet&gt;</span></div>
+      <div><a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.JNetPSExternalizableCmdlet-1.html">JNetPSExternalizableCmdlet</a>&lt;<a class="xref" href="MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommand.html">StartNavenPSCmdletCommand</a>&gt;</div>
+      <div><a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html">StartJNetPSCmdletCommandBase</a>&lt;<a class="xref" href="MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommand.html">StartNavenPSCmdletCommand</a>, <a class="xref" href="MASES.Naven.PowerShell.NavenPSCore.html">NavenPSCore</a>&gt;</div>
+      <div><a class="xref" href="MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase-1.html">StartNavenPSCmdletCommandBase</a>&lt;<a class="xref" href="MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommand.html">StartNavenPSCmdletCommand</a>&gt;</div>
+      <div><span class="xref">StartLauncherCmdletCommand</span></div>
     </dd>
   </dl>
 
@@ -132,82 +129,82 @@ Class MavenClassToRunCmdletCommandBase&lt;TCmdlet&gt;  <a class="header-action l
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase-1.html#MASES_NavenPS_Cmdlet_StartNavenPSCmdletCommandBase_1_CommonLoggingPath">StartNavenPSCmdletCommandBase&lt;TCmdlet&gt;.CommonLoggingPath</a>
+      <a class="xref" href="MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase-1.html#MASES_Naven_PowerShell_Cmdlet_StartNavenPSCmdletCommandBase_1_CommonLoggingPath">StartNavenPSCmdletCommandBase&lt;StartNavenPSCmdletCommand&gt;.CommonLoggingPath</a>
     </div>
     <div>
-      <a class="xref" href="MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase-1.html#MASES_NavenPS_Cmdlet_StartNavenPSCmdletCommandBase_1_LogPath">StartNavenPSCmdletCommandBase&lt;TCmdlet&gt;.LogPath</a>
+      <a class="xref" href="MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase-1.html#MASES_Naven_PowerShell_Cmdlet_StartNavenPSCmdletCommandBase_1_LogPath">StartNavenPSCmdletCommandBase&lt;StartNavenPSCmdletCommand&gt;.LogPath</a>
     </div>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_ProcessCommand">StartJNetPSCmdletCommandBase&lt;TCmdlet, NavenPSCore&gt;.ProcessCommand()</a>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_ProcessCommand">StartJNetPSCmdletCommandBase&lt;StartNavenPSCmdletCommand, NavenPSCore&gt;.ProcessCommand()</a>
     </div>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_OnBeforeCreateGlobalInstance">StartJNetPSCmdletCommandBase&lt;TCmdlet, NavenPSCore&gt;.OnBeforeCreateGlobalInstance()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">StartJNetPSCmdletCommandBase&lt;StartNavenPSCmdletCommand, NavenPSCore&gt;.AddJVMOption(string, string)</a>
     </div>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_CreateGlobalInstance">StartJNetPSCmdletCommandBase&lt;TCmdlet, NavenPSCore&gt;.CreateGlobalInstance()</a>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_OnBeforeCreateGlobalInstance">StartJNetPSCmdletCommandBase&lt;StartNavenPSCmdletCommand, NavenPSCore&gt;.OnBeforeCreateGlobalInstance()</a>
     </div>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_OnAfterCreateGlobalInstance">StartJNetPSCmdletCommandBase&lt;TCmdlet, NavenPSCore&gt;.OnAfterCreateGlobalInstance()</a>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_CreateGlobalInstance">StartJNetPSCmdletCommandBase&lt;StartNavenPSCmdletCommand, NavenPSCore&gt;.CreateGlobalInstance()</a>
     </div>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_LicensePath">StartJNetPSCmdletCommandBase&lt;TCmdlet, NavenPSCore&gt;.LicensePath</a>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_OnAfterCreateGlobalInstance">StartJNetPSCmdletCommandBase&lt;StartNavenPSCmdletCommand, NavenPSCore&gt;.OnAfterCreateGlobalInstance()</a>
     </div>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_JDKHome">StartJNetPSCmdletCommandBase&lt;TCmdlet, NavenPSCore&gt;.JDKHome</a>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_LicensePath">StartJNetPSCmdletCommandBase&lt;StartNavenPSCmdletCommand, NavenPSCore&gt;.LicensePath</a>
     </div>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_JVMPath">StartJNetPSCmdletCommandBase&lt;TCmdlet, NavenPSCore&gt;.JVMPath</a>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_JDKHome">StartJNetPSCmdletCommandBase&lt;StartNavenPSCmdletCommand, NavenPSCore&gt;.JDKHome</a>
     </div>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_JNIVerbosity">StartJNetPSCmdletCommandBase&lt;TCmdlet, NavenPSCore&gt;.JNIVerbosity</a>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_JVMPath">StartJNetPSCmdletCommandBase&lt;StartNavenPSCmdletCommand, NavenPSCore&gt;.JVMPath</a>
     </div>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_JNIOutputFile">StartJNetPSCmdletCommandBase&lt;TCmdlet, NavenPSCore&gt;.JNIOutputFile</a>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_JNIVerbosity">StartJNetPSCmdletCommandBase&lt;StartNavenPSCmdletCommand, NavenPSCore&gt;.JNIVerbosity</a>
     </div>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_JmxPort">StartJNetPSCmdletCommandBase&lt;TCmdlet, NavenPSCore&gt;.JmxPort</a>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_JNIOutputFile">StartJNetPSCmdletCommandBase&lt;StartNavenPSCmdletCommand, NavenPSCore&gt;.JNIOutputFile</a>
     </div>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_EnableDebug">StartJNetPSCmdletCommandBase&lt;TCmdlet, NavenPSCore&gt;.EnableDebug</a>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_JmxPort">StartJNetPSCmdletCommandBase&lt;StartNavenPSCmdletCommand, NavenPSCore&gt;.JmxPort</a>
     </div>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_JavaDebugPort">StartJNetPSCmdletCommandBase&lt;TCmdlet, NavenPSCore&gt;.JavaDebugPort</a>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_EnableDebug">StartJNetPSCmdletCommandBase&lt;StartNavenPSCmdletCommand, NavenPSCore&gt;.EnableDebug</a>
     </div>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_DebugSuspendFlag">StartJNetPSCmdletCommandBase&lt;TCmdlet, NavenPSCore&gt;.DebugSuspendFlag</a>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_JavaDebugPort">StartJNetPSCmdletCommandBase&lt;StartNavenPSCmdletCommand, NavenPSCore&gt;.JavaDebugPort</a>
     </div>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_JavaDebugOpts">StartJNetPSCmdletCommandBase&lt;TCmdlet, NavenPSCore&gt;.JavaDebugOpts</a>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_DebugSuspendFlag">StartJNetPSCmdletCommandBase&lt;StartNavenPSCmdletCommand, NavenPSCore&gt;.DebugSuspendFlag</a>
     </div>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_HeapSize">StartJNetPSCmdletCommandBase&lt;TCmdlet, NavenPSCore&gt;.HeapSize</a>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_JavaDebugOpts">StartJNetPSCmdletCommandBase&lt;StartNavenPSCmdletCommand, NavenPSCore&gt;.JavaDebugOpts</a>
     </div>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_InitialHeapSize">StartJNetPSCmdletCommandBase&lt;TCmdlet, NavenPSCore&gt;.InitialHeapSize</a>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_HeapSize">StartJNetPSCmdletCommandBase&lt;StartNavenPSCmdletCommand, NavenPSCore&gt;.HeapSize</a>
     </div>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNetPSCore_Cmdlet_StartJNetPSCmdletCommandBase_2_LogClassPath">StartJNetPSCmdletCommandBase&lt;TCmdlet, NavenPSCore&gt;.LogClassPath</a>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_InitialHeapSize">StartJNetPSCmdletCommandBase&lt;StartNavenPSCmdletCommand, NavenPSCore&gt;.InitialHeapSize</a>
     </div>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.JNetPSExternalizableCmdlet-1.html#MASES_JNetPSCore_Cmdlet_JNetPSExternalizableCmdlet_1_BeginProcessing">JNetPSExternalizableCmdlet&lt;TCmdlet&gt;.BeginProcessing()</a>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_LogClassPath">StartJNetPSCmdletCommandBase&lt;StartNavenPSCmdletCommand, NavenPSCore&gt;.LogClassPath</a>
     </div>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.JNetPSExternalizableCmdlet-1.html#MASES_JNetPSCore_Cmdlet_JNetPSExternalizableCmdlet_1_ProcessRecord">JNetPSExternalizableCmdlet&lt;TCmdlet&gt;.ProcessRecord()</a>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_ExtraJVMOptions">StartJNetPSCmdletCommandBase&lt;StartNavenPSCmdletCommand, NavenPSCore&gt;.ExtraJVMOptions</a>
     </div>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.JNetPSExternalizableCmdlet-1.html#MASES_JNetPSCore_Cmdlet_JNetPSExternalizableCmdlet_1_ProcessCommand">JNetPSExternalizableCmdlet&lt;TCmdlet&gt;.ProcessCommand()</a>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.StartJNetPSCmdletCommandBase-2.html#MASES_JNet_PowerShell_Cmdlet_StartJNetPSCmdletCommandBase_2_ExtraJVMKVOptions">StartJNetPSCmdletCommandBase&lt;StartNavenPSCmdletCommand, NavenPSCore&gt;.ExtraJVMKVOptions</a>
     </div>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.JNetPSExternalizableCmdlet-1.html#MASES_JNetPSCore_Cmdlet_JNetPSExternalizableCmdlet_1_EndProcessing">JNetPSExternalizableCmdlet&lt;TCmdlet&gt;.EndProcessing()</a>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.JNetPSExternalizableCmdlet-1.html#MASES_JNet_PowerShell_Cmdlet_JNetPSExternalizableCmdlet_1_ProcessRecord">JNetPSExternalizableCmdlet&lt;StartNavenPSCmdletCommand&gt;.ProcessRecord()</a>
     </div>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.JNetPSExternalizableCmdlet-1.html#MASES_JNetPSCore_Cmdlet_JNetPSExternalizableCmdlet_1_JNetPSCmdletDetached">JNetPSExternalizableCmdlet&lt;TCmdlet&gt;.JNetPSCmdletDetached</a>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.JNetPSExternalizableCmdlet-1.html#MASES_JNet_PowerShell_Cmdlet_JNetPSExternalizableCmdlet_1_JNetPSCmdletDetached">JNetPSExternalizableCmdlet&lt;StartNavenPSCmdletCommand&gt;.JNetPSCmdletDetached</a>
     </div>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.JNetPSExternalizableCmdlet-1.html#MASES_JNetPSCore_Cmdlet_JNetPSExternalizableCmdlet_1_BypassJNetPSExternalize">JNetPSExternalizableCmdlet&lt;TCmdlet&gt;.BypassJNetPSExternalize</a>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.JNetPSExternalizableCmdlet-1.html#MASES_JNet_PowerShell_Cmdlet_JNetPSExternalizableCmdlet_1_BypassJNetPSExternalize">JNetPSExternalizableCmdlet&lt;StartNavenPSCmdletCommand&gt;.BypassJNetPSExternalize</a>
     </div>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.JNetPSExternalizableCmdlet-1.html#MASES_JNetPSCore_Cmdlet_JNetPSExternalizableCmdlet_1_ForceJNetPSExternalize">JNetPSExternalizableCmdlet&lt;TCmdlet&gt;.ForceJNetPSExternalize</a>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.JNetPSExternalizableCmdlet-1.html#MASES_JNet_PowerShell_Cmdlet_JNetPSExternalizableCmdlet_1_ForceJNetPSExternalize">JNetPSExternalizableCmdlet&lt;StartNavenPSCmdletCommand&gt;.ForceJNetPSExternalize</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.management.automation.pscmdlet.currentproviderlocation">PSCmdlet.CurrentProviderLocation(string)</a>
@@ -370,19 +367,83 @@ Class MavenClassToRunCmdletCommandBase&lt;TCmdlet&gt;  <a class="header-action l
 </h2>
 
 
-  <a id="MASES_NavenPS_Cmdlet_MavenClassToRunCmdletCommandBase_1_Arguments_" data-uid="MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase`1.Arguments*"></a>
+  <a id="MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_Arguments_" data-uid="MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.Arguments*"></a>
 
-  <h3 id="MASES_NavenPS_Cmdlet_MavenClassToRunCmdletCommandBase_1_Arguments" data-uid="MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase`1.Arguments">
+  <h3 id="MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_Arguments" data-uid="MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.Arguments">
   Arguments
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/NavenPS/Cmdlet/MavenClassToRunCmdletCommandBase.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/NavenPS/Cmdlet/StartLauncherCmdletCommand.cs/#L50"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Parameter(ValueFromPipeline = true, ValueFromPipelineByPropertyName = true, HelpMessage = &quot;The arguments to be sent to the Apache Maven command.&quot;)]
+    <pre><code class="lang-csharp hljs">[Parameter(Mandatory = false, Position = 2, ValueFromPipeline = true, ValueFromPipelineByPropertyName = true, HelpMessage = &quot;The arguments to use with launcher&quot;)]
 public string Arguments { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_File_" data-uid="MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.File*"></a>
+
+  <h3 id="MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_File" data-uid="MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.File">
+  File
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/NavenPS/Cmdlet/StartLauncherCmdletCommand.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Parameter(Mandatory = false, Position = 0, ValueFromPipeline = true, ValueFromPipelineByPropertyName = true, HelpMessage = &quot;The optional argument for POM file&quot;)]
+public string File { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_Stage_" data-uid="MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.Stage*"></a>
+
+  <h3 id="MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_Stage" data-uid="MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.Stage">
+  Stage
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/NavenPS/Cmdlet/StartLauncherCmdletCommand.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Parameter(Mandatory = true, Position = 1, ValueFromPipeline = true, ValueFromPipelineByPropertyName = true, HelpMessage = &quot;The stage argument for Maven execution&quot;)]
+public string Stage { get; set; }</code></pre>
   </div>
 
 
@@ -406,18 +467,18 @@ public string Arguments { get; set; }</code></pre>
 </h2>
 
 
-  <a id="MASES_NavenPS_Cmdlet_MavenClassToRunCmdletCommandBase_1_OnAfterCreateGlobalInstance_" data-uid="MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase`1.OnAfterCreateGlobalInstance*"></a>
+  <a id="MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_BeginProcessing_" data-uid="MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.BeginProcessing*"></a>
 
-  <h3 id="MASES_NavenPS_Cmdlet_MavenClassToRunCmdletCommandBase_1_OnAfterCreateGlobalInstance" data-uid="MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase`1.OnAfterCreateGlobalInstance">
-  OnAfterCreateGlobalInstance()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/NavenPS/Cmdlet/MavenClassToRunCmdletCommandBase.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <h3 id="MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_BeginProcessing" data-uid="MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.BeginProcessing">
+  BeginProcessing()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/NavenPS/Cmdlet/StartLauncherCmdletCommand.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnAfterCreateGlobalInstance()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void BeginProcessing()</code></pre>
   </div>
 
 
@@ -432,11 +493,37 @@ public string Arguments { get; set; }</code></pre>
 
 
 
-  <a id="MASES_NavenPS_Cmdlet_MavenClassToRunCmdletCommandBase_1_OnBeforeCreateGlobalInstance_" data-uid="MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase`1.OnBeforeCreateGlobalInstance*"></a>
+  <a id="MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_EndProcessing_" data-uid="MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.EndProcessing*"></a>
 
-  <h3 id="MASES_NavenPS_Cmdlet_MavenClassToRunCmdletCommandBase_1_OnBeforeCreateGlobalInstance" data-uid="MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase`1.OnBeforeCreateGlobalInstance">
+  <h3 id="MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_EndProcessing" data-uid="MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.EndProcessing">
+  EndProcessing()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/NavenPS/Cmdlet/StartLauncherCmdletCommand.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void EndProcessing()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_OnBeforeCreateGlobalInstance_" data-uid="MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.OnBeforeCreateGlobalInstance*"></a>
+
+  <h3 id="MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_OnBeforeCreateGlobalInstance" data-uid="MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.OnBeforeCreateGlobalInstance">
   OnBeforeCreateGlobalInstance()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/NavenPS/Cmdlet/MavenClassToRunCmdletCommandBase.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/NavenPS/Cmdlet/StartLauncherCmdletCommand.cs/#L64"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -458,11 +545,37 @@ public string Arguments { get; set; }</code></pre>
 
 
 
+  <a id="MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_ProcessCommand_" data-uid="MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.ProcessCommand*"></a>
+
+  <h3 id="MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_ProcessCommand" data-uid="MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.ProcessCommand">
+  ProcessCommand()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/NavenPS/Cmdlet/StartLauncherCmdletCommand.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void ProcessCommand()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/naven/blob/master/src/net/NavenPS/Cmdlet/MavenClassToRunCmdletCommandBase.cs/#L27" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/naven/blob/master/src/net/NavenPS/Cmdlet/StartLauncherCmdletCommand.cs/#L30" class="edit-link">Edit this page</a>
         </div>
 
 

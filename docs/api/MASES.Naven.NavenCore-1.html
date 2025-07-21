@@ -89,7 +89,7 @@
 
 
   <h1 id="MASES_Naven_NavenCore_1" data-uid="MASES.Naven.NavenCore`1" class="text-break">
-Class NavenCore&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L33"><i class="bi bi-code-slash"></i></a>
+Class NavenCore&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -137,7 +137,7 @@ Class NavenCore&lt;T&gt;  <a class="header-action link-secondary" title="View so
   <dl class="typelist derived">
     <dt>Derived</dt>
     <dd>
-      <div><a class="xref" href="MASES.NavenCLI.NavenCLICore-1.html">NavenCLICore&lt;T&gt;</a></div>
+      <div><a class="xref" href="MASES.Naven.CLI.NavenCLICore-1.html">NavenCLICore&lt;T&gt;</a></div>
     </dd>
   </dl>
 
@@ -154,6 +154,9 @@ Class NavenCore&lt;T&gt;  <a class="header-action link-secondary" title="View so
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JNetCoreBase&lt;T&gt;.ReplaceEnvironmentVariable(string)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JNetCoreBase&lt;T&gt;.AddJVMOption(string, string)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">JNetCoreBase&lt;T&gt;.HelpInfo(int?)</a>
     </div>
     <div>
@@ -163,7 +166,13 @@ Class NavenCore&lt;T&gt;  <a class="header-action link-secondary" title="View so
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JNetCoreBase&lt;T&gt;.New(string, params object[])</a>
     </div>
     <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.JNetCoreBase-1.html#MASES_JNet_JNetCoreBase_1_LaunchWithFilteredArgs__1">JNetCoreBase&lt;T&gt;.LaunchWithFilteredArgs&lt;TClass&gt;()</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JNetCoreBase&lt;T&gt;.Launch&lt;TClass&gt;(params string[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JNetCoreBase&lt;T&gt;.LaunchWithFilteredArgs(Type)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JNetCoreBase&lt;T&gt;.Launch(Type, params string[])</a>
@@ -206,6 +215,9 @@ Class NavenCore&lt;T&gt;  <a class="header-action link-secondary" title="View so
     </div>
     <div>
       <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.JNetCoreBase-1.html#MASES_JNet_JNetCoreBase_1_ApplicationLogClassPath">JNetCoreBase&lt;T&gt;.ApplicationLogClassPath</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.JNetCoreBase-1.html#MASES_JNet_JNetCoreBase_1_ApplicationJVMExtraOptions">JNetCoreBase&lt;T&gt;.ApplicationJVMExtraOptions</a>
     </div>
     <div>
       <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.JNetCoreBase-1.html#MASES_JNet_JNetCoreBase_1_LicensePath">JNetCoreBase&lt;T&gt;.LicensePath</a>
@@ -420,7 +432,7 @@ Class NavenCore&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
   <h3 id="MASES_Naven_NavenCore_1__ctor" data-uid="MASES.Naven.NavenCore`1.#ctor">
   NavenCore()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L71"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Public initializer</p>
@@ -443,82 +455,15 @@ Class NavenCore&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
 
 
-  <h2 class="section" id="fields">Fields
-</h2>
-
-
-
-  <h3 id="MASES_Naven_NavenCore_1__classToRun" data-uid="MASES.Naven.NavenCore`1._classToRun">
-  _classToRun
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L150"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>value can be overridden in subclasses</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected string _classToRun</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
   <h2 class="section" id="properties">Properties
 </h2>
-
-
-  <a id="MASES_Naven_NavenCore_1_ApplicationClassToRun_" data-uid="MASES.Naven.NavenCore`1.ApplicationClassToRun*"></a>
-
-  <h3 id="MASES_Naven_NavenCore_1_ApplicationClassToRun" data-uid="MASES.Naven.NavenCore`1.ApplicationClassToRun">
-  ApplicationClassToRun
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L135"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Sets the global value of class to run</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ApplicationClassToRun { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
 
 
   <a id="MASES_Naven_NavenCore_1_ApplicationCommonLoggingPath_" data-uid="MASES.Naven.NavenCore`1.ApplicationCommonLoggingPath*"></a>
 
   <h3 id="MASES_Naven_NavenCore_1_ApplicationCommonLoggingPath" data-uid="MASES.Naven.NavenCore`1.ApplicationCommonLoggingPath">
   ApplicationCommonLoggingPath
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L106"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sets the global value of log4j path</p>
@@ -550,7 +495,7 @@ Class NavenCore&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
   <h3 id="MASES_Naven_NavenCore_1_ApplicationLogPath" data-uid="MASES.Naven.NavenCore`1.ApplicationLogPath">
   ApplicationLogPath
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L111"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sets the global value of log path</p>
@@ -578,19 +523,19 @@ Class NavenCore&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
 
 
-  <a id="MASES_Naven_NavenCore_1_ClassToRun_" data-uid="MASES.Naven.NavenCore`1.ClassToRun*"></a>
+  <a id="MASES_Naven_NavenCore_1_ApplicationMultiModuleProjectDirectory_" data-uid="MASES.Naven.NavenCore`1.ApplicationMultiModuleProjectDirectory*"></a>
 
-  <h3 id="MASES_Naven_NavenCore_1_ClassToRun" data-uid="MASES.Naven.NavenCore`1.ClassToRun">
-  ClassToRun
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  <h3 id="MASES_Naven_NavenCore_1_ApplicationMultiModuleProjectDirectory" data-uid="MASES.Naven.NavenCore`1.ApplicationMultiModuleProjectDirectory">
+  ApplicationMultiModuleProjectDirectory
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L101"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The class to run in CLI version</p>
+  <div class="markdown level1 summary"><p>Sets the global value for maven.multiModuleProjectDirectory</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual string ClassToRun { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static string ApplicationMultiModuleProjectDirectory { get; set; }</code></pre>
   </div>
 
 
@@ -614,7 +559,7 @@ Class NavenCore&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
   <h3 id="MASES_Naven_NavenCore_1_CommandLineArguments" data-uid="MASES.Naven.NavenCore`1.CommandLineArguments">
   CommandLineArguments
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a> for command line</p>
@@ -646,7 +591,7 @@ Class NavenCore&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
   <h3 id="MASES_Naven_NavenCore_1_CommonLoggingOpts" data-uid="MASES.Naven.NavenCore`1.CommonLoggingOpts">
   CommonLoggingOpts
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L128"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The log4j configuration</p>
@@ -678,7 +623,7 @@ Class NavenCore&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
   <h3 id="MASES_Naven_NavenCore_1_CommonLoggingPath" data-uid="MASES.Naven.NavenCore`1.CommonLoggingPath">
   CommonLoggingPath
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L117"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The log4j folder</p>
@@ -710,7 +655,7 @@ Class NavenCore&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
   <h3 id="MASES_Naven_NavenCore_1_LogDir" data-uid="MASES.Naven.NavenCore`1.LogDir">
   LogDir
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L123"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The log folder</p>
@@ -738,43 +683,11 @@ Class NavenCore&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
 
 
-  <a id="MASES_Naven_NavenCore_1_MainClassToRun_" data-uid="MASES.Naven.NavenCore`1.MainClassToRun*"></a>
-
-  <h3 id="MASES_Naven_NavenCore_1_MainClassToRun" data-uid="MASES.Naven.NavenCore`1.MainClassToRun">
-  MainClassToRun
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L130"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Sets the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a> to be invoked at startup</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Type MainClassToRun { get; protected set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="MASES_Naven_NavenCore_1_Options_" data-uid="MASES.Naven.NavenCore`1.Options*"></a>
 
   <h3 id="MASES_Naven_NavenCore_1_Options" data-uid="MASES.Naven.NavenCore`1.Options">
   Options
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L149"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Adds options to the JVM</p>
@@ -806,7 +719,7 @@ Class NavenCore&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
   <h3 id="MASES_Naven_NavenCore_1_PathToParse" data-uid="MASES.Naven.NavenCore`1.PathToParse">
   PathToParse
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L188"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>A list of paths to be used in initialization of JVM ClassPath</p>
@@ -838,7 +751,7 @@ Class NavenCore&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
   <h3 id="MASES_Naven_NavenCore_1_PerformanceOptions" data-uid="MASES.Naven.NavenCore`1.PerformanceOptions">
   PerformanceOptions
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L131"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Default performance options used in initialization</p>
@@ -874,7 +787,7 @@ Class NavenCore&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
   <h3 id="MASES_Naven_NavenCore_1_DefaultCommonLoggingConfiguration" data-uid="MASES.Naven.NavenCore`1.DefaultCommonLoggingConfiguration">
   DefaultCommonLoggingConfiguration()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L63"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns the default configuration file to use when initializing command line defaults</p>
@@ -906,50 +819,11 @@ Class NavenCore&lt;T&gt;  <a class="header-action link-secondary" title="View so
 
 
 
-  <a id="MASES_Naven_NavenCore_1_PrepareMainClassToRun_" data-uid="MASES.Naven.NavenCore`1.PrepareMainClassToRun*"></a>
-
-  <h3 id="MASES_Naven_NavenCore_1_PrepareMainClassToRun_System_String_" data-uid="MASES.Naven.NavenCore`1.PrepareMainClassToRun(System.String)">
-  PrepareMainClassToRun(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L110"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Prepare <a class="xref" href="MASES.Naven.NavenCore-1.html#MASES_Naven_NavenCore_1_MainClassToRun">MainClassToRun</a> property</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void PrepareMainClassToRun(string className)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>className</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The class to search</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-  <h4 class="section">Exceptions</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
-    <dd><p>If <code class="paramref">className</code> does not have a corresponding implemented <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></p>
-</dd>
-  </dl>
-
-
-
   <a id="MASES_Naven_NavenCore_1_ProcessCommandLine_" data-uid="MASES.Naven.NavenCore`1.ProcessCommandLine*"></a>
 
   <h3 id="MASES_Naven_NavenCore_1_ProcessCommandLine" data-uid="MASES.Naven.NavenCore`1.ProcessCommandLine">
   ProcessCommandLine()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L77"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/M_MASES_JCOBridge_C2JBridge_SetupJVMWrapper_ProcessCommandLine.htm">https://www.jcobridge.com/api-clr/html/M_MASES_JCOBridge_C2JBridge_SetupJVMWrapper_ProcessCommandLine.htm</a></p>
@@ -981,7 +855,7 @@ Class NavenCore&lt;T&gt;  <a class="header-action link-secondary" title="View so
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L33" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/NavenCore.cs/#L31" class="edit-link">Edit this page</a>
         </div>
 
 

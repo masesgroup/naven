@@ -12,6 +12,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/MASES.Naven.CLI.NavenCLICore-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.Naven.CLI.NavenCLICore-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.Naven.CLI.NavenCLICore<T>",
+      "Summary": "<p sourcefile=\"api/MASES.Naven.CLI.NavenCLICore-1.yml\" sourcestartlinenumber=\"1\">Overridable implementation of <xref href=\"MASES.Naven.NavenCore%601\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.Naven.CLI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.Naven.CLI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.Naven.CLI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MASES.Naven.Const.yml",
       "output": {
         ".html": {
@@ -40,6 +68,132 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase<TCmdlet>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.Naven.PowerShell.Cmdlet.NavenPSCmdlet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.Naven.PowerShell.Cmdlet.NavenPSCmdlet.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.Naven.PowerShell.Cmdlet.NavenPSCmdlet",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase<TCmdlet>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.Naven.PowerShell.Cmdlet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.Naven.PowerShell.Cmdlet.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.Naven.PowerShell.Cmdlet",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.Naven.PowerShell.NavenPSCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.Naven.PowerShell.NavenPSCore.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.Naven.PowerShell.NavenPSCore",
+      "Summary": "<p sourcefile=\"api/MASES.Naven.PowerShell.NavenPSCore.yml\" sourcestartlinenumber=\"1\">Concrete implementation of <xref href=\"MASES.Naven.CLI.NavenCLICore%601\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.Naven.PowerShell.NavenPSHelper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.Naven.PowerShell.NavenPSHelper-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.Naven.PowerShell.NavenPSHelper<TClass>",
+      "Summary": "<p sourcefile=\"api/MASES.Naven.PowerShell.NavenPSHelper-1.yml\" sourcestartlinenumber=\"1\">Public Helper class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.Naven.PowerShell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.Naven.PowerShell.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.Naven.PowerShell",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MASES.Naven.yml",
       "output": {
         ".html": {
@@ -50,160 +204,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "MASES.Naven",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.NavenCLI.NavenCLICore-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.NavenCLI.NavenCLICore-1.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.NavenCLI.NavenCLICore<T>",
-      "Summary": "<p sourcefile=\"api/MASES.NavenCLI.NavenCLICore-1.yml\" sourcestartlinenumber=\"1\">Overridable implementation of <xref href=\"MASES.Naven.NavenCore%601\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.NavenCLI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.NavenCLI.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.NavenCLI",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase-1.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase<TCmdlet>",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.NavenPS.Cmdlet.NavenPSCmdlet.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.NavenPS.Cmdlet.NavenPSCmdlet.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.NavenPS.Cmdlet.NavenPSCmdlet",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommand.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommand",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase-1.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase<TCmdlet>",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.NavenPS.Cmdlet.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.NavenPS.Cmdlet.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.NavenPS.Cmdlet",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.NavenPS.NavenPSCore.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.NavenPS.NavenPSCore.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.NavenPS.NavenPSCore",
-      "Summary": "<p sourcefile=\"api/MASES.NavenPS.NavenPSCore.yml\" sourcestartlinenumber=\"1\">Concrete implementation of NavenCore&lt;T&gt;</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.NavenPS.NavenPSHelper-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.NavenPS.NavenPSHelper-1.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.NavenPS.NavenPSHelper<TClass>",
-      "Summary": "<p sourcefile=\"api/MASES.NavenPS.NavenPSHelper-1.yml\" sourcestartlinenumber=\"1\">Public Helper class</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.NavenPS.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.NavenPS.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.NavenPS",
       "Summary": null
     },
     {

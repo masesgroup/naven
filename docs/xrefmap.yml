@@ -7,6 +7,91 @@ references:
   commentId: N:MASES.Naven
   fullName: MASES.Naven
   nameWithType: MASES.Naven
+- uid: MASES.Naven.CLI
+  name: MASES.Naven.CLI
+  href: api/MASES.Naven.CLI.html
+  commentId: N:MASES.Naven.CLI
+  fullName: MASES.Naven.CLI
+  nameWithType: MASES.Naven.CLI
+- uid: MASES.Naven.CLI.NavenCLICore`1
+  name: NavenCLICore<T>
+  href: api/MASES.Naven.CLI.NavenCLICore-1.html
+  commentId: T:MASES.Naven.CLI.NavenCLICore`1
+  name.vb: NavenCLICore(Of T)
+  fullName: MASES.Naven.CLI.NavenCLICore<T>
+  fullName.vb: MASES.Naven.CLI.NavenCLICore(Of T)
+  nameWithType: NavenCLICore<T>
+  nameWithType.vb: NavenCLICore(Of T)
+- uid: MASES.Naven.CLI.NavenCLICore`1.#ctor
+  name: NavenCLICore()
+  href: api/MASES.Naven.CLI.NavenCLICore-1.html#MASES_Naven_CLI_NavenCLICore_1__ctor
+  commentId: M:MASES.Naven.CLI.NavenCLICore`1.#ctor
+  name.vb: New()
+  fullName: MASES.Naven.CLI.NavenCLICore<T>.NavenCLICore()
+  fullName.vb: MASES.Naven.CLI.NavenCLICore(Of T).New()
+  nameWithType: NavenCLICore<T>.NavenCLICore()
+  nameWithType.vb: NavenCLICore(Of T).New()
+- uid: MASES.Naven.CLI.NavenCLICore`1.#ctor*
+  name: NavenCLICore
+  href: api/MASES.Naven.CLI.NavenCLICore-1.html#MASES_Naven_CLI_NavenCLICore_1__ctor_
+  commentId: Overload:MASES.Naven.CLI.NavenCLICore`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: MASES.Naven.CLI.NavenCLICore<T>.NavenCLICore
+  fullName.vb: MASES.Naven.CLI.NavenCLICore(Of T).New
+  nameWithType: NavenCLICore<T>.NavenCLICore
+  nameWithType.vb: NavenCLICore(Of T).New
+- uid: MASES.Naven.CLI.NavenCLICore`1.CommandLineArguments
+  name: CommandLineArguments
+  href: api/MASES.Naven.CLI.NavenCLICore-1.html#MASES_Naven_CLI_NavenCLICore_1_CommandLineArguments
+  commentId: P:MASES.Naven.CLI.NavenCLICore`1.CommandLineArguments
+  fullName: MASES.Naven.CLI.NavenCLICore<T>.CommandLineArguments
+  fullName.vb: MASES.Naven.CLI.NavenCLICore(Of T).CommandLineArguments
+  nameWithType: NavenCLICore<T>.CommandLineArguments
+  nameWithType.vb: NavenCLICore(Of T).CommandLineArguments
+- uid: MASES.Naven.CLI.NavenCLICore`1.CommandLineArguments*
+  name: CommandLineArguments
+  href: api/MASES.Naven.CLI.NavenCLICore-1.html#MASES_Naven_CLI_NavenCLICore_1_CommandLineArguments_
+  commentId: Overload:MASES.Naven.CLI.NavenCLICore`1.CommandLineArguments
+  isSpec: "True"
+  fullName: MASES.Naven.CLI.NavenCLICore<T>.CommandLineArguments
+  fullName.vb: MASES.Naven.CLI.NavenCLICore(Of T).CommandLineArguments
+  nameWithType: NavenCLICore<T>.CommandLineArguments
+  nameWithType.vb: NavenCLICore(Of T).CommandLineArguments
+- uid: MASES.Naven.CLI.NavenCLICore`1.PathToParse
+  name: PathToParse
+  href: api/MASES.Naven.CLI.NavenCLICore-1.html#MASES_Naven_CLI_NavenCLICore_1_PathToParse
+  commentId: P:MASES.Naven.CLI.NavenCLICore`1.PathToParse
+  fullName: MASES.Naven.CLI.NavenCLICore<T>.PathToParse
+  fullName.vb: MASES.Naven.CLI.NavenCLICore(Of T).PathToParse
+  nameWithType: NavenCLICore<T>.PathToParse
+  nameWithType.vb: NavenCLICore(Of T).PathToParse
+- uid: MASES.Naven.CLI.NavenCLICore`1.PathToParse*
+  name: PathToParse
+  href: api/MASES.Naven.CLI.NavenCLICore-1.html#MASES_Naven_CLI_NavenCLICore_1_PathToParse_
+  commentId: Overload:MASES.Naven.CLI.NavenCLICore`1.PathToParse
+  isSpec: "True"
+  fullName: MASES.Naven.CLI.NavenCLICore<T>.PathToParse
+  fullName.vb: MASES.Naven.CLI.NavenCLICore(Of T).PathToParse
+  nameWithType: NavenCLICore<T>.PathToParse
+  nameWithType.vb: NavenCLICore(Of T).PathToParse
+- uid: MASES.Naven.CLI.NavenCLICore`1.ProcessCommandLine
+  name: ProcessCommandLine()
+  href: api/MASES.Naven.CLI.NavenCLICore-1.html#MASES_Naven_CLI_NavenCLICore_1_ProcessCommandLine
+  commentId: M:MASES.Naven.CLI.NavenCLICore`1.ProcessCommandLine
+  fullName: MASES.Naven.CLI.NavenCLICore<T>.ProcessCommandLine()
+  fullName.vb: MASES.Naven.CLI.NavenCLICore(Of T).ProcessCommandLine()
+  nameWithType: NavenCLICore<T>.ProcessCommandLine()
+  nameWithType.vb: NavenCLICore(Of T).ProcessCommandLine()
+- uid: MASES.Naven.CLI.NavenCLICore`1.ProcessCommandLine*
+  name: ProcessCommandLine
+  href: api/MASES.Naven.CLI.NavenCLICore-1.html#MASES_Naven_CLI_NavenCLICore_1_ProcessCommandLine_
+  commentId: Overload:MASES.Naven.CLI.NavenCLICore`1.ProcessCommandLine
+  isSpec: "True"
+  fullName: MASES.Naven.CLI.NavenCLICore<T>.ProcessCommandLine
+  fullName.vb: MASES.Naven.CLI.NavenCLICore(Of T).ProcessCommandLine
+  nameWithType: NavenCLICore<T>.ProcessCommandLine
+  nameWithType.vb: NavenCLICore(Of T).ProcessCommandLine
 - uid: MASES.Naven.Const
   name: Const
   href: api/MASES.Naven.Const.html
@@ -89,23 +174,6 @@ references:
   fullName.vb: MASES.Naven.NavenCore(Of T).New
   nameWithType: NavenCore<T>.NavenCore
   nameWithType.vb: NavenCore(Of T).New
-- uid: MASES.Naven.NavenCore`1.ApplicationClassToRun
-  name: ApplicationClassToRun
-  href: api/MASES.Naven.NavenCore-1.html#MASES_Naven_NavenCore_1_ApplicationClassToRun
-  commentId: P:MASES.Naven.NavenCore`1.ApplicationClassToRun
-  fullName: MASES.Naven.NavenCore<T>.ApplicationClassToRun
-  fullName.vb: MASES.Naven.NavenCore(Of T).ApplicationClassToRun
-  nameWithType: NavenCore<T>.ApplicationClassToRun
-  nameWithType.vb: NavenCore(Of T).ApplicationClassToRun
-- uid: MASES.Naven.NavenCore`1.ApplicationClassToRun*
-  name: ApplicationClassToRun
-  href: api/MASES.Naven.NavenCore-1.html#MASES_Naven_NavenCore_1_ApplicationClassToRun_
-  commentId: Overload:MASES.Naven.NavenCore`1.ApplicationClassToRun
-  isSpec: "True"
-  fullName: MASES.Naven.NavenCore<T>.ApplicationClassToRun
-  fullName.vb: MASES.Naven.NavenCore(Of T).ApplicationClassToRun
-  nameWithType: NavenCore<T>.ApplicationClassToRun
-  nameWithType.vb: NavenCore(Of T).ApplicationClassToRun
 - uid: MASES.Naven.NavenCore`1.ApplicationCommonLoggingPath
   name: ApplicationCommonLoggingPath
   href: api/MASES.Naven.NavenCore-1.html#MASES_Naven_NavenCore_1_ApplicationCommonLoggingPath
@@ -140,23 +208,23 @@ references:
   fullName.vb: MASES.Naven.NavenCore(Of T).ApplicationLogPath
   nameWithType: NavenCore<T>.ApplicationLogPath
   nameWithType.vb: NavenCore(Of T).ApplicationLogPath
-- uid: MASES.Naven.NavenCore`1.ClassToRun
-  name: ClassToRun
-  href: api/MASES.Naven.NavenCore-1.html#MASES_Naven_NavenCore_1_ClassToRun
-  commentId: P:MASES.Naven.NavenCore`1.ClassToRun
-  fullName: MASES.Naven.NavenCore<T>.ClassToRun
-  fullName.vb: MASES.Naven.NavenCore(Of T).ClassToRun
-  nameWithType: NavenCore<T>.ClassToRun
-  nameWithType.vb: NavenCore(Of T).ClassToRun
-- uid: MASES.Naven.NavenCore`1.ClassToRun*
-  name: ClassToRun
-  href: api/MASES.Naven.NavenCore-1.html#MASES_Naven_NavenCore_1_ClassToRun_
-  commentId: Overload:MASES.Naven.NavenCore`1.ClassToRun
+- uid: MASES.Naven.NavenCore`1.ApplicationMultiModuleProjectDirectory
+  name: ApplicationMultiModuleProjectDirectory
+  href: api/MASES.Naven.NavenCore-1.html#MASES_Naven_NavenCore_1_ApplicationMultiModuleProjectDirectory
+  commentId: P:MASES.Naven.NavenCore`1.ApplicationMultiModuleProjectDirectory
+  fullName: MASES.Naven.NavenCore<T>.ApplicationMultiModuleProjectDirectory
+  fullName.vb: MASES.Naven.NavenCore(Of T).ApplicationMultiModuleProjectDirectory
+  nameWithType: NavenCore<T>.ApplicationMultiModuleProjectDirectory
+  nameWithType.vb: NavenCore(Of T).ApplicationMultiModuleProjectDirectory
+- uid: MASES.Naven.NavenCore`1.ApplicationMultiModuleProjectDirectory*
+  name: ApplicationMultiModuleProjectDirectory
+  href: api/MASES.Naven.NavenCore-1.html#MASES_Naven_NavenCore_1_ApplicationMultiModuleProjectDirectory_
+  commentId: Overload:MASES.Naven.NavenCore`1.ApplicationMultiModuleProjectDirectory
   isSpec: "True"
-  fullName: MASES.Naven.NavenCore<T>.ClassToRun
-  fullName.vb: MASES.Naven.NavenCore(Of T).ClassToRun
-  nameWithType: NavenCore<T>.ClassToRun
-  nameWithType.vb: NavenCore(Of T).ClassToRun
+  fullName: MASES.Naven.NavenCore<T>.ApplicationMultiModuleProjectDirectory
+  fullName.vb: MASES.Naven.NavenCore(Of T).ApplicationMultiModuleProjectDirectory
+  nameWithType: NavenCore<T>.ApplicationMultiModuleProjectDirectory
+  nameWithType.vb: NavenCore(Of T).ApplicationMultiModuleProjectDirectory
 - uid: MASES.Naven.NavenCore`1.CommandLineArguments
   name: CommandLineArguments
   href: api/MASES.Naven.NavenCore-1.html#MASES_Naven_NavenCore_1_CommandLineArguments
@@ -242,23 +310,6 @@ references:
   fullName.vb: MASES.Naven.NavenCore(Of T).LogDir
   nameWithType: NavenCore<T>.LogDir
   nameWithType.vb: NavenCore(Of T).LogDir
-- uid: MASES.Naven.NavenCore`1.MainClassToRun
-  name: MainClassToRun
-  href: api/MASES.Naven.NavenCore-1.html#MASES_Naven_NavenCore_1_MainClassToRun
-  commentId: P:MASES.Naven.NavenCore`1.MainClassToRun
-  fullName: MASES.Naven.NavenCore<T>.MainClassToRun
-  fullName.vb: MASES.Naven.NavenCore(Of T).MainClassToRun
-  nameWithType: NavenCore<T>.MainClassToRun
-  nameWithType.vb: NavenCore(Of T).MainClassToRun
-- uid: MASES.Naven.NavenCore`1.MainClassToRun*
-  name: MainClassToRun
-  href: api/MASES.Naven.NavenCore-1.html#MASES_Naven_NavenCore_1_MainClassToRun_
-  commentId: Overload:MASES.Naven.NavenCore`1.MainClassToRun
-  isSpec: "True"
-  fullName: MASES.Naven.NavenCore<T>.MainClassToRun
-  fullName.vb: MASES.Naven.NavenCore(Of T).MainClassToRun
-  nameWithType: NavenCore<T>.MainClassToRun
-  nameWithType.vb: NavenCore(Of T).MainClassToRun
 - uid: MASES.Naven.NavenCore`1.Options
   name: Options
   href: api/MASES.Naven.NavenCore-1.html#MASES_Naven_NavenCore_1_Options
@@ -310,24 +361,6 @@ references:
   fullName.vb: MASES.Naven.NavenCore(Of T).PerformanceOptions
   nameWithType: NavenCore<T>.PerformanceOptions
   nameWithType.vb: NavenCore(Of T).PerformanceOptions
-- uid: MASES.Naven.NavenCore`1.PrepareMainClassToRun(System.String)
-  name: PrepareMainClassToRun(string)
-  href: api/MASES.Naven.NavenCore-1.html#MASES_Naven_NavenCore_1_PrepareMainClassToRun_System_String_
-  commentId: M:MASES.Naven.NavenCore`1.PrepareMainClassToRun(System.String)
-  name.vb: PrepareMainClassToRun(String)
-  fullName: MASES.Naven.NavenCore<T>.PrepareMainClassToRun(string)
-  fullName.vb: MASES.Naven.NavenCore(Of T).PrepareMainClassToRun(String)
-  nameWithType: NavenCore<T>.PrepareMainClassToRun(string)
-  nameWithType.vb: NavenCore(Of T).PrepareMainClassToRun(String)
-- uid: MASES.Naven.NavenCore`1.PrepareMainClassToRun*
-  name: PrepareMainClassToRun
-  href: api/MASES.Naven.NavenCore-1.html#MASES_Naven_NavenCore_1_PrepareMainClassToRun_
-  commentId: Overload:MASES.Naven.NavenCore`1.PrepareMainClassToRun
-  isSpec: "True"
-  fullName: MASES.Naven.NavenCore<T>.PrepareMainClassToRun
-  fullName.vb: MASES.Naven.NavenCore(Of T).PrepareMainClassToRun
-  nameWithType: NavenCore<T>.PrepareMainClassToRun
-  nameWithType.vb: NavenCore(Of T).PrepareMainClassToRun
 - uid: MASES.Naven.NavenCore`1.ProcessCommandLine
   name: ProcessCommandLine()
   href: api/MASES.Naven.NavenCore-1.html#MASES_Naven_NavenCore_1_ProcessCommandLine
@@ -345,472 +378,316 @@ references:
   fullName.vb: MASES.Naven.NavenCore(Of T).ProcessCommandLine
   nameWithType: NavenCore<T>.ProcessCommandLine
   nameWithType.vb: NavenCore(Of T).ProcessCommandLine
-- uid: MASES.Naven.NavenCore`1._classToRun
-  name: _classToRun
-  href: api/MASES.Naven.NavenCore-1.html#MASES_Naven_NavenCore_1__classToRun
-  commentId: F:MASES.Naven.NavenCore`1._classToRun
-  fullName: MASES.Naven.NavenCore<T>._classToRun
-  fullName.vb: MASES.Naven.NavenCore(Of T)._classToRun
-  nameWithType: NavenCore<T>._classToRun
-  nameWithType.vb: NavenCore(Of T)._classToRun
-- uid: MASES.NavenCLI
-  name: MASES.NavenCLI
-  href: api/MASES.NavenCLI.html
-  commentId: N:MASES.NavenCLI
-  fullName: MASES.NavenCLI
-  nameWithType: MASES.NavenCLI
-- uid: MASES.NavenCLI.NavenCLICore`1
-  name: NavenCLICore<T>
-  href: api/MASES.NavenCLI.NavenCLICore-1.html
-  commentId: T:MASES.NavenCLI.NavenCLICore`1
-  name.vb: NavenCLICore(Of T)
-  fullName: MASES.NavenCLI.NavenCLICore<T>
-  fullName.vb: MASES.NavenCLI.NavenCLICore(Of T)
-  nameWithType: NavenCLICore<T>
-  nameWithType.vb: NavenCLICore(Of T)
-- uid: MASES.NavenCLI.NavenCLICore`1.#ctor
-  name: NavenCLICore()
-  href: api/MASES.NavenCLI.NavenCLICore-1.html#MASES_NavenCLI_NavenCLICore_1__ctor
-  commentId: M:MASES.NavenCLI.NavenCLICore`1.#ctor
-  name.vb: New()
-  fullName: MASES.NavenCLI.NavenCLICore<T>.NavenCLICore()
-  fullName.vb: MASES.NavenCLI.NavenCLICore(Of T).New()
-  nameWithType: NavenCLICore<T>.NavenCLICore()
-  nameWithType.vb: NavenCLICore(Of T).New()
-- uid: MASES.NavenCLI.NavenCLICore`1.#ctor*
-  name: NavenCLICore
-  href: api/MASES.NavenCLI.NavenCLICore-1.html#MASES_NavenCLI_NavenCLICore_1__ctor_
-  commentId: Overload:MASES.NavenCLI.NavenCLICore`1.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: MASES.NavenCLI.NavenCLICore<T>.NavenCLICore
-  fullName.vb: MASES.NavenCLI.NavenCLICore(Of T).New
-  nameWithType: NavenCLICore<T>.NavenCLICore
-  nameWithType.vb: NavenCLICore(Of T).New
-- uid: MASES.NavenCLI.NavenCLICore`1.CommandLineArguments
-  name: CommandLineArguments
-  href: api/MASES.NavenCLI.NavenCLICore-1.html#MASES_NavenCLI_NavenCLICore_1_CommandLineArguments
-  commentId: P:MASES.NavenCLI.NavenCLICore`1.CommandLineArguments
-  fullName: MASES.NavenCLI.NavenCLICore<T>.CommandLineArguments
-  fullName.vb: MASES.NavenCLI.NavenCLICore(Of T).CommandLineArguments
-  nameWithType: NavenCLICore<T>.CommandLineArguments
-  nameWithType.vb: NavenCLICore(Of T).CommandLineArguments
-- uid: MASES.NavenCLI.NavenCLICore`1.CommandLineArguments*
-  name: CommandLineArguments
-  href: api/MASES.NavenCLI.NavenCLICore-1.html#MASES_NavenCLI_NavenCLICore_1_CommandLineArguments_
-  commentId: Overload:MASES.NavenCLI.NavenCLICore`1.CommandLineArguments
-  isSpec: "True"
-  fullName: MASES.NavenCLI.NavenCLICore<T>.CommandLineArguments
-  fullName.vb: MASES.NavenCLI.NavenCLICore(Of T).CommandLineArguments
-  nameWithType: NavenCLICore<T>.CommandLineArguments
-  nameWithType.vb: NavenCLICore(Of T).CommandLineArguments
-- uid: MASES.NavenCLI.NavenCLICore`1.ImportList
-  name: ImportList
-  href: api/MASES.NavenCLI.NavenCLICore-1.html#MASES_NavenCLI_NavenCLICore_1_ImportList
-  commentId: P:MASES.NavenCLI.NavenCLICore`1.ImportList
-  fullName: MASES.NavenCLI.NavenCLICore<T>.ImportList
-  fullName.vb: MASES.NavenCLI.NavenCLICore(Of T).ImportList
-  nameWithType: NavenCLICore<T>.ImportList
-  nameWithType.vb: NavenCLICore(Of T).ImportList
-- uid: MASES.NavenCLI.NavenCLICore`1.ImportList*
-  name: ImportList
-  href: api/MASES.NavenCLI.NavenCLICore-1.html#MASES_NavenCLI_NavenCLICore_1_ImportList_
-  commentId: Overload:MASES.NavenCLI.NavenCLICore`1.ImportList
-  isSpec: "True"
-  fullName: MASES.NavenCLI.NavenCLICore<T>.ImportList
-  fullName.vb: MASES.NavenCLI.NavenCLICore(Of T).ImportList
-  nameWithType: NavenCLICore<T>.ImportList
-  nameWithType.vb: NavenCLICore(Of T).ImportList
-- uid: MASES.NavenCLI.NavenCLICore`1.Interactive
-  name: Interactive
-  href: api/MASES.NavenCLI.NavenCLICore-1.html#MASES_NavenCLI_NavenCLICore_1_Interactive
-  commentId: P:MASES.NavenCLI.NavenCLICore`1.Interactive
-  fullName: MASES.NavenCLI.NavenCLICore<T>.Interactive
-  fullName.vb: MASES.NavenCLI.NavenCLICore(Of T).Interactive
-  nameWithType: NavenCLICore<T>.Interactive
-  nameWithType.vb: NavenCLICore(Of T).Interactive
-- uid: MASES.NavenCLI.NavenCLICore`1.Interactive*
-  name: Interactive
-  href: api/MASES.NavenCLI.NavenCLICore-1.html#MASES_NavenCLI_NavenCLICore_1_Interactive_
-  commentId: Overload:MASES.NavenCLI.NavenCLICore`1.Interactive
-  isSpec: "True"
-  fullName: MASES.NavenCLI.NavenCLICore<T>.Interactive
-  fullName.vb: MASES.NavenCLI.NavenCLICore(Of T).Interactive
-  nameWithType: NavenCLICore<T>.Interactive
-  nameWithType.vb: NavenCLICore(Of T).Interactive
-- uid: MASES.NavenCLI.NavenCLICore`1.JarList
-  name: JarList
-  href: api/MASES.NavenCLI.NavenCLICore-1.html#MASES_NavenCLI_NavenCLICore_1_JarList
-  commentId: P:MASES.NavenCLI.NavenCLICore`1.JarList
-  fullName: MASES.NavenCLI.NavenCLICore<T>.JarList
-  fullName.vb: MASES.NavenCLI.NavenCLICore(Of T).JarList
-  nameWithType: NavenCLICore<T>.JarList
-  nameWithType.vb: NavenCLICore(Of T).JarList
-- uid: MASES.NavenCLI.NavenCLICore`1.JarList*
-  name: JarList
-  href: api/MASES.NavenCLI.NavenCLICore-1.html#MASES_NavenCLI_NavenCLICore_1_JarList_
-  commentId: Overload:MASES.NavenCLI.NavenCLICore`1.JarList
-  isSpec: "True"
-  fullName: MASES.NavenCLI.NavenCLICore<T>.JarList
-  fullName.vb: MASES.NavenCLI.NavenCLICore(Of T).JarList
-  nameWithType: NavenCLICore<T>.JarList
-  nameWithType.vb: NavenCLICore(Of T).JarList
-- uid: MASES.NavenCLI.NavenCLICore`1.NamespaceList
-  name: NamespaceList
-  href: api/MASES.NavenCLI.NavenCLICore-1.html#MASES_NavenCLI_NavenCLICore_1_NamespaceList
-  commentId: P:MASES.NavenCLI.NavenCLICore`1.NamespaceList
-  fullName: MASES.NavenCLI.NavenCLICore<T>.NamespaceList
-  fullName.vb: MASES.NavenCLI.NavenCLICore(Of T).NamespaceList
-  nameWithType: NavenCLICore<T>.NamespaceList
-  nameWithType.vb: NavenCLICore(Of T).NamespaceList
-- uid: MASES.NavenCLI.NavenCLICore`1.NamespaceList*
-  name: NamespaceList
-  href: api/MASES.NavenCLI.NavenCLICore-1.html#MASES_NavenCLI_NavenCLICore_1_NamespaceList_
-  commentId: Overload:MASES.NavenCLI.NavenCLICore`1.NamespaceList
-  isSpec: "True"
-  fullName: MASES.NavenCLI.NavenCLICore<T>.NamespaceList
-  fullName.vb: MASES.NavenCLI.NavenCLICore(Of T).NamespaceList
-  nameWithType: NavenCLICore<T>.NamespaceList
-  nameWithType.vb: NavenCLICore(Of T).NamespaceList
-- uid: MASES.NavenCLI.NavenCLICore`1.NoLogo
-  name: NoLogo
-  href: api/MASES.NavenCLI.NavenCLICore-1.html#MASES_NavenCLI_NavenCLICore_1_NoLogo
-  commentId: P:MASES.NavenCLI.NavenCLICore`1.NoLogo
-  fullName: MASES.NavenCLI.NavenCLICore<T>.NoLogo
-  fullName.vb: MASES.NavenCLI.NavenCLICore(Of T).NoLogo
-  nameWithType: NavenCLICore<T>.NoLogo
-  nameWithType.vb: NavenCLICore(Of T).NoLogo
-- uid: MASES.NavenCLI.NavenCLICore`1.NoLogo*
-  name: NoLogo
-  href: api/MASES.NavenCLI.NavenCLICore-1.html#MASES_NavenCLI_NavenCLICore_1_NoLogo_
-  commentId: Overload:MASES.NavenCLI.NavenCLICore`1.NoLogo
-  isSpec: "True"
-  fullName: MASES.NavenCLI.NavenCLICore<T>.NoLogo
-  fullName.vb: MASES.NavenCLI.NavenCLICore(Of T).NoLogo
-  nameWithType: NavenCLICore<T>.NoLogo
-  nameWithType.vb: NavenCLICore(Of T).NoLogo
-- uid: MASES.NavenCLI.NavenCLICore`1.PathToParse
-  name: PathToParse
-  href: api/MASES.NavenCLI.NavenCLICore-1.html#MASES_NavenCLI_NavenCLICore_1_PathToParse
-  commentId: P:MASES.NavenCLI.NavenCLICore`1.PathToParse
-  fullName: MASES.NavenCLI.NavenCLICore<T>.PathToParse
-  fullName.vb: MASES.NavenCLI.NavenCLICore(Of T).PathToParse
-  nameWithType: NavenCLICore<T>.PathToParse
-  nameWithType.vb: NavenCLICore(Of T).PathToParse
-- uid: MASES.NavenCLI.NavenCLICore`1.PathToParse*
-  name: PathToParse
-  href: api/MASES.NavenCLI.NavenCLICore-1.html#MASES_NavenCLI_NavenCLICore_1_PathToParse_
-  commentId: Overload:MASES.NavenCLI.NavenCLICore`1.PathToParse
-  isSpec: "True"
-  fullName: MASES.NavenCLI.NavenCLICore<T>.PathToParse
-  fullName.vb: MASES.NavenCLI.NavenCLICore(Of T).PathToParse
-  nameWithType: NavenCLICore<T>.PathToParse
-  nameWithType.vb: NavenCLICore(Of T).PathToParse
-- uid: MASES.NavenCLI.NavenCLICore`1.ProcessCommandLine
-  name: ProcessCommandLine()
-  href: api/MASES.NavenCLI.NavenCLICore-1.html#MASES_NavenCLI_NavenCLICore_1_ProcessCommandLine
-  commentId: M:MASES.NavenCLI.NavenCLICore`1.ProcessCommandLine
-  fullName: MASES.NavenCLI.NavenCLICore<T>.ProcessCommandLine()
-  fullName.vb: MASES.NavenCLI.NavenCLICore(Of T).ProcessCommandLine()
-  nameWithType: NavenCLICore<T>.ProcessCommandLine()
-  nameWithType.vb: NavenCLICore(Of T).ProcessCommandLine()
-- uid: MASES.NavenCLI.NavenCLICore`1.ProcessCommandLine*
-  name: ProcessCommandLine
-  href: api/MASES.NavenCLI.NavenCLICore-1.html#MASES_NavenCLI_NavenCLICore_1_ProcessCommandLine_
-  commentId: Overload:MASES.NavenCLI.NavenCLICore`1.ProcessCommandLine
-  isSpec: "True"
-  fullName: MASES.NavenCLI.NavenCLICore<T>.ProcessCommandLine
-  fullName.vb: MASES.NavenCLI.NavenCLICore(Of T).ProcessCommandLine
-  nameWithType: NavenCLICore<T>.ProcessCommandLine
-  nameWithType.vb: NavenCLICore(Of T).ProcessCommandLine
-- uid: MASES.NavenCLI.NavenCLICore`1.Script
-  name: Script
-  href: api/MASES.NavenCLI.NavenCLICore-1.html#MASES_NavenCLI_NavenCLICore_1_Script
-  commentId: P:MASES.NavenCLI.NavenCLICore`1.Script
-  fullName: MASES.NavenCLI.NavenCLICore<T>.Script
-  fullName.vb: MASES.NavenCLI.NavenCLICore(Of T).Script
-  nameWithType: NavenCLICore<T>.Script
-  nameWithType.vb: NavenCLICore(Of T).Script
-- uid: MASES.NavenCLI.NavenCLICore`1.Script*
-  name: Script
-  href: api/MASES.NavenCLI.NavenCLICore-1.html#MASES_NavenCLI_NavenCLICore_1_Script_
-  commentId: Overload:MASES.NavenCLI.NavenCLICore`1.Script
-  isSpec: "True"
-  fullName: MASES.NavenCLI.NavenCLICore<T>.Script
-  fullName.vb: MASES.NavenCLI.NavenCLICore(Of T).Script
-  nameWithType: NavenCLICore<T>.Script
-  nameWithType.vb: NavenCLICore(Of T).Script
-- uid: MASES.NavenPS
-  name: MASES.NavenPS
-  href: api/MASES.NavenPS.html
-  commentId: N:MASES.NavenPS
-  fullName: MASES.NavenPS
-  nameWithType: MASES.NavenPS
-- uid: MASES.NavenPS.Cmdlet
-  name: MASES.NavenPS.Cmdlet
-  href: api/MASES.NavenPS.Cmdlet.html
-  commentId: N:MASES.NavenPS.Cmdlet
-  fullName: MASES.NavenPS.Cmdlet
-  nameWithType: MASES.NavenPS.Cmdlet
-- uid: MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase`1
+- uid: MASES.Naven.PowerShell
+  name: MASES.Naven.PowerShell
+  href: api/MASES.Naven.PowerShell.html
+  commentId: N:MASES.Naven.PowerShell
+  fullName: MASES.Naven.PowerShell
+  nameWithType: MASES.Naven.PowerShell
+- uid: MASES.Naven.PowerShell.Cmdlet
+  name: MASES.Naven.PowerShell.Cmdlet
+  href: api/MASES.Naven.PowerShell.Cmdlet.html
+  commentId: N:MASES.Naven.PowerShell.Cmdlet
+  fullName: MASES.Naven.PowerShell.Cmdlet
+  nameWithType: MASES.Naven.PowerShell.Cmdlet
+- uid: MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase`1
   name: MavenClassToRunCmdletCommandBase<TCmdlet>
-  href: api/MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase-1.html
-  commentId: T:MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase`1
+  href: api/MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase-1.html
+  commentId: T:MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase`1
   name.vb: MavenClassToRunCmdletCommandBase(Of TCmdlet)
-  fullName: MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase<TCmdlet>
-  fullName.vb: MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase(Of TCmdlet)
+  fullName: MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase<TCmdlet>
+  fullName.vb: MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase(Of TCmdlet)
   nameWithType: MavenClassToRunCmdletCommandBase<TCmdlet>
   nameWithType.vb: MavenClassToRunCmdletCommandBase(Of TCmdlet)
-- uid: MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase`1.Arguments
+- uid: MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase`1.Arguments
   name: Arguments
-  href: api/MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase-1.html#MASES_NavenPS_Cmdlet_MavenClassToRunCmdletCommandBase_1_Arguments
-  commentId: P:MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase`1.Arguments
-  fullName: MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase<TCmdlet>.Arguments
-  fullName.vb: MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase(Of TCmdlet).Arguments
+  href: api/MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase-1.html#MASES_Naven_PowerShell_Cmdlet_MavenClassToRunCmdletCommandBase_1_Arguments
+  commentId: P:MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase`1.Arguments
+  fullName: MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase<TCmdlet>.Arguments
+  fullName.vb: MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase(Of TCmdlet).Arguments
   nameWithType: MavenClassToRunCmdletCommandBase<TCmdlet>.Arguments
   nameWithType.vb: MavenClassToRunCmdletCommandBase(Of TCmdlet).Arguments
-- uid: MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase`1.Arguments*
+- uid: MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase`1.Arguments*
   name: Arguments
-  href: api/MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase-1.html#MASES_NavenPS_Cmdlet_MavenClassToRunCmdletCommandBase_1_Arguments_
-  commentId: Overload:MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase`1.Arguments
+  href: api/MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase-1.html#MASES_Naven_PowerShell_Cmdlet_MavenClassToRunCmdletCommandBase_1_Arguments_
+  commentId: Overload:MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase`1.Arguments
   isSpec: "True"
-  fullName: MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase<TCmdlet>.Arguments
-  fullName.vb: MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase(Of TCmdlet).Arguments
+  fullName: MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase<TCmdlet>.Arguments
+  fullName.vb: MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase(Of TCmdlet).Arguments
   nameWithType: MavenClassToRunCmdletCommandBase<TCmdlet>.Arguments
   nameWithType.vb: MavenClassToRunCmdletCommandBase(Of TCmdlet).Arguments
-- uid: MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase`1.OnAfterCreateGlobalInstance
+- uid: MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase`1.OnAfterCreateGlobalInstance
   name: OnAfterCreateGlobalInstance()
-  href: api/MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase-1.html#MASES_NavenPS_Cmdlet_MavenClassToRunCmdletCommandBase_1_OnAfterCreateGlobalInstance
-  commentId: M:MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase`1.OnAfterCreateGlobalInstance
-  fullName: MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase<TCmdlet>.OnAfterCreateGlobalInstance()
-  fullName.vb: MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase(Of TCmdlet).OnAfterCreateGlobalInstance()
+  href: api/MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase-1.html#MASES_Naven_PowerShell_Cmdlet_MavenClassToRunCmdletCommandBase_1_OnAfterCreateGlobalInstance
+  commentId: M:MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase`1.OnAfterCreateGlobalInstance
+  fullName: MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase<TCmdlet>.OnAfterCreateGlobalInstance()
+  fullName.vb: MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase(Of TCmdlet).OnAfterCreateGlobalInstance()
   nameWithType: MavenClassToRunCmdletCommandBase<TCmdlet>.OnAfterCreateGlobalInstance()
   nameWithType.vb: MavenClassToRunCmdletCommandBase(Of TCmdlet).OnAfterCreateGlobalInstance()
-- uid: MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase`1.OnAfterCreateGlobalInstance*
+- uid: MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase`1.OnAfterCreateGlobalInstance*
   name: OnAfterCreateGlobalInstance
-  href: api/MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase-1.html#MASES_NavenPS_Cmdlet_MavenClassToRunCmdletCommandBase_1_OnAfterCreateGlobalInstance_
-  commentId: Overload:MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase`1.OnAfterCreateGlobalInstance
+  href: api/MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase-1.html#MASES_Naven_PowerShell_Cmdlet_MavenClassToRunCmdletCommandBase_1_OnAfterCreateGlobalInstance_
+  commentId: Overload:MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase`1.OnAfterCreateGlobalInstance
   isSpec: "True"
-  fullName: MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase<TCmdlet>.OnAfterCreateGlobalInstance
-  fullName.vb: MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase(Of TCmdlet).OnAfterCreateGlobalInstance
+  fullName: MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase<TCmdlet>.OnAfterCreateGlobalInstance
+  fullName.vb: MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase(Of TCmdlet).OnAfterCreateGlobalInstance
   nameWithType: MavenClassToRunCmdletCommandBase<TCmdlet>.OnAfterCreateGlobalInstance
   nameWithType.vb: MavenClassToRunCmdletCommandBase(Of TCmdlet).OnAfterCreateGlobalInstance
-- uid: MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase`1.OnBeforeCreateGlobalInstance
+- uid: MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase`1.OnBeforeCreateGlobalInstance
   name: OnBeforeCreateGlobalInstance()
-  href: api/MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase-1.html#MASES_NavenPS_Cmdlet_MavenClassToRunCmdletCommandBase_1_OnBeforeCreateGlobalInstance
-  commentId: M:MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase`1.OnBeforeCreateGlobalInstance
-  fullName: MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance()
-  fullName.vb: MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance()
+  href: api/MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase-1.html#MASES_Naven_PowerShell_Cmdlet_MavenClassToRunCmdletCommandBase_1_OnBeforeCreateGlobalInstance
+  commentId: M:MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase`1.OnBeforeCreateGlobalInstance
+  fullName: MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance()
+  fullName.vb: MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance()
   nameWithType: MavenClassToRunCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance()
   nameWithType.vb: MavenClassToRunCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance()
-- uid: MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase`1.OnBeforeCreateGlobalInstance*
+- uid: MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase`1.OnBeforeCreateGlobalInstance*
   name: OnBeforeCreateGlobalInstance
-  href: api/MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase-1.html#MASES_NavenPS_Cmdlet_MavenClassToRunCmdletCommandBase_1_OnBeforeCreateGlobalInstance_
-  commentId: Overload:MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase`1.OnBeforeCreateGlobalInstance
+  href: api/MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase-1.html#MASES_Naven_PowerShell_Cmdlet_MavenClassToRunCmdletCommandBase_1_OnBeforeCreateGlobalInstance_
+  commentId: Overload:MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase`1.OnBeforeCreateGlobalInstance
   isSpec: "True"
-  fullName: MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance
-  fullName.vb: MASES.NavenPS.Cmdlet.MavenClassToRunCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance
+  fullName: MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance
+  fullName.vb: MASES.Naven.PowerShell.Cmdlet.MavenClassToRunCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance
   nameWithType: MavenClassToRunCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance
   nameWithType.vb: MavenClassToRunCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance
-- uid: MASES.NavenPS.Cmdlet.NavenPSCmdlet
+- uid: MASES.Naven.PowerShell.Cmdlet.NavenPSCmdlet
   name: NavenPSCmdlet
-  href: api/MASES.NavenPS.Cmdlet.NavenPSCmdlet.html
-  commentId: T:MASES.NavenPS.Cmdlet.NavenPSCmdlet
-  fullName: MASES.NavenPS.Cmdlet.NavenPSCmdlet
+  href: api/MASES.Naven.PowerShell.Cmdlet.NavenPSCmdlet.html
+  commentId: T:MASES.Naven.PowerShell.Cmdlet.NavenPSCmdlet
+  fullName: MASES.Naven.PowerShell.Cmdlet.NavenPSCmdlet
   nameWithType: NavenPSCmdlet
-- uid: MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand
+- uid: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand
   name: StartLauncherCmdletCommand
-  href: api/MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.html
-  commentId: T:MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand
-  fullName: MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand
+  href: api/MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.html
+  commentId: T:MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand
+  fullName: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand
   nameWithType: StartLauncherCmdletCommand
-- uid: MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.Arguments
+- uid: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.Arguments
   name: Arguments
-  href: api/MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.html#MASES_NavenPS_Cmdlet_StartLauncherCmdletCommand_Arguments
-  commentId: P:MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.Arguments
-  fullName: MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.Arguments
+  href: api/MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.html#MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_Arguments
+  commentId: P:MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.Arguments
+  fullName: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.Arguments
   nameWithType: StartLauncherCmdletCommand.Arguments
-- uid: MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.Arguments*
+- uid: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.Arguments*
   name: Arguments
-  href: api/MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.html#MASES_NavenPS_Cmdlet_StartLauncherCmdletCommand_Arguments_
-  commentId: Overload:MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.Arguments
+  href: api/MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.html#MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_Arguments_
+  commentId: Overload:MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.Arguments
   isSpec: "True"
-  fullName: MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.Arguments
+  fullName: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.Arguments
   nameWithType: StartLauncherCmdletCommand.Arguments
-- uid: MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.BeginProcessing
+- uid: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.BeginProcessing
   name: BeginProcessing()
-  href: api/MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.html#MASES_NavenPS_Cmdlet_StartLauncherCmdletCommand_BeginProcessing
-  commentId: M:MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.BeginProcessing
-  fullName: MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.BeginProcessing()
+  href: api/MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.html#MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_BeginProcessing
+  commentId: M:MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.BeginProcessing
+  fullName: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.BeginProcessing()
   nameWithType: StartLauncherCmdletCommand.BeginProcessing()
-- uid: MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.BeginProcessing*
+- uid: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.BeginProcessing*
   name: BeginProcessing
-  href: api/MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.html#MASES_NavenPS_Cmdlet_StartLauncherCmdletCommand_BeginProcessing_
-  commentId: Overload:MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.BeginProcessing
+  href: api/MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.html#MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_BeginProcessing_
+  commentId: Overload:MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.BeginProcessing
   isSpec: "True"
-  fullName: MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.BeginProcessing
+  fullName: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.BeginProcessing
   nameWithType: StartLauncherCmdletCommand.BeginProcessing
-- uid: MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.EndProcessing
+- uid: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.EndProcessing
   name: EndProcessing()
-  href: api/MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.html#MASES_NavenPS_Cmdlet_StartLauncherCmdletCommand_EndProcessing
-  commentId: M:MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.EndProcessing
-  fullName: MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.EndProcessing()
+  href: api/MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.html#MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_EndProcessing
+  commentId: M:MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.EndProcessing
+  fullName: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.EndProcessing()
   nameWithType: StartLauncherCmdletCommand.EndProcessing()
-- uid: MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.EndProcessing*
+- uid: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.EndProcessing*
   name: EndProcessing
-  href: api/MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.html#MASES_NavenPS_Cmdlet_StartLauncherCmdletCommand_EndProcessing_
-  commentId: Overload:MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.EndProcessing
+  href: api/MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.html#MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_EndProcessing_
+  commentId: Overload:MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.EndProcessing
   isSpec: "True"
-  fullName: MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.EndProcessing
+  fullName: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.EndProcessing
   nameWithType: StartLauncherCmdletCommand.EndProcessing
-- uid: MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.ProcessCommand
-  name: ProcessCommand()
-  href: api/MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.html#MASES_NavenPS_Cmdlet_StartLauncherCmdletCommand_ProcessCommand
-  commentId: M:MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.ProcessCommand
-  fullName: MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.ProcessCommand()
-  nameWithType: StartLauncherCmdletCommand.ProcessCommand()
-- uid: MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.ProcessCommand*
-  name: ProcessCommand
-  href: api/MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.html#MASES_NavenPS_Cmdlet_StartLauncherCmdletCommand_ProcessCommand_
-  commentId: Overload:MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.ProcessCommand
+- uid: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.File
+  name: File
+  href: api/MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.html#MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_File
+  commentId: P:MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.File
+  fullName: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.File
+  nameWithType: StartLauncherCmdletCommand.File
+- uid: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.File*
+  name: File
+  href: api/MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.html#MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_File_
+  commentId: Overload:MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.File
   isSpec: "True"
-  fullName: MASES.NavenPS.Cmdlet.StartLauncherCmdletCommand.ProcessCommand
+  fullName: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.File
+  nameWithType: StartLauncherCmdletCommand.File
+- uid: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.OnBeforeCreateGlobalInstance
+  name: OnBeforeCreateGlobalInstance()
+  href: api/MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.html#MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_OnBeforeCreateGlobalInstance
+  commentId: M:MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.OnBeforeCreateGlobalInstance
+  fullName: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.OnBeforeCreateGlobalInstance()
+  nameWithType: StartLauncherCmdletCommand.OnBeforeCreateGlobalInstance()
+- uid: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.OnBeforeCreateGlobalInstance*
+  name: OnBeforeCreateGlobalInstance
+  href: api/MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.html#MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_OnBeforeCreateGlobalInstance_
+  commentId: Overload:MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.OnBeforeCreateGlobalInstance
+  isSpec: "True"
+  fullName: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.OnBeforeCreateGlobalInstance
+  nameWithType: StartLauncherCmdletCommand.OnBeforeCreateGlobalInstance
+- uid: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.ProcessCommand
+  name: ProcessCommand()
+  href: api/MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.html#MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_ProcessCommand
+  commentId: M:MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.ProcessCommand
+  fullName: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.ProcessCommand()
+  nameWithType: StartLauncherCmdletCommand.ProcessCommand()
+- uid: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.ProcessCommand*
+  name: ProcessCommand
+  href: api/MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.html#MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_ProcessCommand_
+  commentId: Overload:MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.ProcessCommand
+  isSpec: "True"
+  fullName: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.ProcessCommand
   nameWithType: StartLauncherCmdletCommand.ProcessCommand
-- uid: MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommand
+- uid: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.Stage
+  name: Stage
+  href: api/MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.html#MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_Stage
+  commentId: P:MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.Stage
+  fullName: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.Stage
+  nameWithType: StartLauncherCmdletCommand.Stage
+- uid: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.Stage*
+  name: Stage
+  href: api/MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.html#MASES_Naven_PowerShell_Cmdlet_StartLauncherCmdletCommand_Stage_
+  commentId: Overload:MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.Stage
+  isSpec: "True"
+  fullName: MASES.Naven.PowerShell.Cmdlet.StartLauncherCmdletCommand.Stage
+  nameWithType: StartLauncherCmdletCommand.Stage
+- uid: MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommand
   name: StartNavenPSCmdletCommand
-  href: api/MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommand.html
-  commentId: T:MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommand
-  fullName: MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommand
+  href: api/MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommand.html
+  commentId: T:MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommand
+  fullName: MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommand
   nameWithType: StartNavenPSCmdletCommand
-- uid: MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase`1
+- uid: MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase`1
   name: StartNavenPSCmdletCommandBase<TCmdlet>
-  href: api/MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase-1.html
-  commentId: T:MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase`1
+  href: api/MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase-1.html
+  commentId: T:MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase`1
   name.vb: StartNavenPSCmdletCommandBase(Of TCmdlet)
-  fullName: MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase<TCmdlet>
-  fullName.vb: MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase(Of TCmdlet)
+  fullName: MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase<TCmdlet>
+  fullName.vb: MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase(Of TCmdlet)
   nameWithType: StartNavenPSCmdletCommandBase<TCmdlet>
   nameWithType.vb: StartNavenPSCmdletCommandBase(Of TCmdlet)
-- uid: MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase`1.CommonLoggingPath
+- uid: MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase`1.CommonLoggingPath
   name: CommonLoggingPath
-  href: api/MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase-1.html#MASES_NavenPS_Cmdlet_StartNavenPSCmdletCommandBase_1_CommonLoggingPath
-  commentId: P:MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase`1.CommonLoggingPath
-  fullName: MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase<TCmdlet>.CommonLoggingPath
-  fullName.vb: MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase(Of TCmdlet).CommonLoggingPath
+  href: api/MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase-1.html#MASES_Naven_PowerShell_Cmdlet_StartNavenPSCmdletCommandBase_1_CommonLoggingPath
+  commentId: P:MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase`1.CommonLoggingPath
+  fullName: MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase<TCmdlet>.CommonLoggingPath
+  fullName.vb: MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase(Of TCmdlet).CommonLoggingPath
   nameWithType: StartNavenPSCmdletCommandBase<TCmdlet>.CommonLoggingPath
   nameWithType.vb: StartNavenPSCmdletCommandBase(Of TCmdlet).CommonLoggingPath
-- uid: MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase`1.CommonLoggingPath*
+- uid: MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase`1.CommonLoggingPath*
   name: CommonLoggingPath
-  href: api/MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase-1.html#MASES_NavenPS_Cmdlet_StartNavenPSCmdletCommandBase_1_CommonLoggingPath_
-  commentId: Overload:MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase`1.CommonLoggingPath
+  href: api/MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase-1.html#MASES_Naven_PowerShell_Cmdlet_StartNavenPSCmdletCommandBase_1_CommonLoggingPath_
+  commentId: Overload:MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase`1.CommonLoggingPath
   isSpec: "True"
-  fullName: MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase<TCmdlet>.CommonLoggingPath
-  fullName.vb: MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase(Of TCmdlet).CommonLoggingPath
+  fullName: MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase<TCmdlet>.CommonLoggingPath
+  fullName.vb: MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase(Of TCmdlet).CommonLoggingPath
   nameWithType: StartNavenPSCmdletCommandBase<TCmdlet>.CommonLoggingPath
   nameWithType.vb: StartNavenPSCmdletCommandBase(Of TCmdlet).CommonLoggingPath
-- uid: MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase`1.LogPath
+- uid: MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase`1.LogPath
   name: LogPath
-  href: api/MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase-1.html#MASES_NavenPS_Cmdlet_StartNavenPSCmdletCommandBase_1_LogPath
-  commentId: P:MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase`1.LogPath
-  fullName: MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase<TCmdlet>.LogPath
-  fullName.vb: MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase(Of TCmdlet).LogPath
+  href: api/MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase-1.html#MASES_Naven_PowerShell_Cmdlet_StartNavenPSCmdletCommandBase_1_LogPath
+  commentId: P:MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase`1.LogPath
+  fullName: MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase<TCmdlet>.LogPath
+  fullName.vb: MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase(Of TCmdlet).LogPath
   nameWithType: StartNavenPSCmdletCommandBase<TCmdlet>.LogPath
   nameWithType.vb: StartNavenPSCmdletCommandBase(Of TCmdlet).LogPath
-- uid: MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase`1.LogPath*
+- uid: MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase`1.LogPath*
   name: LogPath
-  href: api/MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase-1.html#MASES_NavenPS_Cmdlet_StartNavenPSCmdletCommandBase_1_LogPath_
-  commentId: Overload:MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase`1.LogPath
+  href: api/MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase-1.html#MASES_Naven_PowerShell_Cmdlet_StartNavenPSCmdletCommandBase_1_LogPath_
+  commentId: Overload:MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase`1.LogPath
   isSpec: "True"
-  fullName: MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase<TCmdlet>.LogPath
-  fullName.vb: MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase(Of TCmdlet).LogPath
+  fullName: MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase<TCmdlet>.LogPath
+  fullName.vb: MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase(Of TCmdlet).LogPath
   nameWithType: StartNavenPSCmdletCommandBase<TCmdlet>.LogPath
   nameWithType.vb: StartNavenPSCmdletCommandBase(Of TCmdlet).LogPath
-- uid: MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase`1.OnBeforeCreateGlobalInstance
+- uid: MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase`1.OnBeforeCreateGlobalInstance
   name: OnBeforeCreateGlobalInstance()
-  href: api/MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase-1.html#MASES_NavenPS_Cmdlet_StartNavenPSCmdletCommandBase_1_OnBeforeCreateGlobalInstance
-  commentId: M:MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase`1.OnBeforeCreateGlobalInstance
-  fullName: MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance()
-  fullName.vb: MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance()
+  href: api/MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase-1.html#MASES_Naven_PowerShell_Cmdlet_StartNavenPSCmdletCommandBase_1_OnBeforeCreateGlobalInstance
+  commentId: M:MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase`1.OnBeforeCreateGlobalInstance
+  fullName: MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance()
+  fullName.vb: MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance()
   nameWithType: StartNavenPSCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance()
   nameWithType.vb: StartNavenPSCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance()
-- uid: MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase`1.OnBeforeCreateGlobalInstance*
+- uid: MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase`1.OnBeforeCreateGlobalInstance*
   name: OnBeforeCreateGlobalInstance
-  href: api/MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase-1.html#MASES_NavenPS_Cmdlet_StartNavenPSCmdletCommandBase_1_OnBeforeCreateGlobalInstance_
-  commentId: Overload:MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase`1.OnBeforeCreateGlobalInstance
+  href: api/MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase-1.html#MASES_Naven_PowerShell_Cmdlet_StartNavenPSCmdletCommandBase_1_OnBeforeCreateGlobalInstance_
+  commentId: Overload:MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase`1.OnBeforeCreateGlobalInstance
   isSpec: "True"
-  fullName: MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance
-  fullName.vb: MASES.NavenPS.Cmdlet.StartNavenPSCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance
+  fullName: MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance
+  fullName.vb: MASES.Naven.PowerShell.Cmdlet.StartNavenPSCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance
   nameWithType: StartNavenPSCmdletCommandBase<TCmdlet>.OnBeforeCreateGlobalInstance
   nameWithType.vb: StartNavenPSCmdletCommandBase(Of TCmdlet).OnBeforeCreateGlobalInstance
-- uid: MASES.NavenPS.NavenPSCore
+- uid: MASES.Naven.PowerShell.NavenPSCore
   name: NavenPSCore
-  href: api/MASES.NavenPS.NavenPSCore.html
-  commentId: T:MASES.NavenPS.NavenPSCore
-  fullName: MASES.NavenPS.NavenPSCore
+  href: api/MASES.Naven.PowerShell.NavenPSCore.html
+  commentId: T:MASES.Naven.PowerShell.NavenPSCore
+  fullName: MASES.Naven.PowerShell.NavenPSCore
   nameWithType: NavenPSCore
-- uid: MASES.NavenPS.NavenPSHelper`1
+- uid: MASES.Naven.PowerShell.NavenPSHelper`1
   name: NavenPSHelper<TClass>
-  href: api/MASES.NavenPS.NavenPSHelper-1.html
-  commentId: T:MASES.NavenPS.NavenPSHelper`1
+  href: api/MASES.Naven.PowerShell.NavenPSHelper-1.html
+  commentId: T:MASES.Naven.PowerShell.NavenPSHelper`1
   name.vb: NavenPSHelper(Of TClass)
-  fullName: MASES.NavenPS.NavenPSHelper<TClass>
-  fullName.vb: MASES.NavenPS.NavenPSHelper(Of TClass)
+  fullName: MASES.Naven.PowerShell.NavenPSHelper<TClass>
+  fullName.vb: MASES.Naven.PowerShell.NavenPSHelper(Of TClass)
   nameWithType: NavenPSHelper<TClass>
   nameWithType.vb: NavenPSHelper(Of TClass)
-- uid: MASES.NavenPS.NavenPSHelper`1.SetClassToRun(System.String)
-  name: SetClassToRun(string)
-  href: api/MASES.NavenPS.NavenPSHelper-1.html#MASES_NavenPS_NavenPSHelper_1_SetClassToRun_System_String_
-  commentId: M:MASES.NavenPS.NavenPSHelper`1.SetClassToRun(System.String)
-  name.vb: SetClassToRun(String)
-  fullName: MASES.NavenPS.NavenPSHelper<TClass>.SetClassToRun(string)
-  fullName.vb: MASES.NavenPS.NavenPSHelper(Of TClass).SetClassToRun(String)
-  nameWithType: NavenPSHelper<TClass>.SetClassToRun(string)
-  nameWithType.vb: NavenPSHelper(Of TClass).SetClassToRun(String)
-- uid: MASES.NavenPS.NavenPSHelper`1.SetClassToRun*
-  name: SetClassToRun
-  href: api/MASES.NavenPS.NavenPSHelper-1.html#MASES_NavenPS_NavenPSHelper_1_SetClassToRun_
-  commentId: Overload:MASES.NavenPS.NavenPSHelper`1.SetClassToRun
-  isSpec: "True"
-  fullName: MASES.NavenPS.NavenPSHelper<TClass>.SetClassToRun
-  fullName.vb: MASES.NavenPS.NavenPSHelper(Of TClass).SetClassToRun
-  nameWithType: NavenPSHelper<TClass>.SetClassToRun
-  nameWithType.vb: NavenPSHelper(Of TClass).SetClassToRun
-- uid: MASES.NavenPS.NavenPSHelper`1.SetCommonLoggingPath(System.String)
+- uid: MASES.Naven.PowerShell.NavenPSHelper`1.SetCommonLoggingPath(System.String)
   name: SetCommonLoggingPath(string)
-  href: api/MASES.NavenPS.NavenPSHelper-1.html#MASES_NavenPS_NavenPSHelper_1_SetCommonLoggingPath_System_String_
-  commentId: M:MASES.NavenPS.NavenPSHelper`1.SetCommonLoggingPath(System.String)
+  href: api/MASES.Naven.PowerShell.NavenPSHelper-1.html#MASES_Naven_PowerShell_NavenPSHelper_1_SetCommonLoggingPath_System_String_
+  commentId: M:MASES.Naven.PowerShell.NavenPSHelper`1.SetCommonLoggingPath(System.String)
   name.vb: SetCommonLoggingPath(String)
-  fullName: MASES.NavenPS.NavenPSHelper<TClass>.SetCommonLoggingPath(string)
-  fullName.vb: MASES.NavenPS.NavenPSHelper(Of TClass).SetCommonLoggingPath(String)
+  fullName: MASES.Naven.PowerShell.NavenPSHelper<TClass>.SetCommonLoggingPath(string)
+  fullName.vb: MASES.Naven.PowerShell.NavenPSHelper(Of TClass).SetCommonLoggingPath(String)
   nameWithType: NavenPSHelper<TClass>.SetCommonLoggingPath(string)
   nameWithType.vb: NavenPSHelper(Of TClass).SetCommonLoggingPath(String)
-- uid: MASES.NavenPS.NavenPSHelper`1.SetCommonLoggingPath*
+- uid: MASES.Naven.PowerShell.NavenPSHelper`1.SetCommonLoggingPath*
   name: SetCommonLoggingPath
-  href: api/MASES.NavenPS.NavenPSHelper-1.html#MASES_NavenPS_NavenPSHelper_1_SetCommonLoggingPath_
-  commentId: Overload:MASES.NavenPS.NavenPSHelper`1.SetCommonLoggingPath
+  href: api/MASES.Naven.PowerShell.NavenPSHelper-1.html#MASES_Naven_PowerShell_NavenPSHelper_1_SetCommonLoggingPath_
+  commentId: Overload:MASES.Naven.PowerShell.NavenPSHelper`1.SetCommonLoggingPath
   isSpec: "True"
-  fullName: MASES.NavenPS.NavenPSHelper<TClass>.SetCommonLoggingPath
-  fullName.vb: MASES.NavenPS.NavenPSHelper(Of TClass).SetCommonLoggingPath
+  fullName: MASES.Naven.PowerShell.NavenPSHelper<TClass>.SetCommonLoggingPath
+  fullName.vb: MASES.Naven.PowerShell.NavenPSHelper(Of TClass).SetCommonLoggingPath
   nameWithType: NavenPSHelper<TClass>.SetCommonLoggingPath
   nameWithType.vb: NavenPSHelper(Of TClass).SetCommonLoggingPath
-- uid: MASES.NavenPS.NavenPSHelper`1.SetLogPath(System.String)
+- uid: MASES.Naven.PowerShell.NavenPSHelper`1.SetLogPath(System.String)
   name: SetLogPath(string)
-  href: api/MASES.NavenPS.NavenPSHelper-1.html#MASES_NavenPS_NavenPSHelper_1_SetLogPath_System_String_
-  commentId: M:MASES.NavenPS.NavenPSHelper`1.SetLogPath(System.String)
+  href: api/MASES.Naven.PowerShell.NavenPSHelper-1.html#MASES_Naven_PowerShell_NavenPSHelper_1_SetLogPath_System_String_
+  commentId: M:MASES.Naven.PowerShell.NavenPSHelper`1.SetLogPath(System.String)
   name.vb: SetLogPath(String)
-  fullName: MASES.NavenPS.NavenPSHelper<TClass>.SetLogPath(string)
-  fullName.vb: MASES.NavenPS.NavenPSHelper(Of TClass).SetLogPath(String)
+  fullName: MASES.Naven.PowerShell.NavenPSHelper<TClass>.SetLogPath(string)
+  fullName.vb: MASES.Naven.PowerShell.NavenPSHelper(Of TClass).SetLogPath(String)
   nameWithType: NavenPSHelper<TClass>.SetLogPath(string)
   nameWithType.vb: NavenPSHelper(Of TClass).SetLogPath(String)
-- uid: MASES.NavenPS.NavenPSHelper`1.SetLogPath*
+- uid: MASES.Naven.PowerShell.NavenPSHelper`1.SetLogPath*
   name: SetLogPath
-  href: api/MASES.NavenPS.NavenPSHelper-1.html#MASES_NavenPS_NavenPSHelper_1_SetLogPath_
-  commentId: Overload:MASES.NavenPS.NavenPSHelper`1.SetLogPath
+  href: api/MASES.Naven.PowerShell.NavenPSHelper-1.html#MASES_Naven_PowerShell_NavenPSHelper_1_SetLogPath_
+  commentId: Overload:MASES.Naven.PowerShell.NavenPSHelper`1.SetLogPath
   isSpec: "True"
-  fullName: MASES.NavenPS.NavenPSHelper<TClass>.SetLogPath
-  fullName.vb: MASES.NavenPS.NavenPSHelper(Of TClass).SetLogPath
+  fullName: MASES.Naven.PowerShell.NavenPSHelper<TClass>.SetLogPath
+  fullName.vb: MASES.Naven.PowerShell.NavenPSHelper(Of TClass).SetLogPath
   nameWithType: NavenPSHelper<TClass>.SetLogPath
   nameWithType.vb: NavenPSHelper(Of TClass).SetLogPath
+- uid: MASES.Naven.PowerShell.NavenPSHelper`1.SetMultiModuleProjectDirectory(System.String)
+  name: SetMultiModuleProjectDirectory(string)
+  href: api/MASES.Naven.PowerShell.NavenPSHelper-1.html#MASES_Naven_PowerShell_NavenPSHelper_1_SetMultiModuleProjectDirectory_System_String_
+  commentId: M:MASES.Naven.PowerShell.NavenPSHelper`1.SetMultiModuleProjectDirectory(System.String)
+  name.vb: SetMultiModuleProjectDirectory(String)
+  fullName: MASES.Naven.PowerShell.NavenPSHelper<TClass>.SetMultiModuleProjectDirectory(string)
+  fullName.vb: MASES.Naven.PowerShell.NavenPSHelper(Of TClass).SetMultiModuleProjectDirectory(String)
+  nameWithType: NavenPSHelper<TClass>.SetMultiModuleProjectDirectory(string)
+  nameWithType.vb: NavenPSHelper(Of TClass).SetMultiModuleProjectDirectory(String)
+- uid: MASES.Naven.PowerShell.NavenPSHelper`1.SetMultiModuleProjectDirectory*
+  name: SetMultiModuleProjectDirectory
+  href: api/MASES.Naven.PowerShell.NavenPSHelper-1.html#MASES_Naven_PowerShell_NavenPSHelper_1_SetMultiModuleProjectDirectory_
+  commentId: Overload:MASES.Naven.PowerShell.NavenPSHelper`1.SetMultiModuleProjectDirectory
+  isSpec: "True"
+  fullName: MASES.Naven.PowerShell.NavenPSHelper<TClass>.SetMultiModuleProjectDirectory
+  fullName.vb: MASES.Naven.PowerShell.NavenPSHelper(Of TClass).SetMultiModuleProjectDirectory
+  nameWithType: NavenPSHelper<TClass>.SetMultiModuleProjectDirectory
+  nameWithType.vb: NavenPSHelper(Of TClass).SetMultiModuleProjectDirectory
 - uid: Org.Apache.Maven.Cli
   name: Org.Apache.Maven.Cli
   href: api/Org.Apache.Maven.Cli.html
