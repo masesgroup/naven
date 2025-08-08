@@ -6210,6 +6210,15 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.New()
   nameWithType: ClassWorldListener.ClassWorldListener()
   nameWithType.vb: ClassWorldListener.New()
+- uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.#ctor(System.Object[])
+  name: ClassWorldListener(params object[])
+  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListener.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListener__ctor_System_Object___
+  commentId: M:Org.Codehaus.Plexus.Classworlds.ClassWorldListener.#ctor(System.Object[])
+  name.vb: New(ParamArray Object())
+  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.ClassWorldListener(params object[])
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.New(ParamArray Object())
+  nameWithType: ClassWorldListener.ClassWorldListener(params object[])
+  nameWithType.vb: ClassWorldListener.New(ParamArray Object())
 - uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.#ctor*
   name: ClassWorldListener
   href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListener.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListener__ctor_
