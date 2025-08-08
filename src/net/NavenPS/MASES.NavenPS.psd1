@@ -8,7 +8,7 @@
 
 RootModule = 'MASES.NavenPS.psm1'
 
-ModuleVersion = '3.9.0'
+ModuleVersion = '3.9.1'
 
 CompatiblePSEditions = 'Desktop', 'Core'
 
