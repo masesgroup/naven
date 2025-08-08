@@ -11,7 +11,7 @@
     <repository type="git" url="https://github.com/masesgroup/Naven/" />
     <description>Command line interface of .NET suite for Apache Maven™. Naven is a comprehensive suite of libraries and tools to use Apache Maven™ and .NET side-by-side.</description>
     <releaseNotes>https://github.com/masesgroup/Naven/releases</releaseNotes>
-    <copyright>Copyright ©  MASES s.r.l. 2025</copyright>
+    <copyright>Copyright (c) 2024-2025 MASES s.r.l.</copyright>
     <license type="file">LICENSE</license>
     <icon>JCOB128x128.png</icon>
     <tags>naven cli pdf maven dotnet clr netcore net8 gateway</tags>
