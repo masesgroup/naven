@@ -8,6 +8,8 @@ _description: Describes the command-line switch of .NET suite for Apache Mavenâ„
 _naven_ accepts the following command-line switches:
 
 * **LogClassPath**: put in command line the switch to output all Jars found
+* **CommonLoggingConfiguration**: The file containing the configuration of common logging
+* **The file containing the configuration of common logging**: The path where log will be stored
 
 Plus it accepts from:
 * **JCOBridge**:
