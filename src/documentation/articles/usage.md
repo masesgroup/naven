@@ -1,6 +1,6 @@
 ---
 title: Usage .NET suite for Apache Maven™
-_description: Describes how to use Naven, set-up environment, identify the JVM and write good code
+_description: Describes how to use Naven, set-up environment, identify the JVM™ and write good code
 ---
 
 # Naven usage

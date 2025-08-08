@@ -7,7 +7,7 @@
   "DisableInterfaceMethodGeneration": true,
   "CreateInterfaceInheritance": true,
   "JarList": [
-    "plexus-classworlds-2.8.0.jar"
+    "plexus-classworlds-2.9.0.jar"
   ],
   "OriginJavadocJARVersionAndUrls": [
     {

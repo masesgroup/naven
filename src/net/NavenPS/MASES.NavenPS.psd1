@@ -18,7 +18,7 @@ Author = 'MASES s.r.l.'
 
 CompanyName = 'MASES s.r.l.'
 
-Copyright = 'Copyright ©  MASES s.r.l. 2025'
+Copyright = 'Copyright (c) 2024-2025 MASES s.r.l.'
 
 Description = 'Naven (.NET suite for Apache Maven™) PowerShell (aka NavenPS) is a PowerShell Module to use Apache Maven™ and PowerShell side-by-side. With NavenPS it is possible to:
 - create and use Apache Maven™ objects from PowerShell: initialize Apache Maven™ object (Java, Scala, Kotlin, ...), execute methods on the object, read data from the object to be used for further PowerShell code 
