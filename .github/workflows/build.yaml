@@ -17,6 +17,19 @@ on:
         required: true
         default: false
         type: boolean
+      ForceContinueOnError:
+        description: 'Force continue-on-error'
+        required: false
+        default: true
+        type: boolean
+      EnableProcessDump:
+        description: 'Enable .NET process dump'
+        required: false
+        default: '0'
+        type: choice
+        options:
+          - "0"
+          - "1"
 
 concurrency:
   group: '${{ github.workflow }} @ ${{ github.event.pull_request.head.label || github.head_ref || github.ref }}'
@@ -147,7 +160,6 @@ jobs:
 
       - name: List NuGet packages downloaded
         if: ${{ inputs.UseLastRepositoryBuild == true }}
-        continue-on-error: true
         shell: cmd
         run: dir .\JNetNuGet\*nupkg
 
@@ -375,13 +387,13 @@ jobs:
         
     runs-on: ${{ matrix.os }}
     env:
-      DOTNET_DbgEnableMiniDump: 1
+      DOTNET_DbgEnableMiniDump: ${{ inputs.EnableProcessDump }}
       DOTNET_DbgMiniDumpType: 3
       DOTNET_DbgMiniDumpName: ${{ github.workspace }}/coredump.%p
-      DOTNET_CreateDumpDiagnostics: 1
-      DOTNET_CreateDumpVerboseDiagnostics: 1
-      DOTNET_EnableCrashReport: 1
-      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_5_21 }}
+      DOTNET_CreateDumpDiagnostics: ${{ inputs.EnableProcessDump }}
+      DOTNET_CreateDumpVerboseDiagnostics: ${{ inputs.EnableProcessDump }}
+      DOTNET_EnableCrashReport: ${{ inputs.EnableProcessDump }}
+      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_1 }}
     
     steps:
       # Runs a set of commands using the runners shell
@@ -417,7 +429,7 @@ jobs:
             9.x
 
       - name: Download Procdump and prepare
-        if: ${{ matrix.os == 'windows-latest' }} # see https://gist.github.com/Sedeniono/e6d6504e3bf0645937852ee5681ef9ee and https://learn.microsoft.com/it-it/sysinternals/downloads/procdump
+        if: ${{ matrix.os == 'windows-latest' && inputs.EnableProcessDump == 1 }} # see https://gist.github.com/Sedeniono/e6d6504e3bf0645937852ee5681ef9ee and https://learn.microsoft.com/it-it/sysinternals/downloads/procdump
         continue-on-error: true
         run: |
           C:\msys64\usr\bin\wget.exe https://download.sysinternals.com/files/Procdump.zip
@@ -451,7 +463,7 @@ jobs:
       - run: dotnet tool update -g MASES.NavenCLI 
 
       - if: ${{ matrix.os != 'windows-latest' }} # for windows see https://github.com/masesgroup/JNet/issues/573#issuecomment-2550033900
-        continue-on-error: true
+        continue-on-error: ${{ inputs.ForceContinueOnError == true }}
         run: |
           naven --no-transfer-progress -f ${{ github.workspace }}/src/jvm/naven/pom.xml package
 
@@ -462,7 +474,7 @@ jobs:
           Get-ProcessMitigation -Name "naven.exe"
 
       - if: ${{ matrix.os == 'windows-latest' }} # for windows see https://github.com/masesgroup/JNet/issues/573#issuecomment-2550033900
-        continue-on-error: true
+        continue-on-error: ${{ inputs.ForceContinueOnError == true }}
         run: |
           naven --no-transfer-progress -f ${{ github.workspace }}\src\jvm\naven\pom.xml package
           
@@ -509,13 +521,13 @@ jobs:
     runs-on: ${{ matrix.os }}
     env:
       DOTNET_CLI_UI_LANGUAGE: en_US
-      DOTNET_DbgEnableMiniDump: 1
+      DOTNET_DbgEnableMiniDump: ${{ inputs.EnableProcessDump }}
       DOTNET_DbgMiniDumpType: 3
       DOTNET_DbgMiniDumpName: ${{ github.workspace }}/coredump.%p
-      DOTNET_CreateDumpDiagnostics: 1
-      DOTNET_CreateDumpVerboseDiagnostics: 1
-      DOTNET_EnableCrashReport: 1
-      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_5_21 }}
+      DOTNET_CreateDumpDiagnostics: ${{ inputs.EnableProcessDump }}
+      DOTNET_CreateDumpVerboseDiagnostics: ${{ inputs.EnableProcessDump }}
+      DOTNET_EnableCrashReport: ${{ inputs.EnableProcessDump }}
+      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_1 }}
 
     steps:
       # Runs a set of commands using the runners shell
@@ -537,7 +549,7 @@ jobs:
             9.x
 
       - name: Download Procdump and prepare
-        if: ${{ matrix.os == 'windows-latest' }} # see https://gist.github.com/Sedeniono/e6d6504e3bf0645937852ee5681ef9ee and https://learn.microsoft.com/it-it/sysinternals/downloads/procdump
+        if: ${{ matrix.os == 'windows-latest' && inputs.EnableProcessDump == 1 }} # see https://gist.github.com/Sedeniono/e6d6504e3bf0645937852ee5681ef9ee and https://learn.microsoft.com/it-it/sysinternals/downloads/procdump
         continue-on-error: true
         run: |
           C:\msys64\usr\bin\wget.exe https://download.sysinternals.com/files/Procdump.zip
@@ -579,21 +591,21 @@ jobs:
         run: Register-PSRepository -Name Local_Nuget_Feed -SourceLocation $env:GITHUB_WORKSPACE\bin -PublishLocation $env:GITHUB_WORKSPACE\bin -InstallationPolicy Trusted
 
       - if: ${{ matrix.os != 'windows-latest' }}
-        continue-on-error: true
+        continue-on-error: ${{ inputs.ForceContinueOnError == true }}
         shell: pwsh
         run: |
           Install-Module MASES.NavenPS -Repository Local_Nuget_Feed
           ${{ github.workspace }}/tests/scripts/NavenPSTest.ps1 -Verbose -f ${{ github.workspace }}/src/jvm/naven/pom.xml --no-transfer-progress package
 
       - if: ${{ matrix.os == 'windows-latest' }}
-        continue-on-error: true
+        continue-on-error: ${{ inputs.ForceContinueOnError == true }}
         shell: pwsh
         run: |
           Install-Module MASES.NavenPS -Repository Local_Nuget_Feed
           ${{ github.workspace }}\tests\scripts\NavenPSTest.ps1 -Verbose -f ${{ github.workspace }}\src\jvm\naven\pom.xml --no-transfer-progress package
 
       - if: ${{ matrix.os == 'windows-latest' }}
-        continue-on-error: true
+        continue-on-error: ${{ inputs.ForceContinueOnError == true }}
         shell: powershell
         run: |
           Install-Module MASES.NavenPS -Repository Local_Nuget_Feed

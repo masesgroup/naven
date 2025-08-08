@@ -1,4 +1,4 @@
-﻿/*
+/*
 *  Copyright (c) 2024-2025 MASES s.r.l.
 *
 *  Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,18 +15,3 @@
 *
 *  Refer to LICENSE for more information.
 */
-
-using MASES.Naven.CLI;
-
-namespace MASES.Naven.PowerShell
-{
-    /// <summary>
-    /// Concrete implementation of <see cref="NavenCLICore{T}"/>
-    /// </summary>
-    public class NavenPSCore : NavenCLICore<NavenPSCore>
-    {
-#if NET6_0_OR_GREATER
-        public static void Main(string[] args) { } // used in conjunction with project of executable type to produce artifacts with all needed assemblies
-#endif
-    }
-}
