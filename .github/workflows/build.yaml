@@ -393,7 +393,7 @@ jobs:
       DOTNET_CreateDumpDiagnostics: ${{ inputs.EnableProcessDump }}
       DOTNET_CreateDumpVerboseDiagnostics: ${{ inputs.EnableProcessDump }}
       DOTNET_EnableCrashReport: ${{ inputs.EnableProcessDump }}
-      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_1 }}
+      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_4 }}
     
     steps:
       # Runs a set of commands using the runners shell
@@ -425,7 +425,6 @@ jobs:
         if: ${{ matrix.os == 'ubuntu-latest' || matrix.os == 'macos-latest' || matrix.os == 'macos-13' }}
         with:
           dotnet-version: |
-            6.x
             9.x
 
       - name: Download Procdump and prepare
@@ -527,7 +526,7 @@ jobs:
       DOTNET_CreateDumpDiagnostics: ${{ inputs.EnableProcessDump }}
       DOTNET_CreateDumpVerboseDiagnostics: ${{ inputs.EnableProcessDump }}
       DOTNET_EnableCrashReport: ${{ inputs.EnableProcessDump }}
-      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_1 }}
+      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_4 }}
 
     steps:
       # Runs a set of commands using the runners shell
@@ -545,7 +544,6 @@ jobs:
       - uses: actions/setup-dotnet@v5
         with:
           dotnet-version: |
-            6.x
             9.x
 
       - name: Download Procdump and prepare
