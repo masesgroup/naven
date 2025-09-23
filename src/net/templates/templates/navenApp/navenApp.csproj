@@ -14,6 +14,6 @@
 	</ItemGroup>
 	<ItemGroup Condition="!Exists('..\..\..\Naven\Naven.csproj')">
 		<!--Outside GitHub repo-->
-		<PackageReference Include="MASES.Naven" Version="3.9.1" IncludeAssets="All" PrivateAssets="None" />
+		<PackageReference Include="MASES.Naven" Version="3.9.2" IncludeAssets="All" PrivateAssets="None" />
 	</ItemGroup>
 </Project>
