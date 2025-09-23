@@ -89,7 +89,7 @@
 
 
   <h1 id="Org_Apache_Maven_Cli_CLIReportingUtils" data-uid="Org.Apache.Maven.Cli.CLIReportingUtils" class="text-break">
-Class CLIReportingUtils  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L64"><i class="bi bi-code-slash"></i></a>
+Class CLIReportingUtils  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class CLIReportingUtils  <a class="header-action link-secondary" title="View sou
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CLIReportingUtils : JVMBridgeBase&lt;CLIReportingUtils&gt;, IDynamicMetaObjectProvider, IJVMBridgeCore, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition</code></pre>
+    <pre><code class="lang-csharp hljs">public class CLIReportingUtils : JVMBridgeBase&lt;CLIReportingUtils&gt;, IDynamicMetaObjectProvider, IJVMBridgeCore, IEquatable&lt;IJVMBridgeBase&gt;, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition</code></pre>
   </div>
 
 
@@ -124,6 +124,7 @@ Class CLIReportingUtils  <a class="header-action link-secondary" title="View sou
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeCore.html">IJVMBridgeCore</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a>&gt;</div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseStatic.html">IJVMBridgeBaseStatic</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a></div>
@@ -220,16 +221,16 @@ Class CLIReportingUtils  <a class="header-action link-secondary" title="View sou
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;CLIReportingUtils&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;CLIReportingUtils&gt;.SExecuteArray&lt;T&gt;(IJavaType, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;CLIReportingUtils&gt;.SExecuteArray&lt;TArrayType&gt;(IJavaType, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;CLIReportingUtils&gt;.SExecuteWithSignatureArray&lt;T&gt;(IJavaType, string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;CLIReportingUtils&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(IJavaType, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;CLIReportingUtils&gt;.SExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;CLIReportingUtils&gt;.SExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;CLIReportingUtils&gt;.SExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;CLIReportingUtils&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;CLIReportingUtils&gt;.SGetField(IJavaType, string)</a>
@@ -277,6 +278,12 @@ Class CLIReportingUtils  <a class="header-action link-secondary" title="View sou
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;CLIReportingUtils&gt;.NewWithSignature(string, params object[])</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;CLIReportingUtils&gt;.NewAndWrapsDirect&lt;TNewClass&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;CLIReportingUtils&gt;.NewWithSignatureAndWrapsDirect&lt;TNewClass&gt;(string, string, params object[])</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_Execute__1___0___">JVMBridgeBase&lt;CLIReportingUtils&gt;.Execute&lt;T&gt;(params T[])</a>
     </div>
     <div>
@@ -286,13 +293,25 @@ Class CLIReportingUtils  <a class="header-action link-secondary" title="View sou
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_BridgeClazz">JVMBridgeBase&lt;CLIReportingUtils&gt;.BridgeClazz</a>
     </div>
     <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ReferenceEqualsJVM_MASES_JCOBridge_C2JBridge_JVMBridgeBase_MASES_JCOBridge_C2JBridge_JVMBridgeBase_">JVMBridgeBase.ReferenceEqualsJVM(JVMBridgeBase, JVMBridgeBase)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">JVMBridgeBase.ClazzOf&lt;TClass&gt;(out Exception, bool)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, out Exception, bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_RuntimeClassNameOf__1">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.RuntimeClassNameOf(Type)</a>
     </div>
     <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ClassNameOf__1">JVMBridgeBase.ClassNameOf&lt;T&gt;()</a>
@@ -349,7 +368,13 @@ Class CLIReportingUtils  <a class="header-action link-secondary" title="View sou
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Dispose">JVMBridgeBase.Dispose()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.Dispose(bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ToString">JVMBridgeBase.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Equals_MASES_JCOBridge_C2JBridge_IJVMBridgeBase_">JVMBridgeBase.Equals(IJVMBridgeBase)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
@@ -397,10 +422,10 @@ Class CLIReportingUtils  <a class="header-action link-secondary" title="View sou
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
@@ -520,9 +545,42 @@ Class CLIReportingUtils  <a class="header-action link-secondary" title="View sou
 
   <a id="Org_Apache_Maven_Cli_CLIReportingUtils__ctor_" data-uid="Org.Apache.Maven.Cli.CLIReportingUtils.#ctor*"></a>
 
+  <h3 id="Org_Apache_Maven_Cli_CLIReportingUtils__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_" data-uid="Org.Apache.Maven.Cli.CLIReportingUtils.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)">
+  CLIReportingUtils(IJVMBridgeBaseInitializer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Internal constructor: used internally from JCOBridge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.&quot;)]
+public CLIReportingUtils(IJVMBridgeBaseInitializer initializer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>initializer</code> <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer.html">IJVMBridgeBaseInitializer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Maven_Cli_CLIReportingUtils__ctor_" data-uid="Org.Apache.Maven.Cli.CLIReportingUtils.#ctor*"></a>
+
   <h3 id="Org_Apache_Maven_Cli_CLIReportingUtils__ctor_System_Object___" data-uid="Org.Apache.Maven.Cli.CLIReportingUtils.#ctor(System.Object[])">
   CLIReportingUtils(params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
@@ -558,7 +616,7 @@ Class CLIReportingUtils  <a class="header-action link-secondary" title="View sou
 
   <h3 id="Org_Apache_Maven_Cli_CLIReportingUtils_BUILD_VERSION_PROPERTY" data-uid="Org.Apache.Maven.Cli.CLIReportingUtils.BUILD_VERSION_PROPERTY">
   BUILD_VERSION_PROPERTY
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.11/org/apache/maven/cli/CLIReportingUtils.html#BUILD_VERSION_PROPERTY">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.11/org/apache/maven/cli/CLIReportingUtils.html#BUILD_VERSION_PROPERTY</a></p>
@@ -590,7 +648,7 @@ Class CLIReportingUtils  <a class="header-action link-secondary" title="View sou
 
   <h3 id="Org_Apache_Maven_Cli_CLIReportingUtils_BridgeClassName" data-uid="Org.Apache.Maven.Cli.CLIReportingUtils.BridgeClassName">
   BridgeClassName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Java class name to be instantiated</p>
@@ -622,7 +680,7 @@ Class CLIReportingUtils  <a class="header-action link-secondary" title="View sou
 
   <h3 id="Org_Apache_Maven_Cli_CLIReportingUtils_IsBridgeAbstract" data-uid="Org.Apache.Maven.Cli.CLIReportingUtils.IsBridgeAbstract">
   IsBridgeAbstract
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an abstract class, i.e. cannot be created an instance</p>
@@ -654,7 +712,7 @@ Class CLIReportingUtils  <a class="header-action link-secondary" title="View sou
 
   <h3 id="Org_Apache_Maven_Cli_CLIReportingUtils_IsBridgeCloseable" data-uid="Org.Apache.Maven.Cli.CLIReportingUtils.IsBridgeCloseable">
   IsBridgeCloseable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> implements Closeable</p>
@@ -686,7 +744,7 @@ Class CLIReportingUtils  <a class="header-action link-secondary" title="View sou
 
   <h3 id="Org_Apache_Maven_Cli_CLIReportingUtils_IsBridgeInterface" data-uid="Org.Apache.Maven.Cli.CLIReportingUtils.IsBridgeInterface">
   IsBridgeInterface
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an interface, i.e. does not have any public constructor</p>
@@ -718,7 +776,7 @@ Class CLIReportingUtils  <a class="header-action link-secondary" title="View sou
 
   <h3 id="Org_Apache_Maven_Cli_CLIReportingUtils_IsBridgeStatic" data-uid="Org.Apache.Maven.Cli.CLIReportingUtils.IsBridgeStatic">
   IsBridgeStatic
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is a static class, i.e. does not have any public constructor</p>
@@ -750,7 +808,7 @@ Class CLIReportingUtils  <a class="header-action link-secondary" title="View sou
 
   <h3 id="Org_Apache_Maven_Cli_CLIReportingUtils_MB" data-uid="Org.Apache.Maven.Cli.CLIReportingUtils.MB">
   MB
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L90"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.11/org/apache/maven/cli/CLIReportingUtils.html#MB">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.11/org/apache/maven/cli/CLIReportingUtils.html#MB</a></p>
@@ -786,7 +844,7 @@ Class CLIReportingUtils  <a class="header-action link-secondary" title="View sou
 
   <h3 id="Org_Apache_Maven_Cli_CLIReportingUtils_FormatDuration_System_Int64_" data-uid="Org.Apache.Maven.Cli.CLIReportingUtils.FormatDuration(System.Int64)">
   FormatDuration(long)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L102"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.11/org/apache/maven/cli/CLIReportingUtils.html#formatDuration(long)">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.11/org/apache/maven/cli/CLIReportingUtils.html#formatDuration(long)</a></p>
@@ -825,7 +883,7 @@ Class CLIReportingUtils  <a class="header-action link-secondary" title="View sou
 
   <h3 id="Org_Apache_Maven_Cli_CLIReportingUtils_FormatTimestamp_System_Int64_" data-uid="Org.Apache.Maven.Cli.CLIReportingUtils.FormatTimestamp(System.Int64)">
   FormatTimestamp(long)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L111"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.11/org/apache/maven/cli/CLIReportingUtils.html#formatTimestamp(long)">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.11/org/apache/maven/cli/CLIReportingUtils.html#formatTimestamp(long)</a></p>
@@ -864,7 +922,7 @@ Class CLIReportingUtils  <a class="header-action link-secondary" title="View sou
 
   <h3 id="Org_Apache_Maven_Cli_CLIReportingUtils_ShowVersion" data-uid="Org.Apache.Maven.Cli.CLIReportingUtils.ShowVersion">
   ShowVersion()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L119"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.11/org/apache/maven/cli/CLIReportingUtils.html#showVersion()">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.11/org/apache/maven/cli/CLIReportingUtils.html#showVersion()</a></p>
@@ -897,7 +955,7 @@ Class CLIReportingUtils  <a class="header-action link-secondary" title="View sou
 
   <h3 id="Org_Apache_Maven_Cli_CLIReportingUtils_ShowVersionMinimal" data-uid="Org.Apache.Maven.Cli.CLIReportingUtils.ShowVersionMinimal">
   ShowVersionMinimal()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L127"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.11/org/apache/maven/cli/CLIReportingUtils.html#showVersionMinimal()">https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.11/org/apache/maven/cli/CLIReportingUtils.html#showVersionMinimal()</a></p>
@@ -930,7 +988,7 @@ Class CLIReportingUtils  <a class="header-action link-secondary" title="View sou
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L64" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Apache/Maven/Cli/CLIReportingUtils.cs/#L70" class="edit-link">Edit this page</a>
         </div>
 
 

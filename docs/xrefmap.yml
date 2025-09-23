@@ -709,6 +709,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.CLIManager.New()
   nameWithType: CLIManager.CLIManager()
   nameWithType.vb: CLIManager.New()
+- uid: Org.Apache.Maven.Cli.CLIManager.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: CLIManager(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.CLIManager.html#Org_Apache_Maven_Cli_CLIManager__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.CLIManager.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.CLIManager.CLIManager(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.CLIManager.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: CLIManager.CLIManager(IJVMBridgeBaseInitializer)
+  nameWithType.vb: CLIManager.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.CLIManager.#ctor(System.Object[])
   name: CLIManager(params object[])
   href: api/Org.Apache.Maven.Cli.CLIManager.html#Org_Apache_Maven_Cli_CLIManager__ctor_System_Object___
@@ -1276,6 +1285,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.CLIReportingUtils.New()
   nameWithType: CLIReportingUtils.CLIReportingUtils()
   nameWithType.vb: CLIReportingUtils.New()
+- uid: Org.Apache.Maven.Cli.CLIReportingUtils.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: CLIReportingUtils(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.CLIReportingUtils.html#Org_Apache_Maven_Cli_CLIReportingUtils__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.CLIReportingUtils.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.CLIReportingUtils.CLIReportingUtils(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.CLIReportingUtils.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: CLIReportingUtils.CLIReportingUtils(IJVMBridgeBaseInitializer)
+  nameWithType.vb: CLIReportingUtils.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.CLIReportingUtils.#ctor(System.Object[])
   name: CLIReportingUtils(params object[])
   href: api/Org.Apache.Maven.Cli.CLIReportingUtils.html#Org_Apache_Maven_Cli_CLIReportingUtils__ctor_System_Object___
@@ -1459,6 +1477,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.CleanArgument.New()
   nameWithType: CleanArgument.CleanArgument()
   nameWithType.vb: CleanArgument.New()
+- uid: Org.Apache.Maven.Cli.CleanArgument.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: CleanArgument(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.CleanArgument.html#Org_Apache_Maven_Cli_CleanArgument__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.CleanArgument.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.CleanArgument.CleanArgument(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.CleanArgument.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: CleanArgument.CleanArgument(IJVMBridgeBaseInitializer)
+  nameWithType.vb: CleanArgument.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.CleanArgument.#ctor(System.Object[])
   name: CleanArgument(params object[])
   href: api/Org.Apache.Maven.Cli.CleanArgument.html#Org_Apache_Maven_Cli_CleanArgument__ctor_System_Object___
@@ -1574,6 +1601,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.CliRequest.New()
   nameWithType: CliRequest.CliRequest()
   nameWithType.vb: CliRequest.New()
+- uid: Org.Apache.Maven.Cli.CliRequest.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: CliRequest(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.CliRequest.html#Org_Apache_Maven_Cli_CliRequest__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.CliRequest.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.CliRequest.CliRequest(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.CliRequest.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: CliRequest.CliRequest(IJVMBridgeBaseInitializer)
+  nameWithType.vb: CliRequest.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.CliRequest.#ctor(System.Object[])
   name: CliRequest(params object[])
   href: api/Org.Apache.Maven.Cli.CliRequest.html#Org_Apache_Maven_Cli_CliRequest__ctor_System_Object___
@@ -1783,6 +1819,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor.New()
   nameWithType: ConfigurationProcessor.ConfigurationProcessor()
   nameWithType.vb: ConfigurationProcessor.New()
+- uid: Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: ConfigurationProcessor(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor.html#Org_Apache_Maven_Cli_Configuration_ConfigurationProcessor__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor.ConfigurationProcessor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: ConfigurationProcessor.ConfigurationProcessor(IJVMBridgeBaseInitializer)
+  nameWithType.vb: ConfigurationProcessor.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor.#ctor(System.Object[])
   name: ConfigurationProcessor(params object[])
   href: api/Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor.html#Org_Apache_Maven_Cli_Configuration_ConfigurationProcessor__ctor_System_Object___
@@ -1901,6 +1946,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.New()
   nameWithType: SettingsXmlConfigurationProcessor.SettingsXmlConfigurationProcessor()
   nameWithType.vb: SettingsXmlConfigurationProcessor.New()
+- uid: Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: SettingsXmlConfigurationProcessor(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.html#Org_Apache_Maven_Cli_Configuration_SettingsXmlConfigurationProcessor__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.SettingsXmlConfigurationProcessor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: SettingsXmlConfigurationProcessor.SettingsXmlConfigurationProcessor(IJVMBridgeBaseInitializer)
+  nameWithType.vb: SettingsXmlConfigurationProcessor.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.#ctor(System.Object[])
   name: SettingsXmlConfigurationProcessor(params object[])
   href: api/Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.html#Org_Apache_Maven_Cli_Configuration_SettingsXmlConfigurationProcessor__ctor_System_Object___
@@ -2084,6 +2138,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.New()
   nameWithType: DefaultEventSpyContext.DefaultEventSpyContext()
   nameWithType.vb: DefaultEventSpyContext.New()
+- uid: Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: DefaultEventSpyContext(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.html#Org_Apache_Maven_Cli_Event_DefaultEventSpyContext__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.DefaultEventSpyContext(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: DefaultEventSpyContext.DefaultEventSpyContext(IJVMBridgeBaseInitializer)
+  nameWithType.vb: DefaultEventSpyContext.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.#ctor(System.Object[])
   name: DefaultEventSpyContext(params object[])
   href: api/Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.html#Org_Apache_Maven_Cli_Event_DefaultEventSpyContext__ctor_System_Object___
@@ -2196,6 +2259,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Event.ExecutionEventLogger.New()
   nameWithType: ExecutionEventLogger.ExecutionEventLogger()
   nameWithType.vb: ExecutionEventLogger.New()
+- uid: Org.Apache.Maven.Cli.Event.ExecutionEventLogger.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: ExecutionEventLogger(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Event.ExecutionEventLogger.html#Org_Apache_Maven_Cli_Event_ExecutionEventLogger__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Event.ExecutionEventLogger.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Event.ExecutionEventLogger.ExecutionEventLogger(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Event.ExecutionEventLogger.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: ExecutionEventLogger.ExecutionEventLogger(IJVMBridgeBaseInitializer)
+  nameWithType.vb: ExecutionEventLogger.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Event.ExecutionEventLogger.#ctor(System.Object[])
   name: ExecutionEventLogger(params object[])
   href: api/Org.Apache.Maven.Cli.Event.ExecutionEventLogger.html#Org_Apache_Maven_Cli_Event_ExecutionEventLogger__ctor_System_Object___
@@ -2301,6 +2373,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager.New()
   nameWithType: BootstrapCoreExtensionManager.BootstrapCoreExtensionManager()
   nameWithType.vb: BootstrapCoreExtensionManager.New()
+- uid: Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: BootstrapCoreExtensionManager(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager.html#Org_Apache_Maven_Cli_Internal_BootstrapCoreExtensionManager__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager.BootstrapCoreExtensionManager(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: BootstrapCoreExtensionManager.BootstrapCoreExtensionManager(IJVMBridgeBaseInitializer)
+  nameWithType.vb: BootstrapCoreExtensionManager.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager.#ctor(System.Object[])
   name: BootstrapCoreExtensionManager(params object[])
   href: api/Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager.html#Org_Apache_Maven_Cli_Internal_BootstrapCoreExtensionManager__ctor_System_Object___
@@ -2445,6 +2526,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.New()
   nameWithType: CoreExtension.CoreExtension()
   nameWithType.vb: CoreExtension.New()
+- uid: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: CoreExtension(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.html#Org_Apache_Maven_Cli_Internal_Extension_Model_CoreExtension__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.CoreExtension(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: CoreExtension.CoreExtension(IJVMBridgeBaseInitializer)
+  nameWithType.vb: CoreExtension.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.#ctor(System.Object[])
   name: CoreExtension(params object[])
   href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.html#Org_Apache_Maven_Cli_Internal_Extension_Model_CoreExtension__ctor_System_Object___
@@ -2609,6 +2699,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.New()
   nameWithType: CoreExtensions.CoreExtensions()
   nameWithType.vb: CoreExtensions.New()
+- uid: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: CoreExtensions(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.html#Org_Apache_Maven_Cli_Internal_Extension_Model_CoreExtensions__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.CoreExtensions(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: CoreExtensions.CoreExtensions(IJVMBridgeBaseInitializer)
+  nameWithType.vb: CoreExtensions.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.#ctor(System.Object[])
   name: CoreExtensions(params object[])
   href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.html#Org_Apache_Maven_Cli_Internal_Extension_Model_CoreExtensions__ctor_System_Object___
@@ -2766,6 +2865,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.New()
   nameWithType: CoreExtensionsXpp3Reader.CoreExtensionsXpp3Reader()
   nameWithType.vb: CoreExtensionsXpp3Reader.New()
+- uid: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: CoreExtensionsXpp3Reader(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.html#Org_Apache_Maven_Cli_Internal_Extension_Model_Io_Xpp3_CoreExtensionsXpp3Reader__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.CoreExtensionsXpp3Reader(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: CoreExtensionsXpp3Reader.CoreExtensionsXpp3Reader(IJVMBridgeBaseInitializer)
+  nameWithType.vb: CoreExtensionsXpp3Reader.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.#ctor(Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer)
   name: CoreExtensionsXpp3Reader(ContentTransformer)
   href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.html#Org_Apache_Maven_Cli_Internal_Extension_Model_Io_Xpp3_CoreExtensionsXpp3Reader__ctor_Org_Apache_Maven_Cli_Internal_Extension_Model_Io_Xpp3_CoreExtensionsXpp3Reader_ContentTransformer_
@@ -2835,6 +2943,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.New()
   nameWithType: CoreExtensionsXpp3Reader.ContentTransformer.ContentTransformer()
   nameWithType.vb: CoreExtensionsXpp3Reader.ContentTransformer.New()
+- uid: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: ContentTransformer(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.html#Org_Apache_Maven_Cli_Internal_Extension_Model_Io_Xpp3_CoreExtensionsXpp3Reader_ContentTransformer__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.ContentTransformer(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: CoreExtensionsXpp3Reader.ContentTransformer.ContentTransformer(IJVMBridgeBaseInitializer)
+  nameWithType.vb: CoreExtensionsXpp3Reader.ContentTransformer.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.#ctor(System.Object[])
   name: ContentTransformer(params object[])
   href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.html#Org_Apache_Maven_Cli_Internal_Extension_Model_Io_Xpp3_CoreExtensionsXpp3Reader_ContentTransformer__ctor_System_Object___
@@ -3049,6 +3166,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.New()
   nameWithType: CoreExtensionsXpp3Writer.CoreExtensionsXpp3Writer()
   nameWithType.vb: CoreExtensionsXpp3Writer.New()
+- uid: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: CoreExtensionsXpp3Writer(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.html#Org_Apache_Maven_Cli_Internal_Extension_Model_Io_Xpp3_CoreExtensionsXpp3Writer__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.CoreExtensionsXpp3Writer(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: CoreExtensionsXpp3Writer.CoreExtensionsXpp3Writer(IJVMBridgeBaseInitializer)
+  nameWithType.vb: CoreExtensionsXpp3Writer.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.#ctor(System.Object[])
   name: CoreExtensionsXpp3Writer(params object[])
   href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.html#Org_Apache_Maven_Cli_Internal_Extension_Model_Io_Xpp3_CoreExtensionsXpp3Writer__ctor_System_Object___
@@ -3171,6 +3297,43 @@ references:
   commentId: T:Org.Apache.Maven.Cli.Internal.ExtensionResolutionException
   fullName: Org.Apache.Maven.Cli.Internal.ExtensionResolutionException
   nameWithType: ExtensionResolutionException
+- uid: Org.Apache.Maven.Cli.Internal.ExtensionResolutionException.#ctor
+  name: ExtensionResolutionException()
+  href: api/Org.Apache.Maven.Cli.Internal.ExtensionResolutionException.html#Org_Apache_Maven_Cli_Internal_ExtensionResolutionException__ctor
+  commentId: M:Org.Apache.Maven.Cli.Internal.ExtensionResolutionException.#ctor
+  name.vb: New()
+  fullName: Org.Apache.Maven.Cli.Internal.ExtensionResolutionException.ExtensionResolutionException()
+  fullName.vb: Org.Apache.Maven.Cli.Internal.ExtensionResolutionException.New()
+  nameWithType: ExtensionResolutionException.ExtensionResolutionException()
+  nameWithType.vb: ExtensionResolutionException.New()
+- uid: Org.Apache.Maven.Cli.Internal.ExtensionResolutionException.#ctor(System.String)
+  name: ExtensionResolutionException(string)
+  href: api/Org.Apache.Maven.Cli.Internal.ExtensionResolutionException.html#Org_Apache_Maven_Cli_Internal_ExtensionResolutionException__ctor_System_String_
+  commentId: M:Org.Apache.Maven.Cli.Internal.ExtensionResolutionException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Org.Apache.Maven.Cli.Internal.ExtensionResolutionException.ExtensionResolutionException(string)
+  fullName.vb: Org.Apache.Maven.Cli.Internal.ExtensionResolutionException.New(String)
+  nameWithType: ExtensionResolutionException.ExtensionResolutionException(string)
+  nameWithType.vb: ExtensionResolutionException.New(String)
+- uid: Org.Apache.Maven.Cli.Internal.ExtensionResolutionException.#ctor(System.String,System.Exception)
+  name: ExtensionResolutionException(string, Exception)
+  href: api/Org.Apache.Maven.Cli.Internal.ExtensionResolutionException.html#Org_Apache_Maven_Cli_Internal_ExtensionResolutionException__ctor_System_String_System_Exception_
+  commentId: M:Org.Apache.Maven.Cli.Internal.ExtensionResolutionException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Org.Apache.Maven.Cli.Internal.ExtensionResolutionException.ExtensionResolutionException(string, System.Exception)
+  fullName.vb: Org.Apache.Maven.Cli.Internal.ExtensionResolutionException.New(String, System.Exception)
+  nameWithType: ExtensionResolutionException.ExtensionResolutionException(string, Exception)
+  nameWithType.vb: ExtensionResolutionException.New(String, Exception)
+- uid: Org.Apache.Maven.Cli.Internal.ExtensionResolutionException.#ctor*
+  name: ExtensionResolutionException
+  href: api/Org.Apache.Maven.Cli.Internal.ExtensionResolutionException.html#Org_Apache_Maven_Cli_Internal_ExtensionResolutionException__ctor_
+  commentId: Overload:Org.Apache.Maven.Cli.Internal.ExtensionResolutionException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Maven.Cli.Internal.ExtensionResolutionException.ExtensionResolutionException
+  fullName.vb: Org.Apache.Maven.Cli.Internal.ExtensionResolutionException.New
+  nameWithType: ExtensionResolutionException.ExtensionResolutionException
+  nameWithType.vb: ExtensionResolutionException.New
 - uid: Org.Apache.Maven.Cli.Internal.ExtensionResolutionException.BridgeClassName
   name: BridgeClassName
   href: api/Org.Apache.Maven.Cli.Internal.ExtensionResolutionException.html#Org_Apache_Maven_Cli_Internal_ExtensionResolutionException_BridgeClassName
@@ -3205,6 +3368,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.New()
   nameWithType: BaseSlf4jConfiguration.BaseSlf4jConfiguration()
   nameWithType.vb: BaseSlf4jConfiguration.New()
+- uid: Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: BaseSlf4jConfiguration(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.html#Org_Apache_Maven_Cli_Logging_BaseSlf4jConfiguration__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.BaseSlf4jConfiguration(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: BaseSlf4jConfiguration.BaseSlf4jConfiguration(IJVMBridgeBaseInitializer)
+  nameWithType.vb: BaseSlf4jConfiguration.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.#ctor(System.Object[])
   name: BaseSlf4jConfiguration(params object[])
   href: api/Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.html#Org_Apache_Maven_Cli_Logging_BaseSlf4jConfiguration__ctor_System_Object___
@@ -3342,6 +3514,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.New()
   nameWithType: Log4j2Configuration.Log4j2Configuration()
   nameWithType.vb: Log4j2Configuration.New()
+- uid: Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: Log4j2Configuration(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.html#Org_Apache_Maven_Cli_Logging_Impl_Log4j2Configuration__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.Log4j2Configuration(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: Log4j2Configuration.Log4j2Configuration(IJVMBridgeBaseInitializer)
+  nameWithType.vb: Log4j2Configuration.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.#ctor(System.Object[])
   name: Log4j2Configuration(params object[])
   href: api/Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.html#Org_Apache_Maven_Cli_Logging_Impl_Log4j2Configuration__ctor_System_Object___
@@ -3441,6 +3622,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.New()
   nameWithType: LogbackConfiguration.LogbackConfiguration()
   nameWithType.vb: LogbackConfiguration.New()
+- uid: Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: LogbackConfiguration(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.html#Org_Apache_Maven_Cli_Logging_Impl_LogbackConfiguration__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.LogbackConfiguration(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: LogbackConfiguration.LogbackConfiguration(IJVMBridgeBaseInitializer)
+  nameWithType.vb: LogbackConfiguration.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.#ctor(System.Object[])
   name: LogbackConfiguration(params object[])
   href: api/Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.html#Org_Apache_Maven_Cli_Logging_Impl_LogbackConfiguration__ctor_System_Object___
@@ -3540,6 +3730,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.New()
   nameWithType: Slf4jSimpleConfiguration.Slf4jSimpleConfiguration()
   nameWithType.vb: Slf4jSimpleConfiguration.New()
+- uid: Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: Slf4jSimpleConfiguration(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.html#Org_Apache_Maven_Cli_Logging_Impl_Slf4jSimpleConfiguration__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.Slf4jSimpleConfiguration(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: Slf4jSimpleConfiguration.Slf4jSimpleConfiguration(IJVMBridgeBaseInitializer)
+  nameWithType.vb: Slf4jSimpleConfiguration.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.#ctor(System.Object[])
   name: Slf4jSimpleConfiguration(params object[])
   href: api/Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.html#Org_Apache_Maven_Cli_Logging_Impl_Slf4jSimpleConfiguration__ctor_System_Object___
@@ -3648,6 +3847,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.New(Java.Lang.String, Java.Util.Map(Of Java.Net.URL, Java.Util.Set(Of Object)))
   nameWithType: UnsupportedSlf4jBindingConfiguration.UnsupportedSlf4jBindingConfiguration(String, Map<URL, Set<object>>)
   nameWithType.vb: UnsupportedSlf4jBindingConfiguration.New(String, Map(Of URL, Set(Of Object)))
+- uid: Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: UnsupportedSlf4jBindingConfiguration(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.html#Org_Apache_Maven_Cli_Logging_Impl_UnsupportedSlf4jBindingConfiguration__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.UnsupportedSlf4jBindingConfiguration(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: UnsupportedSlf4jBindingConfiguration.UnsupportedSlf4jBindingConfiguration(IJVMBridgeBaseInitializer)
+  nameWithType.vb: UnsupportedSlf4jBindingConfiguration.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.#ctor(System.Object[])
   name: UnsupportedSlf4jBindingConfiguration(params object[])
   href: api/Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.html#Org_Apache_Maven_Cli_Logging_Impl_UnsupportedSlf4jBindingConfiguration__ctor_System_Object___
@@ -3747,6 +3955,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.New()
   nameWithType: Slf4jConfiguration.Slf4jConfiguration()
   nameWithType.vb: Slf4jConfiguration.New()
+- uid: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: Slf4jConfiguration(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.html#Org_Apache_Maven_Cli_Logging_Slf4jConfiguration__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Slf4jConfiguration(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: Slf4jConfiguration.Slf4jConfiguration(IJVMBridgeBaseInitializer)
+  nameWithType.vb: Slf4jConfiguration.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.#ctor(System.Object[])
   name: Slf4jConfiguration(params object[])
   href: api/Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.html#Org_Apache_Maven_Cli_Logging_Slf4jConfiguration__ctor_System_Object___
@@ -3859,6 +4076,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level.New()
   nameWithType: Slf4jConfiguration.Level.Level()
   nameWithType.vb: Slf4jConfiguration.Level.New()
+- uid: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: Level(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level.html#Org_Apache_Maven_Cli_Logging_Slf4jConfiguration_Level__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level.Level(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: Slf4jConfiguration.Level.Level(IJVMBridgeBaseInitializer)
+  nameWithType.vb: Slf4jConfiguration.Level.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level.#ctor(System.Object[])
   name: Level(params object[])
   href: api/Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level.html#Org_Apache_Maven_Cli_Logging_Slf4jConfiguration_Level__ctor_System_Object___
@@ -4036,6 +4262,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.New()
   nameWithType: Slf4jConfigurationFactory.Slf4jConfigurationFactory()
   nameWithType.vb: Slf4jConfigurationFactory.New()
+- uid: Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: Slf4jConfigurationFactory(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.html#Org_Apache_Maven_Cli_Logging_Slf4jConfigurationFactory__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.Slf4jConfigurationFactory(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: Slf4jConfigurationFactory.Slf4jConfigurationFactory(IJVMBridgeBaseInitializer)
+  nameWithType.vb: Slf4jConfigurationFactory.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.#ctor(System.Object[])
   name: Slf4jConfigurationFactory(params object[])
   href: api/Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.html#Org_Apache_Maven_Cli_Logging_Slf4jConfigurationFactory__ctor_System_Object___
@@ -4148,6 +4383,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jLogger.New()
   nameWithType: Slf4jLogger.Slf4jLogger()
   nameWithType.vb: Slf4jLogger.New()
+- uid: Org.Apache.Maven.Cli.Logging.Slf4jLogger.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: Slf4jLogger(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Logging.Slf4jLogger.html#Org_Apache_Maven_Cli_Logging_Slf4jLogger__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Logging.Slf4jLogger.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Logging.Slf4jLogger.Slf4jLogger(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jLogger.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: Slf4jLogger.Slf4jLogger(IJVMBridgeBaseInitializer)
+  nameWithType.vb: Slf4jLogger.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Logging.Slf4jLogger.#ctor(System.Object[])
   name: Slf4jLogger(params object[])
   href: api/Org.Apache.Maven.Cli.Logging.Slf4jLogger.html#Org_Apache_Maven_Cli_Logging_Slf4jLogger__ctor_System_Object___
@@ -4433,6 +4677,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.New()
   nameWithType: Slf4jLoggerManager.Slf4jLoggerManager()
   nameWithType.vb: Slf4jLoggerManager.New()
+- uid: Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: Slf4jLoggerManager(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.html#Org_Apache_Maven_Cli_Logging_Slf4jLoggerManager__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.Slf4jLoggerManager(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: Slf4jLoggerManager.Slf4jLoggerManager(IJVMBridgeBaseInitializer)
+  nameWithType.vb: Slf4jLoggerManager.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.#ctor(System.Object[])
   name: Slf4jLoggerManager(params object[])
   href: api/Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.html#Org_Apache_Maven_Cli_Logging_Slf4jLoggerManager__ctor_System_Object___
@@ -4593,6 +4846,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.New()
   nameWithType: Slf4jStdoutLogger.Slf4jStdoutLogger()
   nameWithType.vb: Slf4jStdoutLogger.New()
+- uid: Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: Slf4jStdoutLogger(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.html#Org_Apache_Maven_Cli_Logging_Slf4jStdoutLogger__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.Slf4jStdoutLogger(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: Slf4jStdoutLogger.Slf4jStdoutLogger(IJVMBridgeBaseInitializer)
+  nameWithType.vb: Slf4jStdoutLogger.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.#ctor(System.Object[])
   name: Slf4jStdoutLogger(params object[])
   href: api/Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.html#Org_Apache_Maven_Cli_Logging_Slf4jStdoutLogger__ctor_System_Object___
@@ -5000,6 +5262,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.MavenCli.New()
   nameWithType: MavenCli.MavenCli()
   nameWithType.vb: MavenCli.New()
+- uid: Org.Apache.Maven.Cli.MavenCli.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: MavenCli(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.MavenCli.html#Org_Apache_Maven_Cli_MavenCli__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.MavenCli.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.MavenCli.MavenCli(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.MavenCli.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: MavenCli.MavenCli(IJVMBridgeBaseInitializer)
+  nameWithType.vb: MavenCli.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.MavenCli.#ctor(System.Object[])
   name: MavenCli(params object[])
   href: api/Org.Apache.Maven.Cli.MavenCli.html#Org_Apache_Maven_Cli_MavenCli__ctor_System_Object___
@@ -5228,6 +5499,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.ResolveFile.New()
   nameWithType: ResolveFile.ResolveFile()
   nameWithType.vb: ResolveFile.New()
+- uid: Org.Apache.Maven.Cli.ResolveFile.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: ResolveFile(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.ResolveFile.html#Org_Apache_Maven_Cli_ResolveFile__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.ResolveFile.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.ResolveFile.ResolveFile(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.ResolveFile.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: ResolveFile.ResolveFile(IJVMBridgeBaseInitializer)
+  nameWithType.vb: ResolveFile.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.ResolveFile.#ctor(System.Object[])
   name: ResolveFile(params object[])
   href: api/Org.Apache.Maven.Cli.ResolveFile.html#Org_Apache_Maven_Cli_ResolveFile__ctor_System_Object___
@@ -5346,6 +5626,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener.New()
   nameWithType: AbstractMavenTransferListener.AbstractMavenTransferListener()
   nameWithType.vb: AbstractMavenTransferListener.New()
+- uid: Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: AbstractMavenTransferListener(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_AbstractMavenTransferListener__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener.AbstractMavenTransferListener(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: AbstractMavenTransferListener.AbstractMavenTransferListener(IJVMBridgeBaseInitializer)
+  nameWithType.vb: AbstractMavenTransferListener.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener.#ctor(System.Object[])
   name: AbstractMavenTransferListener(params object[])
   href: api/Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_AbstractMavenTransferListener__ctor_System_Object___
@@ -5454,6 +5743,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.New(Java.Io.PrintStream)
   nameWithType: BatchModeMavenTransferListener.BatchModeMavenTransferListener(PrintStream)
   nameWithType.vb: BatchModeMavenTransferListener.New(PrintStream)
+- uid: Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: BatchModeMavenTransferListener(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_BatchModeMavenTransferListener__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.BatchModeMavenTransferListener(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: BatchModeMavenTransferListener.BatchModeMavenTransferListener(IJVMBridgeBaseInitializer)
+  nameWithType.vb: BatchModeMavenTransferListener.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.#ctor(System.Object[])
   name: BatchModeMavenTransferListener(params object[])
   href: api/Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_BatchModeMavenTransferListener__ctor_System_Object___
@@ -5562,6 +5860,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.New(Java.Io.PrintStream, Boolean)
   nameWithType: ConsoleMavenTransferListener.ConsoleMavenTransferListener(PrintStream, bool)
   nameWithType.vb: ConsoleMavenTransferListener.New(PrintStream, Boolean)
+- uid: Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: ConsoleMavenTransferListener(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_ConsoleMavenTransferListener__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.ConsoleMavenTransferListener(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: ConsoleMavenTransferListener.ConsoleMavenTransferListener(IJVMBridgeBaseInitializer)
+  nameWithType.vb: ConsoleMavenTransferListener.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.#ctor(System.Object[])
   name: ConsoleMavenTransferListener(params object[])
   href: api/Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_ConsoleMavenTransferListener__ctor_System_Object___
@@ -5661,6 +5968,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.New()
   nameWithType: QuietMavenTransferListener.QuietMavenTransferListener()
   nameWithType.vb: QuietMavenTransferListener.New()
+- uid: Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: QuietMavenTransferListener(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_QuietMavenTransferListener__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.QuietMavenTransferListener(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: QuietMavenTransferListener.QuietMavenTransferListener(IJVMBridgeBaseInitializer)
+  nameWithType.vb: QuietMavenTransferListener.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.#ctor(System.Object[])
   name: QuietMavenTransferListener(params object[])
   href: api/Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_QuietMavenTransferListener__ctor_System_Object___
@@ -5760,6 +6076,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Transfer.SimplexTransferListener.New()
   nameWithType: SimplexTransferListener.SimplexTransferListener()
   nameWithType.vb: SimplexTransferListener.New()
+- uid: Org.Apache.Maven.Cli.Transfer.SimplexTransferListener.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: SimplexTransferListener(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Transfer.SimplexTransferListener.html#Org_Apache_Maven_Cli_Transfer_SimplexTransferListener__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Transfer.SimplexTransferListener.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Transfer.SimplexTransferListener.SimplexTransferListener(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Transfer.SimplexTransferListener.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: SimplexTransferListener.SimplexTransferListener(IJVMBridgeBaseInitializer)
+  nameWithType.vb: SimplexTransferListener.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Transfer.SimplexTransferListener.#ctor(System.Object[])
   name: SimplexTransferListener(params object[])
   href: api/Org.Apache.Maven.Cli.Transfer.SimplexTransferListener.html#Org_Apache_Maven_Cli_Transfer_SimplexTransferListener__ctor_System_Object___
@@ -5859,6 +6184,15 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.New()
   nameWithType: Slf4jMavenTransferListener.Slf4jMavenTransferListener()
   nameWithType.vb: Slf4jMavenTransferListener.New()
+- uid: Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: Slf4jMavenTransferListener(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_Slf4jMavenTransferListener__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.Slf4jMavenTransferListener(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: Slf4jMavenTransferListener.Slf4jMavenTransferListener(IJVMBridgeBaseInitializer)
+  nameWithType.vb: Slf4jMavenTransferListener.New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.#ctor(System.Object[])
   name: Slf4jMavenTransferListener(params object[])
   href: api/Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_Slf4jMavenTransferListener__ctor_System_Object___
@@ -5973,6 +6307,15 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.ClassWorld.New(Java.Lang.String, Java.Lang.ClassLoader)
   nameWithType: ClassWorld.ClassWorld(String, ClassLoader)
   nameWithType.vb: ClassWorld.New(String, ClassLoader)
+- uid: Org.Codehaus.Plexus.Classworlds.ClassWorld.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: ClassWorld(IJVMBridgeBaseInitializer)
+  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorld.html#Org_Codehaus_Plexus_Classworlds_ClassWorld__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.ClassWorld.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorld.ClassWorld(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.ClassWorld.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: ClassWorld.ClassWorld(IJVMBridgeBaseInitializer)
+  nameWithType.vb: ClassWorld.New(IJVMBridgeBaseInitializer)
 - uid: Org.Codehaus.Plexus.Classworlds.ClassWorld.#ctor(System.Object[])
   name: ClassWorld(params object[])
   href: api/Org.Codehaus.Plexus.Classworlds.ClassWorld.html#Org_Codehaus_Plexus_Classworlds_ClassWorld__ctor_System_Object___
@@ -6182,6 +6525,43 @@ references:
   commentId: T:Org.Codehaus.Plexus.Classworlds.ClassWorldException
   fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldException
   nameWithType: ClassWorldException
+- uid: Org.Codehaus.Plexus.Classworlds.ClassWorldException.#ctor
+  name: ClassWorldException()
+  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldException.html#Org_Codehaus_Plexus_Classworlds_ClassWorldException__ctor
+  commentId: M:Org.Codehaus.Plexus.Classworlds.ClassWorldException.#ctor
+  name.vb: New()
+  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldException.ClassWorldException()
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.ClassWorldException.New()
+  nameWithType: ClassWorldException.ClassWorldException()
+  nameWithType.vb: ClassWorldException.New()
+- uid: Org.Codehaus.Plexus.Classworlds.ClassWorldException.#ctor(System.String)
+  name: ClassWorldException(string)
+  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldException.html#Org_Codehaus_Plexus_Classworlds_ClassWorldException__ctor_System_String_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.ClassWorldException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldException.ClassWorldException(string)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.ClassWorldException.New(String)
+  nameWithType: ClassWorldException.ClassWorldException(string)
+  nameWithType.vb: ClassWorldException.New(String)
+- uid: Org.Codehaus.Plexus.Classworlds.ClassWorldException.#ctor(System.String,System.Exception)
+  name: ClassWorldException(string, Exception)
+  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldException.html#Org_Codehaus_Plexus_Classworlds_ClassWorldException__ctor_System_String_System_Exception_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.ClassWorldException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldException.ClassWorldException(string, System.Exception)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.ClassWorldException.New(String, System.Exception)
+  nameWithType: ClassWorldException.ClassWorldException(string, Exception)
+  nameWithType.vb: ClassWorldException.New(String, Exception)
+- uid: Org.Codehaus.Plexus.Classworlds.ClassWorldException.#ctor*
+  name: ClassWorldException
+  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldException.html#Org_Codehaus_Plexus_Classworlds_ClassWorldException__ctor_
+  commentId: Overload:Org.Codehaus.Plexus.Classworlds.ClassWorldException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldException.ClassWorldException
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.ClassWorldException.New
+  nameWithType: ClassWorldException.ClassWorldException
+  nameWithType.vb: ClassWorldException.New
 - uid: Org.Codehaus.Plexus.Classworlds.ClassWorldException.BridgeClassName
   name: BridgeClassName
   href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldException.html#Org_Codehaus_Plexus_Classworlds_ClassWorldException_BridgeClassName
@@ -6210,6 +6590,15 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.New()
   nameWithType: ClassWorldListener.ClassWorldListener()
   nameWithType.vb: ClassWorldListener.New()
+- uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: ClassWorldListener(IJVMBridgeBaseInitializer)
+  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListener.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListener__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.ClassWorldListener.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.ClassWorldListener(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: ClassWorldListener.ClassWorldListener(IJVMBridgeBaseInitializer)
+  nameWithType.vb: ClassWorldListener.New(IJVMBridgeBaseInitializer)
 - uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.#ctor(System.Object[])
   name: ClassWorldListener(params object[])
   href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListener.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListener__ctor_System_Object___
@@ -6313,6 +6702,34 @@ references:
   commentId: T:Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect
   fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect
   nameWithType: ClassWorldListenerDirect
+- uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.#ctor
+  name: ClassWorldListenerDirect()
+  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListenerDirect__ctor
+  commentId: M:Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.#ctor
+  name.vb: New()
+  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.ClassWorldListenerDirect()
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.New()
+  nameWithType: ClassWorldListenerDirect.ClassWorldListenerDirect()
+  nameWithType.vb: ClassWorldListenerDirect.New()
+- uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: ClassWorldListenerDirect(IJVMBridgeBaseInitializer)
+  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListenerDirect__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.ClassWorldListenerDirect(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: ClassWorldListenerDirect.ClassWorldListenerDirect(IJVMBridgeBaseInitializer)
+  nameWithType.vb: ClassWorldListenerDirect.New(IJVMBridgeBaseInitializer)
+- uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.#ctor*
+  name: ClassWorldListenerDirect
+  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListenerDirect__ctor_
+  commentId: Overload:Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.ClassWorldListenerDirect
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.New
+  nameWithType: ClassWorldListenerDirect.ClassWorldListenerDirect
+  nameWithType.vb: ClassWorldListenerDirect.New
 - uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.AutoInit
   name: AutoInit
   href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListenerDirect_AutoInit
@@ -6448,6 +6865,43 @@ references:
   commentId: T:Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException
   fullName: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException
   nameWithType: ConfigurationException
+- uid: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException.#ctor
+  name: ConfigurationException()
+  href: api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException.html#Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationException__ctor
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException.#ctor
+  name.vb: New()
+  fullName: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException.ConfigurationException()
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException.New()
+  nameWithType: ConfigurationException.ConfigurationException()
+  nameWithType.vb: ConfigurationException.New()
+- uid: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException.#ctor(System.String)
+  name: ConfigurationException(string)
+  href: api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException.html#Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationException__ctor_System_String_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException.ConfigurationException(string)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException.New(String)
+  nameWithType: ConfigurationException.ConfigurationException(string)
+  nameWithType.vb: ConfigurationException.New(String)
+- uid: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException.#ctor(System.String,System.Exception)
+  name: ConfigurationException(string, Exception)
+  href: api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException.html#Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationException__ctor_System_String_System_Exception_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException.ConfigurationException(string, System.Exception)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException.New(String, System.Exception)
+  nameWithType: ConfigurationException.ConfigurationException(string, Exception)
+  nameWithType.vb: ConfigurationException.New(String, Exception)
+- uid: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException.#ctor*
+  name: ConfigurationException
+  href: api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException.html#Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationException__ctor_
+  commentId: Overload:Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException.ConfigurationException
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException.New
+  nameWithType: ConfigurationException.ConfigurationException
+  nameWithType.vb: ConfigurationException.New
 - uid: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException.BridgeClassName
   name: BridgeClassName
   href: api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationException.html#Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationException_BridgeClassName
@@ -6476,6 +6930,15 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler.New()
   nameWithType: ConfigurationHandler.ConfigurationHandler()
   nameWithType.vb: ConfigurationHandler.New()
+- uid: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: ConfigurationHandler(IJVMBridgeBaseInitializer)
+  href: api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler.html#Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationHandler__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler.ConfigurationHandler(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: ConfigurationHandler.ConfigurationHandler(IJVMBridgeBaseInitializer)
+  nameWithType.vb: ConfigurationHandler.New(IJVMBridgeBaseInitializer)
 - uid: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler.#ctor(System.Object[])
   name: ConfigurationHandler(params object[])
   href: api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler.html#Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationHandler__ctor_System_Object___
@@ -6640,6 +7103,15 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.New()
   nameWithType: ConfigurationParser.ConfigurationParser()
   nameWithType.vb: ConfigurationParser.New()
+- uid: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: ConfigurationParser(IJVMBridgeBaseInitializer)
+  href: api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.html#Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationParser__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.ConfigurationParser(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: ConfigurationParser.ConfigurationParser(IJVMBridgeBaseInitializer)
+  nameWithType.vb: ConfigurationParser.New(IJVMBridgeBaseInitializer)
 - uid: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.#ctor(Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler,Java.Util.Properties)
   name: ConfigurationParser(ConfigurationHandler, Properties)
   href: api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.html#Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationParser__ctor_Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationHandler_Java_Util_Properties_
@@ -6826,6 +7298,15 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.New()
   nameWithType: Configurator.Configurator()
   nameWithType.vb: Configurator.New()
+- uid: Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: Configurator(IJVMBridgeBaseInitializer)
+  href: api/Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.html#Org_Codehaus_Plexus_Classworlds_Launcher_Configurator__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.Configurator(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: Configurator.Configurator(IJVMBridgeBaseInitializer)
+  nameWithType.vb: Configurator.New(IJVMBridgeBaseInitializer)
 - uid: Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.#ctor(Org.Codehaus.Plexus.Classworlds.ClassWorld)
   name: Configurator(ClassWorld)
   href: api/Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.html#Org_Codehaus_Plexus_Classworlds_Launcher_Configurator__ctor_Org_Codehaus_Plexus_Classworlds_ClassWorld_
@@ -7053,6 +7534,15 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.New()
   nameWithType: Launcher.Launcher()
   nameWithType.vb: Launcher.New()
+- uid: Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: Launcher(IJVMBridgeBaseInitializer)
+  href: api/Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.html#Org_Codehaus_Plexus_Classworlds_Launcher_Launcher__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.Launcher(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: Launcher.Launcher(IJVMBridgeBaseInitializer)
+  nameWithType.vb: Launcher.New(IJVMBridgeBaseInitializer)
 - uid: Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.#ctor(System.Object[])
   name: Launcher(params object[])
   href: api/Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.html#Org_Codehaus_Plexus_Classworlds_Launcher_Launcher__ctor_System_Object___
@@ -7323,6 +7813,15 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.New()
   nameWithType: ClassRealm.ClassRealm()
   nameWithType.vb: ClassRealm.New()
+- uid: Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: ClassRealm(IJVMBridgeBaseInitializer)
+  href: api/Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.html#Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.ClassRealm(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: ClassRealm.ClassRealm(IJVMBridgeBaseInitializer)
+  nameWithType.vb: ClassRealm.New(IJVMBridgeBaseInitializer)
 - uid: Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.#ctor(Org.Codehaus.Plexus.Classworlds.ClassWorld,Java.Lang.String,Java.Lang.ClassLoader)
   name: ClassRealm(ClassWorld, String, ClassLoader)
   href: api/Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.html#Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm__ctor_Org_Codehaus_Plexus_Classworlds_ClassWorld_Java_Lang_String_Java_Lang_ClassLoader_
@@ -7707,6 +8206,43 @@ references:
   commentId: T:Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException
   fullName: Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException
   nameWithType: DuplicateRealmException
+- uid: Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException.#ctor
+  name: DuplicateRealmException()
+  href: api/Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException.html#Org_Codehaus_Plexus_Classworlds_Realm_DuplicateRealmException__ctor
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException.#ctor
+  name.vb: New()
+  fullName: Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException.DuplicateRealmException()
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException.New()
+  nameWithType: DuplicateRealmException.DuplicateRealmException()
+  nameWithType.vb: DuplicateRealmException.New()
+- uid: Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException.#ctor(System.String)
+  name: DuplicateRealmException(string)
+  href: api/Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException.html#Org_Codehaus_Plexus_Classworlds_Realm_DuplicateRealmException__ctor_System_String_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException.DuplicateRealmException(string)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException.New(String)
+  nameWithType: DuplicateRealmException.DuplicateRealmException(string)
+  nameWithType.vb: DuplicateRealmException.New(String)
+- uid: Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException.#ctor(System.String,System.Exception)
+  name: DuplicateRealmException(string, Exception)
+  href: api/Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException.html#Org_Codehaus_Plexus_Classworlds_Realm_DuplicateRealmException__ctor_System_String_System_Exception_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException.DuplicateRealmException(string, System.Exception)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException.New(String, System.Exception)
+  nameWithType: DuplicateRealmException.DuplicateRealmException(string, Exception)
+  nameWithType.vb: DuplicateRealmException.New(String, Exception)
+- uid: Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException.#ctor*
+  name: DuplicateRealmException
+  href: api/Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException.html#Org_Codehaus_Plexus_Classworlds_Realm_DuplicateRealmException__ctor_
+  commentId: Overload:Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException.DuplicateRealmException
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException.New
+  nameWithType: DuplicateRealmException.DuplicateRealmException
+  nameWithType.vb: DuplicateRealmException.New
 - uid: Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException.BridgeClassName
   name: BridgeClassName
   href: api/Org.Codehaus.Plexus.Classworlds.Realm.DuplicateRealmException.html#Org_Codehaus_Plexus_Classworlds_Realm_DuplicateRealmException_BridgeClassName
@@ -7744,6 +8280,15 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.New(Java.Util.Function.Predicate(Of Java.Lang.String), Org.Codehaus.Plexus.Classworlds.ClassWorld, Java.Lang.String, Java.Lang.ClassLoader)
   nameWithType: FilteredClassRealm.FilteredClassRealm(Predicate<String>, ClassWorld, String, ClassLoader)
   nameWithType.vb: FilteredClassRealm.New(Predicate(Of String), ClassWorld, String, ClassLoader)
+- uid: Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: FilteredClassRealm(IJVMBridgeBaseInitializer)
+  href: api/Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.html#Org_Codehaus_Plexus_Classworlds_Realm_FilteredClassRealm__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.FilteredClassRealm(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: FilteredClassRealm.FilteredClassRealm(IJVMBridgeBaseInitializer)
+  nameWithType.vb: FilteredClassRealm.New(IJVMBridgeBaseInitializer)
 - uid: Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.#ctor(System.Object[])
   name: FilteredClassRealm(params object[])
   href: api/Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.html#Org_Codehaus_Plexus_Classworlds_Realm_FilteredClassRealm__ctor_System_Object___
@@ -7834,6 +8379,43 @@ references:
   commentId: T:Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException
   fullName: Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException
   nameWithType: NoSuchRealmException
+- uid: Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException.#ctor
+  name: NoSuchRealmException()
+  href: api/Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException.html#Org_Codehaus_Plexus_Classworlds_Realm_NoSuchRealmException__ctor
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException.#ctor
+  name.vb: New()
+  fullName: Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException.NoSuchRealmException()
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException.New()
+  nameWithType: NoSuchRealmException.NoSuchRealmException()
+  nameWithType.vb: NoSuchRealmException.New()
+- uid: Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException.#ctor(System.String)
+  name: NoSuchRealmException(string)
+  href: api/Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException.html#Org_Codehaus_Plexus_Classworlds_Realm_NoSuchRealmException__ctor_System_String_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException.NoSuchRealmException(string)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException.New(String)
+  nameWithType: NoSuchRealmException.NoSuchRealmException(string)
+  nameWithType.vb: NoSuchRealmException.New(String)
+- uid: Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException.#ctor(System.String,System.Exception)
+  name: NoSuchRealmException(string, Exception)
+  href: api/Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException.html#Org_Codehaus_Plexus_Classworlds_Realm_NoSuchRealmException__ctor_System_String_System_Exception_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException.NoSuchRealmException(string, System.Exception)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException.New(String, System.Exception)
+  nameWithType: NoSuchRealmException.NoSuchRealmException(string, Exception)
+  nameWithType.vb: NoSuchRealmException.New(String, Exception)
+- uid: Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException.#ctor*
+  name: NoSuchRealmException
+  href: api/Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException.html#Org_Codehaus_Plexus_Classworlds_Realm_NoSuchRealmException__ctor_
+  commentId: Overload:Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException.NoSuchRealmException
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException.New
+  nameWithType: NoSuchRealmException.NoSuchRealmException
+  nameWithType.vb: NoSuchRealmException.New
 - uid: Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException.BridgeClassName
   name: BridgeClassName
   href: api/Org.Codehaus.Plexus.Classworlds.Realm.NoSuchRealmException.html#Org_Codehaus_Plexus_Classworlds_Realm_NoSuchRealmException_BridgeClassName
@@ -7868,6 +8450,15 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.New()
   nameWithType: AbstractStrategy.AbstractStrategy()
   nameWithType.vb: AbstractStrategy.New()
+- uid: Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: AbstractStrategy(IJVMBridgeBaseInitializer)
+  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_AbstractStrategy__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.AbstractStrategy(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: AbstractStrategy.AbstractStrategy(IJVMBridgeBaseInitializer)
+  nameWithType.vb: AbstractStrategy.New(IJVMBridgeBaseInitializer)
 - uid: Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.#ctor(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm)
   name: AbstractStrategy(ClassRealm)
   href: api/Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_AbstractStrategy__ctor_Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm_
@@ -7995,6 +8586,15 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.New()
   nameWithType: OsgiBundleStrategy.OsgiBundleStrategy()
   nameWithType.vb: OsgiBundleStrategy.New()
+- uid: Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: OsgiBundleStrategy(IJVMBridgeBaseInitializer)
+  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_OsgiBundleStrategy__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.OsgiBundleStrategy(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: OsgiBundleStrategy.OsgiBundleStrategy(IJVMBridgeBaseInitializer)
+  nameWithType.vb: OsgiBundleStrategy.New(IJVMBridgeBaseInitializer)
 - uid: Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.#ctor(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm)
   name: OsgiBundleStrategy(ClassRealm)
   href: api/Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_OsgiBundleStrategy__ctor_Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm_
@@ -8103,6 +8703,15 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.New()
   nameWithType: ParentFirstStrategy.ParentFirstStrategy()
   nameWithType.vb: ParentFirstStrategy.New()
+- uid: Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: ParentFirstStrategy(IJVMBridgeBaseInitializer)
+  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_ParentFirstStrategy__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.ParentFirstStrategy(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: ParentFirstStrategy.ParentFirstStrategy(IJVMBridgeBaseInitializer)
+  nameWithType.vb: ParentFirstStrategy.New(IJVMBridgeBaseInitializer)
 - uid: Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.#ctor(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm)
   name: ParentFirstStrategy(ClassRealm)
   href: api/Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_ParentFirstStrategy__ctor_Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm_
@@ -8211,6 +8820,15 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.New()
   nameWithType: SelfFirstStrategy.SelfFirstStrategy()
   nameWithType.vb: SelfFirstStrategy.New()
+- uid: Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: SelfFirstStrategy(IJVMBridgeBaseInitializer)
+  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_SelfFirstStrategy__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.SelfFirstStrategy(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: SelfFirstStrategy.SelfFirstStrategy(IJVMBridgeBaseInitializer)
+  nameWithType.vb: SelfFirstStrategy.New(IJVMBridgeBaseInitializer)
 - uid: Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.#ctor(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm)
   name: SelfFirstStrategy(ClassRealm)
   href: api/Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_SelfFirstStrategy__ctor_Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm_
@@ -8319,6 +8937,15 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.Strategy.New()
   nameWithType: Strategy.Strategy()
   nameWithType.vb: Strategy.New()
+- uid: Org.Codehaus.Plexus.Classworlds.Strategy.Strategy.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: Strategy(IJVMBridgeBaseInitializer)
+  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.Strategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_Strategy__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Strategy.Strategy.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.Strategy.Strategy(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.Strategy.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: Strategy.Strategy(IJVMBridgeBaseInitializer)
+  nameWithType.vb: Strategy.New(IJVMBridgeBaseInitializer)
 - uid: Org.Codehaus.Plexus.Classworlds.Strategy.Strategy.#ctor(System.Object[])
   name: Strategy(params object[])
   href: api/Org.Codehaus.Plexus.Classworlds.Strategy.Strategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_Strategy__ctor_System_Object___
@@ -8470,6 +9097,15 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.New()
   nameWithType: StrategyFactory.StrategyFactory()
   nameWithType.vb: StrategyFactory.New()
+- uid: Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: StrategyFactory(IJVMBridgeBaseInitializer)
+  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.html#Org_Codehaus_Plexus_Classworlds_Strategy_StrategyFactory__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.StrategyFactory(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: StrategyFactory.StrategyFactory(IJVMBridgeBaseInitializer)
+  nameWithType.vb: StrategyFactory.New(IJVMBridgeBaseInitializer)
 - uid: Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.#ctor(System.Object[])
   name: StrategyFactory(params object[])
   href: api/Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.html#Org_Codehaus_Plexus_Classworlds_Strategy_StrategyFactory__ctor_System_Object___
@@ -8588,6 +9224,15 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.UrlUtils.New()
   nameWithType: UrlUtils.UrlUtils()
   nameWithType.vb: UrlUtils.New()
+- uid: Org.Codehaus.Plexus.Classworlds.UrlUtils.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: UrlUtils(IJVMBridgeBaseInitializer)
+  href: api/Org.Codehaus.Plexus.Classworlds.UrlUtils.html#Org_Codehaus_Plexus_Classworlds_UrlUtils__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.UrlUtils.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Codehaus.Plexus.Classworlds.UrlUtils.UrlUtils(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.UrlUtils.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: UrlUtils.UrlUtils(IJVMBridgeBaseInitializer)
+  nameWithType.vb: UrlUtils.New(IJVMBridgeBaseInitializer)
 - uid: Org.Codehaus.Plexus.Classworlds.UrlUtils.#ctor(System.Object[])
   name: UrlUtils(params object[])
   href: api/Org.Codehaus.Plexus.Classworlds.UrlUtils.html#Org_Codehaus_Plexus_Classworlds_UrlUtils__ctor_System_Object___
