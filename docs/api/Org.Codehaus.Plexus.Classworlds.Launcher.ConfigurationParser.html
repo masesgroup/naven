@@ -89,7 +89,7 @@
 
 
   <h1 id="Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationParser" data-uid="Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser" class="text-break">
-Class ConfigurationParser  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L64"><i class="bi bi-code-slash"></i></a>
+Class ConfigurationParser  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class ConfigurationParser  <a class="header-action link-secondary" title="View s
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ConfigurationParser : JVMBridgeBase&lt;ConfigurationParser&gt;, IDynamicMetaObjectProvider, IJVMBridgeCore, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition</code></pre>
+    <pre><code class="lang-csharp hljs">public class ConfigurationParser : JVMBridgeBase&lt;ConfigurationParser&gt;, IDynamicMetaObjectProvider, IJVMBridgeCore, IEquatable&lt;IJVMBridgeBase&gt;, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition</code></pre>
   </div>
 
 
@@ -124,6 +124,7 @@ Class ConfigurationParser  <a class="header-action link-secondary" title="View s
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeCore.html">IJVMBridgeCore</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a>&gt;</div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseStatic.html">IJVMBridgeBaseStatic</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a></div>
@@ -220,16 +221,16 @@ Class ConfigurationParser  <a class="header-action link-secondary" title="View s
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;ConfigurationParser&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ConfigurationParser&gt;.SExecuteArray&lt;T&gt;(IJavaType, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ConfigurationParser&gt;.SExecuteArray&lt;TArrayType&gt;(IJavaType, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ConfigurationParser&gt;.SExecuteWithSignatureArray&lt;T&gt;(IJavaType, string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ConfigurationParser&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(IJavaType, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ConfigurationParser&gt;.SExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ConfigurationParser&gt;.SExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ConfigurationParser&gt;.SExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ConfigurationParser&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ConfigurationParser&gt;.SGetField(IJavaType, string)</a>
@@ -277,6 +278,12 @@ Class ConfigurationParser  <a class="header-action link-secondary" title="View s
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ConfigurationParser&gt;.NewWithSignature(string, params object[])</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ConfigurationParser&gt;.NewAndWrapsDirect&lt;TNewClass&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ConfigurationParser&gt;.NewWithSignatureAndWrapsDirect&lt;TNewClass&gt;(string, string, params object[])</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_Execute__1___0___">JVMBridgeBase&lt;ConfigurationParser&gt;.Execute&lt;T&gt;(params T[])</a>
     </div>
     <div>
@@ -286,13 +293,25 @@ Class ConfigurationParser  <a class="header-action link-secondary" title="View s
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_BridgeClazz">JVMBridgeBase&lt;ConfigurationParser&gt;.BridgeClazz</a>
     </div>
     <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ReferenceEqualsJVM_MASES_JCOBridge_C2JBridge_JVMBridgeBase_MASES_JCOBridge_C2JBridge_JVMBridgeBase_">JVMBridgeBase.ReferenceEqualsJVM(JVMBridgeBase, JVMBridgeBase)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">JVMBridgeBase.ClazzOf&lt;TClass&gt;(out Exception, bool)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, out Exception, bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_RuntimeClassNameOf__1">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.RuntimeClassNameOf(Type)</a>
     </div>
     <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ClassNameOf__1">JVMBridgeBase.ClassNameOf&lt;T&gt;()</a>
@@ -349,7 +368,13 @@ Class ConfigurationParser  <a class="header-action link-secondary" title="View s
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Dispose">JVMBridgeBase.Dispose()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.Dispose(bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ToString">JVMBridgeBase.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Equals_MASES_JCOBridge_C2JBridge_IJVMBridgeBase_">JVMBridgeBase.Equals(IJVMBridgeBase)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
@@ -397,10 +422,10 @@ Class ConfigurationParser  <a class="header-action link-secondary" title="View s
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
@@ -520,9 +545,42 @@ Class ConfigurationParser  <a class="header-action link-secondary" title="View s
 
   <a id="Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationParser__ctor_" data-uid="Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.#ctor*"></a>
 
+  <h3 id="Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationParser__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_" data-uid="Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)">
+  ConfigurationParser(IJVMBridgeBaseInitializer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Internal constructor: used internally from JCOBridge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.&quot;)]
+public ConfigurationParser(IJVMBridgeBaseInitializer initializer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>initializer</code> <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer.html">IJVMBridgeBaseInitializer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationParser__ctor_" data-uid="Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.#ctor*"></a>
+
   <h3 id="Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationParser__ctor_Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationHandler_Java_Util_Properties_" data-uid="Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.#ctor(Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler,Java.Util.Properties)">
   ConfigurationParser(ConfigurationHandler, Properties)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L78"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationParser.html#%3Cinit%3E(org.codehaus.plexus.classworlds.launcher.ConfigurationHandler,java.util.Properties)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationParser.html#%3Cinit%3E(org.codehaus.plexus.classworlds.launcher.ConfigurationHandler,java.util.Properties)</a></p>
@@ -558,7 +616,7 @@ Class ConfigurationParser  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationParser__ctor_System_Object___" data-uid="Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.#ctor(System.Object[])">
   ConfigurationParser(params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
@@ -594,7 +652,7 @@ Class ConfigurationParser  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationParser_BridgeClassName" data-uid="Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.BridgeClassName">
   BridgeClassName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Java class name to be instantiated</p>
@@ -626,7 +684,7 @@ Class ConfigurationParser  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationParser_IMPORT_PREFIX" data-uid="Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.IMPORT_PREFIX">
   IMPORT_PREFIX
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L93"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationParser.html#IMPORT_PREFIX">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationParser.html#IMPORT_PREFIX</a></p>
@@ -658,7 +716,7 @@ Class ConfigurationParser  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationParser_IsBridgeAbstract" data-uid="Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.IsBridgeAbstract">
   IsBridgeAbstract
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an abstract class, i.e. cannot be created an instance</p>
@@ -690,7 +748,7 @@ Class ConfigurationParser  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationParser_IsBridgeCloseable" data-uid="Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.IsBridgeCloseable">
   IsBridgeCloseable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> implements Closeable</p>
@@ -722,7 +780,7 @@ Class ConfigurationParser  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationParser_IsBridgeInterface" data-uid="Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.IsBridgeInterface">
   IsBridgeInterface
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an interface, i.e. does not have any public constructor</p>
@@ -754,7 +812,7 @@ Class ConfigurationParser  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationParser_IsBridgeStatic" data-uid="Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.IsBridgeStatic">
   IsBridgeStatic
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is a static class, i.e. does not have any public constructor</p>
@@ -786,7 +844,7 @@ Class ConfigurationParser  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationParser_LOAD_PREFIX" data-uid="Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.LOAD_PREFIX">
   LOAD_PREFIX
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L99"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationParser.html#LOAD_PREFIX">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationParser.html#LOAD_PREFIX</a></p>
@@ -818,7 +876,7 @@ Class ConfigurationParser  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationParser_MAIN_PREFIX" data-uid="Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.MAIN_PREFIX">
   MAIN_PREFIX
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L105"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationParser.html#MAIN_PREFIX">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationParser.html#MAIN_PREFIX</a></p>
@@ -850,7 +908,7 @@ Class ConfigurationParser  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationParser_OPTIONALLY_PREFIX" data-uid="Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.OPTIONALLY_PREFIX">
   OPTIONALLY_PREFIX
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L111"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationParser.html#OPTIONALLY_PREFIX">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationParser.html#OPTIONALLY_PREFIX</a></p>
@@ -882,7 +940,7 @@ Class ConfigurationParser  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationParser_SET_PREFIX" data-uid="Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.SET_PREFIX">
   SET_PREFIX
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L117"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationParser.html#SET_PREFIX">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationParser.html#SET_PREFIX</a></p>
@@ -918,7 +976,7 @@ Class ConfigurationParser  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationParser_Parse_Java_Io_InputStream_" data-uid="Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.Parse(Java.Io.InputStream)">
   Parse(InputStream)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L136"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationParser.html#parse(java.io.InputStream)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/launcher/ConfigurationParser.html#parse(java.io.InputStream)</a></p>
@@ -962,7 +1020,7 @@ Class ConfigurationParser  <a class="header-action link-secondary" title="View s
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L64" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Launcher/ConfigurationParser.cs/#L70" class="edit-link">Edit this page</a>
         </div>
 
 
