@@ -112,6 +112,12 @@ jobs:
           fetch-depth: '1'
           submodules: 'true'
 
+      - uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: |
+            9.x
+            10.x
+
       - uses: actions/cache/restore@v4
         id: cache
         with:
@@ -262,6 +268,12 @@ jobs:
           fetch-depth: '1'
           submodules: 'true'
 
+      - uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: |
+            9.x
+            10.x
+
       - uses: actions/cache/restore@v4
         id: cache
         with:
@@ -393,7 +405,7 @@ jobs:
       DOTNET_CreateDumpDiagnostics: ${{ inputs.EnableProcessDump }}
       DOTNET_CreateDumpVerboseDiagnostics: ${{ inputs.EnableProcessDump }}
       DOTNET_EnableCrashReport: ${{ inputs.EnableProcessDump }}
-      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_4 }}
+      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_5 }}
     
     steps:
       # Runs a set of commands using the runners shell
@@ -526,7 +538,7 @@ jobs:
       DOTNET_CreateDumpDiagnostics: ${{ inputs.EnableProcessDump }}
       DOTNET_CreateDumpVerboseDiagnostics: ${{ inputs.EnableProcessDump }}
       DOTNET_EnableCrashReport: ${{ inputs.EnableProcessDump }}
-      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_4 }}
+      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_5 }}
 
     steps:
       # Runs a set of commands using the runners shell

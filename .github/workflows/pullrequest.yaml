@@ -76,6 +76,12 @@ jobs:
           fetch-depth: '1'
           submodules: 'true'
 
+      - uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: |
+            9.x
+            10.x
+
       - uses: actions/cache/restore@v4
         id: cache
         with:
@@ -163,6 +169,12 @@ jobs:
         with:
           fetch-depth: '1'
           submodules: 'true'
+
+      - uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: |
+            9.x
+            10.x
 
       - uses: actions/cache/restore@v4
         id: cache
