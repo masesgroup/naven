@@ -229,7 +229,7 @@ jobs:
         shell: cmd
         run: dir .\bin\*nupkg
 
-      - uses: actions/upload-artifact@v5
+      - uses: actions/upload-artifact@v6
         with:
           name: NavenNuGet
           path: .\bin\*nupkg
@@ -243,7 +243,7 @@ jobs:
               ./jars/
           key: Naven_${{ github.run_number }}_${{ github.run_attempt }}_bin_${{ github.sha }}
           
-      - uses: actions/upload-artifact@v5
+      - uses: actions/upload-artifact@v6
         with:
           if-no-files-found: ignore
           name: NavenBin
@@ -492,7 +492,7 @@ jobs:
       - if: ${{ matrix.os == 'windows-latest' }}
         run: (Get-EventLog -LogName Application -Newest 5).Message
 
-      - uses: actions/upload-artifact@v5
+      - uses: actions/upload-artifact@v6
         if: ${{ matrix.os == 'windows-latest' }}
         with:
           if-no-files-found: ignore
@@ -500,7 +500,7 @@ jobs:
           path: .\CrashDumpsDir\*
           retention-days: 7
 
-      - uses: actions/upload-artifact@v5
+      - uses: actions/upload-artifact@v6
         if: ${{ matrix.os != 'windows-latest' }}
         with:
           if-no-files-found: ignore
@@ -508,7 +508,7 @@ jobs:
           path: ${{ github.workspace }}/coredump.*
           retention-days: 7
 
-      - uses: actions/upload-artifact@v5
+      - uses: actions/upload-artifact@v6
         with:
           if-no-files-found: ignore
           name: Crash_tests_hs_err__${{ matrix.os }}_${{ matrix.jdk_vendor }}_${{ matrix.jdk_version }}
@@ -624,7 +624,7 @@ jobs:
       - if: ${{ matrix.os == 'windows-latest' }}
         run: (Get-EventLog -LogName Application -Newest 5).Message
 
-      - uses: actions/upload-artifact@v5
+      - uses: actions/upload-artifact@v6
         if: ${{ matrix.os == 'windows-latest' }}
         with:
           if-no-files-found: ignore
@@ -632,7 +632,7 @@ jobs:
           path: .\CrashDumpsDir\*
           retention-days: 7
 
-      - uses: actions/upload-artifact@v5
+      - uses: actions/upload-artifact@v6
         if: ${{ matrix.os != 'windows-latest' }}
         with:
           if-no-files-found: ignore
@@ -640,7 +640,7 @@ jobs:
           path: ${{ github.workspace }}/coredump.*
           retention-days: 7
 
-      - uses: actions/upload-artifact@v5
+      - uses: actions/upload-artifact@v6
         with:
           if-no-files-found: ignore
           name: Crash_powershell_hs_err_${{ matrix.os }}_${{ matrix.jdk_vendor }}_${{ matrix.jdk_version }}
