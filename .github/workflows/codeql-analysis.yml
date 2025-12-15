@@ -98,7 +98,7 @@ jobs:
           9.x
           10.x
 
-    - uses: actions/cache/restore@v4
+    - uses: actions/cache/restore@v5
       id: cache
       with:
         lookup-only: true
@@ -120,13 +120,13 @@ jobs:
 
     - name: Upload artifacts
       if: steps.cache.outputs.cache-hit != 'true'
-      uses: actions/cache/save@v4
+      uses: actions/cache/save@v5
       with:
         enableCrossOsArchive: true
         key: Apache_Maven_${{ env.MAVEN_RELEASE }}
         path: ./jars/
 
-    - uses: actions/cache/restore@v4
+    - uses: actions/cache/restore@v5
       if: steps.cache.outputs.cache-hit == 'true'
       with:
         enableCrossOsArchive: true
