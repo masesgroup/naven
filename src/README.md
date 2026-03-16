@@ -18,12 +18,6 @@ The configuration is:
 
 ```json
 {
-  "JVMOptions": [
-    {
-      "Name": "maven.fontcache",
-      "Value": "$(FONTCACHE_FOLDER)"
-    }
-  ],
   "RelativeDestinationCSharpClassPath": "net\\Naven\\Generated",
   "RelativeDestinationJavaListenerPath": "jvm\\naven\\src\\main\\java",
   "JavaListenerBasePackage": "org.mases.naven.generated",
@@ -32,35 +26,29 @@ The configuration is:
   "DisableInterfaceMethodGeneration": true,
   "CreateInterfaceInheritance": true,
   "JarList": [
-    "maven-3.0.4.jar",
-    "maven-io-3.0.4.jar",
-    "fontbox-3.0.4.jar"
+    "maven-embedder-3.9.14.jar"
   ],
   "OriginJavadocJARVersionAndUrls": [
     {
-      "Version": 8,
-      "Url": "https://www.javadoc.io/doc/org.apache.maven/maven/3.0.4/"
-    },
-    {
-      "Version": 8,
-      "Url": "https://www.javadoc.io/doc/org.apache.maven/maven-io/3.0.4/"
-    },
-    {
-      "Version": 8,
-      "Url": "https://www.javadoc.io/doc/org.apache.maven/fontbox/3.0.4/"
+      "Version": 11,
+      "Url": "https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.14/"
     }
   ],
   "NamespacesToAvoid": [
-    "org.apache.commons.logging"
+    "org.apache.commons.logging",
+    "org.apache.commons.cli",
+    "org.apache.maven.eventspy",
+    "org.apache.maven.execution",
+    "org.apache.maven.extension",
+    "org.codehaus",
+    "org.eclipse",
+    "org.slf4j"
   ],
   "ClassesToBeListener": [
-    "org.apache.maven.pdmodel.common.function.type4.Parser$SyntaxHandler"
   ],
   "ClassesToAvoid": [
-    "org.apache.maven.pdmodel.common.function.type4.Parser$AbstractSyntaxHandler"
   ],
   "ClassesManuallyDeveloped": [
-    "org.apache.maven.text.TextPositionComparator"
   ],
   "NamespacesInConflict": [
     "java.lang.module",

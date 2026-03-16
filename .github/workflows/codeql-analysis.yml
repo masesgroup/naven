@@ -34,7 +34,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  MAVEN_RELEASE: 3.9.11
+  MAVEN_RELEASE: 3.9.14
 
 jobs:
   # Verify if a check is needed

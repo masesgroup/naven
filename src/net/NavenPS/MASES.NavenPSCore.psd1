@@ -22,7 +22,7 @@ Author = 'MASES s.r.l.'
 CompanyName = 'MASES s.r.l.'
 
 # Copyright statement for this module
-Copyright = 'Copyright (c) 2024-2025 MASES s.r.l.'
+Copyright = 'Copyright (c) 2024-2026 MASES s.r.l.'
 
 # Description of the functionality provided by this module
 Description = 'PowerShell Module to use Apache Maven™ and PowerShell side-by-side. With NavenPS it is possible to use Apache Maven™ objects within PowerShell. See https://github.com/masesgroup/Naven for further information.'
