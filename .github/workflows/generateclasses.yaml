@@ -29,7 +29,7 @@ on:
         type: boolean
 
 env:
-  MAVEN_RELEASE: 3.9.11
+  MAVEN_RELEASE: 3.9.14
 
 # This workflow contains one job called "build_documentation"
 jobs:
@@ -43,8 +43,8 @@ jobs:
       DOTNET_CreateDumpDiagnostics: 1
       DOTNET_CreateDumpVerboseDiagnostics: 1
       DOTNET_EnableCrashReport: 1
-      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_5 }}
-      JNet_Version: 2.6.5
+      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_6 }}
+      JNet_Version: 2.6.6
       
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
