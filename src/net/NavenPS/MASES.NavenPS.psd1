@@ -71,6 +71,8 @@ PrivateData = @{
 
     PSData = @{
 
+        Prerelease = ''
+
         Tags = @('NavenPS', 'Naven', 'PSEdition_Core', 'PSEdition_Desktop', 'Windows', 'Linux', 'JVM', 'Java', 'Apache_Maven', 'Maven', 'bridge', 'gateway')
 
         LicenseUri = 'https://github.com/masesgroup/Naven/blob/master/LICENSE'
