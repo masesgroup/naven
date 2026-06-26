@@ -29,7 +29,7 @@ on:
         type: boolean
 
 env:
-  MAVEN_RELEASE: 3.9.14
+  MAVEN_RELEASE: 3.9.16
 
 # This workflow contains one job called "build_documentation"
 jobs:
@@ -43,8 +43,8 @@ jobs:
       DOTNET_CreateDumpDiagnostics: 1
       DOTNET_CreateDumpVerboseDiagnostics: 1
       DOTNET_EnableCrashReport: 1
-      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_6 }}
-      JNet_Version: 2.6.6
+      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_9 }}
+      JNet_Version: 2.6.9
       
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -122,7 +122,7 @@ jobs:
         run: mvn "-DmavenSkipMain=true" --file ./src/jvm/naven/pom.xml --no-transfer-progress package
 
       - name: Clear C# generated files
-        run: Remove-Item .\src\net\Naven\Generated\* -Recurse -Force -Exclude README.md
+        run: Remove-Item .\src\net\Naven\Generated\* -Recurse -Force -Exclude README.md,.editorconfig
 
       - name: Clear Java generated files
         run: Remove-Item .\src\jvm\naven\src\main\java\org\mases\naven\generated\* -Recurse -Force -Exclude README.md
@@ -168,7 +168,7 @@ jobs:
 
       - name: Use latest unpublished NuGet of JNetReflector
         if: ${{ inputs.UseLastRepositoryBuild == true && inputs.UseLatestJNetReflectorSource == false }}
-        run: dotnet tool update -g MASES.JNetReflector
+        run: dotnet tool update --prerelease -g MASES.JNetReflector
 
       - name: Download latest published version of JNetReflector
         if: ${{ inputs.UseLastRepositoryBuild == false && inputs.UseLatestJNetReflectorSource == false }}

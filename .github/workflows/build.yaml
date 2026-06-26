@@ -36,7 +36,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  MAVEN_RELEASE: 3.9.14
+  MAVEN_RELEASE: 3.9.16
 
 # This workflow contains two jobs called "check_changes", "build_windows"
 jobs:
@@ -389,7 +389,7 @@ jobs:
       DOTNET_CreateDumpDiagnostics: ${{ inputs.EnableProcessDump }}
       DOTNET_CreateDumpVerboseDiagnostics: ${{ inputs.EnableProcessDump }}
       DOTNET_EnableCrashReport: ${{ inputs.EnableProcessDump }}
-      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_6 }}
+      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_9 }}
     
     steps:
       # Runs a set of commands using the runners shell
@@ -522,7 +522,7 @@ jobs:
       DOTNET_CreateDumpDiagnostics: ${{ inputs.EnableProcessDump }}
       DOTNET_CreateDumpVerboseDiagnostics: ${{ inputs.EnableProcessDump }}
       DOTNET_EnableCrashReport: ${{ inputs.EnableProcessDump }}
-      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_6 }}
+      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_9 }}
 
     steps:
       # Runs a set of commands using the runners shell

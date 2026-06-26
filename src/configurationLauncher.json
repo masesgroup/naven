@@ -7,12 +7,12 @@
   "DisableInterfaceMethodGeneration": true,
   "CreateInterfaceInheritance": true,
   "JarList": [
-    "plexus-classworlds-2.9.0.jar"
+    "plexus-classworlds-2.11.0.jar"
   ],
   "OriginJavadocJARVersionAndUrls": [
     {
       "Version": 11,
-      "Url": "https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/"
+      "Url": "https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/"
     }
   ],
   "NamespacesToAvoid": [
