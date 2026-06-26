@@ -718,15 +718,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.CLIManager.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: CLIManager.CLIManager(IJVMBridgeBaseInitializer)
   nameWithType.vb: CLIManager.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.CLIManager.#ctor(System.Object[])
-  name: CLIManager(params object[])
-  href: api/Org.Apache.Maven.Cli.CLIManager.html#Org_Apache_Maven_Cli_CLIManager__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.CLIManager.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.CLIManager.CLIManager(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.CLIManager.New(ParamArray Object())
-  nameWithType: CLIManager.CLIManager(params object[])
-  nameWithType.vb: CLIManager.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.CLIManager.#ctor*
   name: CLIManager
   href: api/Org.Apache.Maven.Cli.CLIManager.html#Org_Apache_Maven_Cli_CLIManager__ctor_
@@ -919,6 +910,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Maven.Cli.CLIManager.COLOR
   nameWithType: CLIManager.COLOR
+- uid: Org.Apache.Maven.Cli.CLIManager.CreatePoolableInstance
+  name: CreatePoolableInstance()
+  href: api/Org.Apache.Maven.Cli.CLIManager.html#Org_Apache_Maven_Cli_CLIManager_CreatePoolableInstance
+  commentId: M:Org.Apache.Maven.Cli.CLIManager.CreatePoolableInstance
+  fullName: Org.Apache.Maven.Cli.CLIManager.CreatePoolableInstance()
+  nameWithType: CLIManager.CreatePoolableInstance()
+- uid: Org.Apache.Maven.Cli.CLIManager.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Maven.Cli.CLIManager.html#Org_Apache_Maven_Cli_CLIManager_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Maven.Cli.CLIManager.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Maven.Cli.CLIManager.CreatePoolableInstance
+  nameWithType: CLIManager.CreatePoolableInstance
 - uid: Org.Apache.Maven.Cli.CLIManager.DEBUG
   name: DEBUG
   href: api/Org.Apache.Maven.Cli.CLIManager.html#Org_Apache_Maven_Cli_CLIManager_DEBUG
@@ -1294,15 +1298,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.CLIReportingUtils.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: CLIReportingUtils.CLIReportingUtils(IJVMBridgeBaseInitializer)
   nameWithType.vb: CLIReportingUtils.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.CLIReportingUtils.#ctor(System.Object[])
-  name: CLIReportingUtils(params object[])
-  href: api/Org.Apache.Maven.Cli.CLIReportingUtils.html#Org_Apache_Maven_Cli_CLIReportingUtils__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.CLIReportingUtils.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.CLIReportingUtils.CLIReportingUtils(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.CLIReportingUtils.New(ParamArray Object())
-  nameWithType: CLIReportingUtils.CLIReportingUtils(params object[])
-  nameWithType.vb: CLIReportingUtils.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.CLIReportingUtils.#ctor*
   name: CLIReportingUtils
   href: api/Org.Apache.Maven.Cli.CLIReportingUtils.html#Org_Apache_Maven_Cli_CLIReportingUtils__ctor_
@@ -1339,6 +1334,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Maven.Cli.CLIReportingUtils.BridgeClassName
   nameWithType: CLIReportingUtils.BridgeClassName
+- uid: Org.Apache.Maven.Cli.CLIReportingUtils.CreatePoolableInstance
+  name: CreatePoolableInstance()
+  href: api/Org.Apache.Maven.Cli.CLIReportingUtils.html#Org_Apache_Maven_Cli_CLIReportingUtils_CreatePoolableInstance
+  commentId: M:Org.Apache.Maven.Cli.CLIReportingUtils.CreatePoolableInstance
+  fullName: Org.Apache.Maven.Cli.CLIReportingUtils.CreatePoolableInstance()
+  nameWithType: CLIReportingUtils.CreatePoolableInstance()
+- uid: Org.Apache.Maven.Cli.CLIReportingUtils.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Maven.Cli.CLIReportingUtils.html#Org_Apache_Maven_Cli_CLIReportingUtils_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Maven.Cli.CLIReportingUtils.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Maven.Cli.CLIReportingUtils.CreatePoolableInstance
+  nameWithType: CLIReportingUtils.CreatePoolableInstance
 - uid: Org.Apache.Maven.Cli.CLIReportingUtils.FormatDuration(System.Int64)
   name: FormatDuration(long)
   href: api/Org.Apache.Maven.Cli.CLIReportingUtils.html#Org_Apache_Maven_Cli_CLIReportingUtils_FormatDuration_System_Int64_
@@ -1486,15 +1494,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.CleanArgument.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: CleanArgument.CleanArgument(IJVMBridgeBaseInitializer)
   nameWithType.vb: CleanArgument.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.CleanArgument.#ctor(System.Object[])
-  name: CleanArgument(params object[])
-  href: api/Org.Apache.Maven.Cli.CleanArgument.html#Org_Apache_Maven_Cli_CleanArgument__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.CleanArgument.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.CleanArgument.CleanArgument(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.CleanArgument.New(ParamArray Object())
-  nameWithType: CleanArgument.CleanArgument(params object[])
-  nameWithType.vb: CleanArgument.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.CleanArgument.#ctor*
   name: CleanArgument
   href: api/Org.Apache.Maven.Cli.CleanArgument.html#Org_Apache_Maven_Cli_CleanArgument__ctor_
@@ -1534,6 +1533,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Maven.Cli.CleanArgument.CleanArgs
   nameWithType: CleanArgument.CleanArgs
+- uid: Org.Apache.Maven.Cli.CleanArgument.CreatePoolableInstance
+  name: CreatePoolableInstance()
+  href: api/Org.Apache.Maven.Cli.CleanArgument.html#Org_Apache_Maven_Cli_CleanArgument_CreatePoolableInstance
+  commentId: M:Org.Apache.Maven.Cli.CleanArgument.CreatePoolableInstance
+  fullName: Org.Apache.Maven.Cli.CleanArgument.CreatePoolableInstance()
+  nameWithType: CleanArgument.CreatePoolableInstance()
+- uid: Org.Apache.Maven.Cli.CleanArgument.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Maven.Cli.CleanArgument.html#Org_Apache_Maven_Cli_CleanArgument_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Maven.Cli.CleanArgument.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Maven.Cli.CleanArgument.CreatePoolableInstance
+  nameWithType: CleanArgument.CreatePoolableInstance
 - uid: Org.Apache.Maven.Cli.CleanArgument.IsBridgeAbstract
   name: IsBridgeAbstract
   href: api/Org.Apache.Maven.Cli.CleanArgument.html#Org_Apache_Maven_Cli_CleanArgument_IsBridgeAbstract
@@ -1592,15 +1604,6 @@ references:
   commentId: T:Org.Apache.Maven.Cli.CliRequest
   fullName: Org.Apache.Maven.Cli.CliRequest
   nameWithType: CliRequest
-- uid: Org.Apache.Maven.Cli.CliRequest.#ctor
-  name: CliRequest()
-  href: api/Org.Apache.Maven.Cli.CliRequest.html#Org_Apache_Maven_Cli_CliRequest__ctor
-  commentId: M:Org.Apache.Maven.Cli.CliRequest.#ctor
-  name.vb: New()
-  fullName: Org.Apache.Maven.Cli.CliRequest.CliRequest()
-  fullName.vb: Org.Apache.Maven.Cli.CliRequest.New()
-  nameWithType: CliRequest.CliRequest()
-  nameWithType.vb: CliRequest.New()
 - uid: Org.Apache.Maven.Cli.CliRequest.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   name: CliRequest(IJVMBridgeBaseInitializer)
   href: api/Org.Apache.Maven.Cli.CliRequest.html#Org_Apache_Maven_Cli_CliRequest__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
@@ -1610,15 +1613,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.CliRequest.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: CliRequest.CliRequest(IJVMBridgeBaseInitializer)
   nameWithType.vb: CliRequest.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.CliRequest.#ctor(System.Object[])
-  name: CliRequest(params object[])
-  href: api/Org.Apache.Maven.Cli.CliRequest.html#Org_Apache_Maven_Cli_CliRequest__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.CliRequest.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.CliRequest.CliRequest(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.CliRequest.New(ParamArray Object())
-  nameWithType: CliRequest.CliRequest(params object[])
-  nameWithType.vb: CliRequest.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.CliRequest.#ctor*
   name: CliRequest
   href: api/Org.Apache.Maven.Cli.CliRequest.html#Org_Apache_Maven_Cli_CliRequest__ctor_
@@ -1810,15 +1804,6 @@ references:
   commentId: T:Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor
   fullName: Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor
   nameWithType: ConfigurationProcessor
-- uid: Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor.#ctor
-  name: ConfigurationProcessor()
-  href: api/Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor.html#Org_Apache_Maven_Cli_Configuration_ConfigurationProcessor__ctor
-  commentId: M:Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor.#ctor
-  name.vb: New()
-  fullName: Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor.ConfigurationProcessor()
-  fullName.vb: Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor.New()
-  nameWithType: ConfigurationProcessor.ConfigurationProcessor()
-  nameWithType.vb: ConfigurationProcessor.New()
 - uid: Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   name: ConfigurationProcessor(IJVMBridgeBaseInitializer)
   href: api/Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor.html#Org_Apache_Maven_Cli_Configuration_ConfigurationProcessor__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
@@ -1828,15 +1813,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: ConfigurationProcessor.ConfigurationProcessor(IJVMBridgeBaseInitializer)
   nameWithType.vb: ConfigurationProcessor.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor.#ctor(System.Object[])
-  name: ConfigurationProcessor(params object[])
-  href: api/Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor.html#Org_Apache_Maven_Cli_Configuration_ConfigurationProcessor__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor.ConfigurationProcessor(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor.New(ParamArray Object())
-  nameWithType: ConfigurationProcessor.ConfigurationProcessor(params object[])
-  nameWithType.vb: ConfigurationProcessor.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor.#ctor*
   name: ConfigurationProcessor
   href: api/Org.Apache.Maven.Cli.Configuration.ConfigurationProcessor.html#Org_Apache_Maven_Cli_Configuration_ConfigurationProcessor__ctor_
@@ -1955,15 +1931,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: SettingsXmlConfigurationProcessor.SettingsXmlConfigurationProcessor(IJVMBridgeBaseInitializer)
   nameWithType.vb: SettingsXmlConfigurationProcessor.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.#ctor(System.Object[])
-  name: SettingsXmlConfigurationProcessor(params object[])
-  href: api/Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.html#Org_Apache_Maven_Cli_Configuration_SettingsXmlConfigurationProcessor__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.SettingsXmlConfigurationProcessor(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.New(ParamArray Object())
-  nameWithType: SettingsXmlConfigurationProcessor.SettingsXmlConfigurationProcessor(params object[])
-  nameWithType.vb: SettingsXmlConfigurationProcessor.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.#ctor*
   name: SettingsXmlConfigurationProcessor
   href: api/Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.html#Org_Apache_Maven_Cli_Configuration_SettingsXmlConfigurationProcessor__ctor_
@@ -1987,6 +1954,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.BridgeClassName
   nameWithType: SettingsXmlConfigurationProcessor.BridgeClassName
+- uid: Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.CreatePoolableInstance
+  name: CreatePoolableInstance()
+  href: api/Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.html#Org_Apache_Maven_Cli_Configuration_SettingsXmlConfigurationProcessor_CreatePoolableInstance
+  commentId: M:Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.CreatePoolableInstance
+  fullName: Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.CreatePoolableInstance()
+  nameWithType: SettingsXmlConfigurationProcessor.CreatePoolableInstance()
+- uid: Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.html#Org_Apache_Maven_Cli_Configuration_SettingsXmlConfigurationProcessor_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.CreatePoolableInstance
+  nameWithType: SettingsXmlConfigurationProcessor.CreatePoolableInstance
 - uid: Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.DEFAULT_GLOBAL_SETTINGS_FILE
   name: DEFAULT_GLOBAL_SETTINGS_FILE
   href: api/Org.Apache.Maven.Cli.Configuration.SettingsXmlConfigurationProcessor.html#Org_Apache_Maven_Cli_Configuration_SettingsXmlConfigurationProcessor_DEFAULT_GLOBAL_SETTINGS_FILE
@@ -2147,15 +2127,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: DefaultEventSpyContext.DefaultEventSpyContext(IJVMBridgeBaseInitializer)
   nameWithType.vb: DefaultEventSpyContext.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.#ctor(System.Object[])
-  name: DefaultEventSpyContext(params object[])
-  href: api/Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.html#Org_Apache_Maven_Cli_Event_DefaultEventSpyContext__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.DefaultEventSpyContext(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.New(ParamArray Object())
-  nameWithType: DefaultEventSpyContext.DefaultEventSpyContext(params object[])
-  nameWithType.vb: DefaultEventSpyContext.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.#ctor*
   name: DefaultEventSpyContext
   href: api/Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.html#Org_Apache_Maven_Cli_Event_DefaultEventSpyContext__ctor_
@@ -2179,6 +2150,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.BridgeClassName
   nameWithType: DefaultEventSpyContext.BridgeClassName
+- uid: Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.CreatePoolableInstance
+  name: CreatePoolableInstance()
+  href: api/Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.html#Org_Apache_Maven_Cli_Event_DefaultEventSpyContext_CreatePoolableInstance
+  commentId: M:Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.CreatePoolableInstance
+  fullName: Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.CreatePoolableInstance()
+  nameWithType: DefaultEventSpyContext.CreatePoolableInstance()
+- uid: Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.html#Org_Apache_Maven_Cli_Event_DefaultEventSpyContext_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.CreatePoolableInstance
+  nameWithType: DefaultEventSpyContext.CreatePoolableInstance
 - uid: Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.Data
   name: Data
   href: api/Org.Apache.Maven.Cli.Event.DefaultEventSpyContext.html#Org_Apache_Maven_Cli_Event_DefaultEventSpyContext_Data
@@ -2268,15 +2252,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Event.ExecutionEventLogger.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: ExecutionEventLogger.ExecutionEventLogger(IJVMBridgeBaseInitializer)
   nameWithType.vb: ExecutionEventLogger.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.Event.ExecutionEventLogger.#ctor(System.Object[])
-  name: ExecutionEventLogger(params object[])
-  href: api/Org.Apache.Maven.Cli.Event.ExecutionEventLogger.html#Org_Apache_Maven_Cli_Event_ExecutionEventLogger__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Event.ExecutionEventLogger.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Event.ExecutionEventLogger.ExecutionEventLogger(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Event.ExecutionEventLogger.New(ParamArray Object())
-  nameWithType: ExecutionEventLogger.ExecutionEventLogger(params object[])
-  nameWithType.vb: ExecutionEventLogger.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Event.ExecutionEventLogger.#ctor*
   name: ExecutionEventLogger
   href: api/Org.Apache.Maven.Cli.Event.ExecutionEventLogger.html#Org_Apache_Maven_Cli_Event_ExecutionEventLogger__ctor_
@@ -2300,6 +2275,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Maven.Cli.Event.ExecutionEventLogger.BridgeClassName
   nameWithType: ExecutionEventLogger.BridgeClassName
+- uid: Org.Apache.Maven.Cli.Event.ExecutionEventLogger.CreatePoolableInstance
+  name: CreatePoolableInstance()
+  href: api/Org.Apache.Maven.Cli.Event.ExecutionEventLogger.html#Org_Apache_Maven_Cli_Event_ExecutionEventLogger_CreatePoolableInstance
+  commentId: M:Org.Apache.Maven.Cli.Event.ExecutionEventLogger.CreatePoolableInstance
+  fullName: Org.Apache.Maven.Cli.Event.ExecutionEventLogger.CreatePoolableInstance()
+  nameWithType: ExecutionEventLogger.CreatePoolableInstance()
+- uid: Org.Apache.Maven.Cli.Event.ExecutionEventLogger.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Maven.Cli.Event.ExecutionEventLogger.html#Org_Apache_Maven_Cli_Event_ExecutionEventLogger_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Maven.Cli.Event.ExecutionEventLogger.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Maven.Cli.Event.ExecutionEventLogger.CreatePoolableInstance
+  nameWithType: ExecutionEventLogger.CreatePoolableInstance
 - uid: Org.Apache.Maven.Cli.Event.ExecutionEventLogger.IsBridgeAbstract
   name: IsBridgeAbstract
   href: api/Org.Apache.Maven.Cli.Event.ExecutionEventLogger.html#Org_Apache_Maven_Cli_Event_ExecutionEventLogger_IsBridgeAbstract
@@ -2364,15 +2352,6 @@ references:
   commentId: T:Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager
   fullName: Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager
   nameWithType: BootstrapCoreExtensionManager
-- uid: Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager.#ctor
-  name: BootstrapCoreExtensionManager()
-  href: api/Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager.html#Org_Apache_Maven_Cli_Internal_BootstrapCoreExtensionManager__ctor
-  commentId: M:Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager.#ctor
-  name.vb: New()
-  fullName: Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager.BootstrapCoreExtensionManager()
-  fullName.vb: Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager.New()
-  nameWithType: BootstrapCoreExtensionManager.BootstrapCoreExtensionManager()
-  nameWithType.vb: BootstrapCoreExtensionManager.New()
 - uid: Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   name: BootstrapCoreExtensionManager(IJVMBridgeBaseInitializer)
   href: api/Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager.html#Org_Apache_Maven_Cli_Internal_BootstrapCoreExtensionManager__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
@@ -2382,15 +2361,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: BootstrapCoreExtensionManager.BootstrapCoreExtensionManager(IJVMBridgeBaseInitializer)
   nameWithType.vb: BootstrapCoreExtensionManager.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager.#ctor(System.Object[])
-  name: BootstrapCoreExtensionManager(params object[])
-  href: api/Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager.html#Org_Apache_Maven_Cli_Internal_BootstrapCoreExtensionManager__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager.BootstrapCoreExtensionManager(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager.New(ParamArray Object())
-  nameWithType: BootstrapCoreExtensionManager.BootstrapCoreExtensionManager(params object[])
-  nameWithType.vb: BootstrapCoreExtensionManager.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager.#ctor*
   name: BootstrapCoreExtensionManager
   href: api/Org.Apache.Maven.Cli.Internal.BootstrapCoreExtensionManager.html#Org_Apache_Maven_Cli_Internal_BootstrapCoreExtensionManager__ctor_
@@ -2535,15 +2505,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: CoreExtension.CoreExtension(IJVMBridgeBaseInitializer)
   nameWithType.vb: CoreExtension.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.#ctor(System.Object[])
-  name: CoreExtension(params object[])
-  href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.html#Org_Apache_Maven_Cli_Internal_Extension_Model_CoreExtension__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.CoreExtension(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.New(ParamArray Object())
-  nameWithType: CoreExtension.CoreExtension(params object[])
-  nameWithType.vb: CoreExtension.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.#ctor*
   name: CoreExtension
   href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.html#Org_Apache_Maven_Cli_Internal_Extension_Model_CoreExtension__ctor_
@@ -2593,6 +2554,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.ClassLoadingStrategy
   nameWithType: CoreExtension.ClassLoadingStrategy
+- uid: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.CreatePoolableInstance
+  name: CreatePoolableInstance()
+  href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.html#Org_Apache_Maven_Cli_Internal_Extension_Model_CoreExtension_CreatePoolableInstance
+  commentId: M:Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.CreatePoolableInstance
+  fullName: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.CreatePoolableInstance()
+  nameWithType: CoreExtension.CreatePoolableInstance()
+- uid: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.html#Org_Apache_Maven_Cli_Internal_Extension_Model_CoreExtension_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.CreatePoolableInstance
+  nameWithType: CoreExtension.CreatePoolableInstance
 - uid: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.GroupId
   name: GroupId
   href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtension.html#Org_Apache_Maven_Cli_Internal_Extension_Model_CoreExtension_GroupId
@@ -2708,15 +2682,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: CoreExtensions.CoreExtensions(IJVMBridgeBaseInitializer)
   nameWithType.vb: CoreExtensions.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.#ctor(System.Object[])
-  name: CoreExtensions(params object[])
-  href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.html#Org_Apache_Maven_Cli_Internal_Extension_Model_CoreExtensions__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.CoreExtensions(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.New(ParamArray Object())
-  nameWithType: CoreExtensions.CoreExtensions(params object[])
-  nameWithType.vb: CoreExtensions.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.#ctor*
   name: CoreExtensions
   href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.html#Org_Apache_Maven_Cli_Internal_Extension_Model_CoreExtensions__ctor_
@@ -2753,6 +2718,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.BridgeClassName
   nameWithType: CoreExtensions.BridgeClassName
+- uid: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.CreatePoolableInstance
+  name: CreatePoolableInstance()
+  href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.html#Org_Apache_Maven_Cli_Internal_Extension_Model_CoreExtensions_CreatePoolableInstance
+  commentId: M:Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.CreatePoolableInstance
+  fullName: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.CreatePoolableInstance()
+  nameWithType: CoreExtensions.CreatePoolableInstance()
+- uid: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.html#Org_Apache_Maven_Cli_Internal_Extension_Model_CoreExtensions_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.CreatePoolableInstance
+  nameWithType: CoreExtensions.CreatePoolableInstance
 - uid: Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.Extensions
   name: Extensions
   href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.CoreExtensions.html#Org_Apache_Maven_Cli_Internal_Extension_Model_CoreExtensions_Extensions
@@ -2883,15 +2861,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.New(Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer)
   nameWithType: CoreExtensionsXpp3Reader.CoreExtensionsXpp3Reader(CoreExtensionsXpp3Reader.ContentTransformer)
   nameWithType.vb: CoreExtensionsXpp3Reader.New(CoreExtensionsXpp3Reader.ContentTransformer)
-- uid: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.#ctor(System.Object[])
-  name: CoreExtensionsXpp3Reader(params object[])
-  href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.html#Org_Apache_Maven_Cli_Internal_Extension_Model_Io_Xpp3_CoreExtensionsXpp3Reader__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.CoreExtensionsXpp3Reader(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.New(ParamArray Object())
-  nameWithType: CoreExtensionsXpp3Reader.CoreExtensionsXpp3Reader(params object[])
-  nameWithType.vb: CoreExtensionsXpp3Reader.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.#ctor*
   name: CoreExtensionsXpp3Reader
   href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.html#Org_Apache_Maven_Cli_Internal_Extension_Model_Io_Xpp3_CoreExtensionsXpp3Reader__ctor_
@@ -2934,15 +2903,6 @@ references:
   commentId: T:Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer
   fullName: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer
   nameWithType: CoreExtensionsXpp3Reader.ContentTransformer
-- uid: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.#ctor
-  name: ContentTransformer()
-  href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.html#Org_Apache_Maven_Cli_Internal_Extension_Model_Io_Xpp3_CoreExtensionsXpp3Reader_ContentTransformer__ctor
-  commentId: M:Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.#ctor
-  name.vb: New()
-  fullName: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.ContentTransformer()
-  fullName.vb: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.New()
-  nameWithType: CoreExtensionsXpp3Reader.ContentTransformer.ContentTransformer()
-  nameWithType.vb: CoreExtensionsXpp3Reader.ContentTransformer.New()
 - uid: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   name: ContentTransformer(IJVMBridgeBaseInitializer)
   href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.html#Org_Apache_Maven_Cli_Internal_Extension_Model_Io_Xpp3_CoreExtensionsXpp3Reader_ContentTransformer__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
@@ -2952,15 +2912,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: CoreExtensionsXpp3Reader.ContentTransformer.ContentTransformer(IJVMBridgeBaseInitializer)
   nameWithType.vb: CoreExtensionsXpp3Reader.ContentTransformer.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.#ctor(System.Object[])
-  name: ContentTransformer(params object[])
-  href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.html#Org_Apache_Maven_Cli_Internal_Extension_Model_Io_Xpp3_CoreExtensionsXpp3Reader_ContentTransformer__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.ContentTransformer(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.New(ParamArray Object())
-  nameWithType: CoreExtensionsXpp3Reader.ContentTransformer.ContentTransformer(params object[])
-  nameWithType.vb: CoreExtensionsXpp3Reader.ContentTransformer.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.#ctor*
   name: ContentTransformer
   href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.html#Org_Apache_Maven_Cli_Internal_Extension_Model_Io_Xpp3_CoreExtensionsXpp3Reader_ContentTransformer__ctor_
@@ -3049,6 +3000,25 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer.Transform
   nameWithType: CoreExtensionsXpp3Reader.ContentTransformer.Transform
+- uid: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.CreatePoolableInstance
+  name: CreatePoolableInstance()
+  href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.html#Org_Apache_Maven_Cli_Internal_Extension_Model_Io_Xpp3_CoreExtensionsXpp3Reader_CreatePoolableInstance
+  commentId: M:Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.CreatePoolableInstance
+  fullName: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.CreatePoolableInstance()
+  nameWithType: CoreExtensionsXpp3Reader.CreatePoolableInstance()
+- uid: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.CreatePoolableInstance(Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer)
+  name: CreatePoolableInstance(ContentTransformer)
+  href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.html#Org_Apache_Maven_Cli_Internal_Extension_Model_Io_Xpp3_CoreExtensionsXpp3Reader_CreatePoolableInstance_Org_Apache_Maven_Cli_Internal_Extension_Model_Io_Xpp3_CoreExtensionsXpp3Reader_ContentTransformer_
+  commentId: M:Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.CreatePoolableInstance(Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer)
+  fullName: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.CreatePoolableInstance(Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.ContentTransformer)
+  nameWithType: CoreExtensionsXpp3Reader.CreatePoolableInstance(CoreExtensionsXpp3Reader.ContentTransformer)
+- uid: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.html#Org_Apache_Maven_Cli_Internal_Extension_Model_Io_Xpp3_CoreExtensionsXpp3Reader_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.CreatePoolableInstance
+  nameWithType: CoreExtensionsXpp3Reader.CreatePoolableInstance
 - uid: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.IsBridgeAbstract
   name: IsBridgeAbstract
   href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Reader.html#Org_Apache_Maven_Cli_Internal_Extension_Model_Io_Xpp3_CoreExtensionsXpp3Reader_IsBridgeAbstract
@@ -3175,15 +3145,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: CoreExtensionsXpp3Writer.CoreExtensionsXpp3Writer(IJVMBridgeBaseInitializer)
   nameWithType.vb: CoreExtensionsXpp3Writer.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.#ctor(System.Object[])
-  name: CoreExtensionsXpp3Writer(params object[])
-  href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.html#Org_Apache_Maven_Cli_Internal_Extension_Model_Io_Xpp3_CoreExtensionsXpp3Writer__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.CoreExtensionsXpp3Writer(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.New(ParamArray Object())
-  nameWithType: CoreExtensionsXpp3Writer.CoreExtensionsXpp3Writer(params object[])
-  nameWithType.vb: CoreExtensionsXpp3Writer.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.#ctor*
   name: CoreExtensionsXpp3Writer
   href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.html#Org_Apache_Maven_Cli_Internal_Extension_Model_Io_Xpp3_CoreExtensionsXpp3Writer__ctor_
@@ -3207,6 +3168,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.BridgeClassName
   nameWithType: CoreExtensionsXpp3Writer.BridgeClassName
+- uid: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.CreatePoolableInstance
+  name: CreatePoolableInstance()
+  href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.html#Org_Apache_Maven_Cli_Internal_Extension_Model_Io_Xpp3_CoreExtensionsXpp3Writer_CreatePoolableInstance
+  commentId: M:Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.CreatePoolableInstance
+  fullName: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.CreatePoolableInstance()
+  nameWithType: CoreExtensionsXpp3Writer.CreatePoolableInstance()
+- uid: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.html#Org_Apache_Maven_Cli_Internal_Extension_Model_Io_Xpp3_CoreExtensionsXpp3Writer_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.CreatePoolableInstance
+  nameWithType: CoreExtensionsXpp3Writer.CreatePoolableInstance
 - uid: Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.IsBridgeAbstract
   name: IsBridgeAbstract
   href: api/Org.Apache.Maven.Cli.Internal.Extension.Model.Io.Xpp3.CoreExtensionsXpp3Writer.html#Org_Apache_Maven_Cli_Internal_Extension_Model_Io_Xpp3_CoreExtensionsXpp3Writer_IsBridgeAbstract
@@ -3377,15 +3351,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: BaseSlf4jConfiguration.BaseSlf4jConfiguration(IJVMBridgeBaseInitializer)
   nameWithType.vb: BaseSlf4jConfiguration.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.#ctor(System.Object[])
-  name: BaseSlf4jConfiguration(params object[])
-  href: api/Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.html#Org_Apache_Maven_Cli_Logging_BaseSlf4jConfiguration__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.BaseSlf4jConfiguration(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.New(ParamArray Object())
-  nameWithType: BaseSlf4jConfiguration.BaseSlf4jConfiguration(params object[])
-  nameWithType.vb: BaseSlf4jConfiguration.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.#ctor*
   name: BaseSlf4jConfiguration
   href: api/Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.html#Org_Apache_Maven_Cli_Logging_BaseSlf4jConfiguration__ctor_
@@ -3422,6 +3387,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.BridgeClassName
   nameWithType: BaseSlf4jConfiguration.BridgeClassName
+- uid: Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.CreatePoolableInstance
+  name: CreatePoolableInstance()
+  href: api/Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.html#Org_Apache_Maven_Cli_Logging_BaseSlf4jConfiguration_CreatePoolableInstance
+  commentId: M:Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.CreatePoolableInstance
+  fullName: Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.CreatePoolableInstance()
+  nameWithType: BaseSlf4jConfiguration.CreatePoolableInstance()
+- uid: Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.html#Org_Apache_Maven_Cli_Logging_BaseSlf4jConfiguration_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.CreatePoolableInstance
+  nameWithType: BaseSlf4jConfiguration.CreatePoolableInstance
 - uid: Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.IsBridgeAbstract
   name: IsBridgeAbstract
   href: api/Org.Apache.Maven.Cli.Logging.BaseSlf4jConfiguration.html#Org_Apache_Maven_Cli_Logging_BaseSlf4jConfiguration_IsBridgeAbstract
@@ -3523,15 +3501,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: Log4j2Configuration.Log4j2Configuration(IJVMBridgeBaseInitializer)
   nameWithType.vb: Log4j2Configuration.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.#ctor(System.Object[])
-  name: Log4j2Configuration(params object[])
-  href: api/Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.html#Org_Apache_Maven_Cli_Logging_Impl_Log4j2Configuration__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.Log4j2Configuration(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.New(ParamArray Object())
-  nameWithType: Log4j2Configuration.Log4j2Configuration(params object[])
-  nameWithType.vb: Log4j2Configuration.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.#ctor*
   name: Log4j2Configuration
   href: api/Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.html#Org_Apache_Maven_Cli_Logging_Impl_Log4j2Configuration__ctor_
@@ -3555,6 +3524,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.BridgeClassName
   nameWithType: Log4j2Configuration.BridgeClassName
+- uid: Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.CreatePoolableInstance
+  name: CreatePoolableInstance()
+  href: api/Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.html#Org_Apache_Maven_Cli_Logging_Impl_Log4j2Configuration_CreatePoolableInstance
+  commentId: M:Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.CreatePoolableInstance
+  fullName: Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.CreatePoolableInstance()
+  nameWithType: Log4j2Configuration.CreatePoolableInstance()
+- uid: Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.html#Org_Apache_Maven_Cli_Logging_Impl_Log4j2Configuration_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.CreatePoolableInstance
+  nameWithType: Log4j2Configuration.CreatePoolableInstance
 - uid: Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.IsBridgeAbstract
   name: IsBridgeAbstract
   href: api/Org.Apache.Maven.Cli.Logging.Impl.Log4j2Configuration.html#Org_Apache_Maven_Cli_Logging_Impl_Log4j2Configuration_IsBridgeAbstract
@@ -3631,15 +3613,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: LogbackConfiguration.LogbackConfiguration(IJVMBridgeBaseInitializer)
   nameWithType.vb: LogbackConfiguration.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.#ctor(System.Object[])
-  name: LogbackConfiguration(params object[])
-  href: api/Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.html#Org_Apache_Maven_Cli_Logging_Impl_LogbackConfiguration__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.LogbackConfiguration(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.New(ParamArray Object())
-  nameWithType: LogbackConfiguration.LogbackConfiguration(params object[])
-  nameWithType.vb: LogbackConfiguration.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.#ctor*
   name: LogbackConfiguration
   href: api/Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.html#Org_Apache_Maven_Cli_Logging_Impl_LogbackConfiguration__ctor_
@@ -3663,6 +3636,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.BridgeClassName
   nameWithType: LogbackConfiguration.BridgeClassName
+- uid: Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.CreatePoolableInstance
+  name: CreatePoolableInstance()
+  href: api/Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.html#Org_Apache_Maven_Cli_Logging_Impl_LogbackConfiguration_CreatePoolableInstance
+  commentId: M:Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.CreatePoolableInstance
+  fullName: Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.CreatePoolableInstance()
+  nameWithType: LogbackConfiguration.CreatePoolableInstance()
+- uid: Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.html#Org_Apache_Maven_Cli_Logging_Impl_LogbackConfiguration_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.CreatePoolableInstance
+  nameWithType: LogbackConfiguration.CreatePoolableInstance
 - uid: Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.IsBridgeAbstract
   name: IsBridgeAbstract
   href: api/Org.Apache.Maven.Cli.Logging.Impl.LogbackConfiguration.html#Org_Apache_Maven_Cli_Logging_Impl_LogbackConfiguration_IsBridgeAbstract
@@ -3739,15 +3725,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: Slf4jSimpleConfiguration.Slf4jSimpleConfiguration(IJVMBridgeBaseInitializer)
   nameWithType.vb: Slf4jSimpleConfiguration.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.#ctor(System.Object[])
-  name: Slf4jSimpleConfiguration(params object[])
-  href: api/Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.html#Org_Apache_Maven_Cli_Logging_Impl_Slf4jSimpleConfiguration__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.Slf4jSimpleConfiguration(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.New(ParamArray Object())
-  nameWithType: Slf4jSimpleConfiguration.Slf4jSimpleConfiguration(params object[])
-  nameWithType.vb: Slf4jSimpleConfiguration.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.#ctor*
   name: Slf4jSimpleConfiguration
   href: api/Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.html#Org_Apache_Maven_Cli_Logging_Impl_Slf4jSimpleConfiguration__ctor_
@@ -3771,6 +3748,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.BridgeClassName
   nameWithType: Slf4jSimpleConfiguration.BridgeClassName
+- uid: Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.CreatePoolableInstance
+  name: CreatePoolableInstance()
+  href: api/Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.html#Org_Apache_Maven_Cli_Logging_Impl_Slf4jSimpleConfiguration_CreatePoolableInstance
+  commentId: M:Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.CreatePoolableInstance
+  fullName: Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.CreatePoolableInstance()
+  nameWithType: Slf4jSimpleConfiguration.CreatePoolableInstance()
+- uid: Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.html#Org_Apache_Maven_Cli_Logging_Impl_Slf4jSimpleConfiguration_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.CreatePoolableInstance
+  nameWithType: Slf4jSimpleConfiguration.CreatePoolableInstance
 - uid: Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.IsBridgeAbstract
   name: IsBridgeAbstract
   href: api/Org.Apache.Maven.Cli.Logging.Impl.Slf4jSimpleConfiguration.html#Org_Apache_Maven_Cli_Logging_Impl_Slf4jSimpleConfiguration_IsBridgeAbstract
@@ -3829,15 +3819,6 @@ references:
   commentId: T:Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration
   fullName: Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration
   nameWithType: UnsupportedSlf4jBindingConfiguration
-- uid: Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.#ctor
-  name: UnsupportedSlf4jBindingConfiguration()
-  href: api/Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.html#Org_Apache_Maven_Cli_Logging_Impl_UnsupportedSlf4jBindingConfiguration__ctor
-  commentId: M:Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.#ctor
-  name.vb: New()
-  fullName: Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.UnsupportedSlf4jBindingConfiguration()
-  fullName.vb: Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.New()
-  nameWithType: UnsupportedSlf4jBindingConfiguration.UnsupportedSlf4jBindingConfiguration()
-  nameWithType.vb: UnsupportedSlf4jBindingConfiguration.New()
 - uid: Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.#ctor(Java.Lang.String,Java.Util.Map{Java.Net.URL,Java.Util.Set{System.Object}})
   name: UnsupportedSlf4jBindingConfiguration(String, Map<URL, Set<object>>)
   href: api/Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.html#Org_Apache_Maven_Cli_Logging_Impl_UnsupportedSlf4jBindingConfiguration__ctor_Java_Lang_String_Java_Util_Map_Java_Net_URL_Java_Util_Set_System_Object___
@@ -3856,15 +3837,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: UnsupportedSlf4jBindingConfiguration.UnsupportedSlf4jBindingConfiguration(IJVMBridgeBaseInitializer)
   nameWithType.vb: UnsupportedSlf4jBindingConfiguration.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.#ctor(System.Object[])
-  name: UnsupportedSlf4jBindingConfiguration(params object[])
-  href: api/Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.html#Org_Apache_Maven_Cli_Logging_Impl_UnsupportedSlf4jBindingConfiguration__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.UnsupportedSlf4jBindingConfiguration(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.New(ParamArray Object())
-  nameWithType: UnsupportedSlf4jBindingConfiguration.UnsupportedSlf4jBindingConfiguration(params object[])
-  nameWithType.vb: UnsupportedSlf4jBindingConfiguration.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.#ctor*
   name: UnsupportedSlf4jBindingConfiguration
   href: api/Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.html#Org_Apache_Maven_Cli_Logging_Impl_UnsupportedSlf4jBindingConfiguration__ctor_
@@ -3888,6 +3860,22 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.BridgeClassName
   nameWithType: UnsupportedSlf4jBindingConfiguration.BridgeClassName
+- uid: Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.CreatePoolableInstance(Java.Lang.String,Java.Util.Map{Java.Net.URL,Java.Util.Set{System.Object}})
+  name: CreatePoolableInstance(String, Map<URL, Set<object>>)
+  href: api/Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.html#Org_Apache_Maven_Cli_Logging_Impl_UnsupportedSlf4jBindingConfiguration_CreatePoolableInstance_Java_Lang_String_Java_Util_Map_Java_Net_URL_Java_Util_Set_System_Object___
+  commentId: M:Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.CreatePoolableInstance(Java.Lang.String,Java.Util.Map{Java.Net.URL,Java.Util.Set{System.Object}})
+  name.vb: CreatePoolableInstance(String, Map(Of URL, Set(Of Object)))
+  fullName: Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.CreatePoolableInstance(Java.Lang.String, Java.Util.Map<Java.Net.URL, Java.Util.Set<object>>)
+  fullName.vb: Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.CreatePoolableInstance(Java.Lang.String, Java.Util.Map(Of Java.Net.URL, Java.Util.Set(Of Object)))
+  nameWithType: UnsupportedSlf4jBindingConfiguration.CreatePoolableInstance(String, Map<URL, Set<object>>)
+  nameWithType.vb: UnsupportedSlf4jBindingConfiguration.CreatePoolableInstance(String, Map(Of URL, Set(Of Object)))
+- uid: Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.html#Org_Apache_Maven_Cli_Logging_Impl_UnsupportedSlf4jBindingConfiguration_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.CreatePoolableInstance
+  nameWithType: UnsupportedSlf4jBindingConfiguration.CreatePoolableInstance
 - uid: Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.IsBridgeAbstract
   name: IsBridgeAbstract
   href: api/Org.Apache.Maven.Cli.Logging.Impl.UnsupportedSlf4jBindingConfiguration.html#Org_Apache_Maven_Cli_Logging_Impl_UnsupportedSlf4jBindingConfiguration_IsBridgeAbstract
@@ -3946,15 +3934,6 @@ references:
   commentId: T:Org.Apache.Maven.Cli.Logging.Slf4jConfiguration
   fullName: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration
   nameWithType: Slf4jConfiguration
-- uid: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.#ctor
-  name: Slf4jConfiguration()
-  href: api/Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.html#Org_Apache_Maven_Cli_Logging_Slf4jConfiguration__ctor
-  commentId: M:Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.#ctor
-  name.vb: New()
-  fullName: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Slf4jConfiguration()
-  fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.New()
-  nameWithType: Slf4jConfiguration.Slf4jConfiguration()
-  nameWithType.vb: Slf4jConfiguration.New()
 - uid: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   name: Slf4jConfiguration(IJVMBridgeBaseInitializer)
   href: api/Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.html#Org_Apache_Maven_Cli_Logging_Slf4jConfiguration__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
@@ -3964,15 +3943,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: Slf4jConfiguration.Slf4jConfiguration(IJVMBridgeBaseInitializer)
   nameWithType.vb: Slf4jConfiguration.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.#ctor(System.Object[])
-  name: Slf4jConfiguration(params object[])
-  href: api/Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.html#Org_Apache_Maven_Cli_Logging_Slf4jConfiguration__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Slf4jConfiguration(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.New(ParamArray Object())
-  nameWithType: Slf4jConfiguration.Slf4jConfiguration(params object[])
-  nameWithType.vb: Slf4jConfiguration.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.#ctor*
   name: Slf4jConfiguration
   href: api/Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.html#Org_Apache_Maven_Cli_Logging_Slf4jConfiguration__ctor_
@@ -4067,15 +4037,6 @@ references:
   commentId: T:Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level
   fullName: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level
   nameWithType: Slf4jConfiguration.Level
-- uid: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level.#ctor
-  name: Level()
-  href: api/Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level.html#Org_Apache_Maven_Cli_Logging_Slf4jConfiguration_Level__ctor
-  commentId: M:Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level.#ctor
-  name.vb: New()
-  fullName: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level.Level()
-  fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level.New()
-  nameWithType: Slf4jConfiguration.Level.Level()
-  nameWithType.vb: Slf4jConfiguration.Level.New()
 - uid: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   name: Level(IJVMBridgeBaseInitializer)
   href: api/Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level.html#Org_Apache_Maven_Cli_Logging_Slf4jConfiguration_Level__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
@@ -4085,15 +4046,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: Slf4jConfiguration.Level.Level(IJVMBridgeBaseInitializer)
   nameWithType.vb: Slf4jConfiguration.Level.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level.#ctor(System.Object[])
-  name: Level(params object[])
-  href: api/Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level.html#Org_Apache_Maven_Cli_Logging_Slf4jConfiguration_Level__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level.Level(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level.New(ParamArray Object())
-  nameWithType: Slf4jConfiguration.Level.Level(params object[])
-  nameWithType.vb: Slf4jConfiguration.Level.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level.#ctor*
   name: Level
   href: api/Org.Apache.Maven.Cli.Logging.Slf4jConfiguration.Level.html#Org_Apache_Maven_Cli_Logging_Slf4jConfiguration_Level__ctor_
@@ -4271,15 +4223,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: Slf4jConfigurationFactory.Slf4jConfigurationFactory(IJVMBridgeBaseInitializer)
   nameWithType.vb: Slf4jConfigurationFactory.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.#ctor(System.Object[])
-  name: Slf4jConfigurationFactory(params object[])
-  href: api/Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.html#Org_Apache_Maven_Cli_Logging_Slf4jConfigurationFactory__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.Slf4jConfigurationFactory(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.New(ParamArray Object())
-  nameWithType: Slf4jConfigurationFactory.Slf4jConfigurationFactory(params object[])
-  nameWithType.vb: Slf4jConfigurationFactory.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.#ctor*
   name: Slf4jConfigurationFactory
   href: api/Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.html#Org_Apache_Maven_Cli_Logging_Slf4jConfigurationFactory__ctor_
@@ -4303,6 +4246,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.BridgeClassName
   nameWithType: Slf4jConfigurationFactory.BridgeClassName
+- uid: Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.CreatePoolableInstance
+  name: CreatePoolableInstance()
+  href: api/Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.html#Org_Apache_Maven_Cli_Logging_Slf4jConfigurationFactory_CreatePoolableInstance
+  commentId: M:Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.CreatePoolableInstance
+  fullName: Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.CreatePoolableInstance()
+  nameWithType: Slf4jConfigurationFactory.CreatePoolableInstance()
+- uid: Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.html#Org_Apache_Maven_Cli_Logging_Slf4jConfigurationFactory_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.CreatePoolableInstance
+  nameWithType: Slf4jConfigurationFactory.CreatePoolableInstance
 - uid: Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.IsBridgeAbstract
   name: IsBridgeAbstract
   href: api/Org.Apache.Maven.Cli.Logging.Slf4jConfigurationFactory.html#Org_Apache_Maven_Cli_Logging_Slf4jConfigurationFactory_IsBridgeAbstract
@@ -4374,15 +4330,6 @@ references:
   commentId: T:Org.Apache.Maven.Cli.Logging.Slf4jLogger
   fullName: Org.Apache.Maven.Cli.Logging.Slf4jLogger
   nameWithType: Slf4jLogger
-- uid: Org.Apache.Maven.Cli.Logging.Slf4jLogger.#ctor
-  name: Slf4jLogger()
-  href: api/Org.Apache.Maven.Cli.Logging.Slf4jLogger.html#Org_Apache_Maven_Cli_Logging_Slf4jLogger__ctor
-  commentId: M:Org.Apache.Maven.Cli.Logging.Slf4jLogger.#ctor
-  name.vb: New()
-  fullName: Org.Apache.Maven.Cli.Logging.Slf4jLogger.Slf4jLogger()
-  fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jLogger.New()
-  nameWithType: Slf4jLogger.Slf4jLogger()
-  nameWithType.vb: Slf4jLogger.New()
 - uid: Org.Apache.Maven.Cli.Logging.Slf4jLogger.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   name: Slf4jLogger(IJVMBridgeBaseInitializer)
   href: api/Org.Apache.Maven.Cli.Logging.Slf4jLogger.html#Org_Apache_Maven_Cli_Logging_Slf4jLogger__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
@@ -4392,15 +4339,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jLogger.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: Slf4jLogger.Slf4jLogger(IJVMBridgeBaseInitializer)
   nameWithType.vb: Slf4jLogger.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.Logging.Slf4jLogger.#ctor(System.Object[])
-  name: Slf4jLogger(params object[])
-  href: api/Org.Apache.Maven.Cli.Logging.Slf4jLogger.html#Org_Apache_Maven_Cli_Logging_Slf4jLogger__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Logging.Slf4jLogger.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Logging.Slf4jLogger.Slf4jLogger(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jLogger.New(ParamArray Object())
-  nameWithType: Slf4jLogger.Slf4jLogger(params object[])
-  nameWithType.vb: Slf4jLogger.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Logging.Slf4jLogger.#ctor*
   name: Slf4jLogger
   href: api/Org.Apache.Maven.Cli.Logging.Slf4jLogger.html#Org_Apache_Maven_Cli_Logging_Slf4jLogger__ctor_
@@ -4686,15 +4624,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: Slf4jLoggerManager.Slf4jLoggerManager(IJVMBridgeBaseInitializer)
   nameWithType.vb: Slf4jLoggerManager.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.#ctor(System.Object[])
-  name: Slf4jLoggerManager(params object[])
-  href: api/Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.html#Org_Apache_Maven_Cli_Logging_Slf4jLoggerManager__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.Slf4jLoggerManager(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.New(ParamArray Object())
-  nameWithType: Slf4jLoggerManager.Slf4jLoggerManager(params object[])
-  nameWithType.vb: Slf4jLoggerManager.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.#ctor*
   name: Slf4jLoggerManager
   href: api/Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.html#Org_Apache_Maven_Cli_Logging_Slf4jLoggerManager__ctor_
@@ -4731,6 +4660,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.BridgeClassName
   nameWithType: Slf4jLoggerManager.BridgeClassName
+- uid: Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.CreatePoolableInstance
+  name: CreatePoolableInstance()
+  href: api/Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.html#Org_Apache_Maven_Cli_Logging_Slf4jLoggerManager_CreatePoolableInstance
+  commentId: M:Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.CreatePoolableInstance
+  fullName: Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.CreatePoolableInstance()
+  nameWithType: Slf4jLoggerManager.CreatePoolableInstance()
+- uid: Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.html#Org_Apache_Maven_Cli_Logging_Slf4jLoggerManager_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.CreatePoolableInstance
+  nameWithType: Slf4jLoggerManager.CreatePoolableInstance
 - uid: Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.IsBridgeAbstract
   name: IsBridgeAbstract
   href: api/Org.Apache.Maven.Cli.Logging.Slf4jLoggerManager.html#Org_Apache_Maven_Cli_Logging_Slf4jLoggerManager_IsBridgeAbstract
@@ -4855,15 +4797,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: Slf4jStdoutLogger.Slf4jStdoutLogger(IJVMBridgeBaseInitializer)
   nameWithType.vb: Slf4jStdoutLogger.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.#ctor(System.Object[])
-  name: Slf4jStdoutLogger(params object[])
-  href: api/Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.html#Org_Apache_Maven_Cli_Logging_Slf4jStdoutLogger__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.Slf4jStdoutLogger(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.New(ParamArray Object())
-  nameWithType: Slf4jStdoutLogger.Slf4jStdoutLogger(params object[])
-  nameWithType.vb: Slf4jStdoutLogger.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.#ctor*
   name: Slf4jStdoutLogger
   href: api/Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.html#Org_Apache_Maven_Cli_Logging_Slf4jStdoutLogger__ctor_
@@ -4887,6 +4820,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.BridgeClassName
   nameWithType: Slf4jStdoutLogger.BridgeClassName
+- uid: Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.CreatePoolableInstance
+  name: CreatePoolableInstance()
+  href: api/Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.html#Org_Apache_Maven_Cli_Logging_Slf4jStdoutLogger_CreatePoolableInstance
+  commentId: M:Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.CreatePoolableInstance
+  fullName: Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.CreatePoolableInstance()
+  nameWithType: Slf4jStdoutLogger.CreatePoolableInstance()
+- uid: Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.html#Org_Apache_Maven_Cli_Logging_Slf4jStdoutLogger_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.CreatePoolableInstance
+  nameWithType: Slf4jStdoutLogger.CreatePoolableInstance
 - uid: Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.Debug(Java.Lang.String)
   name: Debug(String)
   href: api/Org.Apache.Maven.Cli.Logging.Slf4jStdoutLogger.html#Org_Apache_Maven_Cli_Logging_Slf4jStdoutLogger_Debug_Java_Lang_String_
@@ -5271,15 +5217,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.MavenCli.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: MavenCli.MavenCli(IJVMBridgeBaseInitializer)
   nameWithType.vb: MavenCli.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.MavenCli.#ctor(System.Object[])
-  name: MavenCli(params object[])
-  href: api/Org.Apache.Maven.Cli.MavenCli.html#Org_Apache_Maven_Cli_MavenCli__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.MavenCli.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.MavenCli.MavenCli(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.MavenCli.New(ParamArray Object())
-  nameWithType: MavenCli.MavenCli(params object[])
-  nameWithType.vb: MavenCli.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.MavenCli.#ctor*
   name: MavenCli
   href: api/Org.Apache.Maven.Cli.MavenCli.html#Org_Apache_Maven_Cli_MavenCli__ctor_
@@ -5303,6 +5240,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Maven.Cli.MavenCli.BridgeClassName
   nameWithType: MavenCli.BridgeClassName
+- uid: Org.Apache.Maven.Cli.MavenCli.CreatePoolableInstance
+  name: CreatePoolableInstance()
+  href: api/Org.Apache.Maven.Cli.MavenCli.html#Org_Apache_Maven_Cli_MavenCli_CreatePoolableInstance
+  commentId: M:Org.Apache.Maven.Cli.MavenCli.CreatePoolableInstance
+  fullName: Org.Apache.Maven.Cli.MavenCli.CreatePoolableInstance()
+  nameWithType: MavenCli.CreatePoolableInstance()
+- uid: Org.Apache.Maven.Cli.MavenCli.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Maven.Cli.MavenCli.html#Org_Apache_Maven_Cli_MavenCli_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Maven.Cli.MavenCli.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Maven.Cli.MavenCli.CreatePoolableInstance
+  nameWithType: MavenCli.CreatePoolableInstance
 - uid: Org.Apache.Maven.Cli.MavenCli.DEFAULT_GLOBAL_TOOLCHAINS_FILE
   name: DEFAULT_GLOBAL_TOOLCHAINS_FILE
   href: api/Org.Apache.Maven.Cli.MavenCli.html#Org_Apache_Maven_Cli_MavenCli_DEFAULT_GLOBAL_TOOLCHAINS_FILE
@@ -5508,15 +5458,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.ResolveFile.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: ResolveFile.ResolveFile(IJVMBridgeBaseInitializer)
   nameWithType.vb: ResolveFile.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.ResolveFile.#ctor(System.Object[])
-  name: ResolveFile(params object[])
-  href: api/Org.Apache.Maven.Cli.ResolveFile.html#Org_Apache_Maven_Cli_ResolveFile__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.ResolveFile.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.ResolveFile.ResolveFile(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.ResolveFile.New(ParamArray Object())
-  nameWithType: ResolveFile.ResolveFile(params object[])
-  nameWithType.vb: ResolveFile.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.ResolveFile.#ctor*
   name: ResolveFile
   href: api/Org.Apache.Maven.Cli.ResolveFile.html#Org_Apache_Maven_Cli_ResolveFile__ctor_
@@ -5540,6 +5481,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Maven.Cli.ResolveFile.BridgeClassName
   nameWithType: ResolveFile.BridgeClassName
+- uid: Org.Apache.Maven.Cli.ResolveFile.CreatePoolableInstance
+  name: CreatePoolableInstance()
+  href: api/Org.Apache.Maven.Cli.ResolveFile.html#Org_Apache_Maven_Cli_ResolveFile_CreatePoolableInstance
+  commentId: M:Org.Apache.Maven.Cli.ResolveFile.CreatePoolableInstance
+  fullName: Org.Apache.Maven.Cli.ResolveFile.CreatePoolableInstance()
+  nameWithType: ResolveFile.CreatePoolableInstance()
+- uid: Org.Apache.Maven.Cli.ResolveFile.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Maven.Cli.ResolveFile.html#Org_Apache_Maven_Cli_ResolveFile_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Maven.Cli.ResolveFile.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Maven.Cli.ResolveFile.CreatePoolableInstance
+  nameWithType: ResolveFile.CreatePoolableInstance
 - uid: Org.Apache.Maven.Cli.ResolveFile.IsBridgeAbstract
   name: IsBridgeAbstract
   href: api/Org.Apache.Maven.Cli.ResolveFile.html#Org_Apache_Maven_Cli_ResolveFile_IsBridgeAbstract
@@ -5617,15 +5571,6 @@ references:
   commentId: T:Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener
   fullName: Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener
   nameWithType: AbstractMavenTransferListener
-- uid: Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener.#ctor
-  name: AbstractMavenTransferListener()
-  href: api/Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_AbstractMavenTransferListener__ctor
-  commentId: M:Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener.#ctor
-  name.vb: New()
-  fullName: Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener.AbstractMavenTransferListener()
-  fullName.vb: Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener.New()
-  nameWithType: AbstractMavenTransferListener.AbstractMavenTransferListener()
-  nameWithType.vb: AbstractMavenTransferListener.New()
 - uid: Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   name: AbstractMavenTransferListener(IJVMBridgeBaseInitializer)
   href: api/Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_AbstractMavenTransferListener__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
@@ -5635,15 +5580,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: AbstractMavenTransferListener.AbstractMavenTransferListener(IJVMBridgeBaseInitializer)
   nameWithType.vb: AbstractMavenTransferListener.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener.#ctor(System.Object[])
-  name: AbstractMavenTransferListener(params object[])
-  href: api/Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_AbstractMavenTransferListener__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener.AbstractMavenTransferListener(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener.New(ParamArray Object())
-  nameWithType: AbstractMavenTransferListener.AbstractMavenTransferListener(params object[])
-  nameWithType.vb: AbstractMavenTransferListener.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener.#ctor*
   name: AbstractMavenTransferListener
   href: api/Org.Apache.Maven.Cli.Transfer.AbstractMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_AbstractMavenTransferListener__ctor_
@@ -5725,15 +5661,6 @@ references:
   commentId: T:Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener
   fullName: Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener
   nameWithType: BatchModeMavenTransferListener
-- uid: Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.#ctor
-  name: BatchModeMavenTransferListener()
-  href: api/Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_BatchModeMavenTransferListener__ctor
-  commentId: M:Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.#ctor
-  name.vb: New()
-  fullName: Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.BatchModeMavenTransferListener()
-  fullName.vb: Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.New()
-  nameWithType: BatchModeMavenTransferListener.BatchModeMavenTransferListener()
-  nameWithType.vb: BatchModeMavenTransferListener.New()
 - uid: Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.#ctor(Java.Io.PrintStream)
   name: BatchModeMavenTransferListener(PrintStream)
   href: api/Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_BatchModeMavenTransferListener__ctor_Java_Io_PrintStream_
@@ -5752,15 +5679,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: BatchModeMavenTransferListener.BatchModeMavenTransferListener(IJVMBridgeBaseInitializer)
   nameWithType.vb: BatchModeMavenTransferListener.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.#ctor(System.Object[])
-  name: BatchModeMavenTransferListener(params object[])
-  href: api/Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_BatchModeMavenTransferListener__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.BatchModeMavenTransferListener(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.New(ParamArray Object())
-  nameWithType: BatchModeMavenTransferListener.BatchModeMavenTransferListener(params object[])
-  nameWithType.vb: BatchModeMavenTransferListener.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.#ctor*
   name: BatchModeMavenTransferListener
   href: api/Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_BatchModeMavenTransferListener__ctor_
@@ -5784,6 +5702,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.BridgeClassName
   nameWithType: BatchModeMavenTransferListener.BridgeClassName
+- uid: Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.CreatePoolableInstance(Java.Io.PrintStream)
+  name: CreatePoolableInstance(PrintStream)
+  href: api/Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_BatchModeMavenTransferListener_CreatePoolableInstance_Java_Io_PrintStream_
+  commentId: M:Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.CreatePoolableInstance(Java.Io.PrintStream)
+  fullName: Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.CreatePoolableInstance(Java.Io.PrintStream)
+  nameWithType: BatchModeMavenTransferListener.CreatePoolableInstance(PrintStream)
+- uid: Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_BatchModeMavenTransferListener_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.CreatePoolableInstance
+  nameWithType: BatchModeMavenTransferListener.CreatePoolableInstance
 - uid: Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.IsBridgeAbstract
   name: IsBridgeAbstract
   href: api/Org.Apache.Maven.Cli.Transfer.BatchModeMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_BatchModeMavenTransferListener_IsBridgeAbstract
@@ -5842,15 +5773,6 @@ references:
   commentId: T:Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener
   fullName: Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener
   nameWithType: ConsoleMavenTransferListener
-- uid: Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.#ctor
-  name: ConsoleMavenTransferListener()
-  href: api/Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_ConsoleMavenTransferListener__ctor
-  commentId: M:Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.#ctor
-  name.vb: New()
-  fullName: Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.ConsoleMavenTransferListener()
-  fullName.vb: Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.New()
-  nameWithType: ConsoleMavenTransferListener.ConsoleMavenTransferListener()
-  nameWithType.vb: ConsoleMavenTransferListener.New()
 - uid: Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.#ctor(Java.Io.PrintStream,System.Boolean)
   name: ConsoleMavenTransferListener(PrintStream, bool)
   href: api/Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_ConsoleMavenTransferListener__ctor_Java_Io_PrintStream_System_Boolean_
@@ -5869,15 +5791,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: ConsoleMavenTransferListener.ConsoleMavenTransferListener(IJVMBridgeBaseInitializer)
   nameWithType.vb: ConsoleMavenTransferListener.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.#ctor(System.Object[])
-  name: ConsoleMavenTransferListener(params object[])
-  href: api/Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_ConsoleMavenTransferListener__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.ConsoleMavenTransferListener(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.New(ParamArray Object())
-  nameWithType: ConsoleMavenTransferListener.ConsoleMavenTransferListener(params object[])
-  nameWithType.vb: ConsoleMavenTransferListener.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.#ctor*
   name: ConsoleMavenTransferListener
   href: api/Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_ConsoleMavenTransferListener__ctor_
@@ -5901,6 +5814,22 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.BridgeClassName
   nameWithType: ConsoleMavenTransferListener.BridgeClassName
+- uid: Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.CreatePoolableInstance(Java.Io.PrintStream,System.Boolean)
+  name: CreatePoolableInstance(PrintStream, bool)
+  href: api/Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_ConsoleMavenTransferListener_CreatePoolableInstance_Java_Io_PrintStream_System_Boolean_
+  commentId: M:Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.CreatePoolableInstance(Java.Io.PrintStream,System.Boolean)
+  name.vb: CreatePoolableInstance(PrintStream, Boolean)
+  fullName: Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.CreatePoolableInstance(Java.Io.PrintStream, bool)
+  fullName.vb: Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.CreatePoolableInstance(Java.Io.PrintStream, Boolean)
+  nameWithType: ConsoleMavenTransferListener.CreatePoolableInstance(PrintStream, bool)
+  nameWithType.vb: ConsoleMavenTransferListener.CreatePoolableInstance(PrintStream, Boolean)
+- uid: Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_ConsoleMavenTransferListener_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.CreatePoolableInstance
+  nameWithType: ConsoleMavenTransferListener.CreatePoolableInstance
 - uid: Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.IsBridgeAbstract
   name: IsBridgeAbstract
   href: api/Org.Apache.Maven.Cli.Transfer.ConsoleMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_ConsoleMavenTransferListener_IsBridgeAbstract
@@ -5977,15 +5906,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: QuietMavenTransferListener.QuietMavenTransferListener(IJVMBridgeBaseInitializer)
   nameWithType.vb: QuietMavenTransferListener.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.#ctor(System.Object[])
-  name: QuietMavenTransferListener(params object[])
-  href: api/Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_QuietMavenTransferListener__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.QuietMavenTransferListener(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.New(ParamArray Object())
-  nameWithType: QuietMavenTransferListener.QuietMavenTransferListener(params object[])
-  nameWithType.vb: QuietMavenTransferListener.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.#ctor*
   name: QuietMavenTransferListener
   href: api/Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_QuietMavenTransferListener__ctor_
@@ -6009,6 +5929,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.BridgeClassName
   nameWithType: QuietMavenTransferListener.BridgeClassName
+- uid: Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.CreatePoolableInstance
+  name: CreatePoolableInstance()
+  href: api/Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_QuietMavenTransferListener_CreatePoolableInstance
+  commentId: M:Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.CreatePoolableInstance
+  fullName: Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.CreatePoolableInstance()
+  nameWithType: QuietMavenTransferListener.CreatePoolableInstance()
+- uid: Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_QuietMavenTransferListener_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.CreatePoolableInstance
+  nameWithType: QuietMavenTransferListener.CreatePoolableInstance
 - uid: Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.IsBridgeAbstract
   name: IsBridgeAbstract
   href: api/Org.Apache.Maven.Cli.Transfer.QuietMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_QuietMavenTransferListener_IsBridgeAbstract
@@ -6067,15 +6000,6 @@ references:
   commentId: T:Org.Apache.Maven.Cli.Transfer.SimplexTransferListener
   fullName: Org.Apache.Maven.Cli.Transfer.SimplexTransferListener
   nameWithType: SimplexTransferListener
-- uid: Org.Apache.Maven.Cli.Transfer.SimplexTransferListener.#ctor
-  name: SimplexTransferListener()
-  href: api/Org.Apache.Maven.Cli.Transfer.SimplexTransferListener.html#Org_Apache_Maven_Cli_Transfer_SimplexTransferListener__ctor
-  commentId: M:Org.Apache.Maven.Cli.Transfer.SimplexTransferListener.#ctor
-  name.vb: New()
-  fullName: Org.Apache.Maven.Cli.Transfer.SimplexTransferListener.SimplexTransferListener()
-  fullName.vb: Org.Apache.Maven.Cli.Transfer.SimplexTransferListener.New()
-  nameWithType: SimplexTransferListener.SimplexTransferListener()
-  nameWithType.vb: SimplexTransferListener.New()
 - uid: Org.Apache.Maven.Cli.Transfer.SimplexTransferListener.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   name: SimplexTransferListener(IJVMBridgeBaseInitializer)
   href: api/Org.Apache.Maven.Cli.Transfer.SimplexTransferListener.html#Org_Apache_Maven_Cli_Transfer_SimplexTransferListener__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
@@ -6085,15 +6009,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Transfer.SimplexTransferListener.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: SimplexTransferListener.SimplexTransferListener(IJVMBridgeBaseInitializer)
   nameWithType.vb: SimplexTransferListener.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.Transfer.SimplexTransferListener.#ctor(System.Object[])
-  name: SimplexTransferListener(params object[])
-  href: api/Org.Apache.Maven.Cli.Transfer.SimplexTransferListener.html#Org_Apache_Maven_Cli_Transfer_SimplexTransferListener__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Transfer.SimplexTransferListener.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Transfer.SimplexTransferListener.SimplexTransferListener(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Transfer.SimplexTransferListener.New(ParamArray Object())
-  nameWithType: SimplexTransferListener.SimplexTransferListener(params object[])
-  nameWithType.vb: SimplexTransferListener.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Transfer.SimplexTransferListener.#ctor*
   name: SimplexTransferListener
   href: api/Org.Apache.Maven.Cli.Transfer.SimplexTransferListener.html#Org_Apache_Maven_Cli_Transfer_SimplexTransferListener__ctor_
@@ -6193,15 +6108,6 @@ references:
   fullName.vb: Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: Slf4jMavenTransferListener.Slf4jMavenTransferListener(IJVMBridgeBaseInitializer)
   nameWithType.vb: Slf4jMavenTransferListener.New(IJVMBridgeBaseInitializer)
-- uid: Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.#ctor(System.Object[])
-  name: Slf4jMavenTransferListener(params object[])
-  href: api/Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_Slf4jMavenTransferListener__ctor_System_Object___
-  commentId: M:Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.Slf4jMavenTransferListener(params object[])
-  fullName.vb: Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.New(ParamArray Object())
-  nameWithType: Slf4jMavenTransferListener.Slf4jMavenTransferListener(params object[])
-  nameWithType.vb: Slf4jMavenTransferListener.New(ParamArray Object())
 - uid: Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.#ctor*
   name: Slf4jMavenTransferListener
   href: api/Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_Slf4jMavenTransferListener__ctor_
@@ -6225,6 +6131,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.BridgeClassName
   nameWithType: Slf4jMavenTransferListener.BridgeClassName
+- uid: Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.CreatePoolableInstance
+  name: CreatePoolableInstance()
+  href: api/Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_Slf4jMavenTransferListener_CreatePoolableInstance
+  commentId: M:Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.CreatePoolableInstance
+  fullName: Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.CreatePoolableInstance()
+  nameWithType: Slf4jMavenTransferListener.CreatePoolableInstance()
+- uid: Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_Slf4jMavenTransferListener_CreatePoolableInstance_
+  commentId: Overload:Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.CreatePoolableInstance
+  nameWithType: Slf4jMavenTransferListener.CreatePoolableInstance
 - uid: Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.IsBridgeAbstract
   name: IsBridgeAbstract
   href: api/Org.Apache.Maven.Cli.Transfer.Slf4jMavenTransferListener.html#Org_Apache_Maven_Cli_Transfer_Slf4jMavenTransferListener_IsBridgeAbstract
@@ -6316,15 +6235,6 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.ClassWorld.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: ClassWorld.ClassWorld(IJVMBridgeBaseInitializer)
   nameWithType.vb: ClassWorld.New(IJVMBridgeBaseInitializer)
-- uid: Org.Codehaus.Plexus.Classworlds.ClassWorld.#ctor(System.Object[])
-  name: ClassWorld(params object[])
-  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorld.html#Org_Codehaus_Plexus_Classworlds_ClassWorld__ctor_System_Object___
-  commentId: M:Org.Codehaus.Plexus.Classworlds.ClassWorld.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorld.ClassWorld(params object[])
-  fullName.vb: Org.Codehaus.Plexus.Classworlds.ClassWorld.New(ParamArray Object())
-  nameWithType: ClassWorld.ClassWorld(params object[])
-  nameWithType.vb: ClassWorld.New(ParamArray Object())
 - uid: Org.Codehaus.Plexus.Classworlds.ClassWorld.#ctor*
   name: ClassWorld
   href: api/Org.Codehaus.Plexus.Classworlds.ClassWorld.html#Org_Codehaus_Plexus_Classworlds_ClassWorld__ctor_
@@ -6374,6 +6284,25 @@ references:
   isSpec: "True"
   fullName: Org.Codehaus.Plexus.Classworlds.ClassWorld.Close
   nameWithType: ClassWorld.Close
+- uid: Org.Codehaus.Plexus.Classworlds.ClassWorld.CreatePoolableInstance
+  name: CreatePoolableInstance()
+  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorld.html#Org_Codehaus_Plexus_Classworlds_ClassWorld_CreatePoolableInstance
+  commentId: M:Org.Codehaus.Plexus.Classworlds.ClassWorld.CreatePoolableInstance
+  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorld.CreatePoolableInstance()
+  nameWithType: ClassWorld.CreatePoolableInstance()
+- uid: Org.Codehaus.Plexus.Classworlds.ClassWorld.CreatePoolableInstance(Java.Lang.String,Java.Lang.ClassLoader)
+  name: CreatePoolableInstance(String, ClassLoader)
+  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorld.html#Org_Codehaus_Plexus_Classworlds_ClassWorld_CreatePoolableInstance_Java_Lang_String_Java_Lang_ClassLoader_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.ClassWorld.CreatePoolableInstance(Java.Lang.String,Java.Lang.ClassLoader)
+  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorld.CreatePoolableInstance(Java.Lang.String, Java.Lang.ClassLoader)
+  nameWithType: ClassWorld.CreatePoolableInstance(String, ClassLoader)
+- uid: Org.Codehaus.Plexus.Classworlds.ClassWorld.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorld.html#Org_Codehaus_Plexus_Classworlds_ClassWorld_CreatePoolableInstance_
+  commentId: Overload:Org.Codehaus.Plexus.Classworlds.ClassWorld.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorld.CreatePoolableInstance
+  nameWithType: ClassWorld.CreatePoolableInstance
 - uid: Org.Codehaus.Plexus.Classworlds.ClassWorld.DisposeRealm(Java.Lang.String)
   name: DisposeRealm(String)
   href: api/Org.Codehaus.Plexus.Classworlds.ClassWorld.html#Org_Codehaus_Plexus_Classworlds_ClassWorld_DisposeRealm_Java_Lang_String_
@@ -6581,15 +6510,6 @@ references:
   commentId: T:Org.Codehaus.Plexus.Classworlds.ClassWorldListener
   fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldListener
   nameWithType: ClassWorldListener
-- uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.#ctor
-  name: ClassWorldListener()
-  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListener.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListener__ctor
-  commentId: M:Org.Codehaus.Plexus.Classworlds.ClassWorldListener.#ctor
-  name.vb: New()
-  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.ClassWorldListener()
-  fullName.vb: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.New()
-  nameWithType: ClassWorldListener.ClassWorldListener()
-  nameWithType.vb: ClassWorldListener.New()
 - uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   name: ClassWorldListener(IJVMBridgeBaseInitializer)
   href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListener.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListener__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
@@ -6631,12 +6551,12 @@ references:
   isSpec: "True"
   fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.BridgeClassName
   nameWithType: ClassWorldListener.BridgeClassName
-- uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.InitializeHandlers
-  name: InitializeHandlers()
-  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListener.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListener_InitializeHandlers
-  commentId: M:Org.Codehaus.Plexus.Classworlds.ClassWorldListener.InitializeHandlers
-  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.InitializeHandlers()
-  nameWithType: ClassWorldListener.InitializeHandlers()
+- uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.InitializeHandlers(System.Type)
+  name: InitializeHandlers(Type)
+  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListener.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListener_InitializeHandlers_System_Type_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.ClassWorldListener.InitializeHandlers(System.Type)
+  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.InitializeHandlers(System.Type)
+  nameWithType: ClassWorldListener.InitializeHandlers(Type)
 - uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.InitializeHandlers*
   name: InitializeHandlers
   href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListener.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListener_InitializeHandlers_
@@ -6644,6 +6564,38 @@ references:
   isSpec: "True"
   fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.InitializeHandlers
   nameWithType: ClassWorldListener.InitializeHandlers
+- uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.ListenerShallManageEvent(System.Int32)
+  name: ListenerShallManageEvent(int)
+  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListener.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListener_ListenerShallManageEvent_System_Int32_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.ClassWorldListener.ListenerShallManageEvent(System.Int32)
+  name.vb: ListenerShallManageEvent(Integer)
+  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.ListenerShallManageEvent(int)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.ListenerShallManageEvent(Integer)
+  nameWithType: ClassWorldListener.ListenerShallManageEvent(int)
+  nameWithType.vb: ClassWorldListener.ListenerShallManageEvent(Integer)
+- uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.ListenerShallManageEvent*
+  name: ListenerShallManageEvent
+  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListener.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListener_ListenerShallManageEvent_
+  commentId: Overload:Org.Codehaus.Plexus.Classworlds.ClassWorldListener.ListenerShallManageEvent
+  isSpec: "True"
+  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.ListenerShallManageEvent
+  nameWithType: ClassWorldListener.ListenerShallManageEvent
+- uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.ListenerShallManageEventHandlers(System.Int32)
+  name: ListenerShallManageEventHandlers(int)
+  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListener.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListener_ListenerShallManageEventHandlers_System_Int32_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.ClassWorldListener.ListenerShallManageEventHandlers(System.Int32)
+  name.vb: ListenerShallManageEventHandlers(Integer)
+  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.ListenerShallManageEventHandlers(int)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.ListenerShallManageEventHandlers(Integer)
+  nameWithType: ClassWorldListener.ListenerShallManageEventHandlers(int)
+  nameWithType.vb: ClassWorldListener.ListenerShallManageEventHandlers(Integer)
+- uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.ListenerShallManageEventHandlers*
+  name: ListenerShallManageEventHandlers
+  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListener.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListener_ListenerShallManageEventHandlers_
+  commentId: Overload:Org.Codehaus.Plexus.Classworlds.ClassWorldListener.ListenerShallManageEventHandlers
+  isSpec: "True"
+  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.ListenerShallManageEventHandlers
+  nameWithType: ClassWorldListener.ListenerShallManageEventHandlers
 - uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListener.OnRealmCreated
   name: OnRealmCreated
   href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListener.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListener_OnRealmCreated
@@ -6702,15 +6654,6 @@ references:
   commentId: T:Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect
   fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect
   nameWithType: ClassWorldListenerDirect
-- uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.#ctor
-  name: ClassWorldListenerDirect()
-  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListenerDirect__ctor
-  commentId: M:Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.#ctor
-  name.vb: New()
-  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.ClassWorldListenerDirect()
-  fullName.vb: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.New()
-  nameWithType: ClassWorldListenerDirect.ClassWorldListenerDirect()
-  nameWithType.vb: ClassWorldListenerDirect.New()
 - uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   name: ClassWorldListenerDirect(IJVMBridgeBaseInitializer)
   href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListenerDirect__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
@@ -6720,6 +6663,15 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: ClassWorldListenerDirect.ClassWorldListenerDirect(IJVMBridgeBaseInitializer)
   nameWithType.vb: ClassWorldListenerDirect.New(IJVMBridgeBaseInitializer)
+- uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.#ctor(System.Object[])
+  name: ClassWorldListenerDirect(params object[])
+  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListenerDirect__ctor_System_Object___
+  commentId: M:Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.#ctor(System.Object[])
+  name.vb: New(ParamArray Object())
+  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.ClassWorldListenerDirect(params object[])
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.New(ParamArray Object())
+  nameWithType: ClassWorldListenerDirect.ClassWorldListenerDirect(params object[])
+  nameWithType.vb: ClassWorldListenerDirect.New(ParamArray Object())
 - uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.#ctor*
   name: ClassWorldListenerDirect
   href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListenerDirect__ctor_
@@ -6756,12 +6708,12 @@ references:
   isSpec: "True"
   fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.BridgeClassName
   nameWithType: ClassWorldListenerDirect.BridgeClassName
-- uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.InitializeHandlers
-  name: InitializeHandlers()
-  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListenerDirect_InitializeHandlers
-  commentId: M:Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.InitializeHandlers
-  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.InitializeHandlers()
-  nameWithType: ClassWorldListenerDirect.InitializeHandlers()
+- uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.InitializeHandlers(System.Type)
+  name: InitializeHandlers(Type)
+  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListenerDirect_InitializeHandlers_System_Type_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.InitializeHandlers(System.Type)
+  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.InitializeHandlers(System.Type)
+  nameWithType: ClassWorldListenerDirect.InitializeHandlers(Type)
 - uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.InitializeHandlers*
   name: InitializeHandlers
   href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListenerDirect_InitializeHandlers_
@@ -6821,6 +6773,22 @@ references:
   isSpec: "True"
   fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.IsBridgeStatic
   nameWithType: ClassWorldListenerDirect.IsBridgeStatic
+- uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.ListenerShallManageEvent(System.Int32)
+  name: ListenerShallManageEvent(int)
+  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListenerDirect_ListenerShallManageEvent_System_Int32_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.ListenerShallManageEvent(System.Int32)
+  name.vb: ListenerShallManageEvent(Integer)
+  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.ListenerShallManageEvent(int)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.ListenerShallManageEvent(Integer)
+  nameWithType: ClassWorldListenerDirect.ListenerShallManageEvent(int)
+  nameWithType.vb: ClassWorldListenerDirect.ListenerShallManageEvent(Integer)
+- uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.ListenerShallManageEvent*
+  name: ListenerShallManageEvent
+  href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListenerDirect_ListenerShallManageEvent_
+  commentId: Overload:Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.ListenerShallManageEvent
+  isSpec: "True"
+  fullName: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.ListenerShallManageEvent
+  nameWithType: ClassWorldListenerDirect.ListenerShallManageEvent
 - uid: Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.RealmCreated(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm)
   name: RealmCreated(ClassRealm)
   href: api/Org.Codehaus.Plexus.Classworlds.ClassWorldListenerDirect.html#Org_Codehaus_Plexus_Classworlds_ClassWorldListenerDirect_RealmCreated_Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm_
@@ -6921,15 +6889,6 @@ references:
   commentId: T:Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler
   fullName: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler
   nameWithType: ConfigurationHandler
-- uid: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler.#ctor
-  name: ConfigurationHandler()
-  href: api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler.html#Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationHandler__ctor
-  commentId: M:Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler.#ctor
-  name.vb: New()
-  fullName: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler.ConfigurationHandler()
-  fullName.vb: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler.New()
-  nameWithType: ConfigurationHandler.ConfigurationHandler()
-  nameWithType.vb: ConfigurationHandler.New()
 - uid: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   name: ConfigurationHandler(IJVMBridgeBaseInitializer)
   href: api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler.html#Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationHandler__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
@@ -6939,15 +6898,6 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: ConfigurationHandler.ConfigurationHandler(IJVMBridgeBaseInitializer)
   nameWithType.vb: ConfigurationHandler.New(IJVMBridgeBaseInitializer)
-- uid: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler.#ctor(System.Object[])
-  name: ConfigurationHandler(params object[])
-  href: api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler.html#Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationHandler__ctor_System_Object___
-  commentId: M:Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler.ConfigurationHandler(params object[])
-  fullName.vb: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler.New(ParamArray Object())
-  nameWithType: ConfigurationHandler.ConfigurationHandler(params object[])
-  nameWithType.vb: ConfigurationHandler.New(ParamArray Object())
 - uid: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler.#ctor*
   name: ConfigurationHandler
   href: api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler.html#Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationHandler__ctor_
@@ -7094,15 +7044,6 @@ references:
   commentId: T:Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser
   fullName: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser
   nameWithType: ConfigurationParser
-- uid: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.#ctor
-  name: ConfigurationParser()
-  href: api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.html#Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationParser__ctor
-  commentId: M:Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.#ctor
-  name.vb: New()
-  fullName: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.ConfigurationParser()
-  fullName.vb: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.New()
-  nameWithType: ConfigurationParser.ConfigurationParser()
-  nameWithType.vb: ConfigurationParser.New()
 - uid: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   name: ConfigurationParser(IJVMBridgeBaseInitializer)
   href: api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.html#Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationParser__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
@@ -7121,15 +7062,6 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.New(Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler, Java.Util.Properties)
   nameWithType: ConfigurationParser.ConfigurationParser(ConfigurationHandler, Properties)
   nameWithType.vb: ConfigurationParser.New(ConfigurationHandler, Properties)
-- uid: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.#ctor(System.Object[])
-  name: ConfigurationParser(params object[])
-  href: api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.html#Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationParser__ctor_System_Object___
-  commentId: M:Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.ConfigurationParser(params object[])
-  fullName.vb: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.New(ParamArray Object())
-  nameWithType: ConfigurationParser.ConfigurationParser(params object[])
-  nameWithType.vb: ConfigurationParser.New(ParamArray Object())
 - uid: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.#ctor*
   name: ConfigurationParser
   href: api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.html#Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationParser__ctor_
@@ -7153,6 +7085,19 @@ references:
   isSpec: "True"
   fullName: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.BridgeClassName
   nameWithType: ConfigurationParser.BridgeClassName
+- uid: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.CreatePoolableInstance(Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler,Java.Util.Properties)
+  name: CreatePoolableInstance(ConfigurationHandler, Properties)
+  href: api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.html#Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationParser_CreatePoolableInstance_Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationHandler_Java_Util_Properties_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.CreatePoolableInstance(Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler,Java.Util.Properties)
+  fullName: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.CreatePoolableInstance(Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationHandler, Java.Util.Properties)
+  nameWithType: ConfigurationParser.CreatePoolableInstance(ConfigurationHandler, Properties)
+- uid: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.html#Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationParser_CreatePoolableInstance_
+  commentId: Overload:Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.CreatePoolableInstance
+  nameWithType: ConfigurationParser.CreatePoolableInstance
 - uid: Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.IMPORT_PREFIX
   name: IMPORT_PREFIX
   href: api/Org.Codehaus.Plexus.Classworlds.Launcher.ConfigurationParser.html#Org_Codehaus_Plexus_Classworlds_Launcher_ConfigurationParser_IMPORT_PREFIX
@@ -7289,15 +7234,6 @@ references:
   commentId: T:Org.Codehaus.Plexus.Classworlds.Launcher.Configurator
   fullName: Org.Codehaus.Plexus.Classworlds.Launcher.Configurator
   nameWithType: Configurator
-- uid: Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.#ctor
-  name: Configurator()
-  href: api/Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.html#Org_Codehaus_Plexus_Classworlds_Launcher_Configurator__ctor
-  commentId: M:Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.#ctor
-  name.vb: New()
-  fullName: Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.Configurator()
-  fullName.vb: Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.New()
-  nameWithType: Configurator.Configurator()
-  nameWithType.vb: Configurator.New()
 - uid: Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   name: Configurator(IJVMBridgeBaseInitializer)
   href: api/Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.html#Org_Codehaus_Plexus_Classworlds_Launcher_Configurator__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
@@ -7325,15 +7261,6 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.New(Org.Codehaus.Plexus.Classworlds.Launcher.Launcher)
   nameWithType: Configurator.Configurator(Launcher)
   nameWithType.vb: Configurator.New(Launcher)
-- uid: Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.#ctor(System.Object[])
-  name: Configurator(params object[])
-  href: api/Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.html#Org_Codehaus_Plexus_Classworlds_Launcher_Configurator__ctor_System_Object___
-  commentId: M:Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.Configurator(params object[])
-  fullName.vb: Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.New(ParamArray Object())
-  nameWithType: Configurator.Configurator(params object[])
-  nameWithType.vb: Configurator.New(ParamArray Object())
 - uid: Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.#ctor*
   name: Configurator
   href: api/Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.html#Org_Codehaus_Plexus_Classworlds_Launcher_Configurator__ctor_
@@ -7435,6 +7362,25 @@ references:
   isSpec: "True"
   fullName: Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.Configure
   nameWithType: Configurator.Configure
+- uid: Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.CreatePoolableInstance(Org.Codehaus.Plexus.Classworlds.ClassWorld)
+  name: CreatePoolableInstance(ClassWorld)
+  href: api/Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.html#Org_Codehaus_Plexus_Classworlds_Launcher_Configurator_CreatePoolableInstance_Org_Codehaus_Plexus_Classworlds_ClassWorld_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.CreatePoolableInstance(Org.Codehaus.Plexus.Classworlds.ClassWorld)
+  fullName: Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.CreatePoolableInstance(Org.Codehaus.Plexus.Classworlds.ClassWorld)
+  nameWithType: Configurator.CreatePoolableInstance(ClassWorld)
+- uid: Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.CreatePoolableInstance(Org.Codehaus.Plexus.Classworlds.Launcher.Launcher)
+  name: CreatePoolableInstance(Launcher)
+  href: api/Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.html#Org_Codehaus_Plexus_Classworlds_Launcher_Configurator_CreatePoolableInstance_Org_Codehaus_Plexus_Classworlds_Launcher_Launcher_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.CreatePoolableInstance(Org.Codehaus.Plexus.Classworlds.Launcher.Launcher)
+  fullName: Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.CreatePoolableInstance(Org.Codehaus.Plexus.Classworlds.Launcher.Launcher)
+  nameWithType: Configurator.CreatePoolableInstance(Launcher)
+- uid: Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.html#Org_Codehaus_Plexus_Classworlds_Launcher_Configurator_CreatePoolableInstance_
+  commentId: Overload:Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.CreatePoolableInstance
+  nameWithType: Configurator.CreatePoolableInstance
 - uid: Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.IsBridgeAbstract
   name: IsBridgeAbstract
   href: api/Org.Codehaus.Plexus.Classworlds.Launcher.Configurator.html#Org_Codehaus_Plexus_Classworlds_Launcher_Configurator_IsBridgeAbstract
@@ -7543,15 +7489,6 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: Launcher.Launcher(IJVMBridgeBaseInitializer)
   nameWithType.vb: Launcher.New(IJVMBridgeBaseInitializer)
-- uid: Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.#ctor(System.Object[])
-  name: Launcher(params object[])
-  href: api/Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.html#Org_Codehaus_Plexus_Classworlds_Launcher_Launcher__ctor_System_Object___
-  commentId: M:Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.Launcher(params object[])
-  fullName.vb: Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.New(ParamArray Object())
-  nameWithType: Launcher.Launcher(params object[])
-  nameWithType.vb: Launcher.New(ParamArray Object())
 - uid: Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.#ctor*
   name: Launcher
   href: api/Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.html#Org_Codehaus_Plexus_Classworlds_Launcher_Launcher__ctor_
@@ -7588,6 +7525,19 @@ references:
   isSpec: "True"
   fullName: Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.Configure
   nameWithType: Launcher.Configure
+- uid: Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.CreatePoolableInstance
+  name: CreatePoolableInstance()
+  href: api/Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.html#Org_Codehaus_Plexus_Classworlds_Launcher_Launcher_CreatePoolableInstance
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.CreatePoolableInstance
+  fullName: Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.CreatePoolableInstance()
+  nameWithType: Launcher.CreatePoolableInstance()
+- uid: Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.html#Org_Codehaus_Plexus_Classworlds_Launcher_Launcher_CreatePoolableInstance_
+  commentId: Overload:Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.CreatePoolableInstance
+  nameWithType: Launcher.CreatePoolableInstance
 - uid: Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.ExitCode
   name: ExitCode
   href: api/Org.Codehaus.Plexus.Classworlds.Launcher.Launcher.html#Org_Codehaus_Plexus_Classworlds_Launcher_Launcher_ExitCode
@@ -7804,15 +7754,6 @@ references:
   commentId: T:Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm
   fullName: Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm
   nameWithType: ClassRealm
-- uid: Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.#ctor
-  name: ClassRealm()
-  href: api/Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.html#Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm__ctor
-  commentId: M:Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.#ctor
-  name.vb: New()
-  fullName: Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.ClassRealm()
-  fullName.vb: Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.New()
-  nameWithType: ClassRealm.ClassRealm()
-  nameWithType.vb: ClassRealm.New()
 - uid: Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   name: ClassRealm(IJVMBridgeBaseInitializer)
   href: api/Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.html#Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
@@ -7831,15 +7772,6 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.New(Org.Codehaus.Plexus.Classworlds.ClassWorld, Java.Lang.String, Java.Lang.ClassLoader)
   nameWithType: ClassRealm.ClassRealm(ClassWorld, String, ClassLoader)
   nameWithType.vb: ClassRealm.New(ClassWorld, String, ClassLoader)
-- uid: Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.#ctor(System.Object[])
-  name: ClassRealm(params object[])
-  href: api/Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.html#Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm__ctor_System_Object___
-  commentId: M:Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.ClassRealm(params object[])
-  fullName.vb: Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.New(ParamArray Object())
-  nameWithType: ClassRealm.ClassRealm(params object[])
-  nameWithType.vb: ClassRealm.New(ParamArray Object())
 - uid: Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.#ctor*
   name: ClassRealm
   href: api/Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.html#Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm__ctor_
@@ -7889,6 +7821,19 @@ references:
   isSpec: "True"
   fullName: Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.CreateChildRealm
   nameWithType: ClassRealm.CreateChildRealm
+- uid: Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.CreatePoolableInstance(Org.Codehaus.Plexus.Classworlds.ClassWorld,Java.Lang.String,Java.Lang.ClassLoader)
+  name: CreatePoolableInstance(ClassWorld, String, ClassLoader)
+  href: api/Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.html#Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm_CreatePoolableInstance_Org_Codehaus_Plexus_Classworlds_ClassWorld_Java_Lang_String_Java_Lang_ClassLoader_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.CreatePoolableInstance(Org.Codehaus.Plexus.Classworlds.ClassWorld,Java.Lang.String,Java.Lang.ClassLoader)
+  fullName: Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.CreatePoolableInstance(Org.Codehaus.Plexus.Classworlds.ClassWorld, Java.Lang.String, Java.Lang.ClassLoader)
+  nameWithType: ClassRealm.CreatePoolableInstance(ClassWorld, String, ClassLoader)
+- uid: Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.html#Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm_CreatePoolableInstance_
+  commentId: Overload:Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.CreatePoolableInstance
+  nameWithType: ClassRealm.CreatePoolableInstance
 - uid: Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.Display
   name: Display()
   href: api/Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.html#Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm_Display
@@ -8262,15 +8207,6 @@ references:
   commentId: T:Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm
   fullName: Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm
   nameWithType: FilteredClassRealm
-- uid: Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.#ctor
-  name: FilteredClassRealm()
-  href: api/Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.html#Org_Codehaus_Plexus_Classworlds_Realm_FilteredClassRealm__ctor
-  commentId: M:Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.#ctor
-  name.vb: New()
-  fullName: Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.FilteredClassRealm()
-  fullName.vb: Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.New()
-  nameWithType: FilteredClassRealm.FilteredClassRealm()
-  nameWithType.vb: FilteredClassRealm.New()
 - uid: Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.#ctor(Java.Util.Function.Predicate{Java.Lang.String},Org.Codehaus.Plexus.Classworlds.ClassWorld,Java.Lang.String,Java.Lang.ClassLoader)
   name: FilteredClassRealm(Predicate<String>, ClassWorld, String, ClassLoader)
   href: api/Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.html#Org_Codehaus_Plexus_Classworlds_Realm_FilteredClassRealm__ctor_Java_Util_Function_Predicate_Java_Lang_String__Org_Codehaus_Plexus_Classworlds_ClassWorld_Java_Lang_String_Java_Lang_ClassLoader_
@@ -8289,15 +8225,6 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: FilteredClassRealm.FilteredClassRealm(IJVMBridgeBaseInitializer)
   nameWithType.vb: FilteredClassRealm.New(IJVMBridgeBaseInitializer)
-- uid: Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.#ctor(System.Object[])
-  name: FilteredClassRealm(params object[])
-  href: api/Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.html#Org_Codehaus_Plexus_Classworlds_Realm_FilteredClassRealm__ctor_System_Object___
-  commentId: M:Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.FilteredClassRealm(params object[])
-  fullName.vb: Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.New(ParamArray Object())
-  nameWithType: FilteredClassRealm.FilteredClassRealm(params object[])
-  nameWithType.vb: FilteredClassRealm.New(ParamArray Object())
 - uid: Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.#ctor*
   name: FilteredClassRealm
   href: api/Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.html#Org_Codehaus_Plexus_Classworlds_Realm_FilteredClassRealm__ctor_
@@ -8321,6 +8248,22 @@ references:
   isSpec: "True"
   fullName: Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.BridgeClassName
   nameWithType: FilteredClassRealm.BridgeClassName
+- uid: Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.CreatePoolableInstance(Java.Util.Function.Predicate{Java.Lang.String},Org.Codehaus.Plexus.Classworlds.ClassWorld,Java.Lang.String,Java.Lang.ClassLoader)
+  name: CreatePoolableInstance(Predicate<String>, ClassWorld, String, ClassLoader)
+  href: api/Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.html#Org_Codehaus_Plexus_Classworlds_Realm_FilteredClassRealm_CreatePoolableInstance_Java_Util_Function_Predicate_Java_Lang_String__Org_Codehaus_Plexus_Classworlds_ClassWorld_Java_Lang_String_Java_Lang_ClassLoader_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.CreatePoolableInstance(Java.Util.Function.Predicate{Java.Lang.String},Org.Codehaus.Plexus.Classworlds.ClassWorld,Java.Lang.String,Java.Lang.ClassLoader)
+  name.vb: CreatePoolableInstance(Predicate(Of String), ClassWorld, String, ClassLoader)
+  fullName: Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.CreatePoolableInstance(Java.Util.Function.Predicate<Java.Lang.String>, Org.Codehaus.Plexus.Classworlds.ClassWorld, Java.Lang.String, Java.Lang.ClassLoader)
+  fullName.vb: Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.CreatePoolableInstance(Java.Util.Function.Predicate(Of Java.Lang.String), Org.Codehaus.Plexus.Classworlds.ClassWorld, Java.Lang.String, Java.Lang.ClassLoader)
+  nameWithType: FilteredClassRealm.CreatePoolableInstance(Predicate<String>, ClassWorld, String, ClassLoader)
+  nameWithType.vb: FilteredClassRealm.CreatePoolableInstance(Predicate(Of String), ClassWorld, String, ClassLoader)
+- uid: Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.html#Org_Codehaus_Plexus_Classworlds_Realm_FilteredClassRealm_CreatePoolableInstance_
+  commentId: Overload:Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.CreatePoolableInstance
+  nameWithType: FilteredClassRealm.CreatePoolableInstance
 - uid: Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.IsBridgeAbstract
   name: IsBridgeAbstract
   href: api/Org.Codehaus.Plexus.Classworlds.Realm.FilteredClassRealm.html#Org_Codehaus_Plexus_Classworlds_Realm_FilteredClassRealm_IsBridgeAbstract
@@ -8441,15 +8384,6 @@ references:
   commentId: T:Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy
   fullName: Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy
   nameWithType: AbstractStrategy
-- uid: Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.#ctor
-  name: AbstractStrategy()
-  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_AbstractStrategy__ctor
-  commentId: M:Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.#ctor
-  name.vb: New()
-  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.AbstractStrategy()
-  fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.New()
-  nameWithType: AbstractStrategy.AbstractStrategy()
-  nameWithType.vb: AbstractStrategy.New()
 - uid: Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   name: AbstractStrategy(IJVMBridgeBaseInitializer)
   href: api/Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_AbstractStrategy__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
@@ -8468,15 +8402,6 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.New(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm)
   nameWithType: AbstractStrategy.AbstractStrategy(ClassRealm)
   nameWithType.vb: AbstractStrategy.New(ClassRealm)
-- uid: Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.#ctor(System.Object[])
-  name: AbstractStrategy(params object[])
-  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_AbstractStrategy__ctor_System_Object___
-  commentId: M:Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.AbstractStrategy(params object[])
-  fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.New(ParamArray Object())
-  nameWithType: AbstractStrategy.AbstractStrategy(params object[])
-  nameWithType.vb: AbstractStrategy.New(ParamArray Object())
 - uid: Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.#ctor*
   name: AbstractStrategy
   href: api/Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_AbstractStrategy__ctor_
@@ -8500,6 +8425,19 @@ references:
   isSpec: "True"
   fullName: Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.BridgeClassName
   nameWithType: AbstractStrategy.BridgeClassName
+- uid: Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.CreatePoolableInstance(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm)
+  name: CreatePoolableInstance(ClassRealm)
+  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_AbstractStrategy_CreatePoolableInstance_Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.CreatePoolableInstance(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm)
+  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.CreatePoolableInstance(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm)
+  nameWithType: AbstractStrategy.CreatePoolableInstance(ClassRealm)
+- uid: Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_AbstractStrategy_CreatePoolableInstance_
+  commentId: Overload:Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.CreatePoolableInstance
+  nameWithType: AbstractStrategy.CreatePoolableInstance
 - uid: Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.IsBridgeAbstract
   name: IsBridgeAbstract
   href: api/Org.Codehaus.Plexus.Classworlds.Strategy.AbstractStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_AbstractStrategy_IsBridgeAbstract
@@ -8577,15 +8515,6 @@ references:
   commentId: T:Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy
   fullName: Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy
   nameWithType: OsgiBundleStrategy
-- uid: Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.#ctor
-  name: OsgiBundleStrategy()
-  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_OsgiBundleStrategy__ctor
-  commentId: M:Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.#ctor
-  name.vb: New()
-  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.OsgiBundleStrategy()
-  fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.New()
-  nameWithType: OsgiBundleStrategy.OsgiBundleStrategy()
-  nameWithType.vb: OsgiBundleStrategy.New()
 - uid: Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   name: OsgiBundleStrategy(IJVMBridgeBaseInitializer)
   href: api/Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_OsgiBundleStrategy__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
@@ -8604,15 +8533,6 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.New(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm)
   nameWithType: OsgiBundleStrategy.OsgiBundleStrategy(ClassRealm)
   nameWithType.vb: OsgiBundleStrategy.New(ClassRealm)
-- uid: Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.#ctor(System.Object[])
-  name: OsgiBundleStrategy(params object[])
-  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_OsgiBundleStrategy__ctor_System_Object___
-  commentId: M:Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.OsgiBundleStrategy(params object[])
-  fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.New(ParamArray Object())
-  nameWithType: OsgiBundleStrategy.OsgiBundleStrategy(params object[])
-  nameWithType.vb: OsgiBundleStrategy.New(ParamArray Object())
 - uid: Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.#ctor*
   name: OsgiBundleStrategy
   href: api/Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_OsgiBundleStrategy__ctor_
@@ -8636,6 +8556,19 @@ references:
   isSpec: "True"
   fullName: Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.BridgeClassName
   nameWithType: OsgiBundleStrategy.BridgeClassName
+- uid: Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.CreatePoolableInstance(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm)
+  name: CreatePoolableInstance(ClassRealm)
+  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_OsgiBundleStrategy_CreatePoolableInstance_Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.CreatePoolableInstance(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm)
+  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.CreatePoolableInstance(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm)
+  nameWithType: OsgiBundleStrategy.CreatePoolableInstance(ClassRealm)
+- uid: Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_OsgiBundleStrategy_CreatePoolableInstance_
+  commentId: Overload:Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.CreatePoolableInstance
+  nameWithType: OsgiBundleStrategy.CreatePoolableInstance
 - uid: Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.IsBridgeAbstract
   name: IsBridgeAbstract
   href: api/Org.Codehaus.Plexus.Classworlds.Strategy.OsgiBundleStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_OsgiBundleStrategy_IsBridgeAbstract
@@ -8694,15 +8627,6 @@ references:
   commentId: T:Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy
   fullName: Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy
   nameWithType: ParentFirstStrategy
-- uid: Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.#ctor
-  name: ParentFirstStrategy()
-  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_ParentFirstStrategy__ctor
-  commentId: M:Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.#ctor
-  name.vb: New()
-  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.ParentFirstStrategy()
-  fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.New()
-  nameWithType: ParentFirstStrategy.ParentFirstStrategy()
-  nameWithType.vb: ParentFirstStrategy.New()
 - uid: Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   name: ParentFirstStrategy(IJVMBridgeBaseInitializer)
   href: api/Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_ParentFirstStrategy__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
@@ -8721,15 +8645,6 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.New(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm)
   nameWithType: ParentFirstStrategy.ParentFirstStrategy(ClassRealm)
   nameWithType.vb: ParentFirstStrategy.New(ClassRealm)
-- uid: Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.#ctor(System.Object[])
-  name: ParentFirstStrategy(params object[])
-  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_ParentFirstStrategy__ctor_System_Object___
-  commentId: M:Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.ParentFirstStrategy(params object[])
-  fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.New(ParamArray Object())
-  nameWithType: ParentFirstStrategy.ParentFirstStrategy(params object[])
-  nameWithType.vb: ParentFirstStrategy.New(ParamArray Object())
 - uid: Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.#ctor*
   name: ParentFirstStrategy
   href: api/Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_ParentFirstStrategy__ctor_
@@ -8753,6 +8668,19 @@ references:
   isSpec: "True"
   fullName: Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.BridgeClassName
   nameWithType: ParentFirstStrategy.BridgeClassName
+- uid: Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.CreatePoolableInstance(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm)
+  name: CreatePoolableInstance(ClassRealm)
+  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_ParentFirstStrategy_CreatePoolableInstance_Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.CreatePoolableInstance(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm)
+  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.CreatePoolableInstance(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm)
+  nameWithType: ParentFirstStrategy.CreatePoolableInstance(ClassRealm)
+- uid: Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_ParentFirstStrategy_CreatePoolableInstance_
+  commentId: Overload:Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.CreatePoolableInstance
+  nameWithType: ParentFirstStrategy.CreatePoolableInstance
 - uid: Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.IsBridgeAbstract
   name: IsBridgeAbstract
   href: api/Org.Codehaus.Plexus.Classworlds.Strategy.ParentFirstStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_ParentFirstStrategy_IsBridgeAbstract
@@ -8811,15 +8739,6 @@ references:
   commentId: T:Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy
   fullName: Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy
   nameWithType: SelfFirstStrategy
-- uid: Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.#ctor
-  name: SelfFirstStrategy()
-  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_SelfFirstStrategy__ctor
-  commentId: M:Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.#ctor
-  name.vb: New()
-  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.SelfFirstStrategy()
-  fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.New()
-  nameWithType: SelfFirstStrategy.SelfFirstStrategy()
-  nameWithType.vb: SelfFirstStrategy.New()
 - uid: Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   name: SelfFirstStrategy(IJVMBridgeBaseInitializer)
   href: api/Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_SelfFirstStrategy__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
@@ -8838,15 +8757,6 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.New(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm)
   nameWithType: SelfFirstStrategy.SelfFirstStrategy(ClassRealm)
   nameWithType.vb: SelfFirstStrategy.New(ClassRealm)
-- uid: Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.#ctor(System.Object[])
-  name: SelfFirstStrategy(params object[])
-  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_SelfFirstStrategy__ctor_System_Object___
-  commentId: M:Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.SelfFirstStrategy(params object[])
-  fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.New(ParamArray Object())
-  nameWithType: SelfFirstStrategy.SelfFirstStrategy(params object[])
-  nameWithType.vb: SelfFirstStrategy.New(ParamArray Object())
 - uid: Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.#ctor*
   name: SelfFirstStrategy
   href: api/Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_SelfFirstStrategy__ctor_
@@ -8870,6 +8780,19 @@ references:
   isSpec: "True"
   fullName: Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.BridgeClassName
   nameWithType: SelfFirstStrategy.BridgeClassName
+- uid: Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.CreatePoolableInstance(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm)
+  name: CreatePoolableInstance(ClassRealm)
+  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_SelfFirstStrategy_CreatePoolableInstance_Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm_
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.CreatePoolableInstance(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm)
+  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.CreatePoolableInstance(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm)
+  nameWithType: SelfFirstStrategy.CreatePoolableInstance(ClassRealm)
+- uid: Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_SelfFirstStrategy_CreatePoolableInstance_
+  commentId: Overload:Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.CreatePoolableInstance
+  nameWithType: SelfFirstStrategy.CreatePoolableInstance
 - uid: Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.IsBridgeAbstract
   name: IsBridgeAbstract
   href: api/Org.Codehaus.Plexus.Classworlds.Strategy.SelfFirstStrategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_SelfFirstStrategy_IsBridgeAbstract
@@ -8928,15 +8851,6 @@ references:
   commentId: T:Org.Codehaus.Plexus.Classworlds.Strategy.Strategy
   fullName: Org.Codehaus.Plexus.Classworlds.Strategy.Strategy
   nameWithType: Strategy
-- uid: Org.Codehaus.Plexus.Classworlds.Strategy.Strategy.#ctor
-  name: Strategy()
-  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.Strategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_Strategy__ctor
-  commentId: M:Org.Codehaus.Plexus.Classworlds.Strategy.Strategy.#ctor
-  name.vb: New()
-  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.Strategy.Strategy()
-  fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.Strategy.New()
-  nameWithType: Strategy.Strategy()
-  nameWithType.vb: Strategy.New()
 - uid: Org.Codehaus.Plexus.Classworlds.Strategy.Strategy.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   name: Strategy(IJVMBridgeBaseInitializer)
   href: api/Org.Codehaus.Plexus.Classworlds.Strategy.Strategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_Strategy__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
@@ -8946,15 +8860,6 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.Strategy.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: Strategy.Strategy(IJVMBridgeBaseInitializer)
   nameWithType.vb: Strategy.New(IJVMBridgeBaseInitializer)
-- uid: Org.Codehaus.Plexus.Classworlds.Strategy.Strategy.#ctor(System.Object[])
-  name: Strategy(params object[])
-  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.Strategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_Strategy__ctor_System_Object___
-  commentId: M:Org.Codehaus.Plexus.Classworlds.Strategy.Strategy.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.Strategy.Strategy(params object[])
-  fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.Strategy.New(ParamArray Object())
-  nameWithType: Strategy.Strategy(params object[])
-  nameWithType.vb: Strategy.New(ParamArray Object())
 - uid: Org.Codehaus.Plexus.Classworlds.Strategy.Strategy.#ctor*
   name: Strategy
   href: api/Org.Codehaus.Plexus.Classworlds.Strategy.Strategy.html#Org_Codehaus_Plexus_Classworlds_Strategy_Strategy__ctor_
@@ -9106,15 +9011,6 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: StrategyFactory.StrategyFactory(IJVMBridgeBaseInitializer)
   nameWithType.vb: StrategyFactory.New(IJVMBridgeBaseInitializer)
-- uid: Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.#ctor(System.Object[])
-  name: StrategyFactory(params object[])
-  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.html#Org_Codehaus_Plexus_Classworlds_Strategy_StrategyFactory__ctor_System_Object___
-  commentId: M:Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.StrategyFactory(params object[])
-  fullName.vb: Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.New(ParamArray Object())
-  nameWithType: StrategyFactory.StrategyFactory(params object[])
-  nameWithType.vb: StrategyFactory.New(ParamArray Object())
 - uid: Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.#ctor*
   name: StrategyFactory
   href: api/Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.html#Org_Codehaus_Plexus_Classworlds_Strategy_StrategyFactory__ctor_
@@ -9138,6 +9034,19 @@ references:
   isSpec: "True"
   fullName: Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.BridgeClassName
   nameWithType: StrategyFactory.BridgeClassName
+- uid: Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.CreatePoolableInstance
+  name: CreatePoolableInstance()
+  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.html#Org_Codehaus_Plexus_Classworlds_Strategy_StrategyFactory_CreatePoolableInstance
+  commentId: M:Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.CreatePoolableInstance
+  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.CreatePoolableInstance()
+  nameWithType: StrategyFactory.CreatePoolableInstance()
+- uid: Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.html#Org_Codehaus_Plexus_Classworlds_Strategy_StrategyFactory_CreatePoolableInstance_
+  commentId: Overload:Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.CreatePoolableInstance
+  nameWithType: StrategyFactory.CreatePoolableInstance
 - uid: Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.GetStrategy(Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm)
   name: GetStrategy(ClassRealm)
   href: api/Org.Codehaus.Plexus.Classworlds.Strategy.StrategyFactory.html#Org_Codehaus_Plexus_Classworlds_Strategy_StrategyFactory_GetStrategy_Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm_
@@ -9233,15 +9142,6 @@ references:
   fullName.vb: Org.Codehaus.Plexus.Classworlds.UrlUtils.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   nameWithType: UrlUtils.UrlUtils(IJVMBridgeBaseInitializer)
   nameWithType.vb: UrlUtils.New(IJVMBridgeBaseInitializer)
-- uid: Org.Codehaus.Plexus.Classworlds.UrlUtils.#ctor(System.Object[])
-  name: UrlUtils(params object[])
-  href: api/Org.Codehaus.Plexus.Classworlds.UrlUtils.html#Org_Codehaus_Plexus_Classworlds_UrlUtils__ctor_System_Object___
-  commentId: M:Org.Codehaus.Plexus.Classworlds.UrlUtils.#ctor(System.Object[])
-  name.vb: New(ParamArray Object())
-  fullName: Org.Codehaus.Plexus.Classworlds.UrlUtils.UrlUtils(params object[])
-  fullName.vb: Org.Codehaus.Plexus.Classworlds.UrlUtils.New(ParamArray Object())
-  nameWithType: UrlUtils.UrlUtils(params object[])
-  nameWithType.vb: UrlUtils.New(ParamArray Object())
 - uid: Org.Codehaus.Plexus.Classworlds.UrlUtils.#ctor*
   name: UrlUtils
   href: api/Org.Codehaus.Plexus.Classworlds.UrlUtils.html#Org_Codehaus_Plexus_Classworlds_UrlUtils__ctor_
@@ -9265,6 +9165,19 @@ references:
   isSpec: "True"
   fullName: Org.Codehaus.Plexus.Classworlds.UrlUtils.BridgeClassName
   nameWithType: UrlUtils.BridgeClassName
+- uid: Org.Codehaus.Plexus.Classworlds.UrlUtils.CreatePoolableInstance
+  name: CreatePoolableInstance()
+  href: api/Org.Codehaus.Plexus.Classworlds.UrlUtils.html#Org_Codehaus_Plexus_Classworlds_UrlUtils_CreatePoolableInstance
+  commentId: M:Org.Codehaus.Plexus.Classworlds.UrlUtils.CreatePoolableInstance
+  fullName: Org.Codehaus.Plexus.Classworlds.UrlUtils.CreatePoolableInstance()
+  nameWithType: UrlUtils.CreatePoolableInstance()
+- uid: Org.Codehaus.Plexus.Classworlds.UrlUtils.CreatePoolableInstance*
+  name: CreatePoolableInstance
+  href: api/Org.Codehaus.Plexus.Classworlds.UrlUtils.html#Org_Codehaus_Plexus_Classworlds_UrlUtils_CreatePoolableInstance_
+  commentId: Overload:Org.Codehaus.Plexus.Classworlds.UrlUtils.CreatePoolableInstance
+  isSpec: "True"
+  fullName: Org.Codehaus.Plexus.Classworlds.UrlUtils.CreatePoolableInstance
+  nameWithType: UrlUtils.CreatePoolableInstance
 - uid: Org.Codehaus.Plexus.Classworlds.UrlUtils.GetURLs(Java.Net.URLClassLoader)
   name: GetURLs(URLClassLoader)
   href: api/Org.Codehaus.Plexus.Classworlds.UrlUtils.html#Org_Codehaus_Plexus_Classworlds_UrlUtils_GetURLs_Java_Net_URLClassLoader_
