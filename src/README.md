@@ -26,12 +26,12 @@ The configuration is:
   "DisableInterfaceMethodGeneration": true,
   "CreateInterfaceInheritance": true,
   "JarList": [
-    "maven-embedder-3.9.14.jar"
+    "maven-embedder-3.9.16.jar"
   ],
   "OriginJavadocJARVersionAndUrls": [
     {
       "Version": 11,
-      "Url": "https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.14/"
+      "Url": "https://www.javadoc.io/doc/org.apache.maven/maven-embedder/3.9.16/"
     }
   ],
   "NamespacesToAvoid": [
