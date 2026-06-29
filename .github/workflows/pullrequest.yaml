@@ -16,9 +16,6 @@ concurrency:
   group: '${{ github.workflow }} @ ${{ github.event.pull_request.head.label || github.head_ref || github.ref }}'
   cancel-in-progress: true
 
-env:
-  MAVEN_RELEASE: 3.9.16
-
 jobs:
   # Verify if a build is needed
   check_changes:
@@ -82,7 +79,8 @@ jobs:
             9.x
             10.x
 
-      - uses: ./.github/actions/setup-maven
+      - name: Prepare Maven
+        uses: ./.github/actions/setup-maven
 
       - uses: actions/setup-dotnet@v5
         with:
@@ -132,7 +130,8 @@ jobs:
             9.x
             10.x
 
-      - uses: ./.github/actions/setup-maven
+      - name: Prepare Maven
+        uses: ./.github/actions/setup-maven
 
     #  - name: Pre compile tests
     #    run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" tests\net\NavenTest.sln

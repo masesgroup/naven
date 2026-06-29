@@ -115,7 +115,8 @@ jobs:
             9.x
             10.x
 
-      - uses: ./.github/actions/setup-maven
+      - name: Prepare Maven
+        uses: ./.github/actions/setup-maven
 
       - name: Get last workflow run of JNet
         if: ${{ inputs.UseLastRepositoryBuild == true }}
@@ -230,7 +231,8 @@ jobs:
             9.x
             10.x
 
-      - uses: ./.github/actions/setup-maven
+      - name: Prepare Maven
+        uses: ./.github/actions/setup-maven
 
       - uses: actions/setup-dotnet@v5
         with:
