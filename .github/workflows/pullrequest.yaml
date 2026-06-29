@@ -82,42 +82,7 @@ jobs:
             9.x
             10.x
 
-      - uses: actions/cache/restore@v6
-        id: cache
-        with:
-          lookup-only: true
-          enableCrossOsArchive: true
-          path: ./jars/
-          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
-
-      - name: Download apache-maven-${{ env.MAVEN_RELEASE }}-bin
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: wget https://archive.apache.org/dist/maven/maven-3/${{ env.MAVEN_RELEASE }}/binaries/apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip
-
-      - name: Expand apache-maven-${{ env.MAVEN_RELEASE }}-bin
-        if: steps.cache.outputs.cache-hit != 'true'
-        shell: pwsh
-        run: Expand-Archive -LiteralPath '.\apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip' -DestinationPath .\ -Force
-    
-      - name: Rename apache-maven-${{ env.MAVEN_RELEASE }}-bin
-        if: steps.cache.outputs.cache-hit != 'true'
-        shell: pwsh
-        run: Rename-Item -path ".\apache-maven-${{ env.MAVEN_RELEASE }}" -NewName "jars"
-
-      - name: Upload artifacts
-        if: steps.cache.outputs.cache-hit != 'true'
-        uses: actions/cache/save@v6
-        with:
-          enableCrossOsArchive: true
-          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
-          path: ./jars/
-
-      - uses: actions/cache/restore@v6
-        if: steps.cache.outputs.cache-hit == 'true'
-        with:
-          enableCrossOsArchive: true
-          path: ./jars/
-          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
+      - uses: ./.github/actions/setup-maven
 
       - uses: actions/setup-dotnet@v5
         with:
@@ -167,40 +132,7 @@ jobs:
             9.x
             10.x
 
-      - uses: actions/cache/restore@v6
-        id: cache
-        with:
-          lookup-only: true
-          enableCrossOsArchive: true
-          path: ./jars/
-          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
-
-      - name: Download apache-maven-${{ env.MAVEN_RELEASE }}-bin
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: C:\msys64\usr\bin\wget.exe https://archive.apache.org/dist/maven/maven-3/${{ env.MAVEN_RELEASE }}/binaries/apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip
-
-      - name: Expand apache-maven-${{ env.MAVEN_RELEASE }}-bin
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: Expand-Archive -LiteralPath '.\apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip' -DestinationPath .\ -Force
-    
-      - name: Rename apache-maven-${{ env.MAVEN_RELEASE }}-bin
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: Rename-Item -path ".\apache-maven-${{ env.MAVEN_RELEASE }}" -NewName "jars"
-
-      - name: Upload artifacts
-        if: steps.cache.outputs.cache-hit != 'true'
-        uses: actions/cache/save@v6
-        with:
-          enableCrossOsArchive: true
-          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
-          path: ./jars/
-
-      - uses: actions/cache/restore@v6
-        if: steps.cache.outputs.cache-hit == 'true'
-        with:
-          enableCrossOsArchive: true
-          path: ./jars/
-          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
+      - uses: ./.github/actions/setup-maven
 
     #  - name: Pre compile tests
     #    run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" tests\net\NavenTest.sln

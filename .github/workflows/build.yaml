@@ -35,9 +35,6 @@ concurrency:
   group: '${{ github.workflow }} @ ${{ github.event.pull_request.head.label || github.head_ref || github.ref }}'
   cancel-in-progress: true
 
-env:
-  MAVEN_RELEASE: 3.9.16
-
 # This workflow contains two jobs called "check_changes", "build_windows"
 jobs:
   # Verify if a build is needed
@@ -118,40 +115,7 @@ jobs:
             9.x
             10.x
 
-      - uses: actions/cache/restore@v6
-        id: cache
-        with:
-          lookup-only: true
-          enableCrossOsArchive: true
-          path: ./jars/
-          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
-
-      - name: Download apache-maven-${{ env.MAVEN_RELEASE }}-bin
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: C:\msys64\usr\bin\wget.exe https://archive.apache.org/dist/maven/maven-3/${{ env.MAVEN_RELEASE }}/binaries/apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip
-
-      - name: Expand apache-maven-${{ env.MAVEN_RELEASE }}-bin
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: Expand-Archive -LiteralPath '.\apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip' -DestinationPath .\ -Force
-    
-      - name: Rename apache-maven-${{ env.MAVEN_RELEASE }}-bin
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: Rename-Item -path ".\apache-maven-${{ env.MAVEN_RELEASE }}" -NewName "jars"
-
-      - name: Upload artifacts
-        if: steps.cache.outputs.cache-hit != 'true'
-        uses: actions/cache/save@v6
-        with:
-          enableCrossOsArchive: true
-          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
-          path: ./jars/
-
-      - uses: actions/cache/restore@v6
-        if: steps.cache.outputs.cache-hit == 'true'
-        with:
-          enableCrossOsArchive: true
-          path: ./jars/
-          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
+      - uses: ./.github/actions/setup-maven
 
       - name: Get last workflow run of JNet
         if: ${{ inputs.UseLastRepositoryBuild == true }}
@@ -266,44 +230,7 @@ jobs:
             9.x
             10.x
 
-      - uses: actions/cache/restore@v6
-        id: cache
-        with:
-          lookup-only: true
-          enableCrossOsArchive: true
-          path: ./jars/
-          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
-
-      - name: Download apache-maven-${{ env.MAVEN_RELEASE }}-bin
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: wget https://archive.apache.org/dist/maven/maven-3/${{ env.MAVEN_RELEASE }}/binaries/apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip
-
-      - name: Expand apache-maven-${{ env.MAVEN_RELEASE }}-bin
-        if: steps.cache.outputs.cache-hit != 'true'
-        shell: pwsh
-        run: |
-          Expand-Archive -LiteralPath '.\apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip' -DestinationPath .\ -Force
-    
-      - name: Rename apache-maven-${{ env.MAVEN_RELEASE }}-bin
-        if: steps.cache.outputs.cache-hit != 'true'
-        shell: pwsh
-        run: |
-          Rename-Item -path ".\apache-maven-${{ env.MAVEN_RELEASE }}" -NewName "jars"
-
-      - name: Upload artifacts
-        if: steps.cache.outputs.cache-hit != 'true'
-        uses: actions/cache/save@v6
-        with:
-          enableCrossOsArchive: true
-          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
-          path: ./jars/
-
-      - uses: actions/cache/restore@v6
-        if: steps.cache.outputs.cache-hit == 'true'
-        with:
-          enableCrossOsArchive: true
-          path: ./jars/
-          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
+      - uses: ./.github/actions/setup-maven
 
       - uses: actions/setup-dotnet@v5
         with:
