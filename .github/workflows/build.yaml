@@ -128,7 +128,7 @@ jobs:
 
       - name: Download apache-maven-${{ env.MAVEN_RELEASE }}-bin
         if: steps.cache.outputs.cache-hit != 'true'
-        run: C:\msys64\usr\bin\wget.exe https://dlcdn.apache.org/maven/maven-3/${{ env.MAVEN_RELEASE }}/binaries/apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip
+        run: C:\msys64\usr\bin\wget.exe https://archive.apache.org/dist/maven/maven-3/${{ env.MAVEN_RELEASE }}/binaries/apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip
 
       - name: Expand apache-maven-${{ env.MAVEN_RELEASE }}-bin
         if: steps.cache.outputs.cache-hit != 'true'
@@ -276,7 +276,7 @@ jobs:
 
       - name: Download apache-maven-${{ env.MAVEN_RELEASE }}-bin
         if: steps.cache.outputs.cache-hit != 'true'
-        run: wget https://dlcdn.apache.org/maven/maven-3/${{ env.MAVEN_RELEASE }}/binaries/apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip
+        run: wget https://archive.apache.org/dist/maven/maven-3/${{ env.MAVEN_RELEASE }}/binaries/apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip
 
       - name: Expand apache-maven-${{ env.MAVEN_RELEASE }}-bin
         if: steps.cache.outputs.cache-hit != 'true'
@@ -591,6 +591,13 @@ jobs:
         run: |
           Install-Module MASES.NavenPS -Repository Local_Nuget_Feed
           ${{ github.workspace }}/tests/scripts/NavenPSTest.ps1 -Verbose -f ${{ github.workspace }}/src/jvm/naven/pom.xml --no-transfer-progress package
+
+      - name: Disable CET for pwsh process
+        if: ${{ matrix.os == 'windows-latest' }}
+        shell: pwsh
+        run: |
+          reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\pwsh.exe" /v MitigationOptions /t REG_BINARY /d "0000000000000000000000000000002000" /f
+          Get-ProcessMitigation -Name "pwsh.exe"
 
       - if: ${{ matrix.os == 'windows-latest' }}
         continue-on-error: ${{ inputs.ForceContinueOnError == true }}
