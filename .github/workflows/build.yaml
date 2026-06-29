@@ -128,7 +128,7 @@ jobs:
 
       - name: Download apache-maven-${{ env.MAVEN_RELEASE }}-bin
         if: steps.cache.outputs.cache-hit != 'true'
-        run: C:\msys64\usr\bin\wget.exe https://dlcdn.apache.org/maven/maven-3/${{ env.MAVEN_RELEASE }}/binaries/apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip
+        run: C:\msys64\usr\bin\wget.exe https://archive.apache.org/dist/maven/maven-3/${{ env.MAVEN_RELEASE }}/binaries/apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip
 
       - name: Expand apache-maven-${{ env.MAVEN_RELEASE }}-bin
         if: steps.cache.outputs.cache-hit != 'true'
@@ -276,7 +276,7 @@ jobs:
 
       - name: Download apache-maven-${{ env.MAVEN_RELEASE }}-bin
         if: steps.cache.outputs.cache-hit != 'true'
-        run: wget https://dlcdn.apache.org/maven/maven-3/${{ env.MAVEN_RELEASE }}/binaries/apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip
+        run: wget https://archive.apache.org/dist/maven/maven-3/${{ env.MAVEN_RELEASE }}/binaries/apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip
 
       - name: Expand apache-maven-${{ env.MAVEN_RELEASE }}-bin
         if: steps.cache.outputs.cache-hit != 'true'
