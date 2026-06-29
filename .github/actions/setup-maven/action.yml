@@ -1,0 +1,64 @@
+name: 'Setup Apache Maven'
+description: 'Downloads and caches Apache Maven, works on Windows, Linux and macOS'
+
+inputs:
+  maven-version:
+    description: 'Maven version to set up'
+    required: false
+    default: '3.9.16'
+
+outputs:
+  maven-home:
+    description: 'Path to the Maven installation'
+    value: ${{ steps.set-output.outputs.maven-home }}
+
+runs:
+  using: "composite"
+  steps:
+    - uses: actions/cache/restore@v6
+      id: cache
+      with:
+        lookup-only: true
+        enableCrossOsArchive: true
+        path: ./jars/
+        key: Apache_Maven_${{ inputs.maven-version }}
+
+    - name: Download apache-maven-${{ inputs.maven-version }}-bin (Windows)
+      if: steps.cache.outputs.cache-hit != 'true' && runner.os == 'Windows'
+      shell: pwsh
+      run: C:\msys64\usr\bin\wget.exe https://archive.apache.org/dist/maven/maven-3/${{ inputs.maven-version }}/binaries/apache-maven-${{ inputs.maven-version }}-bin.zip
+
+    - name: Download apache-maven-${{ inputs.maven-version }}-bin (Linux/macOS)
+      if: steps.cache.outputs.cache-hit != 'true' && runner.os != 'Windows'
+      shell: bash
+      run: wget https://archive.apache.org/dist/maven/maven-3/${{ inputs.maven-version }}/binaries/apache-maven-${{ inputs.maven-version }}-bin.zip
+
+    - name: Expand apache-maven-${{ inputs.maven-version }}-bin
+      if: steps.cache.outputs.cache-hit != 'true'
+      shell: pwsh
+      run: Expand-Archive -LiteralPath './apache-maven-${{ inputs.maven-version }}-bin.zip' -DestinationPath ./ -Force
+
+    - name: Rename apache-maven-${{ inputs.maven-version }}-bin
+      if: steps.cache.outputs.cache-hit != 'true'
+      shell: pwsh
+      run: Rename-Item -Path "./apache-maven-${{ inputs.maven-version }}" -NewName "jars"
+
+    - name: Save to cache
+      if: steps.cache.outputs.cache-hit != 'true'
+      uses: actions/cache/save@v6
+      with:
+        enableCrossOsArchive: true
+        key: Apache_Maven_${{ inputs.maven-version }}
+        path: ./jars/
+
+    - uses: actions/cache/restore@v6
+      if: steps.cache.outputs.cache-hit == 'true'
+      with:
+        enableCrossOsArchive: true
+        path: ./jars/
+        key: Apache_Maven_${{ inputs.maven-version }}
+
+    - name: Set output
+      id: set-output
+      shell: bash
+      run: echo "maven-home=${{ github.workspace }}/jars" >> $GITHUB_OUTPUT
