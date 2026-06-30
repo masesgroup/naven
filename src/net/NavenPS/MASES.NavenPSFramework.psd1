@@ -10,7 +10,7 @@
 ModuleToProcess = 'MASES.NavenPS.dll'
 
 # Version number of this module.
-ModuleVersion = '3.9.4'
+ModuleVersion = '3.9.5'
 
 # ID used to uniquely identify this module
 GUID = '2CC874D6-ADDF-409A-BE3F-E7BF88C98906'
@@ -91,6 +91,8 @@ FileList = ''
 PrivateData = @{
 
     PSData = @{
+
+        Prerelease = ''
 
         Tags = @('NavenPS', 'Naven', 'PSEdition_Core', 'PSEdition_Desktop', 'Windows', 'Linux', 'JVM', 'Java', 'Apache_Maven', 'Maven', 'bridge', 'gateway')
 

@@ -8,7 +8,7 @@
 
 RootModule = 'MASES.NavenPS.psm1'
 
-ModuleVersion = '3.9.4'
+ModuleVersion = '3.9.5'
 
 CompatiblePSEditions = 'Desktop', 'Core'
 
@@ -70,6 +70,8 @@ AliasesToExport = @()
 PrivateData = @{
 
     PSData = @{
+
+        Prerelease = ''
 
         Tags = @('NavenPS', 'Naven', 'PSEdition_Core', 'PSEdition_Desktop', 'Windows', 'Linux', 'JVM', 'Java', 'Apache_Maven', 'Maven', 'bridge', 'gateway')
 

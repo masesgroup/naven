@@ -43,9 +43,9 @@
 		<maven.compiler.target>${java.version}</maven.compiler.target>
 		<classpathfile>${basedir}/classpathfile.classpath</classpathfile>
 		<mavenSkipMain>false</mavenSkipMain> <!-- set mavenSkipMain to true to avoid source compilation: use directive in command-line -->
-		<jnetVersion>2.6.6.0</jnetVersion>
-		<classworldsVersion>2.9.0</classworldsVersion>
-		<navenversion>3.9.4.0</navenversion>
+		<jnetVersion>2.6.9.0</jnetVersion>
+		<classworldsVersion>2.11.0</classworldsVersion>
+		<navenversion>3.9.5.0</navenversion>
 		<rootDir>${basedir}/../../../</rootDir>
 		<jcobridgepath>${rootDir}/bin/net8.0/JCOBridge.jar</jcobridgepath>
 		<jnetpath>${rootDir}/bin/net8.0/jars/jnet-${jnetVersion}.jar</jnetpath>
@@ -69,7 +69,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-dependency-plugin</artifactId>
-				<version>3.10.0</version>
+				<version>3.11.0</version>
 				<executions>
 					<execution>
 						<id>build-classpath</id>
@@ -245,7 +245,7 @@ project.properties.originalClassPath = file.getText()
 			<scope>compile</scope>
 			<groupId>org.apache.groovy</groupId>
 			<artifactId>groovy</artifactId>
-			<version>5.0.5</version>
+			<version>5.0.6</version>
 		</dependency>
 	</dependencies>
 </project>

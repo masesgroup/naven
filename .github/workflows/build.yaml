@@ -35,9 +35,6 @@ concurrency:
   group: '${{ github.workflow }} @ ${{ github.event.pull_request.head.label || github.head_ref || github.ref }}'
   cancel-in-progress: true
 
-env:
-  MAVEN_RELEASE: 3.9.14
-
 # This workflow contains two jobs called "check_changes", "build_windows"
 jobs:
   # Verify if a build is needed
@@ -107,7 +104,7 @@ jobs:
         run: git config --system core.longpaths true
       
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           fetch-depth: '1'
           submodules: 'true'
@@ -118,40 +115,8 @@ jobs:
             9.x
             10.x
 
-      - uses: actions/cache/restore@v5
-        id: cache
-        with:
-          lookup-only: true
-          enableCrossOsArchive: true
-          path: ./jars/
-          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
-
-      - name: Download apache-maven-${{ env.MAVEN_RELEASE }}-bin
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: C:\msys64\usr\bin\wget.exe https://dlcdn.apache.org/maven/maven-3/${{ env.MAVEN_RELEASE }}/binaries/apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip
-
-      - name: Expand apache-maven-${{ env.MAVEN_RELEASE }}-bin
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: Expand-Archive -LiteralPath '.\apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip' -DestinationPath .\ -Force
-    
-      - name: Rename apache-maven-${{ env.MAVEN_RELEASE }}-bin
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: Rename-Item -path ".\apache-maven-${{ env.MAVEN_RELEASE }}" -NewName "jars"
-
-      - name: Upload artifacts
-        if: steps.cache.outputs.cache-hit != 'true'
-        uses: actions/cache/save@v5
-        with:
-          enableCrossOsArchive: true
-          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
-          path: ./jars/
-
-      - uses: actions/cache/restore@v5
-        if: steps.cache.outputs.cache-hit == 'true'
-        with:
-          enableCrossOsArchive: true
-          path: ./jars/
-          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
+      - name: Prepare Maven
+        uses: ./.github/actions/setup-maven
 
       - name: Get last workflow run of JNet
         if: ${{ inputs.UseLastRepositoryBuild == true }}
@@ -194,7 +159,7 @@ jobs:
       - name: Compile NavenPS
         run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src\net\NavenPS\NavenPS.csproj
 
-      - uses: nuget/setup-nuget@v3.0.0
+      - uses: nuget/setup-nuget@v4
         with:
           nuget-version: '5.x'
           
@@ -226,7 +191,7 @@ jobs:
           path: .\bin\*nupkg
 
       - name: Save Naven bin in cache
-        uses: actions/cache/save@v5
+        uses: actions/cache/save@v6
         with:
           enableCrossOsArchive: true
           path: |
@@ -255,7 +220,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:    
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           fetch-depth: '1'
           submodules: 'true'
@@ -266,44 +231,8 @@ jobs:
             9.x
             10.x
 
-      - uses: actions/cache/restore@v5
-        id: cache
-        with:
-          lookup-only: true
-          enableCrossOsArchive: true
-          path: ./jars/
-          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
-
-      - name: Download apache-maven-${{ env.MAVEN_RELEASE }}-bin
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: wget https://dlcdn.apache.org/maven/maven-3/${{ env.MAVEN_RELEASE }}/binaries/apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip
-
-      - name: Expand apache-maven-${{ env.MAVEN_RELEASE }}-bin
-        if: steps.cache.outputs.cache-hit != 'true'
-        shell: pwsh
-        run: |
-          Expand-Archive -LiteralPath '.\apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip' -DestinationPath .\ -Force
-    
-      - name: Rename apache-maven-${{ env.MAVEN_RELEASE }}-bin
-        if: steps.cache.outputs.cache-hit != 'true'
-        shell: pwsh
-        run: |
-          Rename-Item -path ".\apache-maven-${{ env.MAVEN_RELEASE }}" -NewName "jars"
-
-      - name: Upload artifacts
-        if: steps.cache.outputs.cache-hit != 'true'
-        uses: actions/cache/save@v5
-        with:
-          enableCrossOsArchive: true
-          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
-          path: ./jars/
-
-      - uses: actions/cache/restore@v5
-        if: steps.cache.outputs.cache-hit == 'true'
-        with:
-          enableCrossOsArchive: true
-          path: ./jars/
-          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
+      - name: Prepare Maven
+        uses: ./.github/actions/setup-maven
 
       - uses: actions/setup-dotnet@v5
         with:
@@ -389,7 +318,7 @@ jobs:
       DOTNET_CreateDumpDiagnostics: ${{ inputs.EnableProcessDump }}
       DOTNET_CreateDumpVerboseDiagnostics: ${{ inputs.EnableProcessDump }}
       DOTNET_EnableCrashReport: ${{ inputs.EnableProcessDump }}
-      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_6 }}
+      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_9 }}
     
     steps:
       # Runs a set of commands using the runners shell
@@ -399,13 +328,13 @@ jobs:
         run: git config --system core.longpaths true
       
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           fetch-depth: '1'
           submodules: 'true'
 
       - name: Restore Naven bin from cache
-        uses: actions/cache/restore@v5
+        uses: actions/cache/restore@v6
         with:
           fail-on-cache-miss: true
           enableCrossOsArchive: true
@@ -522,7 +451,7 @@ jobs:
       DOTNET_CreateDumpDiagnostics: ${{ inputs.EnableProcessDump }}
       DOTNET_CreateDumpVerboseDiagnostics: ${{ inputs.EnableProcessDump }}
       DOTNET_EnableCrashReport: ${{ inputs.EnableProcessDump }}
-      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_6 }}
+      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_9 }}
 
     steps:
       # Runs a set of commands using the runners shell
@@ -532,7 +461,7 @@ jobs:
         run: git config --system core.longpaths true
       
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           fetch-depth: '1'
           submodules: 'true'
@@ -555,7 +484,7 @@ jobs:
           ${{ github.workspace }}\Procdump\procdump.exe -ma -i ${{ github.workspace }}\CrashDumpsDir
 
       - name: Restore Naven bin from cache
-        uses: actions/cache/restore@v5
+        uses: actions/cache/restore@v6
         with:
           fail-on-cache-miss: true
           enableCrossOsArchive: true
@@ -591,6 +520,13 @@ jobs:
         run: |
           Install-Module MASES.NavenPS -Repository Local_Nuget_Feed
           ${{ github.workspace }}/tests/scripts/NavenPSTest.ps1 -Verbose -f ${{ github.workspace }}/src/jvm/naven/pom.xml --no-transfer-progress package
+
+      - name: Disable CET for pwsh process
+        if: ${{ matrix.os == 'windows-latest' }}
+        shell: pwsh
+        run: |
+          reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\pwsh.exe" /v MitigationOptions /t REG_BINARY /d "0000000000000000000000000000002000" /f
+          Get-ProcessMitigation -Name "pwsh.exe"
 
       - if: ${{ matrix.os == 'windows-latest' }}
         continue-on-error: ${{ inputs.ForceContinueOnError == true }}
@@ -639,7 +575,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           fetch-depth: '1'
 

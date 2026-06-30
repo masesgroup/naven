@@ -28,9 +28,6 @@ on:
         default: false
         type: boolean
 
-env:
-  MAVEN_RELEASE: 3.9.14
-
 # This workflow contains one job called "build_documentation"
 jobs:
   build_classes:
@@ -43,8 +40,8 @@ jobs:
       DOTNET_CreateDumpDiagnostics: 1
       DOTNET_CreateDumpVerboseDiagnostics: 1
       DOTNET_EnableCrashReport: 1
-      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_6 }}
-      JNet_Version: 2.6.6
+      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_9 }}
+      JNet_Version: 2.6.9
       
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -54,12 +51,12 @@ jobs:
         run: git config --system core.longpaths true
       
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           fetch-depth: '1'
           submodules: 'true'
 
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         if: ${{ inputs.UseLatestJNetReflectorSource == true }}
         with:
           repository: masesgroup/JNet
@@ -71,40 +68,8 @@ jobs:
             9.x
             10.x
 
-      - uses: actions/cache/restore@v5
-        id: cache
-        with:
-          lookup-only: true
-          enableCrossOsArchive: true
-          path: ./jars/
-          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
-
-      - name: Download apache-maven-${{ env.MAVEN_RELEASE }}-bin
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: C:\msys64\usr\bin\wget.exe https://dlcdn.apache.org/maven/maven-3/${{ env.MAVEN_RELEASE }}/binaries/apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip
-
-      - name: Expand apache-maven-${{ env.MAVEN_RELEASE }}-bin
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: Expand-Archive -LiteralPath '.\apache-maven-${{ env.MAVEN_RELEASE }}-bin.zip' -DestinationPath .\ -Force
-    
-      - name: Rename apache-maven-${{ env.MAVEN_RELEASE }}-bin
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: Rename-Item -path ".\apache-maven-${{ env.MAVEN_RELEASE }}" -NewName "jars"
-
-      - name: Upload artifacts
-        if: steps.cache.outputs.cache-hit != 'true'
-        uses: actions/cache/save@v5
-        with:
-          enableCrossOsArchive: true
-          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
-          path: ./jars/
-
-      - uses: actions/cache/restore@v5
-        if: steps.cache.outputs.cache-hit == 'true'
-        with:
-          enableCrossOsArchive: true
-          path: ./jars/
-          key: Apache_Maven_${{ env.MAVEN_RELEASE }}
+      - name: Prepare Maven
+        uses: ./.github/actions/setup-maven
 
       - name: Pre compile
         run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src\net\Naven\Naven.csproj
@@ -122,7 +87,7 @@ jobs:
         run: mvn "-DmavenSkipMain=true" --file ./src/jvm/naven/pom.xml --no-transfer-progress package
 
       - name: Clear C# generated files
-        run: Remove-Item .\src\net\Naven\Generated\* -Recurse -Force -Exclude README.md
+        run: Remove-Item .\src\net\Naven\Generated\* -Recurse -Force -Exclude README.md,.editorconfig
 
       - name: Clear Java generated files
         run: Remove-Item .\src\jvm\naven\src\main\java\org\mases\naven\generated\* -Recurse -Force -Exclude README.md
@@ -168,7 +133,7 @@ jobs:
 
       - name: Use latest unpublished NuGet of JNetReflector
         if: ${{ inputs.UseLastRepositoryBuild == true && inputs.UseLatestJNetReflectorSource == false }}
-        run: dotnet tool update -g MASES.JNetReflector
+        run: dotnet tool update --prerelease -g MASES.JNetReflector
 
       - name: Download latest published version of JNetReflector
         if: ${{ inputs.UseLastRepositoryBuild == false && inputs.UseLatestJNetReflectorSource == false }}

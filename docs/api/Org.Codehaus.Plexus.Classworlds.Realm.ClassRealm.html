@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class ClassRealm | MASES Group - Naven ">
       <meta name="description" content="This is a descriptive page of Naven, the .NET suite for Apache Maven™">
-      <meta name="description" content="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html">
+      <meta name="description" content="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html">
       <link rel="icon" href="../images/favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm" data-uid="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm" class="text-break">
-Class ClassRealm  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L70"><i class="bi bi-code-slash"></i></a>
+Class ClassRealm  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L63"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,12 @@ Class ClassRealm  <a class="header-action link-secondary" title="View source" hr
   <dl><dt>Assembly</dt><dd>MASES.Naven.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html</a></p>
+  <div class="markdown summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html</a></p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ClassRealm : URLClassLoader, IDynamicMetaObjectProvider, IJVMBridgeCore, IEquatable&lt;IJVMBridgeBase&gt;, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition</code></pre>
+    <pre><code class="lang-csharp hljs">public class ClassRealm : URLClassLoader, IDynamicMetaObjectProvider, IJVMBridgeCore, IEquatable&lt;IJVMBridgeBaseInstance&gt;, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeBaseInstance, IJVMBridgeDefinition</code></pre>
   </div>
 
 
@@ -127,10 +127,11 @@ Class ClassRealm  <a class="header-action link-secondary" title="View source" hr
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeCore.html">IJVMBridgeCore</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInstance.html">IJVMBridgeBaseInstance</a>&gt;</div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseStatic.html">IJVMBridgeBaseStatic</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a></div>
+      <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInstance.html">IJVMBridgeBaseInstance</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html">IJVMBridgeDefinition</a></div>
     </dd>
   </dl>
@@ -145,6 +146,15 @@ Class ClassRealm  <a class="header-action link-secondary" title="View source" hr
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/Java.Net.URLClassLoader.html#Java_Net_URLClassLoader_CreatePoolableInstance_Java_Net_URL___Java_Lang_ClassLoader_Java_Net_URLStreamHandlerFactory_">URLClassLoader.CreatePoolableInstance(URL[], ClassLoader, URLStreamHandlerFactory)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/Java.Net.URLClassLoader.html#Java_Net_URLClassLoader_CreatePoolableInstance_Java_Net_URL___Java_Lang_ClassLoader_">URLClassLoader.CreatePoolableInstance(URL[], ClassLoader)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jnet.masesgroup.com/api/Java.Net.URLClassLoader.html#Java_Net_URLClassLoader_CreatePoolableInstance_Java_Net_URL___">URLClassLoader.CreatePoolableInstance(URL[])</a>
+    </div>
     <div>
       <a class="xref" href="https://jnet.masesgroup.com/api/Java.Net.URLClassLoader.html#Java_Net_URLClassLoader_NewInstance_Java_Net_URL___Java_Lang_ClassLoader_">URLClassLoader.NewInstance(URL[], ClassLoader)</a>
     </div>
@@ -202,381 +212,6 @@ Class ClassRealm  <a class="header-action link-secondary" title="View source" hr
     <div>
       <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.ClassLoader.html#Java_Lang_ClassLoader_Parent">ClassLoader.Parent</a>
     </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SExecute(IJavaType, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SExecuteWithSignature(IJavaType, string, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SExecute(string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SExecuteWithSignature(string, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SExecute&lt;TReturn&gt;(IJavaType, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SExecuteWithSignature&lt;TReturn&gt;(IJavaType, string, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SExecute&lt;TReturn&gt;(string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SExecuteWithSignature&lt;TReturn&gt;(string, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;ClassLoader&gt;.SExecute(Type, IJavaType, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;ClassLoader&gt;.SExecuteWithSignature(Type, IJavaType, string, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;ClassLoader&gt;.SExecute(Type, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;ClassLoader&gt;.SExecuteWithSignature(Type, string, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SExecute&lt;TNewClass, TReturn&gt;(IJavaType, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SExecuteWithSignature&lt;TNewClass, TReturn&gt;(IJavaType, string, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SExecute&lt;TNewClass, TReturn&gt;(string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SExecuteWithSignature&lt;TNewClass, TReturn&gt;(string, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;ClassLoader&gt;.SExecute&lt;TReturn&gt;(Type, IJavaType, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;ClassLoader&gt;.SExecuteWithSignature&lt;TReturn&gt;(Type, IJavaType, string, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;ClassLoader&gt;.SExecute&lt;TReturn&gt;(Type, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;ClassLoader&gt;.SExecuteWithSignature&lt;TReturn&gt;(Type, string, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SExecute&lt;TNewClass, TReturn, TConverter&gt;(IJavaType, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(IJavaType, string, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SExecute&lt;TNewClass, TReturn, TConverter&gt;(string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;ClassLoader&gt;.SExecute&lt;TReturn, TConverter&gt;(Type, IJavaType, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;ClassLoader&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, IJavaType, string, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;ClassLoader&gt;.SExecute&lt;TReturn, TConverter&gt;(Type, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;ClassLoader&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SExecuteArray&lt;TArrayType&gt;(IJavaType, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(IJavaType, string, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SGetField(IJavaType, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SGetField(string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SGetField&lt;TReturn&gt;(IJavaType, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SGetField&lt;TReturn&gt;(string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SGetFieldArray&lt;TReturn&gt;(IJavaType, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SGetFieldArray&lt;TReturn&gt;(string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SSetField(IJavaType, string, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SSetField(string, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SSetField&lt;TValue&gt;(IJavaType, string, TValue)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.SSetField&lt;TValue&gt;(string, TValue)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.IsAssignableFrom(string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_IsAssignableFrom_MASES_JCOBridge_C2JBridge_JVMInterop_IJavaType_">JVMBridgeBase&lt;ClassLoader&gt;.IsAssignableFrom(IJavaType)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_IsAssignableFrom__1">JVMBridgeBase&lt;ClassLoader&gt;.IsAssignableFrom&lt;T&gt;()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase&lt;ClassLoader&gt;.New(params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.NewWithSignature(string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.NewAndWrapsDirect&lt;TNewClass&gt;(string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ClassLoader&gt;.NewWithSignatureAndWrapsDirect&lt;TNewClass&gt;(string, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_Execute__1___0___">JVMBridgeBase&lt;ClassLoader&gt;.Execute&lt;T&gt;(params T[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_DynBridgeClazz">JVMBridgeBase&lt;ClassLoader&gt;.DynBridgeClazz</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_BridgeClazz">JVMBridgeBase&lt;ClassLoader&gt;.BridgeClazz</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ReferenceEqualsJVM_MASES_JCOBridge_C2JBridge_JVMBridgeBase_MASES_JCOBridge_C2JBridge_JVMBridgeBase_">JVMBridgeBase.ReferenceEqualsJVM(JVMBridgeBase, JVMBridgeBase)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">JVMBridgeBase.ClazzOf&lt;TClass&gt;(out Exception, bool)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, out Exception, bool)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_RuntimeClassNameOf__1">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.RuntimeClassNameOf(Type)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ClassNameOf__1">JVMBridgeBase.ClassNameOf&lt;T&gt;()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ClassOf__1">JVMBridgeBase.ClassOf&lt;T&gt;()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_WrapsDirect__1_MASES_JCOBridge_C2JBridge_JVMInterop_IJavaObject_">JVMBridgeBase.WrapsDirect&lt;TNewClass&gt;(IJavaObject)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Wraps__1_MASES_JCOBridge_C2JBridge_JVMInterop_IJavaObject_">JVMBridgeBase.Wraps&lt;TNewClass&gt;(IJavaObject)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps(Type, IJavaObject, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Wraps__2_MASES_JCOBridge_C2JBridge_JVMInterop_IJavaObject_">JVMBridgeBase.Wraps&lt;TNewClass, TReturn&gt;(IJavaObject)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps&lt;TReturn&gt;(Type, IJavaObject, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Wraps__3_MASES_JCOBridge_C2JBridge_JVMInterop_IJavaObject_">JVMBridgeBase.Wraps&lt;TNewClass, TReturn, TConverter&gt;(IJavaObject)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps&lt;TReturn, TConverter&gt;(Type, IJavaObject)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_MonitorEnter">JVMBridgeBase.MonitorEnter()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_MonitorExit">JVMBridgeBase.MonitorExit()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IsInstanceOf(string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsInstanceOf_MASES_JCOBridge_C2JBridge_JVMInterop_IJavaType_">JVMBridgeBase.IsInstanceOf(IJavaType)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsInstanceOf__1">JVMBridgeBase.IsInstanceOf&lt;T&gt;()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_RuntimeIsInstanceOf__1">JVMBridgeBase.RuntimeIsInstanceOf&lt;T&gt;()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_CastTo__1">JVMBridgeBase.CastTo&lt;TNewClass&gt;()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_CastDirect__1">JVMBridgeBase.CastDirect&lt;TNewClass&gt;()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Dispose">JVMBridgeBase.Dispose()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.Dispose(bool)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ToString">JVMBridgeBase.ToString()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Equals_MASES_JCOBridge_C2JBridge_IJVMBridgeBase_">JVMBridgeBase.Equals(IJVMBridgeBase)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_GetHashCode">JVMBridgeBase.GetHashCode()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Notify">JVMBridgeBase.Notify()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_NotifyAll">JVMBridgeBase.NotifyAll()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Wait">JVMBridgeBase.Wait()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">JVMBridgeBase.Wait(long)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">JVMBridgeBase.Wait(long, int)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute(string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature(string, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TReturn&gt;(string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TReturn&gt;(string, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TNewClass, TReturn&gt;(string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn&gt;(string, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TNewClass, TReturn, TConverter&gt;(string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField&lt;TReturn&gt;(string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetFieldArray&lt;TReturn&gt;(string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ISetField(string, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ISetField&lt;TValue&gt;(string, TValue)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Throw&lt;TException&gt;(params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.BiThrow&lt;TException&gt;(params object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_DynBridgeInstance">JVMBridgeBase.DynBridgeInstance</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_BridgeInstance">JVMBridgeBase.BridgeInstance</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeListener">JVMBridgeBase.IsBridgeListener</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trygetmember">DynamicObject.TryGetMember(GetMemberBinder, out object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trysetmember">DynamicObject.TrySetMember(SetMemberBinder, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trydeletemember">DynamicObject.TryDeleteMember(DeleteMemberBinder)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryinvokemember">DynamicObject.TryInvokeMember(InvokeMemberBinder, object[], out object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryconvert">DynamicObject.TryConvert(ConvertBinder, out object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trycreateinstance">DynamicObject.TryCreateInstance(CreateInstanceBinder, object[], out object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryinvoke">DynamicObject.TryInvoke(InvokeBinder, object[], out object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trybinaryoperation">DynamicObject.TryBinaryOperation(BinaryOperationBinder, object, out object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryunaryoperation">DynamicObject.TryUnaryOperation(UnaryOperationBinder, out object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trygetindex">DynamicObject.TryGetIndex(GetIndexBinder, object[], out object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trysetindex">DynamicObject.TrySetIndex(SetIndexBinder, object[], object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trydeleteindex">DynamicObject.TryDeleteIndex(DeleteIndexBinder, object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.getdynamicmembernames">DynamicObject.GetDynamicMemberNames()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.getmetaobject">DynamicObject.GetMetaObject(Expression)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
   </dd></dl>
 
 
@@ -590,39 +225,12 @@ Class ClassRealm  <a class="header-action link-secondary" title="View source" hr
 
   <a id="Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm__ctor_" data-uid="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.#ctor*"></a>
 
-  <h3 id="Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm__ctor" data-uid="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.#ctor">
-  ClassRealm()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L38"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Default constructor: even if the corresponding Java class does not have one, it is mandatory for JCOBridge</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ClassRealm()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm__ctor_" data-uid="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.#ctor*"></a>
-
   <h3 id="Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_" data-uid="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)">
   ClassRealm(IJVMBridgeBaseInitializer)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Internal constructor: used internally from JCOBridge</p>
+  <div class="markdown level1 summary"><p>Initializer used internally by JCOBridge. Do not use directly.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -652,10 +260,10 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
 
   <h3 id="Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm__ctor_Org_Codehaus_Plexus_Classworlds_ClassWorld_Java_Lang_String_Java_Lang_ClassLoader_" data-uid="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.#ctor(Org.Codehaus.Plexus.Classworlds.ClassWorld,Java.Lang.String,Java.Lang.ClassLoader)">
   ClassRealm(ClassWorld, String, ClassLoader)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L72"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#%3Cinit%3E(org.codehaus.plexus.classworlds.ClassWorld,java.lang.String,java.lang.ClassLoader)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#%3Cinit%3E(org.codehaus.plexus.classworlds.ClassWorld,java.lang.String,java.lang.ClassLoader)</a></p>
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#%3Cinit%3E(org.codehaus.plexus.classworlds.ClassWorld,java.lang.String,java.lang.ClassLoader)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#%3Cinit%3E(org.codehaus.plexus.classworlds.ClassWorld,java.lang.String,java.lang.ClassLoader)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -687,38 +295,6 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
 
 
 
-  <a id="Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm__ctor_" data-uid="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.#ctor*"></a>
-
-  <h3 id="Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm__ctor_System_Object___" data-uid="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.#ctor(System.Object[])">
-  ClassRealm(params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L47"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ClassRealm(params object[] args)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
   <h2 class="section" id="properties">Properties
 </h2>
 
@@ -727,7 +303,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
 
   <h3 id="Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm_BridgeClassName" data-uid="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.BridgeClassName">
   BridgeClassName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Java class name to be instantiated</p>
@@ -762,7 +338,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L102"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getId()">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getId()</a></p>
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getId()">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getId()</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -794,7 +370,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L109"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getImportRealms()">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getImportRealms()</a></p>
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getImportRealms()">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getImportRealms()</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -823,7 +399,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
 
   <h3 id="Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm_IsBridgeAbstract" data-uid="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.IsBridgeAbstract">
   IsBridgeAbstract
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L49"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an abstract class, i.e. cannot be created an instance</p>
@@ -855,10 +431,10 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
 
   <h3 id="Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm_IsBridgeCloseable" data-uid="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.IsBridgeCloseable">
   IsBridgeCloseable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L51"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> implements Closeable</p>
+  <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> implements java.lang.AutoCloseable</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -887,7 +463,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
 
   <h3 id="Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm_IsBridgeInterface" data-uid="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.IsBridgeInterface">
   IsBridgeInterface
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an interface, i.e. does not have any public constructor</p>
@@ -919,7 +495,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
 
   <h3 id="Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm_IsBridgeStatic" data-uid="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.IsBridgeStatic">
   IsBridgeStatic
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L55"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is a static class, i.e. does not have any public constructor</p>
@@ -954,7 +530,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L116"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getParentClassLoader()">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getParentClassLoader()</a> <a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#setParentClassLoader(java.lang.ClassLoader)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#setParentClassLoader(java.lang.ClassLoader)</a></p>
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getParentClassLoader()">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getParentClassLoader()</a> <a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#setParentClassLoader(java.lang.ClassLoader)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#setParentClassLoader(java.lang.ClassLoader)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -986,7 +562,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L123"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getParentRealm()">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getParentRealm()</a> <a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#setParentRealm(org.codehaus.plexus.classworlds.realm.ClassRealm)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#setParentRealm(org.codehaus.plexus.classworlds.realm.ClassRealm)</a></p>
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getParentRealm()">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getParentRealm()</a> <a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#setParentRealm(org.codehaus.plexus.classworlds.realm.ClassRealm)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#setParentRealm(org.codehaus.plexus.classworlds.realm.ClassRealm)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1018,7 +594,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L130"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getStrategy()">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getStrategy()</a></p>
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getStrategy()">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getStrategy()</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1050,7 +626,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L137"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getWorld()">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getWorld()</a></p>
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getWorld()">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getWorld()</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1086,7 +662,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L245"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#addURL(java.net.URL)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#addURL(java.net.URL)</a></p>
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#addURL(java.net.URL)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#addURL(java.net.URL)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1119,7 +695,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L237"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#createChildRealm(java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#createChildRealm(java.lang.String)</a></p>
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#createChildRealm(java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#createChildRealm(java.lang.String)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1156,6 +732,47 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
 
 
 
+  <a id="Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm_CreatePoolableInstance_" data-uid="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.CreatePoolableInstance*"></a>
+
+  <h3 id="Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm_CreatePoolableInstance_Org_Codehaus_Plexus_Classworlds_ClassWorld_Java_Lang_String_Java_Lang_ClassLoader_" data-uid="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.CreatePoolableInstance(Org.Codehaus.Plexus.Classworlds.ClassWorld,Java.Lang.String,Java.Lang.ClassLoader)">
+  CreatePoolableInstance(ClassWorld, String, ClassLoader)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>HPA initializer for ClassRealm(Org.Codehaus.Plexus.Classworlds.ClassWorld arg0, Java.Lang.String arg1, Java.Lang.ClassLoader arg2)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ClassRealm CreatePoolableInstance(ClassWorld arg0, String arg1, ClassLoader arg2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="Org.Codehaus.Plexus.Classworlds.ClassWorld.html">ClassWorld</a></dt>
+    <dd></dd>
+    <dt><code>arg1</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.String.html">String</a></dt>
+    <dd></dd>
+    <dt><code>arg2</code> <a class="xref" href="https://jnet.masesgroup.com/api/Java.Lang.ClassLoader.html">ClassLoader</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.html">ClassRealm</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm_Display_" data-uid="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.Display*"></a>
 
   <h3 id="Org_Codehaus_Plexus_Classworlds_Realm_ClassRealm_Display" data-uid="Org.Codehaus.Plexus.Classworlds.Realm.ClassRealm.Display">
@@ -1163,7 +780,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L252"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#display()">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#display()</a></p>
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#display()">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#display()</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1190,7 +807,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L260"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#display(java.io.PrintStream)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#display(java.io.PrintStream)</a></p>
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#display(java.io.PrintStream)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#display(java.io.PrintStream)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1223,7 +840,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L173"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getImportClassLoader(java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getImportClassLoader(java.lang.String)</a></p>
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getImportClassLoader(java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#getImportClassLoader(java.lang.String)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1262,7 +879,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L269"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#importFrom(java.lang.ClassLoader,java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#importFrom(java.lang.ClassLoader,java.lang.String)</a></p>
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#importFrom(java.lang.ClassLoader,java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#importFrom(java.lang.ClassLoader,java.lang.String)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1298,7 +915,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L279"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#importFrom(java.lang.String,java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#importFrom(java.lang.String,java.lang.String)</a></p>
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#importFrom(java.lang.String,java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#importFrom(java.lang.String,java.lang.String)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1339,7 +956,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L287"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#importFromParent(java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#importFromParent(java.lang.String)</a></p>
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#importFromParent(java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#importFromParent(java.lang.String)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1372,7 +989,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L146"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadClassFromImport(java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadClassFromImport(java.lang.String)</a></p>
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadClassFromImport(java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadClassFromImport(java.lang.String)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1411,7 +1028,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L155"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadClassFromParent(java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadClassFromParent(java.lang.String)</a></p>
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadClassFromParent(java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadClassFromParent(java.lang.String)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1450,7 +1067,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L164"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadClassFromSelf(java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadClassFromSelf(java.lang.String)</a></p>
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadClassFromSelf(java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadClassFromSelf(java.lang.String)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1489,7 +1106,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L182"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourceFromImport(java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourceFromImport(java.lang.String)</a></p>
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourceFromImport(java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourceFromImport(java.lang.String)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1528,7 +1145,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L191"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourceFromParent(java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourceFromParent(java.lang.String)</a></p>
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourceFromParent(java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourceFromParent(java.lang.String)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1567,7 +1184,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L200"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourceFromSelf(java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourceFromSelf(java.lang.String)</a></p>
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourceFromSelf(java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourceFromSelf(java.lang.String)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1606,7 +1223,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L209"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourcesFromImport(java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourcesFromImport(java.lang.String)</a></p>
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourcesFromImport(java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourcesFromImport(java.lang.String)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1645,7 +1262,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L218"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourcesFromParent(java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourcesFromParent(java.lang.String)</a></p>
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourcesFromParent(java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourcesFromParent(java.lang.String)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1684,7 +1301,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L227"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourcesFromSelf(java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.8.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourcesFromSelf(java.lang.String)</a></p>
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourcesFromSelf(java.lang.String)">https://www.javadoc.io/doc/org.codehaus.plexus/plexus-classworlds/2.11.0/org/codehaus/plexus/classworlds/realm/ClassRealm.html#loadResourcesFromSelf(java.lang.String)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1720,7 +1337,7 @@ public ClassRealm(IJVMBridgeBaseInitializer initializer)</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L70" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/naven/blob/master/src/net/Naven/Generated/Org/Codehaus/Plexus/Classworlds/Realm/ClassRealm.cs/#L63" class="edit-link">Edit this page</a>
         </div>
 
 
