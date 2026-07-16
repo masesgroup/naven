@@ -109,7 +109,7 @@ jobs:
           fetch-depth: '1'
           submodules: 'true'
 
-      - uses: actions/setup-dotnet@v5
+      - uses: actions/setup-dotnet@v6
         with:
           dotnet-version: |
             9.x
@@ -225,7 +225,7 @@ jobs:
           fetch-depth: '1'
           submodules: 'true'
 
-      - uses: actions/setup-dotnet@v5
+      - uses: actions/setup-dotnet@v6
         with:
           dotnet-version: |
             9.x
@@ -234,7 +234,7 @@ jobs:
       - name: Prepare Maven
         uses: ./.github/actions/setup-maven
 
-      - uses: actions/setup-dotnet@v5
+      - uses: actions/setup-dotnet@v6
         with:
           dotnet-version: |
             9.x
@@ -346,7 +346,7 @@ jobs:
       - run: Get-ChildItem -Recurse -Path ${{ github.workspace }}\bin,${{ github.workspace }}\jars
         shell: pwsh
 
-      - uses: actions/setup-dotnet@v5
+      - uses: actions/setup-dotnet@v6
         if: ${{ matrix.os == 'ubuntu-latest' || matrix.os == 'macos-latest' || matrix.os == 'macos-13' }}
         with:
           dotnet-version: |
@@ -466,7 +466,7 @@ jobs:
           fetch-depth: '1'
           submodules: 'true'
 
-      - uses: actions/setup-dotnet@v5
+      - uses: actions/setup-dotnet@v6
         with:
           dotnet-version: |
             9.x
