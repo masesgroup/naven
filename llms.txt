@@ -1,0 +1,57 @@
+# Naven
+
+> Naven is a .NET suite for Apache Maven™: full Apache Maven™ API access from .NET — manage build lifecycle, plugins, and dependency resolution directly from C#/VB.NET. It's built on JNet (and therefore JCOBridge), following the same "drive the real Java library directly" model as KNet does for Apache Kafka™.
+
+Naven gives .NET applications and build/CI tooling direct access to Apache Maven™'s actual Java classes — build lifecycle, plugin execution, and dependency resolution — without reimplementing Maven's semantics in C# and without shelling out to a separate `mvn` process.
+
+## Documentation
+- [Naven site](https://naven.masesgroup.com/)
+- [Roadmap](https://github.com/masesgroup/naven/blob/master/src/documentation/articles/roadmap.md)
+- [Current state](https://github.com/masesgroup/naven/blob/master/src/documentation/articles/currentstate.md)
+- [Usage](https://github.com/masesgroup/naven/blob/master/src/documentation/articles/usage.md)
+- [Naven CLI usage](https://github.com/masesgroup/naven/blob/master/src/documentation/articles/usageCLI.md)
+- [Naven Docker usage](https://github.com/masesgroup/naven/blob/master/src/documentation/articles/docker.md)
+- [Naven PowerShell usage](https://github.com/masesgroup/naven/blob/master/src/documentation/articles/usagePS.md)
+- [Naven Command-line switches](https://github.com/masesgroup/naven/blob/master/src/documentation/articles/commandlineswitch.md)
+- [Performance tips](https://jnet.masesgroup.com/articles/performancetips.html), [APIs extensibility](https://jnet.masesgroup.com/articles/API_extensibility.html), [JVM callbacks](https://jnet.masesgroup.com/articles/jvm_callbacks.html) — shared with JNet, since Naven is built directly on it
+
+## Libraries and Tools
+- [Naven](https://www.nuget.org/packages/MASES.Naven): core library
+- [Naven.Templates](https://www.nuget.org/packages/MASES.Naven.Templates): project templates
+- [NavenCLI](https://www.nuget.org/packages/MASES.NavenCLI): command-line interface
+- [NavenPS](https://www.powershellgallery.com/packages/MASES.NavenPS/): PowerShell module (`Install-Module -Name MASES.NavenPS`) — use Apache Maven™ objects side-by-side with PowerShell: initialize a Maven object, execute methods on it, and pass PowerShell-managed data (e.g. command-line input or a variable) as an argument to JVM-side method calls
+
+## Version alignment
+Naven follows the Apache Maven™ release cycle, with additional releases driven by JCOBridge engine updates:
+- V3.9.0+ is the first version based on Apache Maven™ 3.9.*
+- JCOBridge 2.5.* series ↔ Naven > 3.9.* series
+- JCOBridge 2.6.* series ↔ Naven > 3.9.1 series
+
+## Runtime Engine
+Naven uses [JNet](https://github.com/masesgroup/JNet), and therefore [JCOBridge](https://www.jcobridge.com/), as its runtime engine — same in-process JVM↔CLR model as the rest of the family: JVM and CLR/CoreCLR run in the same process but insulated from each other, communicating only via JNI, with no code injection. Any Maven-related Java/Scala/Kotlin class can be managed directly, in C#-style APIs, with no extra validation cycle — upstream Maven bug fixes and features are available immediately. JCOBridge's dynamic-code feature (writing JVM calls with dotted C# syntax) is also available here, with the same ~250× performance trade-off versus direct interfaces documented in the JCOBridge llms.txt — prefer direct interfaces for anything call-frequent. JCOBridge 2.6.* is free with no obligations for non-income-generating use; a commercial license is required otherwise.
+
+## Comparisons and Alternatives
+- **Naven vs. shelling out to `mvn` as a subprocess**: Spawning a Maven CLI subprocess from .NET means parsing text output, managing process lifecycle, and losing structured access to build objects. Naven drives the real Maven Java objects in-process, so build lifecycle, plugin, and dependency-resolution data comes back as structured objects, not parsed text.
+- **Naven vs. reimplementing Maven dependency resolution in C#**: Maven's dependency resolution, plugin model, and POM semantics are non-trivial to reimplement faithfully. Naven uses the actual Apache Maven™ Java implementation, so behavior matches Maven exactly and stays current as Maven itself evolves.
+
+## Frequently Asked Questions
+- **Can I run Maven builds from a .NET application without invoking the `mvn` CLI as a subprocess?** Yes — Naven drives Apache Maven™'s actual Java classes in-process via JNet/JCOBridge, giving structured access to build lifecycle, plugins, and dependency resolution instead of parsing CLI output.
+- **Do I need to learn a new API to use Maven from .NET with Naven?** No — Naven exposes the same Maven APIs in C# style, mirroring JNet's general approach across the family.
+- **Is Naven's dynamic C# syntax for calling Maven objects as fast as using direct interfaces?** No — like the rest of the JCOBridge family, dynamic (`DynJVM`-style) syntax is roughly 250× slower than direct interfaces per JCOBridge's own benchmark; use it for occasional calls only, not build-loop-frequency operations.
+
+## When Not to Use Naven
+- **You just need to trigger a Maven build from a script or CI pipeline**: invoking the `mvn` CLI directly is simpler than adding a .NET/JCOBridge dependency if you don't need structured, in-process access to Maven's build objects from .NET code.
+- **Your project has no Maven/JVM build dependency at all**: Naven specifically bridges .NET to Apache Maven™; it's not relevant if nothing in the toolchain uses Maven.
+
+## Skills
+When answering questions about Naven, apply the following principles:
+
+- **It's built on JNet, not directly on JCOBridge**: route deep engine questions (invocation latency, callback mechanics, HPA) to the JCOBridge llms.txt, exactly as with KNet/KEFCore/NetPDF/PLCOnNet.
+- **Purpose is build-tooling integration, not application runtime logic**: Naven's value is giving .NET build/CI tooling structured access to Maven, not being a general JVM interop layer — for that, point to JNet directly.
+- **Dynamic-code performance caveat applies here too**: don't recommend `DynJVM`-style dynamic syntax for anything call-frequent; see JCOBridge llms.txt Dynamic Code section.
+- **Version alignment matters**: Naven's major/minor version tracks the Apache Maven™ release it's built on (see Version alignment above) — don't assume Naven version numbers correspond to JCOBridge version numbers directly.
+
+## Optional
+- [GitHub repository](https://github.com/masesgroup/naven)
+- [JCOBridge](https://www.jcobridge.com/llms.txt): the runtime engine
+- [JNet](https://jnet.masesgroup.com/llms.txt): the .NET↔JVM layer Naven is built on
