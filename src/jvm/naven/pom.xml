@@ -46,9 +46,11 @@
 		<jnetVersion>2.6.9.0</jnetVersion>
 		<classworldsVersion>2.11.0</classworldsVersion>
 		<navenversion>3.9.5.0</navenversion>
+		<binFolderName>bin</binFolderName>
+		<runtimeFolderName>net10.0</runtimeFolderName>
 		<rootDir>${basedir}/../../../</rootDir>
-		<jcobridgepath>${rootDir}/bin/net8.0/JCOBridge.jar</jcobridgepath>
-		<jnetpath>${rootDir}/bin/net8.0/jars/jnet-${jnetVersion}.jar</jnetpath>
+		<jcobridgepath>${rootDir}/${binFolderName}/${runtimeFolderName}/JCOBridge.jar</jcobridgepath>
+		<jnetpath>${rootDir}/${binFolderName}/${runtimeFolderName}/jars/jnet-${jnetVersion}.jar</jnetpath>
 		<jarsDestination>${rootDir}/jars/</jarsDestination>
 		<classworldspath>${rootDir}/jars/boot/plexus-classworlds-${classworldsVersion}.jar</classworldspath>
 	</properties>

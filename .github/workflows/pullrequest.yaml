@@ -76,16 +76,10 @@ jobs:
       - uses: actions/setup-dotnet@v6
         with:
           dotnet-version: |
-            9.x
-            10.x
+            11.x
 
       - name: Prepare Maven
         uses: ./.github/actions/setup-maven
-
-      - uses: actions/setup-dotnet@v6
-        with:
-          dotnet-version: |
-            9.x
 
       - name: Pre compile
         run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src/net/Naven/Naven.csproj
@@ -127,8 +121,7 @@ jobs:
       - uses: actions/setup-dotnet@v6
         with:
           dotnet-version: |
-            9.x
-            10.x
+            11.x
 
       - name: Prepare Maven
         uses: ./.github/actions/setup-maven
