@@ -9,9 +9,17 @@ Naven is a comprehensive suite of libraries and tools to use [Apache Maven™](h
 
 ### Libraries and Tools
 
-|Naven | Naven.Templates | NavenCLI | NavenPS |
-|:---:	|:---:	|:---:	|:---:	|
-|[![Naven nuget](https://img.shields.io/nuget/v/MASES.Naven)](https://www.nuget.org/packages/MASES.Naven)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.Naven)](https://www.nuget.org/packages/MASES.Naven) | [![Naven.Templates nuget](https://img.shields.io/nuget/v/MASES.Naven.Templates)](https://www.nuget.org/packages/MASES.Naven.Templates)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.Naven.Templates)](https://www.nuget.org/packages/MASES.Naven.Templates)| [![NavenCLI nuget](https://img.shields.io/nuget/v/MASES.NavenCLI)](https://www.nuget.org/packages/MASES.NavenCLI)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.NavenCLI)](https://www.nuget.org/packages/MASES.NavenCLI)|[![NavenPS](https://img.shields.io/powershellgallery/v/MASES.NavenPS.svg?style=flat-square&label=MASES.NavenPS)](https://www.powershellgallery.com/packages/MASES.NavenPS/)|
+| Package | Version | Downloads |
+|:--|:--:|:--:|
+| **Naven** | [![Naven nuget](https://img.shields.io/nuget/v/MASES.Naven)](https://www.nuget.org/packages/MASES.Naven) | [![Naven downloads](https://img.shields.io/nuget/dt/MASES.Naven)](https://www.nuget.org/packages/MASES.Naven) |
+| **Naven.Templates** | [![Naven.Templates nuget](https://img.shields.io/nuget/v/MASES.Naven.Templates)](https://www.nuget.org/packages/MASES.Naven.Templates) | [![Naven.Templates downloads](https://img.shields.io/nuget/dt/MASES.Naven.Templates)](https://www.nuget.org/packages/MASES.Naven.Templates) |
+| **NavenCLI** | [![NavenCLI nuget](https://img.shields.io/nuget/v/MASES.NavenCLI)](https://www.nuget.org/packages/MASES.NavenCLI) | [![NavenCLI downloads](https://img.shields.io/nuget/dt/MASES.NavenCLI)](https://www.nuget.org/packages/MASES.NavenCLI) |
+| **NavenPS** | [![NavenPS PowerShell Gallery](https://img.shields.io/powershellgallery/v/MASES.NavenPS.svg?label=PowerShell%20Gallery)](https://www.powershellgallery.com/packages/MASES.NavenPS/) | [![NavenPS downloads](https://img.shields.io/powershellgallery/dt/MASES.NavenPS.svg)](https://www.powershellgallery.com/packages/MASES.NavenPS/) |
+
+> [!NOTE]
+> This project follows the target framework support of **JCOBridge**, which in turn follows the Microsoft .NET support lifecycle. Public releases do not take on the maintenance of runtimes that Microsoft no longer supports: when Microsoft ends support for a .NET version, that target is dropped starting with the next JCOBridge release.
+>
+> Need a build for a legacy or out-of-support target, or expert help with .NET and JVM™ integration? See [Professional Support Options](support.md).
 
 ### Pipelines
 
