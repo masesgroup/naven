@@ -45,7 +45,7 @@
 		<mavenSkipMain>false</mavenSkipMain> <!-- set mavenSkipMain to true to avoid source compilation: use directive in command-line -->
 		<jnetVersion>2.6.10.0</jnetVersion>
 		<classworldsVersion>2.11.0</classworldsVersion>
-		<navenversion>3.9.5.0</navenversion>
+		<navenversion>3.9.6.0</navenversion>
 		<binFolderName>bin</binFolderName>
 		<runtimeFolderName>net10.0</runtimeFolderName>
 		<rootDir>${basedir}/../../../</rootDir>
